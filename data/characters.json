@@ -1,0 +1,164 @@
+{
+  "characters": [
+    {
+      "id": "hao_shitu",
+      "name": "郝仕途",
+      "title": "厅局风·编制内核心骨干",
+      "identity": "体制内精英",
+      "monologue": "不管是五粮液还是茅台，倒入我的保温杯里都一样。在单位我是小郝，回了村我就是「省里有人」的郝处。",
+      "avatar": "../images/char-1.png",
+      "initial_attributes": {
+        "deposit": 158000,
+        "weight": 88,
+        "face": 100,
+        "mood": 95,
+        "health": 55,
+        "luck": 85
+      }
+    },
+    {
+      "id": "hua_beibei",
+      "name": "花贝贝",
+      "title": "都市丽人·回村Vivian",
+      "identity": "时尚博主",
+      "monologue": "我的美甲是找「海底捞」做的，包包是「广州皮具城」的高定。回村这七天，是我年度演技大赏。",
+      "avatar": "../images/char-2.png",
+      "initial_attributes": {
+        "deposit": -32450,
+        "weight": 46,
+        "face": 80,
+        "mood": 40,
+        "health": 45,
+        "luck": 15
+      }
+    },
+    {
+      "id": "fan_tong",
+      "name": "范统",
+      "title": "脆皮大学生·特种兵",
+      "identity": "大学生",
+      "monologue": "妈，我的秋裤在哪？妈，饭好了没？作为家里的吉祥物，我主要负责「清澈的愚蠢」。",
+      "avatar": "../images/char-3.png",
+      "initial_attributes": {
+        "deposit": 850,
+        "weight": 62,
+        "face": 15,
+        "mood": 80,
+        "health": 30,
+        "luck": 60
+      }
+    },
+    {
+      "id": "gu_jia",
+      "name": "顾嘉",
+      "title": "全职儿女·家务雇佣兵",
+      "identity": "全职儿女",
+      "monologue": "在这个家里，我的地位取决于今天地拖得干净不干净。我是忍辱负重的「忍者神龟」。",
+      "avatar": "../images/char-4.png",
+      "initial_attributes": {
+        "deposit": 66,
+        "weight": 54,
+        "face": -50,
+        "mood": 60,
+        "health": 90,
+        "luck": 50
+      }
+    },
+    {
+      "id": "ren_xing",
+      "name": "任兴",
+      "title": "发疯学者·职场整顿版",
+      "identity": "自由职业者",
+      "monologue": "大伯，您退休金多少？够去养老院ICU住几天？只要我先发疯，就没人能道德绑架我。",
+      "avatar": "../images/char-5.png",
+      "initial_attributes": {
+        "deposit": 5000,
+        "weight": 50,
+        "face": 0,
+        "mood": 100,
+        "health": 85,
+        "luck": 20
+      }
+    },
+    {
+      "id": "hao_youqian",
+      "name": "郝有乾",
+      "title": "隐形富豪·土味房东",
+      "identity": "隐形富豪",
+      "monologue": "穿着这件起球的POLO衫，没人知道我腰上挂的那串钥匙能买下半个CBD。",
+      "avatar": "../images/char-6.png",
+      "initial_attributes": {
+        "deposit": 12800000,
+        "weight": 92,
+        "face": 95,
+        "mood": 98,
+        "health": 60,
+        "luck": 90
+      }
+    },
+    {
+      "id": "bi_chenglong",
+      "name": "毕成龙",
+      "title": "鸡娃战神·绝望家长",
+      "identity": "鸡娃家长",
+      "monologue": "儿子，给太爷爷背个圆周率！再来一段英语朗诵！隔壁老王家的孩子核聚变都快学会了。",
+      "avatar": "../images/char-7.png",
+      "initial_attributes": {
+        "deposit": 450000,
+        "weight": 52,
+        "face": 60,
+        "mood": 15,
+        "health": 40,
+        "luck": 30
+      }
+    },
+    {
+      "id": "zhen_yangqi",
+      "name": "甄洋气",
+      "title": "海归凡尔赛·伪名流",
+      "identity": "海归精英",
+      "monologue": "Oh my god，家里的红酒没醒过？这白酒太spicy了。我在Manchester的时候都去Church的。",
+      "avatar": "../images/char-8.png",
+      "initial_attributes": {
+        "deposit": -180000,
+        "weight": 65,
+        "face": 85,
+        "mood": 50,
+        "health": 75,
+        "luck": 40
+      }
+    },
+    {
+      "id": "hu_sanwan",
+      "name": "胡三万",
+      "title": "川渝雀圣·熬夜修仙",
+      "identity": "雀圣",
+      "monologue": "饭可以不吃，觉可以不睡，三缺一绝对不行！我的春节没有白昼黑夜，只有上下家。",
+      "avatar": "../images/char-9.png",
+      "initial_attributes": {
+        "deposit": 20000,
+        "weight": 58,
+        "face": 70,
+        "mood": 90,
+        "health": 35,
+        "luck": 99
+      }
+    },
+    {
+      "id": "wu_renai",
+      "name": "吴仁爱",
+      "title": "大龄剩斗士·相亲遇难",
+      "identity": "大龄剩斗士",
+      "monologue": "我不是剩下的，我是被挑剩下的...不对，我是宁缺毋滥！在我妈眼里，我就是个滞销库存。",
+      "avatar": "../images/char-10.png",
+      "initial_attributes": {
+        "deposit": 280000,
+        "weight": 56,
+        "face": -100,
+        "mood": 25,
+        "health": 65,
+        "luck": 5
+      }
+    }
+  ]
+}

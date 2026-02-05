@@ -1,0 +1,6249 @@
+{
+  "events": [
+    {
+      "event_id": "hao_1_morning_01",
+      "event_name": "高铁上的偶遇",
+      "character_id": "hao",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "高铁二等座车厢里，你正襟危坐，手捧《求是》杂志，时不时推一推金丝眼镜。突然，一个熟悉的身影出现在过道——是你们单位的小张，一个刚入职的科员。他显然也发现了你，脸上闪过一丝慌乱，随即堆满笑容：「郝处！这么巧！您也坐高铁啊？」周围的乘客纷纷侧目，你微微颔首，用那种特有的、既亲切又威严的语气说道：「小张啊，组织上提倡绿色出行，我们要带头响应嘛。」说罢，你拍了拍旁边的空位，示意他坐下。小张受宠若惊，却又坐立不安。你心里暗爽，这种被偶遇的感觉，正是身份地位的最好证明。",
+      "options": [
+        {
+          "option_id": "hao_1_morning_01_a",
+          "text": "小张啊，来，给领导汇报一下最近的工作思想——开始长达半小时的指导",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 15,
+            "mood": 10,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_1_morning_01_b",
+          "text": "年轻人要低调，不要搞特殊化——教育他要坐二等座，然后自己默默升舱",
+          "effects": {
+            "deposit": -500,
+            "weight": 0,
+            "face": 10,
+            "mood": 5,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_1_morning_01_c",
+          "text": "亲切交谈，询问家庭情况，并不经意透露自己副处身份",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 20,
+            "mood": 15,
+            "health": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_1_morning_01_d",
+          "text": "闭目养神，保持神秘感，让小张自己揣摩领导心思",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 5,
+            "mood": 0,
+            "health": 10,
+            "luck": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_1_evening_01",
+      "event_name": "老家的接待规格",
+      "character_id": "hao",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "高铁到站，你拖着行李箱走出站台。老家县城的空气中弥漫着熟悉的乡土气息。你父亲老郝早已在出站口等候，身边还站着几个村里的有头有脸的人物——村支书、村主任、还有你二舅。看到你出来，父亲脸上露出骄傲的笑容：「仕途回来了！」村支书立刻迎上来，双手握住你的手：「郝处长大驾光临，咱们村蓬荜生辉啊！」你心中暗喜，但面上不动声色，用那种标准的握手姿势——右手伸出，左手轻托对方手肘，微微点头：「老王啊，不要搞这些形式主义嘛，咱们都是为人民服务的。」话虽如此，但你心里清楚，这种被高规格接待的感觉，才是回家的真正意义。",
+      "options": [
+        {
+          "option_id": "hao_1_evening_01_a",
+          "text": "老王，村里最近发展得怎么样？有没有需要我协调的？——展现领导风范",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 15,
+            "mood": 10,
+            "health": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_1_evening_01_b",
+          "text": "婉拒村支书的超标接待，坚持步行回家，收获一片赞誉",
+          "effects": {
+            "deposit": 0,
+            "weight": -2,
+            "face": 20,
+            "mood": 5,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_1_evening_01_c",
+          "text": "接受村支书安排的车接，并顺便询问村里有没有土特产",
+          "effects": {
+            "deposit": 500,
+            "weight": 0,
+            "face": 5,
+            "mood": 15,
+            "health": 0,
+            "luck": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_1_evening_01_d",
+          "text": "对父亲抱怨：爸，我说过多少次了，不要搞这些排场——实则暗爽",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 10,
+            "mood": 10,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_2_morning_01",
+      "event_name": "闻风而动的亲戚们",
+      "character_id": "hao",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "一大早，你家的小院就热闹起来。三姑六婆、七大姑八大姨，平时一年见不着几次面的亲戚们，仿佛约好了似的，纷纷登门拜访。三舅提着两箱牛奶，笑容满面：「仕途啊，听说你在城里当大官了？」四姨拉着你的手嘘寒问暖：「仕途，你表弟想进你们单位，你看能不能给疏通疏通？」你坐在堂屋的太师椅上，俨然一副领导接见的架势。你母亲忙前忙后端茶倒水，你父亲则在一旁笑眯眯地看着，享受着这种被众人簇拥的感觉。你心里明白，这些亲戚平时对你家爱答不理，如今看你出息了，一个个都贴上来。但你面上不显，只是用那种标准的官腔一一应对。",
+      "options": [
+        {
+          "option_id": "hao_2_morning_01_a",
+          "text": "组织上有规定，人事问题要按程序来——打官腔搪塞过去",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 10,
+            "mood": 5,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_morning_01_b",
+          "text": "亲切地一一回应，并承诺有机会一定帮忙——收获亲戚们的好感",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 20,
+            "mood": 15,
+            "health": -5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_morning_01_c",
+          "text": "以工作繁忙为由，让母亲代为接待——保持领导神秘感",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 5,
+            "mood": 0,
+            "health": 10,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_morning_01_d",
+          "text": "借机向亲戚们普及体制内晋升之路，满足自己的虚荣心",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 15,
+            "mood": 20,
+            "health": 0,
+            "luck": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_2_afternoon_01",
+      "event_name": "除夕祭祖的排场",
+      "character_id": "hao",
+      "day": 2,
+      "time_slot": "afternoon",
+      "description": "除夕下午，郝氏家族祭祖仪式正式开始。往年简单的上坟烧纸，今年因为你这个副处长的归来，规格明显提升。你站在队伍最前面，身后是浩浩荡荡的家族成员——按辈分、按年龄、按亲疏远近，排成整齐的一列。你手里捧着最大的一束香，身后有人专门撑伞遮阳，还有人负责录像拍照。你清了清嗓子，开始宣读祭文：「列祖列宗在上，不肖子孙郝仕途，蒙组织信任，现任某局副处级干部...」你的声音洪亮，抑扬顿挫，仿佛在作政府工作报告。家族成员们屏息聆听，脸上写满了骄傲。祭祖仪式结束后，你大手一挥：「晚上我请客，咱们去县城最好的饭店！」",
+      "options": [
+        {
+          "option_id": "hao_2_afternoon_01_a",
+          "text": "坚持传统，带领家族成员完成隆重祭祖仪式——彰显家族荣耀",
+          "effects": {
+            "deposit": -2000,
+            "weight": 0,
+            "face": 25,
+            "mood": 15,
+            "health": -5,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_afternoon_01_b",
+          "text": "简化仪式，但强调心意最重要——既省钱又不失面子",
+          "effects": {
+            "deposit": -500,
+            "weight": 0,
+            "face": 15,
+            "mood": 10,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_afternoon_01_c",
+          "text": "让父亲主持仪式，自己低调参与——避免太过张扬",
+          "effects": {
+            "deposit": -300,
+            "weight": 0,
+            "face": 10,
+            "mood": 5,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_afternoon_01_d",
+          "text": "在祭祖时向祖先汇报自己的政绩——满足虚荣心",
+          "effects": {
+            "deposit": -800,
+            "weight": 0,
+            "face": 20,
+            "mood": 20,
+            "health": 0,
+            "luck": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_2_evening_01",
+      "event_name": "年夜饭的座次之争",
+      "character_id": "hao",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "年夜饭在县城最好的酒店包厢举行，两桌酒席，二十多号人。问题随之而来——座次怎么排？按照传统，长辈应该坐主位；但按照你的身份，你这个副处级干部似乎更应该坐主位。你二叔坚持要按辈分，你三舅则认为应该按社会地位。包厢里的气氛一度有些尴尬。你站在一旁，脸上挂着得体的微笑，心里却在盘算：如果主动让出主位，显得自己谦逊；但如果坐了次位，又担心别人看轻。最终，你清了清嗓子，用那种标准的领导口吻说道：「这个嘛，要从大局出发。今天咱们是家庭聚会，不是工作会议，二叔您坐主位，我坐您旁边，咱们边吃边聊。」一句话，既给了长辈面子，又暗示了自己的地位，堪称完美。",
+      "options": [
+        {
+          "option_id": "hao_2_evening_01_a",
+          "text": "坚持让长辈坐主位，自己陪坐——既得体又赚口碑",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 20,
+            "mood": 10,
+            "health": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_evening_01_b",
+          "text": "以领导身份理所当然坐主位——彰显社会地位",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 15,
+            "mood": 15,
+            "health": 0,
+            "luck": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_evening_01_c",
+          "text": "提议分两桌，长辈一桌，晚辈一桌——避免尴尬",
+          "effects": {
+            "deposit": -1000,
+            "weight": 0,
+            "face": 10,
+            "mood": 5,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_2_evening_01_d",
+          "text": "让父亲坐主位，自己坐父亲旁边——既孝顺又不失体面",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 25,
+            "mood": 15,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_3_morning_01",
+      "event_name": "大年初一拜年的规矩",
+      "character_id": "hao",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "大年初一，按照老家的规矩，晚辈要给长辈拜年。但你这个副处级干部的出现，让规矩变得复杂起来。一大早，就有亲戚带着孩子来你家拜年，说是拜年，实则是来看你这个大官。你坐在客厅的主位上，面前摆满了瓜子糖果，一个个孩子被家长推到面前：「快，给郝伯伯拜年！」你微笑着从口袋里掏出红包，一边发一边说着场面话：「好好学习，将来报效祖国。」但问题来了——红包给多少合适？给少了，显得你小气；给多了，又怕其他亲戚有意见。更麻烦的是，有些亲戚明明比你年纪大，却也要给你拜年，说是拜你这个官。你左右为难，只能用那种标准的打太极方式：「这个嘛，咱们不搞这些形式主义，心意到了就行。」",
+      "options": [
+        {
+          "option_id": "hao_3_morning_01_a",
+          "text": "统一标准，每个孩子给200元红包——公平公正",
+          "effects": {
+            "deposit": -2000,
+            "weight": 0,
+            "face": 15,
+            "mood": 5,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_3_morning_01_b",
+          "text": "按亲疏远近给不同金额——体现人情世故",
+          "effects": {
+            "deposit": -3000,
+            "weight": 0,
+            "face": 10,
+            "mood": 10,
+            "health": -5,
+            "luck": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_3_morning_01_c",
+          "text": "让母亲代为发红包，自己回避——避免尴尬",
+          "effects": {
+            "deposit": -1500,
+            "weight": 0,
+            "face": 5,
+            "mood": 0,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_3_morning_01_d",
+          "text": "给大额红包并拍照发朋友圈——彰显身份地位",
+          "effects": {
+            "deposit": -5000,
+            "weight": 0,
+            "face": 25,
+            "mood": 20,
+            "health": 0,
+            "luck": -10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_3_afternoon_01",
+      "event_name": "拜年队伍的等级排序",
+      "character_id": "hao",
+      "day": 3,
+      "time_slot": "afternoon",
+      "description": "下午，你决定出门拜年。但问题又来了——先去谁家？按照传统，应该先去最年长的长辈家；但按照你的身份，似乎应该先去最有权势的人家。你母亲给你列了一个名单：大舅、二姨、三叔、四姑...你看着名单，陷入了沉思。大舅是村里最年长的，但家境一般；三叔在镇上做生意，有钱有势；四姑的女儿嫁给了县城的副局长，算是官宦之家。你思来想去，最终决定先去四姑家——毕竟，官场讲究的是对等交流，你去拜访一个副局长亲家，既不失身份，又能拓展人脉。你母亲有些不解：「怎么不先去大舅家？」你正色道：「妈，这个要从大局出发，组织上的工作都是有轻重缓急的。」",
+      "options": [
+        {
+          "option_id": "hao_3_afternoon_01_a",
+          "text": "按传统先去大舅家——尊重长辈，赢得口碑",
+          "effects": {
+            "deposit": -500,
+            "weight": 0,
+            "face": 15,
+            "mood": 5,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_3_afternoon_01_b",
+          "text": "先去四姑家拜访副局长亲家——拓展官场人脉",
+          "effects": {
+            "deposit": -1000,
+            "weight": 0,
+            "face": 20,
+            "mood": 15,
+            "health": 0,
+            "luck": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_3_afternoon_01_c",
+          "text": "先去三叔家——有钱亲戚不能得罪",
+          "effects": {
+            "deposit": -800,
+            "weight": 0,
+            "face": 10,
+            "mood": 10,
+            "health": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_3_afternoon_01_d",
+          "text": "让父亲决定顺序——自己不背锅",
+          "effects": {
+            "deposit": -600,
+            "weight": 0,
+            "face": 5,
+            "mood": 0,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_4_evening_01",
+      "event_name": "高中同学聚会的地位秀",
+      "character_id": "hao",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "高中同学聚会定在县城最豪华的KTV包厢。你一进门，就感受到了那种熟悉的氛围——同学们三三两两聚在一起，有的聊生意，有的聊孩子，有的聊健康。但你一进门，气氛立刻变了。班长立刻迎上来：「哎呀，郝大处长来了！快请上座！」你微笑着摆手：「不要搞特殊化嘛，大家都是同学。」但你的目光已经在人群中扫视——当年的班花现在成了家庭主妇，当年的学霸在县城中学当老师，当年的体育委员在镇上开了个小超市...你心里暗暗得意，当年你们一个个风光无限，如今我才是混得最好的。聚会开始，班长提议每个人说说自己的近况。轮到你时，你清了清嗓子，开始那种标准的领导汇报：「这个嘛，组织上信任我，让我在某局负责一些具体工作...」",
+      "options": [
+        {
+          "option_id": "hao_4_evening_01_a",
+          "text": "低调汇报，但不经意间透露自己的职级——既谦虚又有面子",
+          "effects": {
+            "deposit": -1000,
+            "weight": 0,
+            "face": 20,
+            "mood": 15,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_4_evening_01_b",
+          "text": "主动买单并宣布以后聚会都他请——彰显财力和地位",
+          "effects": {
+            "deposit": -3000,
+            "weight": 0,
+            "face": 25,
+            "mood": 20,
+            "health": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_4_evening_01_c",
+          "text": "认真倾听每个同学的近况，给予关心和建议——展现领导风范",
+          "effects": {
+            "deposit": -500,
+            "weight": 0,
+            "face": 15,
+            "mood": 10,
+            "health": 5,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_4_evening_01_d",
+          "text": "回忆当年糗事，自嘲一番——拉近与同学距离",
+          "effects": {
+            "deposit": -800,
+            "weight": 0,
+            "face": 10,
+            "mood": 15,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_5_morning_01",
+      "event_name": "领导突然来电",
+      "character_id": "hao",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "大年初五，你正在院子里晒太阳，手机突然响了。一看号码，你心里一紧——是局长的电话！你立刻从躺椅上弹起来，快步走进屋里，关上门，深吸一口气，用最恭敬的语气接通：「局长，过年好！」局长的声音从电话那头传来：「仕途啊，过年在家休息得怎么样？」你立刻进入状态：「谢谢局长关心，在家也没闲着，一直在思考年后工作的安排。」局长笑了笑：「嗯，有这个觉悟很好。对了，有个事想听听你的意见...」你一边听，一边在心里盘算——这是局长在考验你，还是在给你机会？你小心翼翼地回答着每一个问题，生怕说错一个字。通话结束后，你长舒一口气，发现自己后背都湿透了。",
+      "options": [
+        {
+          "option_id": "hao_5_morning_01_a",
+          "text": "认真汇报工作思路，展现自己的能力和态度",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 15,
+            "mood": 10,
+            "health": -5,
+            "luck": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_5_morning_01_b",
+          "text": "借机向局长请教，表现出谦虚好学的态度",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 10,
+            "mood": 5,
+            "health": 0,
+            "luck": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_5_morning_01_c",
+          "text": "暗示自己有关系可以调动，试探局长态度",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 5,
+            "mood": 5,
+            "health": 0,
+            "luck": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_5_morning_01_d",
+          "text": "通话结束后立刻给局长发拜年红包——维护关系",
+          "effects": {
+            "deposit": -2000,
+            "weight": 0,
+            "face": 10,
+            "mood": 5,
+            "health": 0,
+            "luck": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_5_afternoon_01",
+      "event_name": "领导考验的余波",
+      "character_id": "hao",
+      "day": 5,
+      "time_slot": "afternoon",
+      "description": "上午局长的电话让你心神不宁。下午，你一个人坐在院子里，反复回想通话的每一个细节——局长问的那个问题，自己回答得对不对？局长的语气里有没有暗示什么？你甚至开始怀疑，这个电话是不是某种考验，或者是某种信号？你掏出手机，想给单位的同事打个电话探探口风，但又怕被人说闲话。你想起父亲常说的话：「在机关里，一步错步步错。」你越想越焦虑，干脆站起来在院子里踱步。母亲看你神色不对，关切地问：「仕途，怎么了？」你摆摆手：「没事，工作上的事。」但你心里清楚，官场如战场，一个电话、一句话，都可能影响你的前程。",
+      "options": [
+        {
+          "option_id": "hao_5_afternoon_01_a",
+          "text": "给几个心腹同事打电话，侧面了解情况",
+          "effects": {
+            "deposit": -500,
+            "weight": 0,
+            "face": 5,
+            "mood": 5,
+            "health": -5,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_5_afternoon_01_b",
+          "text": "静下心来，认真准备年后的工作汇报材料",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 10,
+            "mood": 10,
+            "health": -5,
+            "luck": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_5_afternoon_01_c",
+          "text": "找父亲聊聊，听听老一辈的经验",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 5,
+            "mood": 15,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_5_afternoon_01_d",
+          "text": "不去想它，该吃吃该喝喝——保持平常心",
+          "effects": {
+            "deposit": 0,
+            "weight": 2,
+            "face": 0,
+            "mood": 10,
+            "health": 10,
+            "luck": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_6_morning_01",
+      "event_name": "亲戚的请托",
+      "character_id": "hao",
+      "day": 6,
+      "time_slot": "morning",
+      "description": "大年初六，你正在吃早饭，三舅带着他儿子来了。三舅的儿子在县城开了一家小餐馆，最近因为卫生检查不过关，被责令停业整顿。三舅一脸愁容：「仕途啊，你在城里当大官，能不能帮忙打个招呼？」你放下筷子，用那种标准的领导口吻说道：「三舅，这个嘛，组织上有规定，我们不能干预基层执法。」三舅急了：「仕途，咱们可是一家人啊！你表弟这餐馆要是开不下去，一家老小怎么办？」你心里暗暗叫苦——这种事，帮了是违纪，不帮是绝情。你想起单位里那些因为帮亲戚办事而翻车的例子，后背一阵发凉。但你看着三舅期盼的眼神，又有些不忍。",
+      "options": [
+        {
+          "option_id": "hao_6_morning_01_a",
+          "text": "原则性拒绝，但承诺帮忙问问正规途径——既守规矩又留余地",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 10,
+            "mood": 0,
+            "health": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_6_morning_01_b",
+          "text": "答应帮忙，但暗示需要打点费用——借机捞一笔",
+          "effects": {
+            "deposit": 2000,
+            "weight": 0,
+            "face": -10,
+            "mood": 10,
+            "health": -5,
+            "luck": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_6_morning_01_c",
+          "text": "直接拒绝，并教育三舅要遵纪守法——树立清廉形象",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 15,
+            "mood": -5,
+            "health": 5,
+            "luck": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_6_morning_01_d",
+          "text": "让父亲出面调解，自己不直接表态——避免承担责任",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 5,
+            "mood": 5,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_6_afternoon_01",
+      "event_name": "请托事件的发酵",
+      "character_id": "hao",
+      "day": 6,
+      "time_slot": "afternoon",
+      "description": "三舅的事还没完，消息就像长了翅膀一样传开了。下午，家里陆续来了几拨人——二姨的儿子想进县医院当护士，四姑的儿媳妇想调动工作，甚至隔壁村的人都找上门来，想让你帮忙给孩子安排个工作。你坐在客厅里，感觉自己像个接诊的大夫，一个个病人排着队等着你看诊。你心里暗暗后悔，早知道就不该回来过年，或者至少不该那么高调。但你面上还得保持微笑，用那种标准的打太极方式一一应对：「这个嘛，要从大局出发」、「组织上是有考虑的」、「我会关注的」。送走最后一拨人，你瘫坐在沙发上，感觉比开了一天会还累。",
+      "options": [
+        {
+          "option_id": "hao_6_afternoon_01_a",
+          "text": "统一口径，表示会尽力帮忙，但不保证结果——安抚众人",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 15,
+            "mood": -5,
+            "health": -5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_6_afternoon_01_b",
+          "text": "闭门谢客，让母亲对外说自己已经回城了——逃避麻烦",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": -5,
+            "mood": 10,
+            "health": 10,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_6_afternoon_01_c",
+          "text": "借机收取好处费——铤而走险",
+          "effects": {
+            "deposit": 5000,
+            "weight": 0,
+            "face": -20,
+            "mood": 15,
+            "health": -10,
+            "luck": -25
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_6_afternoon_01_d",
+          "text": "召开家庭会议，明确表示不能违反原则——树立威信",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 20,
+            "mood": 5,
+            "health": 0,
+            "luck": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_7_morning_01",
+      "event_name": "发小的求助",
+      "character_id": "hao",
+      "day": 7,
+      "time_slot": "morning",
+      "description": "大年初七，你的发小李大壮找上门来。大壮从小和你一起长大，当年你们一起上学、一起打架、一起追女生。如今，大壮在镇上开了一家建材店，生意一直不温不火。今天他神色凝重，支支吾吾半天，终于说出实情——他的建材店资金周转困难，欠了供应商一笔钱，如果年前还不上，店就要倒闭了。他看着你，眼里满是期盼：「仕途，我知道你现在是大官了，能不能借我点钱周转一下？我保证年后就还！」你心里五味杂陈——大壮是你最好的朋友，当年你考上大学，他还偷偷塞给你两百块钱。但这年头，借钱容易要钱难，更何况是五万块。你想起单位里那些因为借钱给亲戚朋友而闹翻的例子，心里一阵纠结。",
+      "options": [
+        {
+          "option_id": "hao_7_morning_01_a",
+          "text": "二话不说，借给大壮五万——重情重义",
+          "effects": {
+            "deposit": -50000,
+            "weight": 0,
+            "face": 10,
+            "mood": 15,
+            "health": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_7_morning_01_b",
+          "text": "借给大壮两万，并让他写借条——既帮忙又留后路",
+          "effects": {
+            "deposit": -20000,
+            "weight": 0,
+            "face": 15,
+            "mood": 10,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_7_morning_01_c",
+          "text": "婉言拒绝，但帮忙介绍其他融资渠道——不伤感情",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 5,
+            "mood": -5,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_7_morning_01_d",
+          "text": "以组织规定为由拒绝——保持清廉形象",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 10,
+            "mood": -10,
+            "health": 5,
+            "luck": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_7_afternoon_01",
+      "event_name": "借钱后的纠结",
+      "character_id": "hao",
+      "day": 7,
+      "time_slot": "afternoon",
+      "description": "借钱的事让你心神不宁。下午，你一个人坐在院子里，反复回想大壮离开时那个复杂的表情——是感激？是尴尬？还是别的什么？你想起小时候和大壮一起偷西瓜、一起被老师罚站的往事，心里一阵酸楚。那时候，你们无话不谈，不分彼此；如今，你成了副处级干部，他成了小老板，中间仿佛隔着一道看不见的鸿沟。你掏出手机，想给大壮打个电话，问问钱够不够用，但又怕他觉得你在催债。你想起父亲常说的话：「钱借出去，就要做好要不回来的准备。」你叹了口气，把钱的事抛到脑后，开始思考另一个问题——这段发小情谊，还能回到从前吗？",
+      "options": [
+        {
+          "option_id": "hao_7_afternoon_01_a",
+          "text": "主动给大壮打电话，关心他的生意情况——维护友谊",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 10,
+            "mood": 15,
+            "health": 5,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_7_afternoon_01_b",
+          "text": "不再提借钱的事，就当是送给大壮的——放下执念",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 5,
+            "mood": 20,
+            "health": 10,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_7_afternoon_01_c",
+          "text": "让父亲帮忙盯着大壮的还款情况——留一手",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 0,
+            "mood": 0,
+            "health": 0,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_7_afternoon_01_d",
+          "text": "反思自己是不是太势利，决定以后多帮帮老家的朋友——良心发现",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 15,
+            "mood": 10,
+            "health": 5,
+            "luck": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hao_8_morning_01",
+      "event_name": "返城前的告别演出",
+      "character_id": "hao",
+      "day": 8,
+      "time_slot": "morning",
+      "description": "大年初八，你即将踏上返城的高铁。临走前，你决定来一场完美的告别演出。你让父亲通知村里有头有脸的人物，中午在县城最好的饭店摆了一桌。席间，你端起酒杯，开始那种标准的领导讲话：「各位长辈、各位乡亲，这次回家过年，感受到了家乡的巨大变化，也感受到了大家的热情。我虽然人在城里，但心始终和家乡连在一起。以后大家有什么需要帮忙的，尽管开口，只要是在政策允许的范围内，我一定尽力！」这番话既得体又留有余地，赢得了一片掌声。你看着众人脸上那种既羡慕又敬畏的表情，心里暗爽——这才是副处级干部应有的排场！酒足饭饱后，你坐上村支书安排的车，在众人的目送中驶向高铁站。",
+      "options": [
+        {
+          "option_id": "hao_8_morning_01_a",
+          "text": "高调告别，并承诺以后每年都给村里捐钱——树立好形象",
+          "effects": {
+            "deposit": -3000,
+            "weight": 0,
+            "face": 25,
+            "mood": 20,
+            "health": 0,
+            "luck": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_8_morning_01_b",
+          "text": "低调告别，只请几个至亲吃饭——避免张扬",
+          "effects": {
+            "deposit": -1000,
+            "weight": 0,
+            "face": 10,
+            "mood": 10,
+            "health": 5,
+            "luck": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_8_morning_01_c",
+          "text": "在告别宴上发表长篇讲话，回顾自己的政绩——满足虚荣心",
+          "effects": {
+            "deposit": -2000,
+            "weight": 0,
+            "face": 20,
+            "mood": 25,
+            "health": -5,
+            "luck": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hao_8_morning_01_d",
+          "text": "悄悄离开，不打扰任何人——保持神秘感",
+          "effects": {
+            "deposit": 0,
+            "weight": 0,
+            "face": 5,
+            "mood": 5,
+            "health": 10,
+            "luck": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_1_morning_01",
+      "event_name": "行李箱里的精致",
+      "character_id": "hua",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "花贝贝拖着三个行李箱回到村里，箱子一打开，里面整齐地码着：五套不同色系的穿搭、全套SK-II护肤品、便携咖啡机、瑜伽垫、还有一罐蛋白粉。村里大妈们围观过来，啧啧称奇：\"贝贝啊，你这是搬家还是旅游啊？\"花贝贝优雅地整理着行李：\"阿姨，这些都是我的daily essentials，我在上海都不这样的，那边有管家帮我收拾。\"",
+      "options": [
+        {
+          "option_id": "hua_1_morning_01_a",
+          "text": "继续展示你的精致装备，让村里人开开眼界",
+          "effects": {
+            "mood": -5,
+            "face": 15,
+            "health": 0,
+            "luck": 5,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_1_morning_01_b",
+          "text": "低调点，赶紧把行李收好",
+          "effects": {
+            "mood": 5,
+            "face": -5,
+            "health": 0,
+            "luck": 0,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_1_noon_01",
+      "event_name": "回村前vs回村后",
+      "character_id": "hua",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "花贝贝坐在炕上，看着手机里回村前的照片：陆家嘴背景、拿铁咖啡、法式穿搭。再看看现在的自己——坐在土炕上，手里端着妈妈递来的大茶缸，身上还披着奶奶的花棉袄。她忍不住发了条朋友圈：\"从Vivian到翠花的距离，只差一张高铁票。\"配图是精修前后的对比照。",
+      "options": [
+        {
+          "option_id": "hua_1_noon_01_a",
+          "text": "精修照片，保持人设不崩",
+          "effects": {
+            "mood": 10,
+            "face": 10,
+            "health": 0,
+            "luck": 0,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_1_noon_01_b",
+          "text": "接受现实，享受乡村生活",
+          "effects": {
+            "mood": 5,
+            "face": -10,
+            "health": 5,
+            "luck": 5,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_1_evening_01",
+      "event_name": "预制菜年夜饭",
+      "character_id": "hua",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "花贝贝从行李箱底层掏出几个精美的包装盒：\"妈，今年年夜饭我承包了！这是我订的米其林同款预制菜，佛跳墙、黑松露和牛、龙虾刺身...\"妈妈看着这些花花绿绿的盒子，欲言又止：\"贝贝啊，咱家锅可能...热不了这些。\"最后，预制菜和妈妈的铁锅炖一起上了桌，场面一度很 surreal。",
+      "options": [
+        {
+          "option_id": "hua_1_evening_01_a",
+          "text": "坚持吃你的预制菜，保持格调",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "health": -5,
+            "luck": 0,
+            "weight": -1,
+            "money": -500
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_1_evening_01_b",
+          "text": "入乡随俗，吃妈妈的铁锅炖",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "health": 5,
+            "luck": 5,
+            "weight": 2,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_2_morning_01",
+      "event_name": "被问工资的艺术",
+      "character_id": "hua",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "二姨端着瓜子凑过来：\"贝贝啊，听说你在上海上班，一个月能挣多少啊？\"花贝贝心里警铃大作，但面不改色：\"二姨，我们那边都不聊salary的，太不professional了。不过嘛...\"她故意顿了顿，\"我上个月刚交完税，大概够在咱们县城买半套房吧。\"二姨手里的瓜子都掉了。",
+      "options": [
+        {
+          "option_id": "hua_2_morning_01_a",
+          "text": "继续凡尔赛，让亲戚们羡慕",
+          "effects": {
+            "mood": 10,
+            "face": 15,
+            "health": 0,
+            "luck": -5,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_2_morning_01_b",
+          "text": "谦虚一点，说刚够自己花",
+          "effects": {
+            "mood": 0,
+            "face": -5,
+            "health": 0,
+            "luck": 5,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_2_noon_01",
+      "event_name": "同学聚会凡尔赛",
+      "character_id": "hua",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "高中同学聚会在县城最好的饭店，花贝贝特意迟到了半小时——\"刚从上海飞回来，航班delay了\"。她穿着Max Mara大衣，拎着Celine包走进包间，瞬间成为焦点。\"贝贝现在在哪高就啊？\"\"哦，我在外滩那边的一个startup，做branding的，最近刚融完B轮。\"她说着，不经意地露出腕上的卡地亚。",
+      "options": [
+        {
+          "option_id": "hua_2_noon_01_a",
+          "text": "全程高能输出，碾压全场",
+          "effects": {
+            "mood": 15,
+            "face": 20,
+            "health": -5,
+            "luck": -10,
+            "weight": 0,
+            "money": -1000
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_2_noon_01_b",
+          "text": "低调一点，毕竟都是老同学",
+          "effects": {
+            "mood": 5,
+            "face": 0,
+            "health": 0,
+            "luck": 5,
+            "weight": 0,
+            "money": -200
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_2_evening_01",
+      "event_name": "被安排相亲",
+      "character_id": "hua",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "妈妈神秘兮兮地说：\"贝贝，隔壁村王婶给你介绍了个对象，在县城当公务员，可稳定了！\"花贝贝差点把嘴里的燕窝喷出来：\"妈，我在上海追我的男生都能从外滩排到陆家嘴了，而且都是investment banker、tech startup founder这种level...\"但看着妈妈期待的眼神，她叹了口气：\"好吧，就见一面，但我要穿我的战袍去。\"",
+      "options": [
+        {
+          "option_id": "hua_2_evening_01_a",
+          "text": "盛装出席，用气场碾压对方",
+          "effects": {
+            "mood": -5,
+            "face": 15,
+            "health": 0,
+            "luck": 0,
+            "weight": 0,
+            "money": -300
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_2_evening_01_b",
+          "text": "正常见面，给对方一个机会",
+          "effects": {
+            "mood": 5,
+            "face": -5,
+            "health": 0,
+            "luck": 10,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_3_morning_01",
+      "event_name": "帮妈妈买年货",
+      "character_id": "hua",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "妈妈让花贝贝帮忙去集市买年货。花贝贝站在集市门口，看着熙熙攘攘的人群和满地的大白菜，陷入了沉思：\"这也太不City了吧...我在上海都是让盒马直接delivery到家的。\"但她还是硬着头皮进去了，结果被一个卖对联的大爷忽悠着买了副\"财源广进\"，花了88块——\"这可是handwritten的，有artistic value！\"",
+      "options": [
+        {
+          "option_id": "hua_3_morning_01_a",
+          "text": "坚持你的品味，买最贵的",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "health": 0,
+            "luck": -5,
+            "weight": 0,
+            "money": -800
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_3_morning_01_b",
+          "text": "听妈妈的，买实惠的",
+          "effects": {
+            "mood": 0,
+            "face": -5,
+            "health": 0,
+            "luck": 5,
+            "weight": 0,
+            "money": -200
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_3_noon_01",
+      "event_name": "被催婚的反击",
+      "character_id": "hua",
+      "day": 3,
+      "time_slot": "noon",
+      "description": "饭桌上，七大姑八大姨开始了熟悉的催婚攻势：\"贝贝啊，你都三十了，再不嫁就嫁不出去了！\"\"女人事业再成功，没有家庭也不完整啊！\"花贝贝放下筷子，微微一笑：\"阿姨们，你们知道上海现在的average marriage age是多少吗？32岁。而且我现在年薪七位数，自己买房买车，为什么要着急settle down？\"全场寂静。",
+      "options": [
+        {
+          "option_id": "hua_3_noon_01_a",
+          "text": "继续输出独立女性观点",
+          "effects": {
+            "mood": 10,
+            "face": 10,
+            "health": 0,
+            "luck": -10,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_3_noon_01_b",
+          "text": "敷衍过去，避免冲突",
+          "effects": {
+            "mood": -5,
+            "face": -5,
+            "health": 0,
+            "luck": 5,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_3_evening_01",
+      "event_name": "村里没有星巴克",
+      "character_id": "hua",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "花贝贝早上起来，习惯性地想点一杯燕麦拿铁。打开手机，美团、饿了么都显示\"超出配送范围\"。她愣了三秒，才反应过来——这是在村里。\"这也太不City了吧！\"她哀嚎一声，只能自己动手用带来的咖啡机做了一杯，但总觉得少了点什么。发朋友圈：\"在村里想喝一杯像样的咖啡，难度系数五颗星。\"",
+      "options": [
+        {
+          "option_id": "hua_3_evening_01_a",
+          "text": "自己动手，丰衣足食",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "health": 0,
+            "luck": 0,
+            "weight": 0,
+            "money": -100
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_3_evening_01_b",
+          "text": "去县城找咖啡店",
+          "effects": {
+            "mood": 10,
+            "face": 5,
+            "health": -5,
+            "luck": 0,
+            "weight": 0,
+            "money": -200
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_4_morning_01",
+      "event_name": "拍照修图发圈",
+      "character_id": "hua",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "花贝贝站在村口的油菜花田前，穿着 borrowed from 奶奶的碎花围裙，但搭配了自己的Gucci丝巾。她指挥妈妈：\"妈，你从这个角度拍，要拍出那种effortless chic的感觉，背景要虚化，我脸要显小...\"拍了五十张后，她坐在炕上开始精修：调滤镜、磨皮、瘦脸、加英文文案。两小时后，朋友圈更新：\"Countryside retreat. Sometimes you need to disconnect to reconnect. #digitaldetox #rusticcharm\"。",
+      "options": [
+        {
+          "option_id": "hua_4_morning_01_a",
+          "text": "精修到底，人设不能崩",
+          "effects": {
+            "mood": 10,
+            "face": 15,
+            "health": -5,
+            "luck": 0,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_4_morning_01_b",
+          "text": "发原图，展现真实的自己",
+          "effects": {
+            "mood": 0,
+            "face": -10,
+            "health": 5,
+            "luck": 5,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_4_noon_01",
+      "event_name": "被说太瘦了",
+      "character_id": "hua",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "奶奶看着花贝贝，心疼地说：\"我的乖孙女，怎么瘦成这样？在上海是不是吃不好？\"说着就往她碗里夹了三个大鸡腿。花贝贝看着碗里堆成山的肉，欲哭无泪：\"奶奶，我在上海都是吃organic salad和avocado toast的，这种greasy food我消化不了...\"但在奶奶期待的眼神下，她还是咬了一口——\"嗯，真香。\"",
+      "options": [
+        {
+          "option_id": "hua_4_noon_01_a",
+          "text": "拒绝投喂，保持身材",
+          "effects": {
+            "mood": -10,
+            "face": 5,
+            "health": 0,
+            "luck": -5,
+            "weight": -1,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_4_noon_01_b",
+          "text": "接受奶奶的爱，大口吃肉",
+          "effects": {
+            "mood": 15,
+            "face": -5,
+            "health": 5,
+            "luck": 5,
+            "weight": 2,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_4_evening_01",
+      "event_name": "教妈妈用护肤品",
+      "character_id": "hua",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "花贝贝看到妈妈还在用大宝SOD蜜，心疼得不行。她拿出自己的SK-II套装：\"妈，来，我教你正确的skincare routine。首先是toner，然后是essence，再是serum，最后是moisturizer...\"妈妈一脸懵逼：\"这得抹多少层啊？我抹完天都亮了！\"\"妈，这是investment in yourself，你看你女儿皮肤这么好，就是靠这个。\"",
+      "options": [
+        {
+          "option_id": "hua_4_evening_01_a",
+          "text": "送妈妈一套护肤品",
+          "effects": {
+            "mood": 10,
+            "face": 10,
+            "health": 0,
+            "luck": 5,
+            "weight": 0,
+            "money": -2000
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_4_evening_01_b",
+          "text": "教方法，让妈妈自己买",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "health": 0,
+            "luck": 0,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_5_morning_01",
+      "event_name": "村里没有健身房",
+      "character_id": "hua",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "早上六点，花贝贝准时醒来——在上海，这个时间她应该已经在Equinox做完一小时HIIT了。她看着窗外灰蒙蒙的天，叹了口气：\"这也太不City了吧，连个gym都没有。\"但她没有放弃，铺上带来的瑜伽垫，打开Keep App，开始在家做普拉提。奶奶路过，好奇地问：\"贝贝，你在那扭啥呢？\"\"我在做Pilates，奶奶。\"\"哦，我以为你抽筋了呢。\"",
+      "options": [
+        {
+          "option_id": "hua_5_morning_01_a",
+          "text": "坚持锻炼，保持自律",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "health": 10,
+            "luck": 0,
+            "weight": -1,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_5_morning_01_b",
+          "text": "休息几天，享受假期",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "health": -5,
+            "luck": 0,
+            "weight": 1,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_5_noon_01",
+      "event_name": "被问有没有对象",
+      "character_id": "hua",
+      "day": 5,
+      "time_slot": "noon",
+      "description": "村口情报站的大妈们拦住了花贝贝：\"贝贝啊，有对象了吗？\"花贝贝露出职业假笑：\"阿姨们，我在上海可popular了，追我的人quality都很高，有hedge fund的、有VC的、还有做crypto的...\"\"那你怎么还不结婚？\"\"因为我在focus on我的career啊，女人要先有自己的事业，才能谈其他的。\"大妈们似懂非懂地点点头，转头就开始议论：\"贝贝是不是有什么毛病啊...\"",
+      "options": [
+        {
+          "option_id": "hua_5_noon_01_a",
+          "text": "继续输出你的价值观",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "health": 0,
+            "luck": -5,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_5_noon_01_b",
+          "text": "笑而不语，快速逃离",
+          "effects": {
+            "mood": 0,
+            "face": -5,
+            "health": 0,
+            "luck": 5,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hua_5_evening_01",
+      "event_name": "回城倒计时",
+      "character_id": "hua",
+      "day": 5,
+      "time_slot": "evening",
+      "description": "花贝贝躺在床上，数着回上海的日子。她打开12306，看着那张返程高铁票，眼里闪烁着光芒。\"还有两天...\"她喃喃自语。妈妈在门外喊：\"贝贝，出来吃饺子！\"\"来了！\"她应了一声，但先拿起手机发了条朋友圈：\"倒计时48小时。Absence makes the heart grow fonder，但我的skin已经等不及要回去做facial了。\"配图是一张精修的自拍，定位显示\"某村\"，但被她P成了\"French Countryside\"。",
+      "options": [
+        {
+          "option_id": "hua_5_evening_01_a",
+          "text": "珍惜最后的乡村时光",
+          "effects": {
+            "mood": 10,
+            "face": 0,
+            "health": 5,
+            "luck": 10,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hua_5_evening_01_b",
+          "text": "开始打包行李，准备随时出发",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "health": 0,
+            "luck": 0,
+            "weight": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_1_morning_01",
+      "event_name": "黑眼圈审判",
+      "character_id": "fan",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "大年初一早晨，七大姑八大姨围着你：\"小范啊，你这黑眼圈比熊猫还重，是不是晚上不睡白天不起？\"妈妈在一旁补刀：\"天天凌晨三点还在刷手机！\"你感觉自己的熬夜罪行被公开处刑。",
+      "options": [
+        {
+          "option_id": "fan_1_morning_01_a",
+          "text": "俺不中嘞...这是学习累的（心虚）",
+          "effects": {
+            "health": -5,
+            "face": -5,
+            "mood": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_1_morning_01_b",
+          "text": "已老实，以后一定早睡（下次还敢）",
+          "effects": {
+            "health": 0,
+            "face": 5,
+            "mood": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_1_morning_01_c",
+          "text": "这是时尚，你们不懂",
+          "effects": {
+            "health": 0,
+            "face": -10,
+            "mood": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_1_noon_01",
+      "event_name": "绩点审判大会",
+      "character_id": "fan",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "饭桌上，二舅突然发问：\"小范，听说你上大学了，绩点多少啊？排第几啊？\"你想起自己2.3的绩点和挂掉的高数，手里的筷子突然变得沉重。",
+      "options": [
+        {
+          "option_id": "fan_1_noon_01_a",
+          "text": "还行吧...中等水平（汗流浃背）",
+          "effects": {
+            "face": -10,
+            "mood": -15,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_1_noon_01_b",
+          "text": "大学不光看成绩，还要看综合能力！",
+          "effects": {
+            "face": 5,
+            "mood": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_1_noon_01_c",
+          "text": "俺不中嘞，挂了一科（破罐破摔）",
+          "effects": {
+            "face": -15,
+            "mood": -5,
+            "health": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_1_evening_01",
+      "event_name": "社恐的敬酒地狱",
+      "character_id": "fan",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "家庭聚餐上，爸爸让你给所有长辈敬酒。你端着饮料，面对一桌子的亲戚，大脑一片空白，不知道该说什么祝酒词。这班味太重了！",
+      "options": [
+        {
+          "option_id": "fan_1_evening_01_a",
+          "text": "祝大家...身体健康（声音颤抖）",
+          "effects": {
+            "face": -5,
+            "mood": -10,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_1_evening_01_b",
+          "text": "直接一口闷，不说话",
+          "effects": {
+            "face": 0,
+            "mood": 5,
+            "health": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_1_evening_01_c",
+          "text": "掏出手机念提前准备的稿子",
+          "effects": {
+            "face": 5,
+            "mood": -5,
+            "luck": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_2_morning_01",
+      "event_name": "压岁钱告急",
+      "character_id": "fan",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "你数了数收到的压岁钱，总共才500块。想到开学要还的800块花呗，还有想买的游戏皮肤，你陷入了深深的焦虑。这生活费危机来得也太快了吧！",
+      "options": [
+        {
+          "option_id": "fan_2_morning_01_a",
+          "text": "找妈妈预支下个月生活费",
+          "effects": {
+            "money": 500,
+            "face": -10,
+            "mood": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_2_morning_01_b",
+          "text": "忍一忍，开学再说",
+          "effects": {
+            "money": 0,
+            "mood": -15,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_2_morning_01_c",
+          "text": "去家族群里抢红包回血",
+          "effects": {
+            "money": 100,
+            "mood": 10,
+            "luck": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_2_noon_01",
+      "event_name": "被迫营业的补课",
+      "character_id": "fan",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "妈妈突然告诉你：\"你三姨家的小明数学不好，你反正放假没事，去给他补补课吧。\"你想起自己挂掉的高数，陷入了沉思。俺不中嘞，我自己都不会啊！",
+      "options": [
+        {
+          "option_id": "fan_2_noon_01_a",
+          "text": "硬着头皮答应，时薪50呢",
+          "effects": {
+            "money": 200,
+            "face": 10,
+            "mood": -20,
+            "health": -10
+          },
+          "next_event": "fan_2_evening_02"
+        },
+        {
+          "option_id": "fan_2_noon_01_b",
+          "text": "已老实，但我自己数学也挂科了",
+          "effects": {
+            "face": -5,
+            "mood": 5,
+            "health": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_2_noon_01_c",
+          "text": "推说学校有网课任务",
+          "effects": {
+            "face": -5,
+            "mood": 10,
+            "health": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_2_evening_02",
+      "event_name": "补课翻车现场",
+      "character_id": "fan",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "你给表弟讲题，结果表弟问你一道题，你发现自己也不会。两人对着题目大眼瞪小眼，场面一度十分尴尬。最后你偷偷用手机搜了答案。",
+      "options": [
+        {
+          "option_id": "fan_2_evening_02_a",
+          "text": "尴尬地承认自己也不会",
+          "effects": {
+            "face": -15,
+            "mood": -10,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_2_evening_02_b",
+          "text": "偷偷用手机查答案",
+          "effects": {
+            "face": 5,
+            "mood": -5,
+            "luck": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_2_evening_02_c",
+          "text": "让表弟自己再想想，我去个厕所",
+          "effects": {
+            "face": -5,
+            "mood": 0,
+            "health": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_3_evening_01",
+      "event_name": "同学聚会的修罗场",
+      "character_id": "fan",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "高中同学组织聚会，班长特意@你。你看着群里那些熟悉又陌生的名字，想起自己社恐的属性，内心天人交战。去吧，社恐发作；不去吧，显得不合群。",
+      "options": [
+        {
+          "option_id": "fan_3_evening_01_a",
+          "text": "硬着头皮去，AA制150",
+          "effects": {
+            "money": -150,
+            "face": 10,
+            "mood": -15,
+            "health": -10
+          },
+          "next_event": "fan_3_evening_02"
+        },
+        {
+          "option_id": "fan_3_evening_01_b",
+          "text": "已老实，装病不去了",
+          "effects": {
+            "money": 0,
+            "face": -10,
+            "mood": 5,
+            "health": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_3_evening_01_c",
+          "text": "去，但全程低头玩手机",
+          "effects": {
+            "money": -150,
+            "face": 0,
+            "mood": -5,
+            "health": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_3_evening_02",
+      "event_name": "聚会攀比大会",
+      "character_id": "fan",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "聚会上，同学们纷纷炫耀：有人拿了奖学金，有人实习工资8k，有人已经保研。轮到你时，你想起自己2.3的绩点和挂科的高数，陷入了沉默。",
+      "options": [
+        {
+          "option_id": "fan_3_evening_02_a",
+          "text": "俺不中嘞，我还在躺平",
+          "effects": {
+            "face": -15,
+            "mood": -20,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_3_evening_02_b",
+          "text": "吹牛说自己也在准备考研",
+          "effects": {
+            "face": 10,
+            "mood": -5,
+            "luck": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_3_evening_02_c",
+          "text": "借口上厕所溜了",
+          "effects": {
+            "money": -150,
+            "face": -5,
+            "mood": 10,
+            "health": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_4_morning_01",
+      "event_name": "脆皮大学生的觉醒",
+      "character_id": "fan",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "昨晚通宵打游戏，今早起来头晕目眩，胸口发闷。妈妈吓坏了，非要带你去医院检查。医生说你熬夜太多，作息紊乱，需要好好休息。脆皮大学生实锤了。",
+      "options": [
+        {
+          "option_id": "fan_4_morning_01_a",
+          "text": "乖乖听医生的话，早睡",
+          "effects": {
+            "health": 15,
+            "mood": -5,
+            "money": -100
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_4_morning_01_b",
+          "text": "嘴上答应，晚上继续熬",
+          "effects": {
+            "health": -15,
+            "mood": 10,
+            "luck": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_4_morning_01_c",
+          "text": "俺不中嘞，真的怕了",
+          "effects": {
+            "health": 10,
+            "mood": -10,
+            "money": -100
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_4_noon_01",
+      "event_name": "外卖依赖戒断反应",
+      "character_id": "fan",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "在家待了几天，你开始疯狂想念外卖。炸鸡、奶茶、麻辣烫...但妈妈坚持让你吃家常菜，说外卖不健康。你的外卖依赖症发作了，整个人都不好了。",
+      "options": [
+        {
+          "option_id": "fan_4_noon_01_a",
+          "text": "偷偷点外卖，别被发现",
+          "effects": {
+            "money": -50,
+            "mood": 15,
+            "health": -10,
+            "luck": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_4_noon_01_b",
+          "text": "忍一忍，吃妈妈的爱心餐",
+          "effects": {
+            "health": 10,
+            "mood": -5,
+            "weight": 1
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_4_noon_01_c",
+          "text": "跟妈妈说想吃火锅",
+          "effects": {
+            "money": -100,
+            "mood": 10,
+            "health": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_5_morning_01",
+      "event_name": "灵魂拷问：有对象了吗",
+      "character_id": "fan",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "大姑来串门，第一句话就是：\"小范啊，上大学了，有对象了吗？\"你想起自己母胎solo的事实，以及社恐导致根本不敢和异性说话的经历，一时语塞。",
+      "options": [
+        {
+          "option_id": "fan_5_morning_01_a",
+          "text": "已老实，没有，不想找",
+          "effects": {
+            "face": -5,
+            "mood": -10,
+            "health": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_5_morning_01_b",
+          "text": "说学业为重，暂时不考虑",
+          "effects": {
+            "face": 10,
+            "mood": 0,
+            "health": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_5_morning_01_c",
+          "text": "吹牛说有好几个追求者",
+          "effects": {
+            "face": 5,
+            "mood": 5,
+            "luck": -10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_5_evening_01",
+      "event_name": "深夜网抑云时刻",
+      "character_id": "fan",
+      "day": 5,
+      "time_slot": "evening",
+      "description": "深夜12点，你躺在床上刷着朋友圈，看到同学们光鲜亮丽的生活，突然emo了。绩点低、没对象、没实习、没特长...你开始怀疑自己是不是废物。",
+      "options": [
+        {
+          "option_id": "fan_5_evening_01_a",
+          "text": "继续emo，听伤感音乐",
+          "effects": {
+            "mood": -25,
+            "health": -10,
+            "luck": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_5_evening_01_b",
+          "text": "关掉手机，强制自己睡觉",
+          "effects": {
+            "mood": 5,
+            "health": 10,
+            "weight": -1
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_5_evening_01_c",
+          "text": "给好友发消息吐槽",
+          "effects": {
+            "mood": 10,
+            "health": 0,
+            "luck": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_6_noon_01",
+      "event_name": "春节长胖危机",
+      "character_id": "fan",
+      "day": 6,
+      "time_slot": "noon",
+      "description": "过年几天顿顿大鱼大肉，你上称一看，体重飙升了5斤！想起开学还要见同学，你陷入了深深的焦虑。脆皮大学生不仅脆皮，还圆润了。",
+      "options": [
+        {
+          "option_id": "fan_6_noon_01_a",
+          "text": "开始节食，明天就减肥",
+          "effects": {
+            "weight": -2,
+            "mood": -10,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_6_noon_01_b",
+          "text": "算了，年后再说吧",
+          "effects": {
+            "weight": 2,
+            "mood": 10,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_6_noon_01_c",
+          "text": "跟着视频做运动",
+          "effects": {
+            "weight": -1,
+            "mood": 5,
+            "health": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_6_evening_01",
+      "event_name": "别人家孩子的暴击",
+      "character_id": "fan",
+      "day": 6,
+      "time_slot": "evening",
+      "description": "妈妈又开始念叨：\"你看隔壁老王家孩子，保研了清华，还拿了国奖。你呢？天天就知道睡觉玩手机。\"你感到一万点暴击，已老实。",
+      "options": [
+        {
+          "option_id": "fan_6_evening_01_a",
+          "text": "俺不中嘞，我是废物行了吧",
+          "effects": {
+            "mood": -25,
+            "health": -10,
+            "face": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_6_evening_01_b",
+          "text": "沉默不语，假装没听见",
+          "effects": {
+            "mood": -10,
+            "health": -5,
+            "face": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_6_evening_01_c",
+          "text": "反驳说每个人有自己的节奏",
+          "effects": {
+            "mood": 5,
+            "health": 0,
+            "face": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "fan_7_morning_01",
+      "event_name": "假期余额不足的恐慌",
+      "character_id": "fan",
+      "day": 7,
+      "time_slot": "morning",
+      "description": "你突然发现假期只剩最后几天了！挂科的高数还没复习，要交的作业还没写，想追的剧还没追完...焦虑感瞬间爆棚。脆皮大学生的假期就这么结束了？",
+      "options": [
+        {
+          "option_id": "fan_7_morning_01_a",
+          "text": "疯狂补作业，通宵达旦",
+          "effects": {
+            "mood": -15,
+            "health": -20,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_7_morning_01_b",
+          "text": "摆烂了，开学再说",
+          "effects": {
+            "mood": 10,
+            "health": 0,
+            "luck": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "fan_7_morning_01_c",
+          "text": "制定计划，能补多少是多少",
+          "effects": {
+            "mood": -5,
+            "health": -5,
+            "luck": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "gu_1_morning_01",
+      "event_name": "亲戚的灵魂拷问",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "过年走亲戚，二姨突然问你：'小嘉啊，你现在在哪儿高就啊？'亲戚们齐刷刷看向你，空气瞬间凝固。",
+      "options": [
+        {
+          "option_id": "gu_1_morning_01_a",
+          "text": "理直气壮：'我在家陪爸妈呢，这也是一种尽孝！'",
+          "effects": {
+            "mood": 5,
+            "face": -10,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_1_morning_01_b",
+          "text": "含糊其辞：'在...在家创业，做自媒体呢...'",
+          "effects": {
+            "mood": -5,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_1_morning_01_c",
+          "text": "转移话题：'二姨，您这衣服哪儿买的？真显年轻！'",
+          "effects": {
+            "mood": 10,
+            "face": 10,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_1_noon_01",
+      "event_name": "厨房争霸赛",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "妈妈准备做饭，你立刻冲上去：'妈，您歇着！今天让我来！'你决定做一顿大餐证明自己的价值。",
+      "options": [
+        {
+          "option_id": "gu_1_noon_01_a",
+          "text": "做满汉全席，从早上忙到下午",
+          "effects": {
+            "mood": -5,
+            "face": 15,
+            "weight": -2,
+            "health": -5,
+            "luck": 0,
+            "money": -50
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_1_noon_01_b",
+          "text": "简单三菜一汤，重在心意",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": -20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_1_noon_01_c",
+          "text": "点外卖摆盘，假装自己做的",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "weight": 2,
+            "health": -2,
+            "luck": -10,
+            "money": -80
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_1_evening_01",
+      "event_name": "同学聚会修罗场",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "高中同学聚会，当年的同桌已经是某大厂P7，月薪五万。轮到你自我介绍时，全场安静了。",
+      "options": [
+        {
+          "option_id": "gu_1_evening_01_a",
+          "text": "自嘲式幽默：'我是全职儿女，老板是我爸妈，包吃包住'",
+          "effects": {
+            "mood": 10,
+            "face": -15,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": -100
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_1_evening_01_b",
+          "text": "硬撑面子：'最近在gap year，准备创业'",
+          "effects": {
+            "mood": -10,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": -200
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_1_evening_01_c",
+          "text": "提前离场：'哎呀我妈叫我回家吃饭'",
+          "effects": {
+            "mood": -5,
+            "face": -5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_2_morning_01",
+      "event_name": "妈妈的暗示",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "吃早饭时，妈妈叹了口气：'隔壁老王家的儿子又升职了...'你感觉空气中弥漫着一股无形的压力。",
+      "options": [
+        {
+          "option_id": "gu_2_morning_01_a",
+          "text": "疯狂献殷勤：'妈，今天碗我洗，地我拖，衣服我晾！'",
+          "effects": {
+            "mood": -5,
+            "face": 0,
+            "weight": -1,
+            "health": -3,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_2_morning_01_b",
+          "text": "嘴甜攻势：'妈，您别操心，您这么年轻，还怕没机会当总经理的妈？'",
+          "effects": {
+            "mood": 10,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_2_morning_01_c",
+          "text": "装傻充愣：'是吗？那挺好的，改天找他借点钱'",
+          "effects": {
+            "mood": 0,
+            "face": -10,
+            "weight": 0,
+            "health": 0,
+            "luck": -5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_2_noon_01",
+      "event_name": "爸爸的秘密",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "你发现爸爸偷偷在阳台抽烟，看到你来了赶紧藏起来。原来他也在为家里有个'无业游民'而焦虑。",
+      "options": [
+        {
+          "option_id": "gu_2_noon_01_a",
+          "text": "陪爸爸抽一根，爷俩聊聊心里话",
+          "effects": {
+            "mood": 10,
+            "face": 0,
+            "weight": 0,
+            "health": -5,
+            "luck": 5,
+            "money": -20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_2_noon_01_b",
+          "text": "假装没看见，但晚上做了一桌好菜",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": -30
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_2_noon_01_c",
+          "text": "向妈妈告状：'妈！爸又抽烟了！'",
+          "effects": {
+            "mood": -5,
+            "face": -15,
+            "weight": 0,
+            "health": 0,
+            "luck": -10,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_2_evening_01",
+      "event_name": "深夜emo时刻",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "凌晨两点，你躺在床上刷朋友圈，看到大学同学晒加班、晒项目、晒年终奖。你开始怀疑人生...",
+      "options": [
+        {
+          "option_id": "gu_2_evening_01_a",
+          "text": "打开招聘软件，浏览三分钟后放弃",
+          "effects": {
+            "mood": -10,
+            "face": 0,
+            "weight": 0,
+            "health": -5,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_2_evening_01_b",
+          "text": "自我安慰：'至少我头发比他们多'",
+          "effects": {
+            "mood": 5,
+            "face": 0,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_2_evening_01_c",
+          "text": "点份外卖，化悲愤为食欲",
+          "effects": {
+            "mood": 10,
+            "face": 0,
+            "weight": 2,
+            "health": -3,
+            "luck": 0,
+            "money": -50
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_3_morning_01",
+      "event_name": "快递小哥的误会",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "快递小哥上门送货，随口问了一句：'大哥，今天不上班啊？'你尴尬地笑了笑。",
+      "options": [
+        {
+          "option_id": "gu_3_morning_01_a",
+          "text": "淡定回应：'自由职业，时间自由'",
+          "effects": {
+            "mood": 0,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_3_morning_01_b",
+          "text": "实话实说：'在家啃老呢'",
+          "effects": {
+            "mood": 5,
+            "face": -5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_3_morning_01_c",
+          "text": "反客为主：'您这月送了多少单啊？'",
+          "effects": {
+            "mood": 5,
+            "face": 0,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_3_noon_01",
+      "event_name": "家务KPI考核",
+      "day": 3,
+      "time_slot": "noon",
+      "description": "你给自己制定了今日家务KPI：拖地、洗碗、晾衣服、做饭。完成就能心安理得地继续当全职儿女。",
+      "options": [
+        {
+          "option_id": "gu_3_noon_01_a",
+          "text": "超额完成，顺便把窗户也擦了",
+          "effects": {
+            "mood": -5,
+            "face": 20,
+            "weight": -2,
+            "health": -5,
+            "luck": 5,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_3_noon_01_b",
+          "text": "勉强完成基本任务",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_3_noon_01_c",
+          "text": "拖延症发作，明天再说",
+          "effects": {
+            "mood": 10,
+            "face": -15,
+            "weight": 0,
+            "health": 0,
+            "luck": -10,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_3_evening_01",
+      "event_name": "妈妈的闺蜜团",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "妈妈的闺蜜们来家里打麻将，你被迫出来端茶倒水。阿姨们开始'关心'你的个人问题和工作问题。",
+      "options": [
+        {
+          "option_id": "gu_3_evening_01_a",
+          "text": "展现厨艺，用美食堵住她们的嘴",
+          "effects": {
+            "mood": -5,
+            "face": 15,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": -40
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_3_evening_01_b",
+          "text": "嘴甜攻势，把每个阿姨都夸一遍",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "weight": 0,
+            "health": 0,
+            "luck": 10,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_3_evening_01_c",
+          "text": "借故溜回房间装睡",
+          "effects": {
+            "mood": 0,
+            "face": -10,
+            "weight": 0,
+            "health": 0,
+            "luck": -5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_4_morning_01",
+      "event_name": "相亲对象的职业拷问",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "爸妈给你安排了相亲。对方一坐下就问：'听说你没工作？那以后怎么养家？'气氛瞬间尴尬。",
+      "options": [
+        {
+          "option_id": "gu_4_morning_01_a",
+          "text": "自信回应：'我在家照顾父母，这也是一种职业'",
+          "effects": {
+            "mood": 5,
+            "face": -10,
+            "weight": 0,
+            "health": 0,
+            "luck": -5,
+            "money": -100
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_4_morning_01_b",
+          "text": "画饼：'最近在筹备一个大项目'",
+          "effects": {
+            "mood": -5,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": -150
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_4_morning_01_c",
+          "text": "反问：'那您月薪多少？能养得起我吗？'",
+          "effects": {
+            "mood": 10,
+            "face": -20,
+            "weight": 0,
+            "health": 0,
+            "luck": -10,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_4_noon_01",
+      "event_name": "爸爸的退休金到账",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "今天爸爸退休金到账，他心情大好，给你发了一个红包。你突然觉得自己像被包养了...",
+      "options": [
+        {
+          "option_id": "gu_4_noon_01_a",
+          "text": "感动收下：'谢谢爸，我给您捶背去'",
+          "effects": {
+            "mood": 10,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": 200
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_4_noon_01_b",
+          "text": "假装推辞：'爸，这钱您留着花'",
+          "effects": {
+            "mood": 5,
+            "face": 15,
+            "weight": 0,
+            "health": 0,
+            "luck": 10,
+            "money": 300
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_4_noon_01_c",
+          "text": "心安理得收下，转头就买了游戏",
+          "effects": {
+            "mood": 15,
+            "face": -10,
+            "weight": 0,
+            "health": 0,
+            "luck": -5,
+            "money": 150
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_4_evening_01",
+      "event_name": "朋友圈的加班照",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "你发了一条在家追剧的朋友圈，五分钟后，大学同学发了张凌晨加班的照片，配文'奋斗的青春最美丽'。",
+      "options": [
+        {
+          "option_id": "gu_4_evening_01_a",
+          "text": "评论：'注意身体啊，别猝死了'",
+          "effects": {
+            "mood": 5,
+            "face": -5,
+            "weight": 0,
+            "health": 0,
+            "luck": -5,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_4_evening_01_b",
+          "text": "默默删掉自己的朋友圈",
+          "effects": {
+            "mood": -10,
+            "face": 0,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_4_evening_01_c",
+          "text": "发一条做饭的照片，配文'给父母做顿好的'",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_5_morning_01",
+      "event_name": "全职儿女的尊严",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "小区群里有人发招聘广告，妈妈转发给你。你突然意识到，在爸妈眼里，全职儿女可能真的不是一个'正经职业'。",
+      "options": [
+        {
+          "option_id": "gu_5_morning_01_a",
+          "text": "认真投简历，证明自己",
+          "effects": {
+            "mood": -5,
+            "face": 10,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_5_morning_01_b",
+          "text": "跟妈妈谈心：'妈，我在家也能创造价值'",
+          "effects": {
+            "mood": 10,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_5_morning_01_c",
+          "text": "无视，继续当快乐的全职儿女",
+          "effects": {
+            "mood": 15,
+            "face": -10,
+            "weight": 0,
+            "health": 0,
+            "luck": -5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_5_noon_01",
+      "event_name": "家庭会议",
+      "day": 5,
+      "time_slot": "noon",
+      "description": "爸妈突然宣布要开家庭会议，主题是'小嘉的未来规划'。你感觉大事不妙。",
+      "options": [
+        {
+          "option_id": "gu_5_noon_01_a",
+          "text": "主动发言：'我已经规划好了，先考个证'",
+          "effects": {
+            "mood": -5,
+            "face": 15,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": -100
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_5_noon_01_b",
+          "text": "打感情牌：'爸妈，我就想多陪陪你们'",
+          "effects": {
+            "mood": 10,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 10,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_5_noon_01_c",
+          "text": "装可怜：'你们是不是嫌弃我了？'",
+          "effects": {
+            "mood": 5,
+            "face": -5,
+            "weight": 0,
+            "health": 0,
+            "luck": 0,
+            "money": 50
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "gu_5_evening_01",
+      "event_name": "最后的倔强",
+      "day": 5,
+      "time_slot": "evening",
+      "description": "深夜，你对着镜子问自己：全职儿女，到底是一份职业，还是一种逃避？你决定...",
+      "options": [
+        {
+          "option_id": "gu_5_evening_01_a",
+          "text": "明天开始投简历，找份工作",
+          "effects": {
+            "mood": 0,
+            "face": 20,
+            "weight": 0,
+            "health": 0,
+            "luck": 10,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_5_evening_01_b",
+          "text": "继续当全职儿女，但提升家务技能",
+          "effects": {
+            "mood": 10,
+            "face": 5,
+            "weight": 0,
+            "health": 0,
+            "luck": 5,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "gu_5_evening_01_c",
+          "text": "开直播，当全职儿女博主",
+          "effects": {
+            "mood": 15,
+            "face": -5,
+            "weight": 0,
+            "health": 0,
+            "luck": 15,
+            "money": -50
+          },
+          "next_event": null
+        }
+      ],
+      "character_id": "gu"
+    },
+    {
+      "event_id": "ren_1_morning_01",
+      "event_name": "工资拷问",
+      "character_id": "ren",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "刚进门，二姨就凑过来：「小任啊，听说你在那个什么互联网大厂上班，一个月挣多少啊？」你深吸一口气，准备整顿亲戚圈。",
+      "options": [
+        {
+          "option_id": "ren_1_morning_01_a",
+          "text": "「不够花。」（直接终结话题）",
+          "effects": {
+            "mood": 5,
+            "face": -5,
+            "relative": -3
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_1_morning_01_b",
+          "text": "「二姨，您退休金多少？咱们互相伤害啊！」",
+          "effects": {
+            "mood": 10,
+            "face": -10,
+            "relative": -8
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_1_morning_01_c",
+          "text": "开始科普：「工资不是重点，重点是我们要整顿职场，拒绝被资本家剥削！」",
+          "effects": {
+            "mood": 8,
+            "face": -3,
+            "relative": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_1_noon_01",
+      "event_name": "体制内外的碰撞",
+      "character_id": "ren",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "饭桌上，体制内表哥又开始凡尔赛：「还是我们单位稳定，你们互联网太卷了。」你放下筷子，眼神变得危险。",
+      "options": [
+        {
+          "option_id": "ren_1_noon_01_a",
+          "text": "「表哥，回答我！您那'稳定'是拿多少创造力换的？这合理吗？」",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "relative": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_1_noon_01_b",
+          "text": "冷笑：「稳定地穷吗？我辞职前月薪是您三倍。」",
+          "effects": {
+            "mood": 5,
+            "face": -8,
+            "relative": -12
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_1_noon_01_c",
+          "text": "佛系吃饭，内心OS：体制内的人永远不会懂什么叫自由。",
+          "effects": {
+            "mood": -5,
+            "health": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_1_evening_01",
+      "event_name": "整顿学校从娃娃抓起",
+      "character_id": "ren",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "表弟哭诉作业太多，你看到了年轻时的自己。你决定传授他一些「职场整顿」的精髓，让他提前学会反抗。",
+      "options": [
+        {
+          "option_id": "ren_1_evening_01_a",
+          "text": "「记住，老师布置作业超时就是变相加班，要学会说'回答我！这合理吗？'」",
+          "effects": {
+            "mood": 15,
+            "face": -5,
+            "relative": -8
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_1_evening_01_b",
+          "text": "教表弟写《关于减少无效作业的建议书》，抄送校长。",
+          "effects": {
+            "mood": 10,
+            "face": -3,
+            "relative": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_1_evening_01_c",
+          "text": "摸摸表弟头：「忍忍吧，等你长大就懂了。」（违背人设）",
+          "effects": {
+            "mood": -10,
+            "face": 3
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_2_morning_01",
+      "event_name": "整顿相亲市场",
+      "character_id": "ren",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "你妈安排的相亲对象是个「稳定工作」的公务员。对方开口就问：「你辞职了？那以后谁养家？」你露出了职业假笑。",
+      "options": [
+        {
+          "option_id": "ren_2_morning_01_a",
+          "text": "「回答我！您这'稳定'能稳定到让我心动吗？这合理吗？」",
+          "effects": {
+            "mood": 15,
+            "face": -10,
+            "relative": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_2_morning_01_b",
+          "text": "「我辞职是为了整顿职场，您不懂，就像我不懂您为什么甘于平庸。」",
+          "effects": {
+            "mood": 10,
+            "face": -8,
+            "relative": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_2_morning_01_c",
+          "text": "直接起身：「我们不合适，您太'稳定'了，我怕把您带坏。」",
+          "effects": {
+            "mood": 8,
+            "face": -5,
+            "relative": -8
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_2_noon_01",
+      "event_name": "整顿职场科普讲座",
+      "character_id": "ren",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "长辈们围着你问东问西，你决定趁机开展一场「00后整顿职场」主题讲座，让他们见识一下新时代打工人的觉悟。",
+      "options": [
+        {
+          "option_id": "ren_2_noon_01_a",
+          "text": "激情演讲：「我们要对996说NO！对PUA说滚！对无效加班说拜拜！」",
+          "effects": {
+            "mood": 20,
+            "face": -10,
+            "relative": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_2_noon_01_b",
+          "text": "举例说明：「就像您买菜要砍价，我们整顿职场是在争取自己的权益！」",
+          "effects": {
+            "mood": 12,
+            "face": -5,
+            "relative": -8
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_2_noon_01_c",
+          "text": "掏出手机播放《整顿职场》短视频，音量开到最大。",
+          "effects": {
+            "mood": 15,
+            "face": -8,
+            "relative": -10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_2_evening_01",
+      "event_name": "灵魂拷问之未来规划",
+      "character_id": "ren",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "大伯严肃地问：「你辞职了，以后有什么打算？总不能一直啃老吧？」你感受到了来自长辈的压力。",
+      "options": [
+        {
+          "option_id": "ren_2_evening_01_a",
+          "text": "「大伯，回答我！人活着就是为了打工吗？这合理吗？」",
+          "effects": {
+            "mood": 10,
+            "face": -10,
+            "relative": -12
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_2_evening_01_b",
+          "text": "「我在思考人生的意义，顺便整顿一下这个内卷的社会。」",
+          "effects": {
+            "mood": 8,
+            "face": -8,
+            "relative": -8
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_2_evening_01_c",
+          "text": "真诚地说：「我想先休息一段时间，找回自己。」（罕见正经）",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "relative": 3
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_3_morning_01",
+      "event_name": "整顿职场传承人",
+      "character_id": "ren",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "表妹即将毕业找工作，偷偷来问你：「表哥，职场真的那么可怕吗？」你眼中闪烁着传承的光芒。",
+      "options": [
+        {
+          "option_id": "ren_3_morning_01_a",
+          "text": "「记住三条铁律：拒绝PUA、拒绝996、该怼就怼！」",
+          "effects": {
+            "mood": 15,
+            "face": -3,
+            "relative": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_3_morning_01_b",
+          "text": "传授《职场反PUA话术大全》：「老板说你不够努力，你就问他给够钱了吗？」",
+          "effects": {
+            "mood": 18,
+            "face": -5,
+            "relative": -8
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_3_morning_01_c",
+          "text": "认真建议：「找个不加班的公司，身体最重要。」（温和版）",
+          "effects": {
+            "mood": 8,
+            "face": 3,
+            "relative": 2
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_3_noon_01",
+      "event_name": "躺平无罪辩论赛",
+      "character_id": "ren",
+      "day": 3,
+      "time_slot": "noon",
+      "description": "亲戚们听说你辞职在家，纷纷表示不理解。「年轻人怎么能躺平呢？」你决定为「躺平」正名。",
+      "options": [
+        {
+          "option_id": "ren_3_noon_01_a",
+          "text": "「我不是躺平，我是在拒绝被剥削！回答我！这合理吗？」",
+          "effects": {
+            "mood": 15,
+            "face": -10,
+            "relative": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_3_noon_01_b",
+          "text": "「躺平是对抗内卷的唯一出路，你们老一辈不懂！」",
+          "effects": {
+            "mood": 10,
+            "face": -8,
+            "relative": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_3_noon_01_c",
+          "text": "「我只是暂时休息，养精蓄锐再出发。」（狡辩版）",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "relative": 3
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_3_evening_01",
+      "event_name": "整顿教育界",
+      "character_id": "ren",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "表弟被老师罚抄课文十遍，委屈巴巴。你决定教他几招「职场整顿」的精髓，让他学会保护自己。",
+      "options": [
+        {
+          "option_id": "ren_3_evening_01_a",
+          "text": "「告诉老师：'罚抄属于变相体罚，我要向教育局举报！'」",
+          "effects": {
+            "mood": 15,
+            "face": -8,
+            "relative": -12
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_3_evening_01_b",
+          "text": "帮表弟写《关于优化作业形式的建议信》，有理有据。",
+          "effects": {
+            "mood": 12,
+            "face": -5,
+            "relative": -8
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_3_evening_01_c",
+          "text": "教表弟用「回答我！这合理吗？」质问老师。",
+          "effects": {
+            "mood": 18,
+            "face": -10,
+            "relative": -15
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_4_morning_01",
+      "event_name": "整顿催婚现场",
+      "character_id": "ren",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "七大姑八大姨开始催婚：「你都30多了，还不找对象？」你决定用整顿职场的态度来整顿催婚。",
+      "options": [
+        {
+          "option_id": "ren_4_morning_01_a",
+          "text": "「回答我！结婚能让我快乐吗？这合理吗？」",
+          "effects": {
+            "mood": 15,
+            "face": -12,
+            "relative": -18
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_4_morning_01_b",
+          "text": "「我在等一个愿意跟我一起整顿职场的人。」",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "relative": -8
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_4_morning_01_c",
+          "text": "「您先给我介绍个不加班、不PUA的对象？」",
+          "effects": {
+            "mood": 12,
+            "face": -8,
+            "relative": -10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_4_noon_01",
+      "event_name": "体制内外终极对决",
+      "character_id": "ren",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "体制内表哥又双叒来了：「听说你还在家待着？要不要我帮你介绍个工作？」你感觉血压在飙升。",
+      "options": [
+        {
+          "option_id": "ren_4_noon_01_a",
+          "text": "「表哥，回答我！您那工作能让我实现人生价值吗？这合理吗？」",
+          "effects": {
+            "mood": 15,
+            "face": -10,
+            "relative": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_4_noon_01_b",
+          "text": "「谢谢，但我宁愿送外卖也不想去体制内当咸鱼。」",
+          "effects": {
+            "mood": 12,
+            "face": -12,
+            "relative": -18
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_4_noon_01_c",
+          "text": "「您的好意我心领了，但我想自己闯一闯。」（礼貌拒绝）",
+          "effects": {
+            "mood": 5,
+            "face": 3,
+            "relative": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_4_evening_01",
+      "event_name": "精神状态美丽时刻",
+      "character_id": "ren",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "亲戚们又在背后议论你「不务正业」，你终于爆发了。这是任兴的完全体——发疯学者登场时刻！",
+      "options": [
+        {
+          "option_id": "ren_4_evening_01_a",
+          "text": "拍桌而起：「你们懂什么！我这是在整顿职场！整顿社会！整顿这个畸形的世界！」",
+          "effects": {
+            "mood": 25,
+            "face": -20,
+            "relative": -25
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_4_evening_01_b",
+          "text": "开始rap：「回答我！回答我！这合理吗？这合理吗？整顿职场从我做起！」",
+          "effects": {
+            "mood": 30,
+            "face": -25,
+            "relative": -30
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_4_evening_01_c",
+          "text": "掏出辞职信复印件贴在墙上：「这是我的勋章！」",
+          "effects": {
+            "mood": 20,
+            "face": -15,
+            "relative": -20
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_5_morning_01",
+      "event_name": "存款拷问2.0",
+      "character_id": "ren",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "二姨又来了：「小任啊，你辞职这么久了，存款还剩多少啊？」你露出了神秘的微笑。",
+      "options": [
+        {
+          "option_id": "ren_5_morning_01_a",
+          "text": "「5000，但我的精神财富是无价的。」",
+          "effects": {
+            "mood": 10,
+            "face": -8,
+            "relative": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_5_morning_01_b",
+          "text": "「够花，反正不买房不买车不结婚，要那么多钱干嘛？」",
+          "effects": {
+            "mood": 12,
+            "face": -10,
+            "relative": -12
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_5_morning_01_c",
+          "text": "「二姨，您存款多少？咱们交换一下？」",
+          "effects": {
+            "mood": 8,
+            "face": -5,
+            "relative": -8
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_5_noon_01",
+      "event_name": "家族群整顿行动",
+      "character_id": "ren",
+      "day": 5,
+      "time_slot": "noon",
+      "description": "家族群里又开始转发「年轻人要吃苦」的毒鸡汤，你决定整顿家族群，传播正能量（负能量）。",
+      "options": [
+        {
+          "option_id": "ren_5_noon_01_a",
+          "text": "转发《拒绝职场PUA从我做起》《996是违法不是福报》等文章。",
+          "effects": {
+            "mood": 15,
+            "face": -10,
+            "relative": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_5_noon_01_b",
+          "text": "在群里发语音：「回答我！吃苦能让我变富吗？这合理吗？」",
+          "effects": {
+            "mood": 20,
+            "face": -15,
+            "relative": -20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_5_noon_01_c",
+          "text": "退群，并在退群宣言中写道：「此群已被我整顿完毕。」",
+          "effects": {
+            "mood": 25,
+            "face": -20,
+            "relative": -25
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "ren_5_evening_01",
+      "event_name": "整顿春节，从我做起",
+      "character_id": "ren",
+      "day": 5,
+      "time_slot": "evening",
+      "description": "春节即将结束，你站在阳台上回顾这五天的「战绩」。虽然亲戚关系可能已经破裂，但你的精神得到了升华。你决定发表最后的整顿宣言。",
+      "options": [
+        {
+          "option_id": "ren_5_evening_01_a",
+          "text": "发朋友圈：「这个春节，我整顿了亲戚、整顿了相亲、整顿了家族群。下一个目标：整顿整个社会！」",
+          "effects": {
+            "mood": 30,
+            "face": -25,
+            "relative": -30
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_5_evening_01_b",
+          "text": "在家族群发最后一条消息：「感谢各位长辈的'关心'，我会继续整顿职场的，再见！」",
+          "effects": {
+            "mood": 25,
+            "face": -20,
+            "relative": -25
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "ren_5_evening_01_c",
+          "text": "默默收拾行李，留下一张纸条：「整顿职场，永不止步。」",
+          "effects": {
+            "mood": 20,
+            "face": -10,
+            "relative": -15
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_1_morning_01",
+      "event_name": "家族群红包风波",
+      "character_id": "hyq",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "春节家族群里，郝有乾穿着洗得发白的背心在群里发了个200元红包，备注写着\"就这点心意，别嫌弃\"。没想到群里其他亲戚纷纷炫耀自己发的红包，郝有乾默默看着，心想：你们发的加起来还没我一栋楼租金多。",
+      "options": [
+        {
+          "option_id": "hyq_1_morning_01_a",
+          "text": "低调再发一个，备注\"我这人没什么本事\"",
+          "effects": {
+            "money": -500,
+            "face": 10,
+            "mood": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_1_morning_01_b",
+          "text": "装作信号不好，潜水装死",
+          "effects": {
+            "money": 0,
+            "face": -5,
+            "mood": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_1_morning_01_c",
+          "text": "私聊群主，让群主说自己网卡了",
+          "effects": {
+            "money": -200,
+            "face": 5,
+            "mood": 15
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_1_noon_01",
+      "event_name": "远房侄子来借钱",
+      "character_id": "hyq",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "远房侄子突然登门拜访，开口就要借50万做生意。郝有乾穿着拖鞋和旧T恤，一脸为难地说：\"我这人没什么本事，就靠收点房租过日子，手头也紧啊...\"侄子看着破旧的客厅，将信将疑。",
+      "options": [
+        {
+          "option_id": "hyq_1_noon_01_a",
+          "text": "借5万，说\"这是我全部积蓄了\"",
+          "effects": {
+            "money": -50000,
+            "face": 15,
+            "mood": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_1_noon_01_b",
+          "text": "不借，带侄子参观\"最破\"的那套房",
+          "effects": {
+            "money": 0,
+            "face": -10,
+            "mood": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_1_noon_01_c",
+          "text": "借20万，但要求写欠条加利息",
+          "effects": {
+            "money": -200000,
+            "face": 5,
+            "mood": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_1_evening_01",
+      "event_name": "广场舞大妈的试探",
+      "character_id": "hyq",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "跳广场舞时，王阿姨旁敲侧击地问郝有乾有几套房。郝有乾憨厚一笑：\"就一套老破小，自己住着。\"王阿姨眼睛一亮，开始推销自己\"条件很好\"的侄女。",
+      "options": [
+        {
+          "option_id": "hyq_1_evening_01_a",
+          "text": "婉拒，说\"我这条件，别耽误人家姑娘\"",
+          "effects": {
+            "money": 0,
+            "face": 10,
+            "mood": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_1_evening_01_b",
+          "text": "答应见面，但穿最旧的衣服去",
+          "effects": {
+            "money": -500,
+            "face": -5,
+            "mood": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_1_evening_01_c",
+          "text": "转移话题，聊股市行情",
+          "effects": {
+            "money": 0,
+            "face": 5,
+            "mood": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_2_morning_01",
+      "event_name": "体制内表弟的炫耀",
+      "character_id": "hyq",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "表弟（某局小科长）来家里做客，全程炫耀自己的\"铁饭碗\"和\"社会地位\"。看到郝有乾的旧家具，表弟优越感爆棚：\"哥，你当年要是听我的考个公务员，现在也不至于...\"郝有乾默默给他倒了杯茶，心想：你一年工资还没我一个月租金多。",
+      "options": [
+        {
+          "option_id": "hyq_2_morning_01_a",
+          "text": "附和\"是啊，我这辈子就这样了\"",
+          "effects": {
+            "money": 0,
+            "face": 15,
+            "mood": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_2_morning_01_b",
+          "text": "\"不经意\"露出房产证一角",
+          "effects": {
+            "money": 0,
+            "face": 20,
+            "mood": 20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_2_morning_01_c",
+          "text": "请表弟去自家\"普通\"餐厅吃饭",
+          "effects": {
+            "money": -2000,
+            "face": 10,
+            "mood": 15
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_2_noon_01",
+      "event_name": "收租时的\"苦情戏\"",
+      "character_id": "hyq",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "去收租时，租客小李哭诉工资拖欠，请求缓一个月。郝有乾看着这个刚毕业的大学生，想起自己当年。他叹了口气：\"年轻人不容易啊，我也是从苦日子过来的...\"",
+      "options": [
+        {
+          "option_id": "hyq_2_noon_01_a",
+          "text": "减免半个月租金，传授\"吃苦\"经验",
+          "effects": {
+            "money": -1500,
+            "face": 10,
+            "mood": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_2_noon_01_b",
+          "text": "宽限一个月，但要签补充协议",
+          "effects": {
+            "money": 0,
+            "face": 5,
+            "mood": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_2_noon_01_c",
+          "text": "介绍租客去自己\"朋友\"的公司",
+          "effects": {
+            "money": 0,
+            "face": 15,
+            "mood": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_2_evening_01",
+      "event_name": "老同学聚会装穷",
+      "character_id": "hyq",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "高中同学聚会，大家都开豪车穿名牌。郝有乾骑着电动车、穿着旧夹克出现。同学们纷纷\"同情\"他，有人甚至说要帮他介绍工作。郝有乾憨厚地笑着：\"我这人没什么本事，就这样混日子...\"",
+      "options": [
+        {
+          "option_id": "hyq_2_evening_01_a",
+          "text": "全程装穷，享受被\"同情\"的感觉",
+          "effects": {
+            "money": -300,
+            "face": 20,
+            "mood": 20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_2_evening_01_b",
+          "text": "主动买单，说\"今天拆迁款刚到\"",
+          "effects": {
+            "money": -5000,
+            "face": 25,
+            "mood": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_2_evening_01_c",
+          "text": "AA制，说\"最近手头紧\"",
+          "effects": {
+            "money": -300,
+            "face": -5,
+            "mood": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_3_morning_01",
+      "event_name": "相亲对象的真面目",
+      "character_id": "hyq",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "经人介绍去相亲，对方是个30岁的\"优质剩女\"。一见面就问收入、房产、车子。郝有乾如实说\"就一套老房子，骑电动车\"，对方脸色瞬间变了，找了个借口匆匆离开。郝有乾看着她的背影，笑着摇了摇头。",
+      "options": [
+        {
+          "option_id": "hyq_3_morning_01_a",
+          "text": "追上去，给她看房产证照片",
+          "effects": {
+            "money": 0,
+            "face": 15,
+            "mood": 20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_3_morning_01_b",
+          "text": "默默离开，庆幸躲过一劫",
+          "effects": {
+            "money": 0,
+            "face": 5,
+            "mood": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_3_morning_01_c",
+          "text": "告诉媒人对方太势利",
+          "effects": {
+            "money": 0,
+            "face": 0,
+            "mood": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_3_noon_01",
+      "event_name": "亲戚的\"投资建议\"",
+      "character_id": "hyq",
+      "day": 3,
+      "time_slot": "noon",
+      "description": "表哥神秘兮兮地来找郝有乾，说有个\"稳赚不赔\"的投资项目，年化收益50%，问他要不要投个100万试试。郝有乾听完项目介绍，心里已经判定是骗局，但表面上还是一脸懵懂。",
+      "options": [
+        {
+          "option_id": "hyq_3_noon_01_a",
+          "text": "婉拒，说\"我就这点棺材本，不敢动\"",
+          "effects": {
+            "money": 0,
+            "face": 5,
+            "mood": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_3_noon_01_b",
+          "text": "暗示表哥这是骗局，劝他收手",
+          "effects": {
+            "money": 0,
+            "face": 10,
+            "mood": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_3_noon_01_c",
+          "text": "假装感兴趣，套取更多信息后报警",
+          "effects": {
+            "money": 0,
+            "face": 20,
+            "mood": 15
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_3_evening_01",
+      "event_name": "小区业主群的争论",
+      "character_id": "hyq",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "小区业主群里，有人提议涨物业费，说\"咱们小区有钱人那么多，不在乎这点\"。郝有乾作为拥有5套房的大业主，默默看着群里的争论。有人@他，问他意见。",
+      "options": [
+        {
+          "option_id": "hyq_3_evening_01_a",
+          "text": "反对涨价，说\"我就一套房，压力也大\"",
+          "effects": {
+            "money": 0,
+            "face": 10,
+            "mood": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_3_evening_01_b",
+          "text": "支持涨价，但要求公开账目",
+          "effects": {
+            "money": -5000,
+            "face": 15,
+            "mood": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_3_evening_01_c",
+          "text": "潜水不表态，暗中观察",
+          "effects": {
+            "money": 0,
+            "face": 0,
+            "mood": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_4_morning_01",
+      "event_name": "超市偶遇\"嫌贫爱富\"",
+      "character_id": "hyq",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "在超市买菜时，郝有乾穿着旧衣服在挑打折蔬菜。旁边一个打扮时髦的女人小声对同伴说：\"看看，这就是没本事的男人，连菜都要挑便宜的。\"郝有乾听到了，但装作没听见。",
+      "options": [
+        {
+          "option_id": "hyq_4_morning_01_a",
+          "text": "继续挑打折菜，心里暗笑",
+          "effects": {
+            "money": -50,
+            "face": 15,
+            "mood": 20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_4_morning_01_b",
+          "text": "\"不小心\"露出车钥匙",
+          "effects": {
+            "money": -50,
+            "face": 20,
+            "mood": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_4_morning_01_c",
+          "text": "礼貌地请她不要以貌取人",
+          "effects": {
+            "money": -50,
+            "face": 10,
+            "mood": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_4_noon_01",
+      "event_name": "被误认为装修工人",
+      "character_id": "hyq",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "郝有乾穿着旧工装去查看新装修的房子，在楼下被物业拦住：\"师傅，装修要办证的，你有证吗？\"郝有乾愣了一下，然后憨厚地笑了。",
+      "options": [
+        {
+          "option_id": "hyq_4_noon_01_a",
+          "text": "配合演出，说\"我这就去办\"",
+          "effects": {
+            "money": 0,
+            "face": 15,
+            "mood": 20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_4_noon_01_b",
+          "text": "亮出房产证，物业瞬间变脸",
+          "effects": {
+            "money": 0,
+            "face": 20,
+            "mood": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_4_noon_01_c",
+          "text": "解释误会，顺便和物业聊聊",
+          "effects": {
+            "money": 0,
+            "face": 10,
+            "mood": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_4_evening_01",
+      "event_name": "教育\"不想努力\"的年轻人",
+      "character_id": "hyq",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "邻居家的儿子小王来找郝有乾，说想跟他\"学收租\"，不想上班了。郝有乾听完，叹了口气，开始讲述自己当年拆迁前是怎么吃苦打拼的。",
+      "options": [
+        {
+          "option_id": "hyq_4_evening_01_a",
+          "text": "带他体验一天\"真实\"的收租生活",
+          "effects": {
+            "money": 0,
+            "face": 10,
+            "mood": 15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_4_evening_01_b",
+          "text": "劝他回去好好上班，别做梦",
+          "effects": {
+            "money": 0,
+            "face": 5,
+            "mood": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_4_evening_01_c",
+          "text": "介绍他去自己投资的创业公司",
+          "effects": {
+            "money": 0,
+            "face": 15,
+            "mood": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_5_morning_01",
+      "event_name": "村里的\"集资\"邀请",
+      "character_id": "hyq",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "老家村里来人，说要在村里搞个\"大项目\"，邀请郝有乾投资200万，承诺给他\"荣誉村民\"称号和分红。郝有乾一听就知道是集资骗局，但碍于情面不好直接拒绝。",
+      "options": [
+        {
+          "option_id": "hyq_5_morning_01_a",
+          "text": "\"哭穷\"说钱都套在股市里了",
+          "effects": {
+            "money": 0,
+            "face": 5,
+            "mood": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_5_morning_01_b",
+          "text": "投10万，说\"这是我全部流动资产\"",
+          "effects": {
+            "money": -100000,
+            "face": 15,
+            "mood": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_5_morning_01_c",
+          "text": "直接拒绝，说\"这项目不靠谱\"",
+          "effects": {
+            "money": 0,
+            "face": -5,
+            "mood": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_5_noon_01",
+      "event_name": "被网红主播\"碰瓷\"",
+      "character_id": "hyq",
+      "day": 5,
+      "time_slot": "noon",
+      "description": "郝有乾在街边小店吃面，被路过的网红主播拍到，配上文案\"看看这位大叔，一把年纪还在为生活奔波，太心酸了\"。视频火了，评论区全是\"同情\"和\"打赏\"。郝有乾的朋友把视频发给他，他哭笑不得。",
+      "options": [
+        {
+          "option_id": "hyq_5_noon_01_a",
+          "text": "联系主播澄清，要求删除视频",
+          "effects": {
+            "money": 0,
+            "face": 10,
+            "mood": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_5_noon_01_b",
+          "text": "不回应，让误会继续",
+          "effects": {
+            "money": 0,
+            "face": 15,
+            "mood": 20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_5_noon_01_c",
+          "text": "反向操作，开直播\"卖惨\"",
+          "effects": {
+            "money": 10000,
+            "face": 20,
+            "mood": 15
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hyq_5_evening_01",
+      "event_name": "终极低调炫富",
+      "character_id": "hyq",
+      "day": 5,
+      "time_slot": "evening",
+      "description": "家族大聚餐，所有人都在攀比。体制内表弟炫耀年终奖，做生意的堂哥炫耀新车，其他人也不甘示弱。轮到郝有乾时，他憨厚地举起茶杯：\"我这人没什么本事，就是房子多了几套，来，我以茶代酒，祝大家都能像我一样\"没出息\"！\"全场寂静。",
+      "options": [
+        {
+          "option_id": "hyq_5_evening_01_a",
+          "text": "\"谦虚\"地补充：\"真的不多，就七八套\"",
+          "effects": {
+            "money": -5000,
+            "face": 30,
+            "mood": 25
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_5_evening_01_b",
+          "text": "笑着打圆场，说\"开玩笑的\"",
+          "effects": {
+            "money": -2000,
+            "face": 20,
+            "mood": 20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hyq_5_evening_01_c",
+          "text": "直接买单，说\"这顿我请，别跟我抢\"",
+          "effects": {
+            "money": -8000,
+            "face": 25,
+            "mood": 20
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_1_morning_01",
+      "event_name": "家长群里的成绩单风暴",
+      "character_id": "bcl",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "期中考试成绩出来了！家长群里已经开始晒成绩单了。李妈妈的孩子数学98，张爸爸的孩子语文满分...你盯着自家孩子的成绩单——数学85，语文82。发还是不发？",
+      "options": [
+        {
+          "option_id": "bcl_1_morning_01_a",
+          "text": "硬着头皮晒，配文这次发挥一般，下次努力",
+          "effects": {
+            "面子": -5,
+            "心情": -10,
+            "健康": -2
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_1_morning_01_b",
+          "text": "只晒最高分那科，其他科目选择性失明",
+          "effects": {
+            "面子": 3,
+            "心情": 5,
+            "运气": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_1_morning_01_c",
+          "text": "沉默是金，假装没看到消息",
+          "effects": {
+            "面子": -10,
+            "心情": -15,
+            "健康": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_1_noon_01",
+      "event_name": "补习班的军备竞赛",
+      "character_id": "bcl",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "在补习班等候区，你遇到了鸡娃战友王妈妈。她得意地说她家孩子同时上着奥数、英语、钢琴、编程、围棋五个班。你数了数自家孩子才三个班，瞬间感到落后了...",
+      "options": [
+        {
+          "option_id": "bcl_1_noon_01_a",
+          "text": "当场给孩子再报两个班，不能输！",
+          "effects": {
+            "存款": -50000,
+            "面子": 10,
+            "心情": 5,
+            "健康": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_1_noon_01_b",
+          "text": "嘴硬说我们要素质教育，不拼数量拼质量",
+          "effects": {
+            "面子": -5,
+            "心情": -10,
+            "运气": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_1_noon_01_c",
+          "text": "转移话题，问她孩子睡眠几小时",
+          "effects": {
+            "心情": 5,
+            "面子": 0,
+            "健康": 3
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_1_evening_01",
+      "event_name": "大型社死现场",
+      "character_id": "bcl",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "亲戚聚会上，你正滔滔不绝地炫耀孩子多努力、成绩多好。突然孩子大声说：妈妈你骗人！我根本不想上那些班，是你逼我的！而且我数学才考了75分！全场寂静...",
+      "options": [
+        {
+          "option_id": "bcl_1_evening_01_a",
+          "text": "尴尬解释孩子谦虚，其实考得不错",
+          "effects": {
+            "面子": -20,
+            "心情": -20,
+            "健康": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_1_evening_01_b",
+          "text": "当场教训孩子不许顶嘴",
+          "effects": {
+            "面子": -10,
+            "心情": -15,
+            "健康": -5,
+            "运气": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_1_evening_01_c",
+          "text": "强颜欢笑说童言无忌，孩子就是实在",
+          "effects": {
+            "面子": -15,
+            "心情": -10,
+            "运气": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_2_morning_01",
+      "event_name": "教育专家被请教",
+      "character_id": "bcl",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "表弟突然打电话来，说想请教你怎么培养孩子。原来他孩子刚上幼儿园，想提前规划。你瞬间来了精神——终于有人认可你的教育理念了！",
+      "options": [
+        {
+          "option_id": "bcl_2_morning_01_a",
+          "text": "滔滔不绝讲两小时，从早教到高考规划全安排",
+          "effects": {
+            "面子": 15,
+            "心情": 20,
+            "健康": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_2_morning_01_b",
+          "text": "推荐自己用的所有补习班和教材",
+          "effects": {
+            "面子": 10,
+            "心情": 10,
+            "存款": -5000
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_2_morning_01_c",
+          "text": "谦虚说还在摸索中，但心里暗爽",
+          "effects": {
+            "面子": 5,
+            "心情": 15,
+            "运气": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_2_noon_01",
+      "event_name": "佛系家长vs鸡娃家长",
+      "character_id": "bcl",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "在家长会上，你遇到了传说中的佛系家长陈爸爸。他说：孩子快乐最重要，我们不报班，周末都去爬山。其他家长纷纷点赞。你感觉自己的世界观受到了冲击...",
+      "options": [
+        {
+          "option_id": "bcl_2_noon_01_a",
+          "text": "当场反驳现在快乐，将来怎么办？",
+          "effects": {
+            "面子": -5,
+            "心情": -10,
+            "健康": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_2_noon_01_b",
+          "text": "内心鄙视但表面附和每个孩子不一样",
+          "effects": {
+            "面子": 5,
+            "心情": -5,
+            "运气": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_2_noon_01_c",
+          "text": "晚上偷偷查他家孩子成绩——果然倒数",
+          "effects": {
+            "心情": 10,
+            "面子": 5,
+            "健康": -3
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_2_evening_01",
+      "event_name": "深夜抓包现场",
+      "character_id": "bcl",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "凌晨1点，你发现孩子房间还有光。推开门一看，孩子正偷偷玩手机游戏！作业一个字没写，明天还要测验。你的血压瞬间飙升到180...",
+      "options": [
+        {
+          "option_id": "bcl_2_evening_01_a",
+          "text": "没收手机，罚抄试卷十遍",
+          "effects": {
+            "心情": -15,
+            "健康": -15,
+            "面子": 0,
+            "运气": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_2_evening_01_b",
+          "text": "痛心疾首说教两小时，从游戏危害讲到人生规划",
+          "effects": {
+            "心情": -20,
+            "健康": -10,
+            "面子": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_2_evening_01_c",
+          "text": "冷静下来约定每天只能玩半小时",
+          "effects": {
+            "心情": -5,
+            "健康": -3,
+            "运气": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_3_morning_01",
+      "event_name": "家长会上的公开处刑",
+      "character_id": "bcl",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "家长会上，班主任点名表扬了几个进步大的同学——没有你孩子。然后点名批评了作业不认真的同学——有你孩子。你感觉全班的目光都聚焦在你身上...",
+      "options": [
+        {
+          "option_id": "bcl_3_morning_01_a",
+          "text": "会后立刻找老师道歉并询问补救方案",
+          "effects": {
+            "面子": -10,
+            "心情": -10,
+            "健康": -5,
+            "运气": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_3_morning_01_b",
+          "text": "强装镇定，心里已经想好今晚怎么教育孩子",
+          "effects": {
+            "面子": -5,
+            "心情": -15,
+            "健康": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_3_morning_01_c",
+          "text": "给其他家长解释最近家里有事影响了",
+          "effects": {
+            "面子": 3,
+            "心情": -5,
+            "运气": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_3_noon_01",
+      "event_name": "奥数班的饥饿游戏",
+      "character_id": "bcl",
+      "day": 3,
+      "time_slot": "noon",
+      "description": "顶级奥数班开放报名，只有30个名额。你凌晨5点就去排队，发现前面已经站了50个家长。有人带了折叠椅，有人带了帐篷，还有家长因为插队吵了起来...",
+      "options": [
+        {
+          "option_id": "bcl_3_noon_01_a",
+          "text": "加入排队大军，站了6小时终于抢到名额",
+          "effects": {
+            "存款": -30000,
+            "面子": 10,
+            "心情": 15,
+            "健康": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_3_noon_01_b",
+          "text": "找黄牛加价买名额",
+          "effects": {
+            "存款": -50000,
+            "面子": 5,
+            "心情": 5,
+            "运气": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_3_noon_01_c",
+          "text": "放弃排队，安慰自己奥数没用",
+          "effects": {
+            "面子": -10,
+            "心情": -15,
+            "健康": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_3_evening_01",
+      "event_name": "月考滑铁卢",
+      "character_id": "bcl",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "月考成绩出来了，孩子从班级前10掉到了第25名。你看着成绩单，手都在抖。更可怕的是，明天就是家长群晒成绩的日子...",
+      "options": [
+        {
+          "option_id": "bcl_3_evening_01_a",
+          "text": "连夜制定复仇计划，增加三个补习班",
+          "effects": {
+            "存款": -40000,
+            "心情": -10,
+            "健康": -15,
+            "面子": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_3_evening_01_b",
+          "text": "质问孩子你是不是偷偷玩游戏了？",
+          "effects": {
+            "心情": -20,
+            "健康": -10,
+            "运气": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_3_evening_01_c",
+          "text": "冷静分析试卷，找出薄弱环节",
+          "effects": {
+            "心情": -5,
+            "健康": -3,
+            "运气": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_4_morning_01",
+      "event_name": "凡尔赛家长的暴击",
+      "character_id": "bcl",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "家长群里，刘妈妈发了一条：唉，孩子这次只考了年级第三，比上次退步了两名，愁死我了。而且钢琴才过了八级，离十级还差得远呢。当家长真不容易啊~",
+      "options": [
+        {
+          "option_id": "bcl_4_morning_01_a",
+          "text": "忍不住回复您这是凡尔赛吧？",
+          "effects": {
+            "面子": -10,
+            "心情": -15,
+            "运气": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_4_morning_01_b",
+          "text": "默默截图发给自己的鸡娃战友吐槽",
+          "effects": {
+            "心情": 5,
+            "面子": 0,
+            "健康": 3
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_4_morning_01_c",
+          "text": "假装没看到，继续焦虑自己的事",
+          "effects": {
+            "心情": -10,
+            "面子": -5,
+            "健康": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_4_noon_01",
+      "event_name": "汇报演出的噩梦",
+      "character_id": "bcl",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "学校汇报演出，你家孩子表演钢琴独奏。你特意请了假，还邀请了几个亲戚来见证成果。结果孩子一上台就忘谱了，弹到一半哭着跑下台...",
+      "options": [
+        {
+          "option_id": "bcl_4_noon_01_a",
+          "text": "冲上台安慰孩子，但心里恨铁不成钢",
+          "effects": {
+            "面子": -20,
+            "心情": -20,
+            "健康": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_4_noon_01_b",
+          "text": "尴尬地跟亲戚解释孩子今天状态不好",
+          "effects": {
+            "面子": -15,
+            "心情": -15,
+            "运气": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_4_noon_01_c",
+          "text": "强颜欢笑说没关系，重在参与",
+          "effects": {
+            "面子": -10,
+            "心情": -10,
+            "健康": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_4_evening_01",
+      "event_name": "作业辅导的至暗时刻",
+      "character_id": "bcl",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "晚上10点，一道简单的数学题讲了8遍，孩子还是一脸茫然。你感觉自己的耐心已经耗尽，血压飙升，喉咙喊哑了。孩子却突然来了一句：妈妈，你生气的样子好可怕...",
+      "options": [
+        {
+          "option_id": "bcl_4_evening_01_a",
+          "text": "崩溃大哭我这么做都是为了谁啊！",
+          "effects": {
+            "心情": -25,
+            "健康": -20,
+            "面子": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_4_evening_01_b",
+          "text": "摔门而出，让爸爸接手",
+          "effects": {
+            "心情": -10,
+            "健康": -5,
+            "运气": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_4_evening_01_c",
+          "text": "深呼吸，明天请个家教",
+          "effects": {
+            "存款": -15000,
+            "心情": -5,
+            "健康": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_5_morning_01",
+      "event_name": "学区房的焦虑",
+      "character_id": "bcl",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "闺蜜打电话来，说她刚买了某重点小学的学区房，一平米12万。你算了算自己住的这套房对口的是普通学校，瞬间焦虑了——是不是也该换房了？",
+      "options": [
+        {
+          "option_id": "bcl_5_morning_01_a",
+          "text": "立刻联系中介看房，准备砸锅卖铁换学区房",
+          "effects": {
+            "存款": -200000,
+            "面子": 15,
+            "心情": 5,
+            "健康": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_5_morning_01_b",
+          "text": "纠结一晚上，决定先观望",
+          "effects": {
+            "心情": -15,
+            "健康": -5,
+            "运气": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_5_morning_01_c",
+          "text": "安慰自己是金子在哪都发光",
+          "effects": {
+            "心情": 5,
+            "面子": -5,
+            "运气": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_5_noon_01",
+      "event_name": "别人家孩子逆袭了",
+      "character_id": "bcl",
+      "day": 5,
+      "time_slot": "noon",
+      "description": "你一直认为成绩不如你家孩子的王小明，这次考试突然考了全班第一！他妈妈还谦虚地说：也没怎么管，就是孩子自己争气。你感觉受到了双重暴击...",
+      "options": [
+        {
+          "option_id": "bcl_5_noon_01_a",
+          "text": "追问对方到底报了什么班？有什么秘诀？",
+          "effects": {
+            "面子": -5,
+            "心情": -10,
+            "运气": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_5_noon_01_b",
+          "text": "回家质问孩子你怎么被王小明超过了？",
+          "effects": {
+            "心情": -15,
+            "健康": -10,
+            "运气": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_5_noon_01_c",
+          "text": "偷偷观察王小明的学习方法",
+          "effects": {
+            "心情": -5,
+            "健康": -3,
+            "运气": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "bcl_5_evening_01",
+      "event_name": "暑假的魔鬼日程",
+      "character_id": "bcl",
+      "day": 5,
+      "time_slot": "evening",
+      "description": "暑假快到了，各大补习班开始招生。你拿着排课表，想给孩子安排一个充实的假期：早上奥数，下午英语，晚上钢琴，周末还有作文和编程。孩子看到后哭了：妈妈，我想休息...",
+      "options": [
+        {
+          "option_id": "bcl_5_evening_01_a",
+          "text": "坚持全报，现在吃苦，将来享福",
+          "effects": {
+            "存款": -60000,
+            "面子": 10,
+            "心情": 5,
+            "健康": -15,
+            "运气": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_5_evening_01_b",
+          "text": "删掉两个班，留一点玩耍时间",
+          "effects": {
+            "存款": -35000,
+            "心情": -5,
+            "健康": 5,
+            "运气": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "bcl_5_evening_01_c",
+          "text": "心软了，只报一个班，其他时间自由安排",
+          "effects": {
+            "存款": -15000,
+            "面子": -10,
+            "心情": 10,
+            "健康": 10,
+            "运气": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_1_morning_01",
+      "event_name": "星巴克点单危机",
+      "character_id": "zyq",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "甄洋气走进星巴克，习惯性地用英文点单：\"Grande Americano, extra shot, no sugar.\" 店员一脸懵：\"先生，您能说中文吗？\" 后面排队的人开始窃窃私语，甄洋气瞬间尴尬，但还是坚持\"我在国外的时候都是这么点的\"...",
+      "options": [
+        {
+          "option_id": "zyq_1_morning_01_a",
+          "text": "坚持用英文，并耐心\"教育\"店员",
+          "effects": {
+            "mood": -10,
+            "face": -5,
+            "money": -35
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_1_morning_01_b",
+          "text": "不情愿地改用中文点单",
+          "effects": {
+            "mood": -5,
+            "face": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_1_morning_01_c",
+          "text": "直接离开，去更\"国际化\"的咖啡店",
+          "effects": {
+            "mood": 5,
+            "money": -50,
+            "face": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_1_noon_01",
+      "event_name": "同学聚会的工资拷问",
+      "character_id": "zyq",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "高中同学聚会，班长热情地介绍：\"这是我们班的海归精英甄洋气！\" 大家起哄让他请客。酒过三巡，有人突然问：\"洋气，你海归回来，月薪得有五六万吧？\" 甄洋气想起自己-18万的存款，手里的筷子微微颤抖...",
+      "options": [
+        {
+          "option_id": "zyq_1_noon_01_a",
+          "text": "含糊其辞：\"差不多吧，国外回来的都差不多\"",
+          "effects": {
+            "mood": -10,
+            "face": 15,
+            "money": -500
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_1_noon_01_b",
+          "text": "转移话题：\"我在国外的时候，大家从来不问工资，这是privacy\"",
+          "effects": {
+            "mood": -5,
+            "face": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_1_noon_01_c",
+          "text": "实话实说正在创业阶段，结果被嘲讽",
+          "effects": {
+            "mood": -20,
+            "face": -20
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_1_evening_01",
+      "event_name": "相亲遭遇本土精英",
+      "character_id": "zyq",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "甄洋气去相亲，对方是国内985硕士、大厂P8。他试图用\"我在国外的时候\"打开话题，结果对方淡淡地说：\"哦，我去年刚去硅谷出差过，也就那样吧。\" 甄洋气的优越感瞬间无处安放...",
+      "options": [
+        {
+          "option_id": "zyq_1_evening_01_a",
+          "text": "强行继续凡尔赛，列举国外经历",
+          "effects": {
+            "mood": -10,
+            "face": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_1_evening_01_b",
+          "text": "虚心请教对方的工作经验",
+          "effects": {
+            "mood": 5,
+            "face": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_1_evening_01_c",
+          "text": "借口有事先走，逃离尴尬现场",
+          "effects": {
+            "mood": -5,
+            "face": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_2_morning_01",
+      "event_name": "电梯里的文化冲击",
+      "character_id": "zyq",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "电梯里，甄洋气习惯性地站在右侧，把左侧留给赶时间的人。结果后面的大妈不耐烦地推他：\"站中间啊，挡什么道！\" 甄洋气想解释\"我在国外的时候，电梯都是靠右站的\"，但话到嘴边又咽了回去...",
+      "options": [
+        {
+          "option_id": "zyq_2_morning_01_a",
+          "text": "默默挪到中间，内心吐槽国内素质",
+          "effects": {
+            "mood": -5,
+            "face": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_2_morning_01_b",
+          "text": "礼貌地向大妈解释国际礼仪",
+          "effects": {
+            "mood": -10,
+            "face": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_2_morning_01_c",
+          "text": "假装没听见，坚持靠右站",
+          "effects": {
+            "mood": 5,
+            "face": -10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_2_noon_01",
+      "event_name": "西餐礼仪翻车现场",
+      "character_id": "zyq",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "甄洋气带客户吃西餐，熟练地展示刀叉礼仪，还\"贴心\"地教客户：\"我在国外的时候，都是从外向内用...\" 话没说完，服务员端上了筷子——这是家\"新中式西餐\"。客户笑着说：\"入乡随俗，我们用筷子吧。\"",
+      "options": [
+        {
+          "option_id": "zyq_2_noon_01_a",
+          "text": "坚持用刀叉，显示自己的国际化",
+          "effects": {
+            "mood": -5,
+            "face": -15,
+            "money": -200
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_2_noon_01_b",
+          "text": "尴尬地换成筷子，默默吃饭",
+          "effects": {
+            "mood": -10,
+            "face": -5,
+            "money": -200
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_2_noon_01_c",
+          "text": "自嘲一笑：\"看来我需要重新适应国内了\"",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "money": -200
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_2_evening_01",
+      "event_name": "朋友圈的凡尔赛反噬",
+      "character_id": "zyq",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "甄洋气发了条朋友圈：\"回国三个月，还是想念NYC的brunch culture，国内的早餐太不国际化了。\" 结果评论区炸了，有人回复：\"那你回去啊\"、\"装什么装\"、\"欠的18万还了吗\"。甄洋气看着手机，手指发抖...",
+      "options": [
+        {
+          "option_id": "zyq_2_evening_01_a",
+          "text": "删朋友圈，假装无事发生",
+          "effects": {
+            "mood": -15,
+            "face": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_2_evening_01_b",
+          "text": "硬刚回复：\"你们不懂国际化\"",
+          "effects": {
+            "mood": -5,
+            "face": -20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_2_evening_01_c",
+          "text": "私信那些评论的人解释",
+          "effects": {
+            "mood": -10,
+            "face": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_3_morning_01",
+      "event_name": "面试遭遇海归鄙视链",
+      "character_id": "zyq",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "甄洋气去面试，HR看着他的简历：\"澳洲硕士啊...\" 语气里带着微妙的意味。面试官接着问：\"你是一年制硕士吧？我们这边更prefer英美两年制的。\" 甄洋气想解释\"我在国外的时候，学历不是这么看的\"，但对方已经低头看下一个候选人的资料了...",
+      "options": [
+        {
+          "option_id": "zyq_3_morning_01_a",
+          "text": "据理力争，强调澳洲教育的含金量",
+          "effects": {
+            "mood": -10,
+            "face": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_3_morning_01_b",
+          "text": "忍气吞声，卑微地争取机会",
+          "effects": {
+            "mood": -15,
+            "face": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_3_morning_01_c",
+          "text": "直接离开：\"这种公司不配拥有我\"",
+          "effects": {
+            "mood": 5,
+            "face": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_3_noon_01",
+      "event_name": "家族群里的攀比大战",
+      "character_id": "zyq",
+      "day": 3,
+      "time_slot": "noon",
+      "description": "家族群里，表哥晒新车，表姐晒新房。甄洋气妈妈@他：\"洋气，你也晒晒你在国外的照片啊！\" 甄洋气翻遍相册，发现除了几张自拍，最拿得出手的只有图书馆和超市的照片。他硬着头皮发了张时代广场的照片，结果被表妹揭穿：\"这不是你朋友圈盗的图吗？\"",
+      "options": [
+        {
+          "option_id": "zyq_3_noon_01_a",
+          "text": "狡辩说是自己拍的，只是没发过",
+          "effects": {
+            "mood": -15,
+            "face": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_3_noon_01_b",
+          "text": "沉默装死，假装没看手机",
+          "effects": {
+            "mood": -10,
+            "face": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_3_noon_01_c",
+          "text": "转移话题，问大家最近怎么样",
+          "effects": {
+            "mood": -5,
+            "face": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_3_evening_01",
+      "event_name": "前任的结婚请柬",
+      "character_id": "zyq",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "甄洋气收到前任的结婚请柬，对方嫁给了一个\"普通\"的本地公务员。请柬里写着：\"感谢你当年的不娶之恩，让我找到了真正适合我的人。\" 甄洋气想起自己当年分手时说的话：\"我在国外见过更好的，我们不合适。\" 现在他看着请柬，心情复杂...",
+      "options": [
+        {
+          "option_id": "zyq_3_evening_01_a",
+          "text": "盛装出席，展示自己的\"成功\"",
+          "effects": {
+            "mood": -10,
+            "face": 10,
+            "money": -1000
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_3_evening_01_b",
+          "text": "找借口不去，省得尴尬",
+          "effects": {
+            "mood": -5,
+            "face": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_3_evening_01_c",
+          "text": "真诚祝福，承认自己当年的不成熟",
+          "effects": {
+            "mood": 10,
+            "face": 15
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_4_morning_01",
+      "event_name": "英文名的尴尬",
+      "character_id": "zyq",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "甄洋气去银行办业务，柜员叫号：\"下一位，甄...甄洋气先生。\" 他纠正道：\"请叫我Jason。\" 柜员愣了一下：\"好的，甄先生。\" 后面排队的大爷嘀咕：\"什么Jason，在中国就叫中国名！\" 甄洋气感觉自己的国际化人设受到了暴击...",
+      "options": [
+        {
+          "option_id": "zyq_4_morning_01_a",
+          "text": "坚持让对方叫Jason，否则不办业务",
+          "effects": {
+            "mood": -10,
+            "face": -15
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_4_morning_01_b",
+          "text": "无奈接受，内心mmp",
+          "effects": {
+            "mood": -5,
+            "face": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_4_morning_01_c",
+          "text": "自嘲：\"看来我的英文名在国内水土不服\"",
+          "effects": {
+            "mood": 5,
+            "face": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_4_noon_01",
+      "event_name": "创业路演的滑铁卢",
+      "character_id": "zyq",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "甄洋气参加创业路演，PPT里全是英文术语和硅谷案例。投资人打断他：\"你能用中文解释一下你的商业模式吗？还有，你的团队在国内吗？\" 甄洋气支支吾吾：\"我在国外的时候，这种项目很火的...\" 投资人摇摇头：\"我们要的是接地气的项目。\"",
+      "options": [
+        {
+          "option_id": "zyq_4_noon_01_a",
+          "text": "继续强调国际化视野的重要性",
+          "effects": {
+            "mood": -15,
+            "face": -20
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_4_noon_01_b",
+          "text": "虚心接受批评，表示会调整方向",
+          "effects": {
+            "mood": 5,
+            "face": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_4_noon_01_c",
+          "text": "愤然离场，觉得投资人没眼光",
+          "effects": {
+            "mood": 0,
+            "face": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_4_evening_01",
+      "event_name": "租房歧视链",
+      "character_id": "zyq",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "甄洋气看中一套公寓，房东问：\"你是做什么的？\" 他自信地回答：\"海归，创业。\" 房东却皱眉：\"海归啊... 那你能提供国内担保人吗？还有，你得付半年押金。\" 甄洋气不解：\"我在国外的时候，租房很灵活的...\" 房东冷笑：\"这是国内，规矩不一样。\"",
+      "options": [
+        {
+          "option_id": "zyq_4_evening_01_a",
+          "text": "咬牙接受不平等条款",
+          "effects": {
+            "mood": -10,
+            "face": -10,
+            "money": -15000
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_4_evening_01_b",
+          "text": "据理力争，要求平等待遇",
+          "effects": {
+            "mood": -5,
+            "face": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_4_evening_01_c",
+          "text": "愤然离开，找更\"国际化\"的公寓",
+          "effects": {
+            "mood": 5,
+            "face": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_5_morning_01",
+      "event_name": "健身房的文化碰撞",
+      "character_id": "zyq",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "健身房里，甄洋气做完一组训练，习惯性地把哑铃轻轻放回架子上。旁边的大哥却\"哐\"地把哑铃扔在地上，还瞪了他一眼：\"装什么文明，这里是健身房！\" 甄洋气想解释\"我在国外的时候，健身房都要轻拿轻放\"，但看着大哥的肌肉，他选择了沉默...",
+      "options": [
+        {
+          "option_id": "zyq_5_morning_01_a",
+          "text": "勇敢指出对方的不文明行为",
+          "effects": {
+            "mood": -5,
+            "face": 10,
+            "health": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_5_morning_01_b",
+          "text": "默默离开，换一家健身房",
+          "effects": {
+            "mood": -5,
+            "face": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_5_morning_01_c",
+          "text": "假装没看见，继续自己的训练",
+          "effects": {
+            "mood": -10,
+            "face": 0,
+            "health": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_5_noon_01",
+      "event_name": "父母的催婚攻势",
+      "character_id": "zyq",
+      "day": 5,
+      "time_slot": "noon",
+      "description": "甄洋气回家吃饭，妈妈又开始了：\"隔壁王阿姨的儿子，大专毕业，孩子都会打酱油了。你海归回来，连个对象都没有！\" 爸爸补刀：\"就是，什么国际化，连老婆都国际化不来！\" 甄洋气试图用\"我在国外的时候，大家30岁都不着急\"来辩解，结果被妈妈一句话怼死：\"那你倒是找个外国媳妇啊！\"",
+      "options": [
+        {
+          "option_id": "zyq_5_noon_01_a",
+          "text": "承诺尽快找对象，安抚父母",
+          "effects": {
+            "mood": -5,
+            "face": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_5_noon_01_b",
+          "text": "反驳父母的陈旧观念",
+          "effects": {
+            "mood": -15,
+            "face": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_5_noon_01_c",
+          "text": "借故有事，逃离催婚现场",
+          "effects": {
+            "mood": 5,
+            "face": -5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "zyq_5_evening_01",
+      "event_name": "深夜的身份认同危机",
+      "character_id": "zyq",
+      "day": 5,
+      "time_slot": "evening",
+      "description": "深夜，甄洋气独自坐在出租屋里，翻着国外的朋友圈。曾经的同学有的留在了当地，有的已经拿到绿卡。他看着镜中的自己，突然迷茫了：我到底是哪里人？国外回不去，国内融不进。\"我在国外的时候\"这句话，说了无数遍，却越来越像个笑话。他打开一瓶啤酒，陷入了沉思...",
+      "options": [
+        {
+          "option_id": "zyq_5_evening_01_a",
+          "text": "给国外的朋友打电话，寻求认同",
+          "effects": {
+            "mood": 5,
+            "face": 0,
+            "money": -100
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_5_evening_01_b",
+          "text": "写日记，梳理自己的情绪",
+          "effects": {
+            "mood": 10,
+            "face": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "zyq_5_evening_01_c",
+          "text": "买醉，暂时逃避现实",
+          "effects": {
+            "mood": 0,
+            "health": -10,
+            "money": -200
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_1_morning_01",
+      "event_name": "三缺一的召唤",
+      "character_id": "hsw",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "清晨，胡三万还在睡梦中，手机铃声大作。是老张打来的：\"三万！快来！三缺一！血战到底！\"你迷迷糊糊地看了眼时间——早上7点。",
+      "options": [
+        {
+          "option_id": "hsw_1_morning_01_a",
+          "text": "\"来嘛！马上到！\"——雀圣从不拒绝三缺一",
+          "effects": {
+            "mood": 10,
+            "health": -5,
+            "money": 0
+          },
+          "next_event": "hsw_1_morning_02"
+        },
+        {
+          "option_id": "hsw_1_morning_01_b",
+          "text": "\"太早了嘛，下午再说\"——拒绝邀约继续睡觉",
+          "effects": {
+            "mood": -5,
+            "health": 5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_1_morning_02",
+      "event_name": "早场血战",
+      "character_id": "hsw",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "你顶着黑眼圈赶到茶馆，老张、老李、老王已经摆好阵势。\"三万，你来得正好，今天手气旺得很！\"你搓搓手，坐下就是干！",
+      "options": [
+        {
+          "option_id": "hsw_1_morning_02_a",
+          "text": "全力以赴，血战到底！",
+          "effects": {
+            "mood": 15,
+            "health": -10,
+            "money": 500,
+            "luck": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_1_noon_01",
+      "event_name": "老婆的电话",
+      "character_id": "hsw",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "正打得兴起，老婆打来电话：\"胡三万！你娃又去打麻将了？中午饭都不回来吃？娃儿问你啥时候回来！\"电话那头传来孩子的哭声。",
+      "options": [
+        {
+          "option_id": "hsw_1_noon_01_a",
+          "text": "\"再打两盘就回来！\"——继续战斗",
+          "effects": {
+            "mood": 5,
+            "face": -10,
+            "money": 200
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_1_noon_01_b",
+          "text": "\"马上回来！\"——放下牌局回家",
+          "effects": {
+            "mood": -5,
+            "face": 10,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_1_evening_01",
+      "event_name": "牌桌上的恩怨",
+      "character_id": "hsw",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "晚上，你又在老地方遇到了死对头赵四。上次你胡了他的清一色，他记恨到现在。\"三万，今天我要报仇！\"赵四咬牙切齿地说。",
+      "options": [
+        {
+          "option_id": "hsw_1_evening_01_a",
+          "text": "\"来嘛，谁怕谁！\"——正面硬刚",
+          "effects": {
+            "mood": 10,
+            "face": 5,
+            "money": 800,
+            "luck": 3
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_1_evening_01_b",
+          "text": "\"四哥，上次是运气，今天让你赢回来\"——故意放水",
+          "effects": {
+            "mood": -5,
+            "face": 15,
+            "money": -300
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_2_morning_01",
+      "event_name": "新手的挑战",
+      "character_id": "hsw",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "茶馆来了个愣头青，听说你是雀圣，非要跟你单挑。\"大叔，敢不敢跟我打一盘？输了我请你吃火锅！\"年轻人满脸傲气。",
+      "options": [
+        {
+          "option_id": "hsw_2_morning_01_a",
+          "text": "\"小娃娃，让你见识哈啥子叫雀圣！\"——接受挑战",
+          "effects": {
+            "mood": 10,
+            "face": 10,
+            "money": 200
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_2_morning_01_b",
+          "text": "\"年轻人，麻将不是这么打嘞，我教你两招\"——收徒传艺",
+          "effects": {
+            "mood": 5,
+            "face": 15,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_2_noon_01",
+      "event_name": "输赢纠纷",
+      "character_id": "hsw",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "中午，你胡了一把大牌，但老王非说你诈胡。\"三万，你这牌明明不能胡！把钱退出来！\"气氛瞬间紧张起来。",
+      "options": [
+        {
+          "option_id": "hsw_2_noon_01_a",
+          "text": "\"老王，你眼睛长后脑勺了嗦？这牌清清楚楚！\"——据理力争",
+          "effects": {
+            "mood": -5,
+            "face": -5,
+            "money": 0
+          },
+          "next_event": "hsw_2_noon_02"
+        },
+        {
+          "option_id": "hsw_2_noon_01_b",
+          "text": "\"好好好，老王，算我让你一盘\"——息事宁人",
+          "effects": {
+            "mood": -10,
+            "face": 5,
+            "money": -200
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_2_noon_02",
+      "event_name": "雀圣的尊严",
+      "character_id": "hsw",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "你坚持自己没有诈胡，把牌摊开来给大家看。老张仔细看了看：\"老王，三万这牌确实能胡，你看这搭子...\"老王脸涨得通红。",
+      "options": [
+        {
+          "option_id": "hsw_2_noon_02_a",
+          "text": "\"老王，输得起才赢得起，莫丢份！\"——教训一番",
+          "effects": {
+            "mood": 10,
+            "face": 10,
+            "money": 200
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_2_noon_02_b",
+          "text": "\"老王，算了算了，一盘牌而已，莫伤和气\"——大度化解",
+          "effects": {
+            "mood": 5,
+            "face": 20,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_2_evening_01",
+      "event_name": "家庭矛盾爆发",
+      "character_id": "hsw",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "你刚踏进家门，老婆就爆发了：\"胡三万！你天天打麻将，这个家还要不要了？娃儿的学费你交了吗？\"老婆把麻将牌摔在地上。",
+      "options": [
+        {
+          "option_id": "hsw_2_evening_01_a",
+          "text": "\"我打麻将也是为了赢钱养家嘛！\"——辩解",
+          "effects": {
+            "mood": -10,
+            "face": -15,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_2_evening_01_b",
+          "text": "\"老婆，我错了，以后少打点\"——认错道歉",
+          "effects": {
+            "mood": -5,
+            "face": 10,
+            "health": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_3_morning_01",
+      "event_name": "牌品考验",
+      "character_id": "hsw",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "早上，你发现老张多摸了一张牌。他脸色变了，但装作若无其事。这是考验你牌品的时候——揭发他还是装作没看见？",
+      "options": [
+        {
+          "option_id": "hsw_3_morning_01_a",
+          "text": "\"老张，你多摸了一张\"——当场揭发",
+          "effects": {
+            "mood": 0,
+            "face": 15,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_3_morning_01_b",
+          "text": "装作没看见——给老张留面子",
+          "effects": {
+            "mood": -5,
+            "face": -5,
+            "money": -100
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_3_noon_01",
+      "event_name": "麻将教学",
+      "character_id": "hsw",
+      "day": 3,
+      "time_slot": "noon",
+      "description": "中午，隔壁王婶想学麻将，专门来找你请教。\"三万师傅，你教教我嘛，我也想跟她们一起玩。\"王婶一脸期待。",
+      "options": [
+        {
+          "option_id": "hsw_3_noon_01_a",
+          "text": "\"来嘛，我教你，先从认牌开始\"——耐心教学",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "money": 0
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_3_noon_01_b",
+          "text": "\"王婶，麻将水深，你还是莫学咯\"——婉拒",
+          "effects": {
+            "mood": 0,
+            "face": -5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_3_evening_01",
+      "event_name": "深夜牌局",
+      "character_id": "hsw",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "深夜，牌局进入白热化。你已经连输三把，但你的眼神越发锐利。\"来嘛，血战到底！\"你摸起一张牌——自摸！清一色！",
+      "options": [
+        {
+          "option_id": "hsw_3_evening_01_a",
+          "text": "\"胡了！清一色自摸！\"——大声宣布",
+          "effects": {
+            "mood": 20,
+            "face": 10,
+            "money": 1000,
+            "luck": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_4_morning_01",
+      "event_name": "雀圣的传说",
+      "character_id": "hsw",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "早上到茶馆，发现一群人在议论纷纷。原来昨晚有人吹嘘自己赢了你，说你\"不过如此\"。你的名声受到了挑战！",
+      "options": [
+        {
+          "option_id": "hsw_4_morning_01_a",
+          "text": "\"哪个说的？让他出来跟我打一盘！\"——应战",
+          "effects": {
+            "mood": 10,
+            "face": 15,
+            "money": 500
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_4_morning_01_b",
+          "text": "\"随他去，清者自清\"——不屑一顾",
+          "effects": {
+            "mood": 5,
+            "face": 5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_4_noon_01",
+      "event_name": "牌友借钱",
+      "character_id": "hsw",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "中午，老李输光了钱，红着脸来找你：\"三万，借我五百块翻本，赢了马上还你！\"老李是你多年的牌友，但你知道他借钱很少还。",
+      "options": [
+        {
+          "option_id": "hsw_4_noon_01_a",
+          "text": "\"拿去，赢了记得还\"——借钱给他",
+          "effects": {
+            "mood": 0,
+            "face": 10,
+            "money": -500
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_4_noon_01_b",
+          "text": "\"老李，今天手气不好，莫打了，回去休息\"——婉拒",
+          "effects": {
+            "mood": -5,
+            "face": -5,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_4_evening_01",
+      "event_name": "麻将与人生",
+      "character_id": "hsw",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "晚上，你独自坐在牌桌前，看着窗外的夜景。老婆带着孩子回娘家了，留下一张字条：\"等你什么时候不打麻将了，我们再回来。\"",
+      "options": [
+        {
+          "option_id": "hsw_4_evening_01_a",
+          "text": "\"麻将就是我的命！\"——继续沉沦",
+          "effects": {
+            "mood": -10,
+            "face": -20,
+            "health": -10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "hsw_4_evening_01_b",
+          "text": "\"也许...我真的该改改了\"——反思",
+          "effects": {
+            "mood": -5,
+            "face": 10,
+            "health": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_5_morning_01",
+      "event_name": "最后的牌局",
+      "character_id": "hsw",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "清晨，老张打来电话：\"三万，今天最后一盘，打完我要跟儿子去外地了。\"你沉默了一会儿，这是老友的告别牌局。",
+      "options": [
+        {
+          "option_id": "hsw_5_morning_01_a",
+          "text": "\"来嘛，老张，今天陪你血战到底！\"——赴约",
+          "effects": {
+            "mood": 15,
+            "face": 20,
+            "money": 0
+          },
+          "next_event": "hsw_5_morning_02"
+        },
+        {
+          "option_id": "hsw_5_morning_01_b",
+          "text": "\"老张，我不来了，你一路顺风\"——拒绝",
+          "effects": {
+            "mood": -10,
+            "face": -10,
+            "money": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "hsw_5_morning_02",
+      "event_name": "雀圣的告别",
+      "character_id": "hsw",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "牌桌上，你和老张打得难分难解。最后一盘，你摸到一张牌，可以胡老张的大牌，但你犹豫了。\"老张，这张牌我不胡了，送你。\"",
+      "options": [
+        {
+          "option_id": "hsw_5_morning_02_a",
+          "text": "\"老张，一路顺风，有空回来打麻将！\"——送别老友",
+          "effects": {
+            "mood": 10,
+            "face": 30,
+            "money": -500,
+            "health": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_1_morning_01",
+      "event_name": "家庭审判大会",
+      "character_id": "wra",
+      "day": 1,
+      "time_slot": "morning",
+      "description": "周末回家，七大姑八大姨齐聚一堂，开启'审判模式'。二姨：'隔壁老王家的儿子，虽然离过婚但条件不错'；三姑：'女人过了35就没人要了'；你妈在一旁叹气：'我什么时候才能抱上外孙啊...'",
+      "options": [
+        {
+          "option_id": "wra_1_morning_01_a",
+          "text": "据理力争：'我不是剩下的，我是宁缺毋滥！'",
+          "effects": {
+            "mood": -10,
+            "face": -5,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_1_morning_01_b",
+          "text": "战术性撤退：假装接电话逃离战场",
+          "effects": {
+            "mood": 5,
+            "face": -10,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_1_morning_01_c",
+          "text": "沉默是金：低头扒饭，任凭风吹雨打",
+          "effects": {
+            "mood": -5,
+            "face": 5,
+            "health": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_1_noon_01",
+      "event_name": "相亲第一弹：妈宝男",
+      "character_id": "wra",
+      "day": 1,
+      "time_slot": "noon",
+      "description": "你妈硬塞的相亲对象，一见面就说：'我妈说了，婚后要和我妈住一起'、'我妈说你这个发型不太端庄'、'我妈...'你数了一下，30分钟说了28次'我妈'。",
+      "options": [
+        {
+          "option_id": "wra_1_noon_01_a",
+          "text": "礼貌拒绝：'我觉得我们不太合适'",
+          "effects": {
+            "mood": -5,
+            "face": 5,
+            "health": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_1_noon_01_b",
+          "text": "灵魂拷问：'那你妈同意你出来相亲吗？'",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_1_noon_01_c",
+          "text": "AA制逃离：'这顿饭我们AA，我先走了'",
+          "effects": {
+            "money": -200,
+            "mood": 5,
+            "face": 0
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_1_evening_01",
+      "event_name": "相亲第二弹：普信男",
+      "character_id": "wra",
+      "day": 1,
+      "time_slot": "evening",
+      "description": "对方一坐下就开始'自我介绍'：'我月薪8000，在县城有两套房，追我的女生从城东排到城西。你虽然年纪大了点，但我不嫌弃，婚后你就辞职在家带孩子吧。'",
+      "options": [
+        {
+          "option_id": "wra_1_evening_01_a",
+          "text": "直接怼回去：'你哪来的自信？'",
+          "effects": {
+            "mood": 15,
+            "face": -10,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_1_evening_01_b",
+          "text": "优雅反击：'那您慢慢等排到城西的女生吧'",
+          "effects": {
+            "mood": 10,
+            "face": 5,
+            "health": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_1_evening_01_c",
+          "text": "拿出手机录音：'您能再说一遍吗？我想发朋友圈'",
+          "effects": {
+            "mood": 20,
+            "face": -5,
+            "luck": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_2_morning_01",
+      "event_name": "深夜来电",
+      "character_id": "wra",
+      "day": 2,
+      "time_slot": "morning",
+      "description": "凌晨1点，你妈突然打电话来：'闺女，妈睡不着，想到你还没对象就心慌...你爸今天又说，隔壁老张都当爷爷了...'电话那头传来抽泣声。",
+      "options": [
+        {
+          "option_id": "wra_2_morning_01_a",
+          "text": "安慰妈妈：'妈，我会找到的，您别操心了'",
+          "effects": {
+            "mood": -10,
+            "face": 5,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_2_morning_01_b",
+          "text": "转移话题：'妈，您最近广场舞跳得怎么样？'",
+          "effects": {
+            "mood": 5,
+            "face": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_2_morning_01_c",
+          "text": "实话实说：'妈，我一个人过得挺好的'",
+          "effects": {
+            "mood": 10,
+            "face": -10,
+            "health": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_2_noon_01",
+      "event_name": "相亲第三弹：抠门精",
+      "character_id": "wra",
+      "day": 2,
+      "time_slot": "noon",
+      "description": "约在奶茶店见面，对方点了一杯最便宜的柠檬水，然后'大方'地说：'你随便点，我请客。'你点了杯20块的奶茶，他脸色瞬间变了。结账时，他说：'我们AA吧，现在男女平等。'",
+      "options": [
+        {
+          "option_id": "wra_2_noon_01_a",
+          "text": "爽快付钱：'行，以后别联系了'",
+          "effects": {
+            "money": -20,
+            "mood": 5,
+            "face": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_2_noon_01_b",
+          "text": "较真到底：'你柠檬水8块，我奶茶20，你转我6块'",
+          "effects": {
+            "mood": 15,
+            "face": -5,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_2_noon_01_c",
+          "text": "请他喝：'算了，这顿我请，当是扶贫了'",
+          "effects": {
+            "money": -28,
+            "mood": 10,
+            "face": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_2_evening_01",
+      "event_name": "独处时光",
+      "character_id": "wra",
+      "day": 2,
+      "time_slot": "evening",
+      "description": "拒绝了今晚的相亲安排，一个人窝在沙发上看电影。窗外万家灯火，你突然想：也许一个人也挺好？至少不用将就，不用委屈自己。你给自己点了份外卖，打开了一瓶红酒。",
+      "options": [
+        {
+          "option_id": "wra_2_evening_01_a",
+          "text": "享受独处：'这才是我想要的生活'",
+          "effects": {
+            "money": -150,
+            "mood": 20,
+            "health": 10,
+            "face": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_2_evening_01_b",
+          "text": "发朋友圈：配文'一个人的精彩'",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_2_evening_01_c",
+          "text": "给妈妈打电话：'妈，我今天很开心'",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "health": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_3_morning_01",
+      "event_name": "相亲第四弹：油腻大叔",
+      "character_id": "wra",
+      "day": 3,
+      "time_slot": "morning",
+      "description": "对方45岁，头顶微秃，一见面就说：'小姑娘，我虽然年纪大了点，但成熟稳重会疼人。你跟着我，保证让你吃香的喝辣的。'说完还试图摸你的手。",
+      "options": [
+        {
+          "option_id": "wra_3_morning_01_a",
+          "text": "抽回手：'不好意思，我对油腻过敏'",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "health": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_3_morning_01_b",
+          "text": "直接走人：'抱歉，我还有事'",
+          "effects": {
+            "mood": 5,
+            "face": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_3_morning_01_c",
+          "text": "反将一军：'大叔，您这年纪当我爸都够了'",
+          "effects": {
+            "mood": 15,
+            "face": -10,
+            "luck": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_3_noon_01",
+      "event_name": "朋友圈的暴击",
+      "character_id": "wra",
+      "day": 3,
+      "time_slot": "noon",
+      "description": "刷朋友圈，发现大学同学又晒婚纱照了。配文：'终于找到对的人，感谢上天的安排。'评论区一片祝福。你默默点赞，心里五味杂陈。更扎心的是，你妈秒回：'你看看人家！'",
+      "options": [
+        {
+          "option_id": "wra_3_noon_01_a",
+          "text": "关掉手机：眼不见为净",
+          "effects": {
+            "mood": -5,
+            "face": 0,
+            "health": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_3_noon_01_b",
+          "text": "回复妈妈：'每个人的节奏不一样'",
+          "effects": {
+            "mood": -10,
+            "face": -5,
+            "health": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_3_noon_01_c",
+          "text": "发一条朋友圈：'单身贵族，自在逍遥'",
+          "effects": {
+            "mood": 10,
+            "face": -10,
+            "luck": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_3_evening_01",
+      "event_name": "相亲第五弹：直男癌晚期",
+      "character_id": "wra",
+      "day": 3,
+      "time_slot": "evening",
+      "description": "对方一开口就问你：'你会做饭吗？会做家务吗？婚后能辞职带孩子吗？我妈说女人就该相夫教子...对了，你工资多少？婚后工资卡要上交给我妈保管。'",
+      "options": [
+        {
+          "option_id": "wra_3_evening_01_a",
+          "text": "冷笑：'您还是找保姆吧'",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_3_evening_01_b",
+          "text": "耐心教育：'现在是21世纪了'",
+          "effects": {
+            "mood": -5,
+            "face": 5,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_3_evening_01_c",
+          "text": "假装同意：'好啊，那你先给我买个包'",
+          "effects": {
+            "mood": 15,
+            "face": 0,
+            "luck": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_4_morning_01",
+      "event_name": "相亲角奇遇",
+      "character_id": "wra",
+      "day": 4,
+      "time_slot": "morning",
+      "description": "你妈硬拉你去人民公园的相亲角。你的资料被挂在绳子上：'女，35岁，本科，有房，急寻良缘。'一群大爷大妈围上来，像看商品一样打量你。一个大妈问：'还能生孩子吗？'",
+      "options": [
+        {
+          "option_id": "wra_4_morning_01_a",
+          "text": "礼貌回答：'阿姨，这个看缘分'",
+          "effects": {
+            "mood": -10,
+            "face": 5,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_4_morning_01_b",
+          "text": "怼回去：'您儿子能生吗？'",
+          "effects": {
+            "mood": 15,
+            "face": -15,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_4_morning_01_c",
+          "text": "拉妈妈离开：'妈，我们走吧，太丢人了'",
+          "effects": {
+            "mood": -5,
+            "face": -10,
+            "health": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_4_noon_01",
+      "event_name": "相亲第六弹：海王",
+      "character_id": "wra",
+      "day": 4,
+      "time_slot": "noon",
+      "description": "对方条件不错，谈吐也还可以。但聊天过程中，他的手机不断震动，他频繁看手机回复消息。你无意中瞥见，微信置顶有5个'宝贝'，分别是'宝贝1号'到'宝贝5号'。",
+      "options": [
+        {
+          "option_id": "wra_4_noon_01_a",
+          "text": "假装没看见：'我去下洗手间'（然后消失）",
+          "effects": {
+            "mood": 5,
+            "face": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_4_noon_01_b",
+          "text": "直接戳穿：'您这宝贝挺多啊'",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "luck": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_4_noon_01_c",
+          "text": "幽默化解：'看来我是宝贝6号候选人？'",
+          "effects": {
+            "mood": 15,
+            "face": 5,
+            "health": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_4_evening_01",
+      "event_name": "闺蜜夜话",
+      "character_id": "wra",
+      "day": 4,
+      "time_slot": "evening",
+      "description": "和已婚闺蜜小聚，她吐槽婚姻的各种烦恼：婆媳关系、育儿压力、老公不管家...最后她说：'其实挺羡慕你的，自由自在，想干嘛干嘛。'你陷入了沉思。",
+      "options": [
+        {
+          "option_id": "wra_4_evening_01_a",
+          "text": "安慰闺蜜：'婚姻也有婚姻的好'",
+          "effects": {
+            "mood": 5,
+            "face": 10,
+            "health": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_4_evening_01_b",
+          "text": "自我肯定：'是啊，单身也挺好'",
+          "effects": {
+            "mood": 15,
+            "face": 5,
+            "health": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_4_evening_01_c",
+          "text": "请闺蜜吃饭：'来，咱们不醉不归'",
+          "effects": {
+            "money": -300,
+            "mood": 20,
+            "face": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_5_morning_01",
+      "event_name": "相亲第七弹：凤凰男",
+      "character_id": "wra",
+      "day": 5,
+      "time_slot": "morning",
+      "description": "对方来自农村，靠自己的努力在城市站稳脚跟。这本该令人敬佩，但他开口就是：'我好不容易混到今天，婚后你要帮我照顾老家的父母，还有我那个没工作的弟弟，也要住到我们家。'",
+      "options": [
+        {
+          "option_id": "wra_5_morning_01_a",
+          "text": "明确拒绝：'抱歉，我伺候不起'",
+          "effects": {
+            "mood": 5,
+            "face": 0,
+            "health": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_5_morning_01_b",
+          "text": "试图沟通：'孝顺是好事，但也要量力而行'",
+          "effects": {
+            "mood": -5,
+            "face": 5,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_5_morning_01_c",
+          "text": "反问他：'那你能给我什么？'",
+          "effects": {
+            "mood": 10,
+            "face": -5,
+            "luck": 5
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_5_noon_01",
+      "event_name": "家族群轰炸",
+      "character_id": "wra",
+      "day": 5,
+      "time_slot": "noon",
+      "description": "家族微信群里，大舅突然@你：'仁爱啊，你表弟都生二胎了，你什么时候带个对象回来？'紧接着，七大姑八大姨纷纷响应，各种'关心'刷屏。你妈发了个叹气的表情。",
+      "options": [
+        {
+          "option_id": "wra_5_noon_01_a",
+          "text": "装死：假装没看见，不回复",
+          "effects": {
+            "mood": -5,
+            "face": -5,
+            "health": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_5_noon_01_b",
+          "text": "统一回复：'在找了在找了'",
+          "effects": {
+            "mood": -10,
+            "face": 0,
+            "luck": 5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_5_noon_01_c",
+          "text": "退群：'不好意思，打扰了'",
+          "effects": {
+            "mood": 15,
+            "face": -20,
+            "health": 10
+          },
+          "next_event": null
+        }
+      ]
+    },
+    {
+      "event_id": "wra_5_evening_01",
+      "event_name": "宁缺毋滥的宣言",
+      "character_id": "wra",
+      "day": 5,
+      "time_slot": "evening",
+      "description": "经历了这么多奇葩相亲，你终于想通了。你给妈妈发了一条长微信：'妈，我知道您着急，但我真的不想将就。与其找个不合适的人凑合过一辈子，不如一个人精彩地活。我不是剩下的，我是宁缺毋滥。请相信我，我会找到对的人的。'",
+      "options": [
+        {
+          "option_id": "wra_5_evening_01_a",
+          "text": "等待妈妈的回复，心里忐忑不安",
+          "effects": {
+            "mood": -5,
+            "face": 5,
+            "health": -5
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_5_evening_01_b",
+          "text": "给自己买件礼物，奖励坚持的自己",
+          "effects": {
+            "money": -500,
+            "mood": 20,
+            "face": 10,
+            "health": 10
+          },
+          "next_event": null
+        },
+        {
+          "option_id": "wra_5_evening_01_c",
+          "text": "发朋友圈：配文'宁缺毋滥，静待花开'",
+          "effects": {
+            "mood": 15,
+            "face": 5,
+            "luck": 15
+          },
+          "next_event": null
+        }
+      ]
+    }
+  ]
+}

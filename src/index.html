@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>春节模拟器 - Spring Festival Simulator</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tailwind Config for Custom Colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'festive-red': '#d42c2c',
+                        'festive-red-dark': '#b91c1c',
+                        'festive-red-deep': '#4a0404',
+                        'festive-gold': '#fbbf24',
+                        'festive-gold-light': '#fcd34d',
+                    },
+                    fontFamily: {
+                        'festive': ['"Ma Shan Zheng"', 'cursive'],
+                        'sans': ['"Noto Sans SC"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen w-full flex flex-col items-center justify-center p-4 md:p-8 relative font-sans">
+    <!-- Background Decor - Comic Style -->
+    <div class="fixed top-0 left-0 w-full h-full opacity-10 pointer-events-none overflow-hidden z-0">
+        <div class="absolute top-10 left-10 text-8xl opacity-20 animate-bounce">🧧</div>
+        <div class="absolute bottom-10 right-10 text-8xl opacity-20" style="animation: sway 3s ease-in-out infinite;">🏮</div>
+        <div class="absolute top-1/2 left-1/4 text-6xl opacity-10 font-festive">福</div>
+        <div class="absolute top-1/3 right-1/4 text-5xl opacity-10 font-festive">春</div>
+    </div>
+
+    <!-- 1. 开始界面 -->
+    <div id="start-screen" class="screen active w-full max-w-4xl relative z-10">
+        <div class="text-center space-y-8 animate-in fade-in zoom-in duration-700">
+            <!-- Hero Section -->
+            <div class="relative inline-block">
+                <div class="mb-8 relative flex justify-center">
+                    <div class="w-40 h-40 md:w-56 md:h-56 bg-white rounded-full border-8 border-festive-gold shadow-[0_0_40px_rgba(251,191,36,0.5)] overflow-hidden flex items-center justify-center">
+                        <span class="text-8xl md:text-9xl">🧧</span>
+                    </div>
+                    <div class="absolute -bottom-4 bg-festive-gold text-festive-red-deep px-6 py-2 font-black rounded-full border-4 border-festive-red-deep shadow-lg text-xl md:text-2xl transform -rotate-2 font-festive">
+                        乙巳蛇年大吉
+                    </div>
+                </div>
+                
+                <h1 class="text-6xl md:text-8xl font-festive text-festive-gold drop-shadow-[0_5px_0px_rgba(74,4,4,1)] mb-2">
+                    春节模拟器
+                </h1>
+                
+                <div class="bg-white/90 px-6 py-3 inline-block rounded-lg comic-border transform rotate-1 mt-4">
+                    <p class="text-xl md:text-2xl font-black text-festive-red">9天假期，你的选择决定命运！</p>
+                </div>
+            </div>
+
+            <!-- Menu Buttons -->
+            <div class="flex flex-col gap-4 items-center mt-8">
+                <button 
+                    onclick="game.toCharacterSelect()"
+                    class="px-12 py-5 bg-festive-gold text-festive-red-deep text-2xl md:text-3xl font-festive font-black rounded-xl border-4 border-festive-red-deep shadow-[8px_8px_0px_#4a0404] hover:scale-105 hover:-rotate-1 active:scale-95 transition-all w-full max-w-xs"
+                >
+                    <span class="mr-2">🎮</span> 开始游戏
+                </button>
+                
+                <button 
+                    onclick="game.toLoadGame()"
+                    class="px-12 py-4 bg-white text-festive-red-dark text-xl font-black rounded-xl border-4 border-festive-red-deep shadow-[6px_6px_0px_#fbbf24] hover:bg-festive-red-50 hover:translate-x-2 transition-all w-full max-w-xs"
+                >
+                    <span class="mr-2">📁</span> 继续游戏
+                </button>
+                
+                <button 
+                    onclick="game.showSettings()"
+                    class="px-12 py-4 bg-white text-gray-700 text-xl font-black rounded-xl border-4 border-gray-400 shadow-[6px_6px_0px_#9ca3af] hover:bg-gray-50 hover:translate-x-2 transition-all w-full max-w-xs"
+                >
+                    <span class="mr-2">⚙️</span> 设置
+                </button>
+            </div>
+            
+            <p class="text-white/80 font-bold tracking-[0.3em] text-sm md:text-base uppercase mt-8">
+                Spring Festival Simulator v1.0.0
+            </p>
+        </div>
+    </div>
+
+    <!-- 2. 角色选择界面 -->
+    <div id="character-screen" class="screen w-full max-w-6xl relative z-10">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 animate-in slide-in-from-bottom duration-500">
+            <!-- Left: Character List -->
+            <div class="md:col-span-4 space-y-4">
+                <div class="bg-white p-6 comic-border relative overflow-hidden">
+                    <div class="absolute -top-4 -left-4 bg-festive-red text-white p-2 font-black transform -rotate-12 border-4 border-black text-sm">
+                        ROSTER
+                    </div>
+                    <h2 class="text-2xl font-black mb-4 text-festive-red pt-2 uppercase">选择身份</h2>
+                    <div class="space-y-2 max-h-[50vh] overflow-y-auto pr-2" id="character-grid">
+                        <!-- 角色卡片将通过JS动态生成 -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Character Details -->
+            <div class="md:col-span-8">
+                <div id="character-detail-panel" class="bg-white p-6 comic-border h-full relative flex flex-col">
+                    <div class="absolute top-0 right-0 bg-festive-gold px-4 py-2 border-l-4 border-b-4 border-black font-black uppercase text-sm">
+                        Profile
+                    </div>
+                    
+                    <div id="character-detail-content" class="flex flex-col md:flex-row gap-6 flex-1">
+                        <!-- Default State -->
+                        <div class="w-full h-full min-h-[300px] flex flex-col items-center justify-center text-gray-400">
+                            <div class="text-8xl mb-4 animate-bounce">🧧</div>
+                            <p class="text-xl font-bold uppercase tracking-widest">Select your character</p>
+                            <p class="text-sm mt-2">点击左侧角色查看详情</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Back Button -->
+        <button 
+            onclick="game.toStartScreen()" 
+            class="fixed top-4 left-4 bg-white/90 px-4 py-2 rounded-lg border-4 border-black font-black hover:bg-festive-gold transition-colors z-50"
+        >
+            ← 返回
+        </button>
+    </div>
+
+    <!-- 3. 主游戏界面 -->
+    <div id="game-screen" class="screen w-full max-w-5xl relative z-10">
+        <!-- Top Status Bar - Comic Style -->
+        <div class="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
+            <div class="bg-white border-4 border-black p-2 flex flex-col items-center justify-center relative shadow-[4px_4px_0px_#fbbf24]">
+                <span class="text-[10px] font-black uppercase text-gray-500">CASH</span>
+                <span class="text-lg font-black text-festive-red" id="stat-money">¥5000</span>
+            </div>
+            <div class="bg-white border-4 border-black p-2 flex flex-col items-center justify-center relative shadow-[4px_4px_0px_#fbbf24]">
+                <span class="text-[10px] font-black uppercase text-gray-500">KG</span>
+                <span class="text-lg font-black text-festive-red" id="stat-weight">65</span>
+            </div>
+            <div class="bg-white border-4 border-black p-2 flex flex-col items-center justify-center relative shadow-[4px_4px_0px_#fbbf24]">
+                <span class="text-[10px] font-black uppercase text-gray-500">REP</span>
+                <span class="text-lg font-black text-festive-red" id="stat-face">50</span>
+            </div>
+            <div class="bg-white border-4 border-black p-2 flex flex-col items-center justify-center relative shadow-[4px_4px_0px_#fbbf24]">
+                <span class="text-[10px] font-black uppercase text-gray-500">MOOD</span>
+                <span class="text-lg font-black text-festive-red" id="stat-mood">70</span>
+            </div>
+            <div class="bg-white border-4 border-black p-2 flex flex-col items-center justify-center relative shadow-[4px_4px_0px_#fbbf24]">
+                <span class="text-[10px] font-black uppercase text-gray-500">HP</span>
+                <span class="text-lg font-black text-festive-red" id="stat-health">80</span>
+            </div>
+            <div class="bg-white border-4 border-black p-2 flex flex-col items-center justify-center relative shadow-[4px_4px_0px_#fbbf24]">
+                <span class="text-[10px] font-black uppercase text-gray-500">LUCK</span>
+                <span class="text-lg font-black text-festive-red" id="stat-luck">50</span>
+            </div>
+        </div>
+
+        <!-- Day & Time Info -->
+        <div class="flex justify-between items-center mb-4">
+            <div class="bg-festive-red text-white px-4 py-2 border-4 border-black font-black shadow-[4px_4px_0px_#fbbf24]">
+                <span id="day-display">腊月二十九</span>
+            </div>
+            <div class="bg-festive-gold text-black px-4 py-2 border-4 border-black font-black shadow-[4px_4px_0px_#000]">
+                <span id="time-display">早晨</span>
+            </div>
+            <div class="flex gap-2">
+                <button onclick="game.saveGame()" class="w-10 h-10 bg-white border-4 border-black flex items-center justify-center hover:bg-festive-gold transition-colors shadow-[2px_2px_0px_#000]" title="存档">💾</button>
+                <button onclick="game.toLoadGame()" class="w-10 h-10 bg-white border-4 border-black flex items-center justify-center hover:bg-festive-gold transition-colors shadow-[2px_2px_0px_#000]" title="读档">📂</button>
+                <button onclick="game.toStartScreen()" class="w-10 h-10 bg-white border-4 border-black flex items-center justify-center hover:bg-festive-gold transition-colors shadow-[2px_2px_0px_#000]" title="退出">🏠</button>
+            </div>
+        </div>
+
+        <!-- Event Display Panel -->
+        <div class="bg-white comic-border p-6 relative flex flex-col md:flex-row gap-6">
+            <!-- Left: Scene & NPC -->
+            <div class="md:w-1/3 flex flex-col items-center gap-4">
+                <div class="relative w-full">
+                    <div class="w-full aspect-square bg-gray-100 border-4 border-black flex items-center justify-center text-8xl" id="scene-image">
+                        🏠
+                    </div>
+                    <div class="absolute top-0 left-0 bg-festive-gold border-b-4 border-r-4 border-black px-2 py-1 font-black text-xs">
+                        SCENE
+                    </div>
+                </div>
+                <div class="w-full bg-festive-red/10 border-4 border-black p-3 text-center">
+                    <div class="font-black text-festive-red uppercase text-sm" id="scene-location">家中</div>
+                </div>
+                <div class="flex items-center gap-3 bg-gray-100 border-4 border-black p-3 w-full">
+                    <div class="text-4xl" id="npc-avatar">👵</div>
+                    <div class="font-black" id="npc-name">妈妈</div>
+                </div>
+            </div>
+
+            <!-- Right: Event Content -->
+            <div class="md:w-2/3 space-y-4">
+                <h3 class="text-2xl md:text-3xl font-black text-festive-red leading-tight uppercase tracking-tighter italic transform -rotate-1 inline-block bg-festive-gold px-4 py-2" id="event-title">
+                    大年初一
+                </h3>
+                
+                <div class="p-5 bg-gray-50 border-4 border-black text-lg font-medium leading-relaxed shadow-inner min-h-[120px]" id="event-description">
+                    儿子，起床了！今天大年初一，快起来给长辈拜年！
+                </div>
+
+                <!-- Choices Panel -->
+                <div class="space-y-3" id="choices-panel">
+                    <button class="choice-btn w-full p-4 text-left border-4 border-black bg-white hover:bg-festive-gold/20 hover:translate-x-2 transition-all flex items-center gap-4 group" onclick="game.makeChoice(0)">
+                        <span class="w-10 h-10 shrink-0 bg-black text-white font-black flex items-center justify-center transform -rotate-12 group-hover:rotate-0 transition-transform">1</span>
+                        <div class="flex-1">
+                            <span class="font-black text-base block choice-text">马上起床，精神饱满地去拜年</span>
+                            <span class="text-xs text-gray-500 choice-effect">心情+5 面子+10</span>
+                        </div>
+                    </button>
+                    <button class="choice-btn w-full p-4 text-left border-4 border-black bg-white hover:bg-festive-gold/20 hover:translate-x-2 transition-all flex items-center gap-4 group" onclick="game.makeChoice(1)">
+                        <span class="w-10 h-10 shrink-0 bg-black text-white font-black flex items-center justify-center transform -rotate-12 group-hover:rotate-0 transition-transform">2</span>
+                        <div class="flex-1">
+                            <span class="font-black text-base block choice-text">赖床5分钟再说...</span>
+                            <span class="text-xs text-gray-500 choice-effect">心情+10 健康+5 面子-5</span>
+                        </div>
+                    </button>
+                    <button class="choice-btn w-full p-4 text-left border-4 border-black bg-white hover:bg-festive-gold/20 hover:translate-x-2 transition-all flex items-center gap-4 group" onclick="game.makeChoice(2)">
+                        <span class="w-10 h-10 shrink-0 bg-black text-white font-black flex items-center justify-center transform -rotate-12 group-hover:rotate-0 transition-transform">3</span>
+                        <div class="flex-1">
+                            <span class="font-black text-base block choice-text">假装没听见继续睡</span>
+                            <span class="text-xs text-gray-500 choice-effect">心情+15 面子-15 健康-5</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="mt-4 bg-white border-4 border-black p-2 shadow-[4px_4px_0px_#fbbf24]">
+            <div class="flex justify-between text-xs font-black mb-1">
+                <span>假期进度</span>
+                <span id="progress-text">1/27</span>
+            </div>
+            <div class="h-4 bg-gray-200 border-2 border-black overflow-hidden">
+                <div class="h-full bg-festive-red transition-all duration-500" id="progress-bar" style="width: 3.7%"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. 结局界面 -->
+    <div id="ending-screen" class="screen w-full max-w-4xl relative z-10">
+        <div class="animate-in zoom-in duration-500 p-6 md:p-10 bg-white border-8 border-black shadow-[20px_20px_0px_#fbbf24] relative">
+            <!-- Ending Badge -->
+            <div class="absolute -top-8 -left-8 bg-festive-red text-white text-3xl md:text-4xl font-festive p-4 border-4 border-black transform -rotate-12">
+                终结报告
+            </div>
+
+            <div class="text-center mb-8 mt-8">
+                <h2 class="text-xl font-black text-gray-400 mb-2 uppercase tracking-widest">春节生存总结</h2>
+                <h3 class="text-4xl md:text-6xl font-festive text-festive-red mb-4 drop-shadow-lg" id="ending-title">
+                    春节圆满结束
+                </h3>
+                <div class="max-w-xl mx-auto p-4 bg-gray-50 border-4 border-dashed border-black italic text-base" id="ending-description">
+                    你度过了一个充实的新年假期
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 border-t-4 border-black pt-8">
+                <!-- Final Stats -->
+                <div class="space-y-4">
+                    <div class="bg-festive-red/10 p-5 border-4 border-black relative">
+                        <div class="absolute -top-4 -right-4 bg-black text-white px-3 py-1 text-xs font-black">STATS</div>
+                        <h4 class="text-lg font-black mb-4 flex items-center gap-2">
+                            <span class="bg-festive-gold text-black px-2">最终属性</span>
+                        </h4>
+                        <div class="grid grid-cols-3 gap-3" id="final-stats">
+                            <!-- 动态生成 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story Summary -->
+                <div class="space-y-4">
+                    <div class="bg-gray-50 p-5 border-4 border-black">
+                        <h4 class="text-lg font-black mb-4 flex items-center gap-2">
+                            <span class="bg-festive-gold text-black px-2">假期回顾</span>
+                        </h4>
+                        <div class="text-sm leading-relaxed text-gray-700 max-h-[200px] overflow-y-auto" id="ending-story">
+                            <!-- 动态生成 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="pt-8 space-y-4 mt-6">
+                <div class="flex gap-4 justify-center">
+                    <button 
+                        onclick="game.restartGame()"
+                        class="px-8 py-4 bg-festive-red text-white font-black text-xl border-4 border-black shadow-[8px_8px_0px_#000] hover:scale-105 active:scale-95 transition-all"
+                    >
+                        <span class="mr-2">🔄</span> 重新开始
+                    </button>
+                    <button 
+                        onclick="game.toStartScreen()"
+                        class="px-8 py-4 bg-white text-festive-red-dark font-black text-xl border-4 border-black shadow-[8px_8px_0px_#fbbf24] hover:bg-festive-gold/20 transition-all"
+                    >
+                        <span class="mr-2">🏠</span> 返回主页
+                    </button>
+                </div>
+                <div class="text-center font-black text-gray-500 text-sm tracking-tighter italic">
+                    HAPPY CHINESE NEW YEAR · 乙巳蛇年
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. 存档界面 -->
+    <div id="save-screen" class="screen w-full max-w-2xl relative z-10">
+        <div class="bg-white comic-border p-6 md:p-8">
+            <div class="flex items-center justify-between mb-6">
+                <button onclick="game.goBack()" class="bg-gray-100 px-4 py-2 border-4 border-black font-black hover:bg-festive-gold transition-colors">
+                    ← 返回
+                </button>
+                <h2 class="text-2xl font-black text-festive-red uppercase">游戏存档</h2>
+                <div class="w-20"></div>
+            </div>
+            
+            <div class="space-y-4" id="save-slots">
+                <!-- 动态生成存档槽 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 设置弹窗 -->
+    <div id="settings-modal" class="modal fixed inset-0 bg-black/80 z-50 hidden items-center justify-center backdrop-blur-sm">
+        <div class="bg-white comic-border p-6 w-full max-w-md mx-4 animate-in zoom-in duration-300">
+            <div class="flex justify-between items-center mb-6 border-b-4 border-black pb-4">
+                <h3 class="text-2xl font-black text-festive-red">设置</h3>
+                <button onclick="game.closeSettings()" class="text-3xl font-black hover:text-festive-red">×</button>
+            </div>
+            <div class="space-y-6">
+                <div class="flex justify-between items-center">
+                    <label class="font-black">背景音乐</label>
+                    <input type="range" min="0" max="100" value="50" class="w-32 accent-festive-red">
+                </div>
+                <div class="flex justify-between items-center">
+                    <label class="font-black">音效</label>
+                    <input type="range" min="0" max="100" value="70" class="w-32 accent-festive-red">
+                </div>
+                <div class="flex justify-between items-center">
+                    <label class="font-black">动画效果</label>
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" checked class="sr-only peer">
+                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-festive-red"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 通知提示 -->
+    <div id="notification" class="notification fixed top-4 left-1/2 -translate-x-1/2 bg-white border-4 border-black px-6 py-3 font-black shadow-[4px_4px_0px_#fbbf24] z-[100] transform -translate-y-full opacity-0 transition-all duration-300"></div>
+
+    <!-- 反馈弹窗 -->
+    <div id="feedback-modal" class="modal fixed inset-0 bg-black/80 z-50 hidden items-center justify-center backdrop-blur-sm">
+        <div class="bg-festive-gold border-4 border-black p-6 w-full max-w-lg mx-4 animate-in slide-in-from-bottom duration-300">
+            <div class="font-black text-festive-red-deep text-2xl mb-6 text-center" id="feedback-text">
+                『你的选择带来了变化』
+            </div>
+            <button onclick="game.closeFeedback()" class="w-full py-4 bg-festive-red text-white font-black text-xl border-4 border-black shadow-[4px_4px_0px_#000] hover:translate-y-1 hover:shadow-none transition-all">
+                继续 {'>>'}
+            </button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
