@@ -2592,7 +2592,6 @@ class Game {
                         <span class="choice-number">${btnNumber}</span>
                         <div class="flex-1">
                             <span class="choice-text block">${option.text}</span>
-                            ${effectText ? `<span class="choice-effect">${effectText}</span>` : ''}
                         </div>
                     </button>
                 `;
