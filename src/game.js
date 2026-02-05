@@ -2435,7 +2435,7 @@ class Game {
                 <div class="w-full md:w-1/2 space-y-4">
                     <div class="relative flex flex-col items-center">
                         ${detailAvatarHtml}
-                        <div class="character-detail-name mt-4 text-2xl font-black text-festive-red">${character.name}</div>
+                        <div class="character-detail-name mt-4 text-2xl font-black text-white">${character.name}</div>
                     </div>
                     <div class="character-detail-quote bg-gray-50 p-4 border-2 border-black italic text-sm">
                         "${character.monologue || character.description || '这个春节，我要过得不一样！'}"
