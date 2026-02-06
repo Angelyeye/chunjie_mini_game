@@ -1120,7 +1120,12 @@ class EndingManager {
      */
     determineEnding() {
         // 按优先级排序结局
-        const sortedEndings = [...this.endings].sort(
+        const currentCharacterId = this.gameState.character?.id;
+        const availableEndings = currentCharacterId
+            ? this.endings.filter(ending => !ending.characterId || ending.characterId === currentCharacterId)
+            : this.endings;
+
+        const sortedEndings = [...availableEndings].sort(
             (a, b) => (b.priority || 0) - (a.priority || 0)
         );
 
@@ -1552,16 +1557,27 @@ class Game {
      * 转换结局格式
      */
     convertEndings(endings) {
-        return endings.map((e, index) => ({
-            id: e.ending_id || `ending_${index}`,
-            title: e.ending_name || '结局',
-            description: e.description || '',
-            category: e.type || 'normal',
-            icon: e.icon || '🎊',
-            priority: e.priority || 0,
-            unlockConditions: this.convertUnlockConditions(e.unlock_conditions),
-            score: { base: e.score || 500 }
-        }));
+        return endings.map((e, index) => {
+            const type = e.ending_type || e.type || 'normal';
+            const categoryMap = {
+                success: 'good',
+                failure: 'bad',
+                special: 'secret',
+                hidden: 'secret',
+                normal: 'normal'
+            };
+            return ({
+                id: e.ending_id || `ending_${index}`,
+                title: e.ending_name || '结局',
+                description: e.description || '',
+                category: categoryMap[type] || type,
+                icon: e.icon || '🎊',
+                priority: e.priority || 0,
+                characterId: e.character_id || e.characterId || null,
+                unlockConditions: this.convertUnlockConditions(e.unlock_conditions || e.unlockConditions),
+                score: { base: e.score || 500 }
+            });
+        });
     }
 
     /**
@@ -1594,15 +1610,50 @@ class Game {
      * 转换解锁条件
      */
     convertUnlockConditions(conditions) {
-        if (!conditions || !Array.isArray(conditions)) return [];
-        return conditions.map(c => ({
-            conditions: (c.conditions || []).map(cond => ({
-                type: 'attribute',
-                attribute: cond.attribute,
-                operator: cond.operator || '>=',
-                value: cond.value
-            }))
-        }));
+        if (!conditions) return [];
+
+        if (Array.isArray(conditions)) {
+            return conditions.map(c => ({
+                conditions: (c.conditions || []).map(cond => ({
+                    type: 'attribute',
+                    attribute: cond.attribute,
+                    operator: cond.operator || '>=',
+                    value: cond.value
+                }))
+            }));
+        }
+
+        if (typeof conditions === 'object') {
+            const attrs = ['deposit', 'weight', 'face', 'mood', 'health', 'luck'];
+            const conditionList = [];
+
+            for (const attr of attrs) {
+                const minKey = `min_${attr}`;
+                const maxKey = `max_${attr}`;
+                if (conditions[minKey] !== undefined) {
+                    conditionList.push({
+                        type: 'attribute',
+                        attribute: attr,
+                        operator: '>=',
+                        value: conditions[minKey]
+                    });
+                }
+                if (conditions[maxKey] !== undefined) {
+                    conditionList.push({
+                        type: 'attribute',
+                        attribute: attr,
+                        operator: '<=',
+                        value: conditions[maxKey]
+                    });
+                }
+            }
+
+            if (conditionList.length === 0) return [];
+
+            return [{ conditions: conditionList }];
+        }
+
+        return [];
     }
 
     /**
