@@ -556,18 +556,24 @@ class EventManager {
             return this.getDefaultEvent();
         }
 
+        const characterId = this.gameState.character?.id;
+        const characterEvents = characterId
+            ? availableEvents.filter(event => event.exclusiveTo && event.exclusiveTo.includes(characterId))
+            : [];
+        const eventPool = characterEvents.length > 0 ? characterEvents : availableEvents;
+
         // 3. 按权重随机选择
-        const totalWeight = availableEvents.reduce((sum, e) => sum + (e.weight || 100), 0);
+        const totalWeight = eventPool.reduce((sum, e) => sum + (e.weight || 100), 0);
         let random = Math.random() * totalWeight;
 
-        for (const event of availableEvents) {
+        for (const event of eventPool) {
             random -= (event.weight || 100);
             if (random <= 0) {
                 return event;
             }
         }
 
-        return availableEvents[0];
+        return eventPool[0];
     }
 
     /**
