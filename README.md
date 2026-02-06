@@ -3,7 +3,7 @@
 > Spring Festival Simulator 2026 - 一个关于过年回家的文字冒险游戏
 
 [![Version](https://img.shields.io/badge/version-1.0.0-red.svg)](https://github.com/yourusername/spring-festival-simulator)
-[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Web-blue.svg)]()
 
 ---
@@ -218,7 +218,7 @@ Kimi_Agent_Final/
 │   └── game.js             # 游戏逻辑
 ├── index.html              # 根目录跳转页
 ├── README.md               # 项目说明
-└── LICENSE                 # MIT 许可证
+└── LICENSE                 # CC BY-NC 4.0 许可证
 ```
 
 ---
@@ -300,13 +300,13 @@ Kimi_Agent_Final/
 
 ## 📜 许可证
 
-本项目基于 [MIT License](LICENSE) 开源。
+本项目基于 [CC BY-NC 4.0](LICENSE) 开源。
 
 ---
 
 ## 🙏 致谢
 
-- UI 设计风格参考：2026 春节极限挑战项目
+- UI 设计风格参考：2026 春节极限挑战项目（gemini 生成）
 - 字体支持：Google Fonts
 - CSS 框架：Tailwind CSS
 
