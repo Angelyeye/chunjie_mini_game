@@ -1454,6 +1454,8 @@ class Game {
             soundVolume: 70
         };
 
+        this.pendingFeedbackAction = null;
+
         // 绑定方法
         this.init = this.init.bind(this);
         this.startGame = this.startGame.bind(this);
@@ -2747,36 +2749,39 @@ class Game {
             this.showNotification(effectText);
         }
 
-        // 检查特殊结果
-        if (result.specialOutcome) {
-            if (result.specialOutcome.type === 'game_over' || result.specialOutcome.type === 'ending_trigger') {
+        const finishChoice = () => {
+            if (result.specialOutcome) {
+                if (result.specialOutcome.type === 'game_over' || result.specialOutcome.type === 'ending_trigger') {
+                    this.showEnding();
+                    return;
+                }
+            }
+
+            const isNewDay = this.state.advanceTime();
+
+            if (this.state.isGameOver()) {
                 this.showEnding();
                 return;
             }
-        }
 
-        // 推进时间
-        const isNewDay = this.state.advanceTime();
+            this.updateDayDisplay();
 
-        // 检查游戏是否结束
-        if (this.state.isGameOver()) {
-            this.showEnding();
+            if (isNewDay) {
+                const dayName = GAME_CONFIG.DAY_NAMES[this.state.progress.currentDay - 1];
+                this.showNotification(`进入${dayName}`);
+            }
+
+            setTimeout(() => {
+                this.generateEvent();
+            }, 300);
+        };
+
+        if (result.feedback) {
+            this.showFeedback(result.feedback, finishChoice);
             return;
         }
 
-        // 更新显示
-        this.updateDayDisplay();
-
-        // 新的一天提示
-        if (isNewDay) {
-            const dayName = GAME_CONFIG.DAY_NAMES[this.state.progress.currentDay - 1];
-            this.showNotification(`进入${dayName}`);
-        }
-
-        // 生成下一个事件
-        setTimeout(() => {
-            this.generateEvent();
-        }, 300);
+        finishChoice();
     }
 
     /**
@@ -2987,6 +2992,27 @@ class Game {
         const modal = document.getElementById('settings-modal');
         if (modal) modal.classList.remove('active');
         this.saveSettings();
+    }
+
+    showFeedback(message, onClose) {
+        const modal = document.getElementById('feedback-modal');
+        const text = document.getElementById('feedback-text');
+        if (!modal || !text) {
+            if (typeof onClose === 'function') onClose();
+            return;
+        }
+
+        text.textContent = message;
+        modal.classList.add('active');
+        this.pendingFeedbackAction = typeof onClose === 'function' ? onClose : null;
+    }
+
+    closeFeedback() {
+        const modal = document.getElementById('feedback-modal');
+        if (modal) modal.classList.remove('active');
+        const action = this.pendingFeedbackAction;
+        this.pendingFeedbackAction = null;
+        if (action) action();
     }
 
     // ============================================
