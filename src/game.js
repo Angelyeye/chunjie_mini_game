@@ -9,6 +9,11 @@
  * - SaveManager: 存档管理器
  * - EndingManager: 结局管理器
  * - Game: 游戏主控制器
+ *
+ * 策划阅读指南（非程序视角）：
+ * 1) 这里是“规则中心”，UI 只是把这些规则的结果显示出来。
+ * 2) 所有可配置内容都来自 data/ 里的 JSON（角色/事件/结局）。
+ * 3) 运行主流程：初始化 → 选角色 → 生成事件 → 选项影响属性 → 时间推进 → 触发结局。
  */
 
 // ============================================
@@ -59,6 +64,10 @@ const ATTRIBUTE_ICONS = {
 // GameState - 游戏状态管理器
 // ============================================
 
+/**
+ * GameState 保存“当前这一局”的全部进度。
+ * 可以把它理解成“游戏存档的内存版”：时间、角色、属性、事件记录都在这里。
+ */
 class GameState {
     constructor() {
         this.reset();
@@ -302,6 +311,10 @@ class GameState {
 // AttributeManager - 属性管理器
 // ============================================
 
+/**
+ * AttributeManager 负责处理“属性的加减乘设”等规则，
+ * 所有选项带来的数值变化都会走这里，确保范围合法、统计正确。
+ */
 class AttributeManager {
     constructor(gameState) {
         this.gameState = gameState;
@@ -484,6 +497,13 @@ class AttributeManager {
 // EventManager - 事件管理器
 // ============================================
 
+/**
+ * EventManager 负责“挑选下一条事件”的规则。
+ * 核心逻辑顺序：
+ * 1) 先看有没有排队中的事件（后续事件/指定时段）。
+ * 2) 再筛选当前时段可触发的事件。
+ * 3) 按权重随机选一条。
+ */
 class EventManager {
     constructor(gameState, attributeManager) {
         this.gameState = gameState;
@@ -843,6 +863,10 @@ class EventManager {
 // SaveManager - 存档管理器
 // ============================================
 
+/**
+ * SaveManager 把 GameState 写入浏览器 localStorage，
+ * 所以刷新页面后存档仍然存在。
+ */
 class SaveManager {
     constructor(gameState) {
         this.gameState = gameState;
@@ -1093,6 +1117,13 @@ class SaveManager {
 // EndingManager - 结局管理器
 // ============================================
 
+/**
+ * EndingManager 根据当前角色与属性判定结局。
+ * 规则要点：
+ * - 会先过滤“只属于某个角色”的结局。
+ * - 再按优先级从高到低检查解锁条件。
+ * - 第一个满足条件的结局即为最终结局。
+ */
 class EndingManager {
     constructor(gameState, attributeManager) {
         this.gameState = gameState;
@@ -1119,7 +1150,7 @@ class EndingManager {
      * @returns {Object}
      */
     determineEnding() {
-        // 按优先级排序结局
+        // 先按当前角色过滤，再按优先级排序
         const currentCharacterId = this.gameState.character?.id;
         const availableEndings = currentCharacterId
             ? this.endings.filter(ending => !ending.characterId || ending.characterId === currentCharacterId)
@@ -1392,6 +1423,14 @@ class EndingManager {
 // Game - 游戏主控制器
 // ============================================
 
+/**
+ * Game 是“总指挥”，负责把数据、规则、UI串起来。
+ * - init：读取 JSON 数据并渲染页面
+ * - startGame：开始一局
+ * - generateEvent：展示下一事件
+ * - makeChoice：玩家选择 → 属性变化 → 时间推进
+ * - showEnding：结局展示
+ */
 class Game {
     constructor() {
         // 初始化核心组件
@@ -1504,6 +1543,7 @@ class Game {
      * 转换常规事件格式
      */
     convertCommonEvents(events) {
+        // 把配置文件中的“通用事件”转成引擎可识别的统一结构
         return events.map((e, index) => ({
             id: e.event_id || `common_${index}`,
             title: e.event_name || '事件',
@@ -1528,6 +1568,7 @@ class Game {
      * 转换角色专属事件格式
      */
     convertCharacterEvents(events) {
+        // 角色专属事件：标记 exclusiveTo，且默认只触发一次
         return events.map((e, index) => ({
             id: e.event_id || `char_${index}`,
             title: e.event_name || '事件',
@@ -1557,6 +1598,7 @@ class Game {
      * 转换结局格式
      */
     convertEndings(endings) {
+        // 结局需要把“策划字段”映射到引擎字段，并支持角色专属结局
         return endings.map((e, index) => {
             const type = e.ending_type || e.type || 'normal';
             const categoryMap = {
@@ -1584,6 +1626,7 @@ class Game {
      * 转换效果格式
      */
     convertEffects(effects) {
+        // 把 { deposit: +100, mood: -5 } 变成引擎统一的效果数组
         if (!effects) return [];
         const result = [];
         const attrMap = {
@@ -1610,6 +1653,7 @@ class Game {
      * 转换解锁条件
      */
     convertUnlockConditions(conditions) {
+        // 支持两种写法：数组条件组、或 min_/max_ 快捷写法
         if (!conditions) return [];
 
         if (Array.isArray(conditions)) {
@@ -2377,6 +2421,10 @@ class Game {
     // ============================================
 
     /**
+     * UI 方法只负责“把当前状态画出来”，不改变核心规则。
+     * 真正的规则变化发生在 GameState / AttributeManager / EventManager 中。
+     */
+    /**
      * 切换屏幕
      * @param {string} screenId - 屏幕ID
      */
@@ -2426,6 +2474,7 @@ class Game {
      * 渲染角色列表
      */
     renderCharacters() {
+        // 读取 this.characters，生成左侧角色卡片按钮
         const grid = document.getElementById('character-grid');
         if (!grid) return;
 
@@ -2454,6 +2503,7 @@ class Game {
      * @param {string} id - 角色ID
      */
     selectCharacter(id) {
+        // 这里只是“预览角色”，不会真正开始游戏
         const character = this.characters.find(c => c.id === id);
         if (!character) return;
 
@@ -2530,6 +2580,7 @@ class Game {
      * @param {Object} character - 选择的角色
      */
     startGame(character) {
+        // 初始化状态 → 更新界面 → 生成第一条事件
         // 初始化游戏状态
         this.state.initNewGame(character);
 
@@ -2546,6 +2597,7 @@ class Game {
      * 更新日期显示
      */
     updateDayDisplay() {
+        // 根据当前天数/时段更新顶部进度条与文字
         const dayDisplay = document.getElementById('day-display');
         const timeDisplay = document.getElementById('time-display');
         const progressText = document.getElementById('progress-text');
@@ -2567,6 +2619,7 @@ class Game {
      * 更新属性显示
      */
     updateStatsDisplay() {
+        // 把 state.attributes 同步到页面上的数值
         const attrs = this.state.attributes;
         const statMap = {
             'deposit': 'money',
@@ -2607,6 +2660,7 @@ class Game {
      * 生成事件
      */
     generateEvent() {
+        // 由事件管理器挑选事件，并把内容渲染到页面
         const event = this.events.getNextEvent();
         this.state.currentEvent = event;
 
@@ -2631,6 +2685,8 @@ class Game {
             const availableOptions = this.events.getAvailableOptions(event);
             choicesPanel.innerHTML = availableOptions.map((option, index) => {
                 const effectText = this.formatEffects(option.effects);
+                //删除了选项中对玩家显示的数值效果文本，导致这里没有调用
+                //如需改回来可以看git版本：style: 移除选项按钮中未使用的效果文本显示
                 const disabledClass = option.available ? '' : 'opacity-50 cursor-not-allowed';
                 const unavailableTip = option.available ? '' : `title="${option.unavailableReason}"`;
                 const btnNumber = index + 1;
@@ -2673,6 +2729,7 @@ class Game {
      * @param {number} choiceIndex - 选择索引
      */
     makeChoice(choiceIndex) {
+        // 玩家选择后：应用效果 → 记录事件 → 推进时间 → 生成下一事件
         const event = this.state.currentEvent;
         if (!event) return;
 
@@ -2726,6 +2783,7 @@ class Game {
      * 显示结局
      */
     showEnding() {
+        // 根据当前属性与历史记录计算结局，并更新结局界面
         const ending = this.endings.determineEnding(this.state.attributes, this.state.character?.initial_attributes);
 
         // 更新结局界面
@@ -2798,6 +2856,7 @@ class Game {
      * 保存游戏
      */
     saveGame() {
+        // 手动存档，使用 SaveManager 写入 localStorage
         const slotIndex = this.saves.findEmptySlot();
         if (slotIndex === -1) {
             // 覆盖最早的存档
@@ -2815,6 +2874,7 @@ class Game {
      * @param {number} slotIndex - 存档槽索引
      */
     loadGame(slotIndex) {
+        // 读取存档后恢复界面，并继续生成事件
         if (this.saves.loadSave(slotIndex)) {
             this.updateDayDisplay();
             this.updateStatsDisplay();
@@ -2828,6 +2888,7 @@ class Game {
      * 渲染存档槽
      */
     renderSaveSlots() {
+        // 根据 localStorage 中的存档信息渲染存档列表
         const container = document.getElementById('save-slots');
         if (!container) return;
 
@@ -2898,6 +2959,7 @@ class Game {
      * 加载设置
      */
     loadSettings() {
+        // 设置来自 localStorage（音量、开关等）
         const settings = this.saves.loadSettings();
         this.uiState = { ...this.uiState, ...settings };
     }
@@ -2906,6 +2968,7 @@ class Game {
      * 保存设置
      */
     saveSettings() {
+        // 保存设置到 localStorage，刷新页面也能保留
         this.saves.saveSettings(this.uiState);
     }
 
