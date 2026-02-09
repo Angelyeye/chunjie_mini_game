@@ -20,7 +20,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "回村刚开箱就被二大爷顺走两瓶。面子有了，心在滴血，这就是“炫富税”。"
         },
         {
           "option_id": "hao_shitu_1_morning_01_b",
@@ -34,7 +34,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "低调奢华有内涵，亲戚们纷纷感叹：“不愧是吃皇粮的，连废纸都透着红头文件的墨香。”"
         },
         {
           "option_id": "hao_shitu_1_morning_01_c",
@@ -48,7 +48,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然省了钱，但被邻居嘲讽：“看来大城市编制也缩水了，只有碳水没有酒精。”"
         }
       ]
     },
@@ -72,7 +72,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "前列腺发出了尖锐的爆鸣声，但你在群里的回复“收到，正在落实”显得格外稳重。"
         },
         {
           "option_id": "hao_shitu_1_noon_01_b",
@@ -86,7 +86,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "物理减压成功，但隔壁车的行车记录仪拍下了你那并不怎么宏伟的“水利工程”。"
         },
         {
           "option_id": "hao_shitu_1_noon_01_c",
@@ -100,7 +100,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被交警无人机抓拍，扣分罚款。这泡尿，堪比82年的拉菲，贵。"
         }
       ]
     },
@@ -124,7 +124,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈笑得合不拢嘴，你的胰岛素正在进行疯狂的边缘计算。"
         },
         {
           "option_id": "hao_shitu_1_evening_01_b",
@@ -138,7 +138,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈立刻怀疑你在单位犯了错误，正在接受组织审查，甚至想连夜去找神婆。"
         },
         {
           "option_id": "hao_shitu_1_evening_01_c",
@@ -152,7 +152,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你爸默默点了一根烟：“怎么，城里的草比家里的肉好吃？”气氛降至冰点。"
         }
       ]
     },
@@ -176,7 +176,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "舆论导向控制成功，村头广播更新版本：《老郝家那小子真懂事，虽然胖了点》。"
         },
         {
           "option_id": "hao_shitu_2_morning_01_b",
@@ -190,7 +190,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成为了“读书读傻了”的典型案例，反面教材指数+100%。"
         },
         {
           "option_id": "hao_shitu_2_morning_01_c",
@@ -204,7 +204,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "效果拔群，但半小时后就有三个远房亲戚拿着简历堵在你家门口。"
         }
       ]
     },
@@ -228,7 +228,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "滴水不漏，但也因此被评价为“这孩子心机深，以后是个当官的料”。"
         },
         {
           "option_id": "hao_shitu_2_noon_01_b",
@@ -242,7 +242,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "二舅收到了给大姨的丝巾，三舅妈收到了中华烟。家族群里炸了锅，你被踢出了“相亲相爱一家人”。"
         },
         {
           "option_id": "hao_shitu_2_noon_01_c",
@@ -256,7 +256,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "省钱了，但你在旁系亲属眼里的评级下调为“垃圾股”，建议做空。"
         }
       ]
     },
@@ -280,7 +280,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟喝吐了，你稳如老狗。家族威望提升，但你的肝脏正在申请劳动仲裁。"
         },
         {
           "option_id": "hao_shitu_2_evening_01_b",
@@ -294,7 +294,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被眼尖的小侄子当场揭穿：“叔叔喝的是甜水！”场面一度十分尴尬。"
         },
         {
           "option_id": "hao_shitu_2_evening_01_c",
@@ -308,7 +308,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用“深情厚谊”的话术把长辈都喝趴下了，确立了饭桌统治权。"
         }
       ]
     },
@@ -332,7 +332,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "七大姑听懂了暗示（并没有），塞给你一篮土鸡蛋，让你“再活动活动”。"
         },
         {
           "option_id": "hao_shitu_3_morning_01_b",
@@ -346,7 +346,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "七大姑脸色一变：“白供你读书了，这点事都办不成。”"
         },
         {
           "option_id": "hao_shitu_3_morning_01_c",
@@ -360,7 +360,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "七大姑觉得你在侮辱她家文曲星，摔门而去。世界清静了。"
         }
       ]
     },
@@ -384,7 +384,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "二大爷把你引为知己，决定把传家宝——一块并不知道真假的玉佩传给你（画饼）。"
         },
         {
           "option_id": "hao_shitu_3_noon_01_b",
@@ -398,7 +398,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "二大爷恼羞成怒，开始翻你小时候尿床的旧账。"
         },
         {
           "option_id": "hao_shitu_3_noon_01_c",
@@ -412,7 +412,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "逃跑可耻但有用。二大爷只能转头去折磨刚进门的表妹。"
         }
       ]
     },
@@ -436,7 +436,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老领导拍着你的肩膀：“小郝啊，是个做大事的人，有量！”你的痛风套餐已下单。"
         },
         {
           "option_id": "hao_shitu_3_evening_01_b",
@@ -450,7 +450,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全桌人投来暧昧又遗憾的目光，老领导感叹：“身体是革命的本钱，得治啊。”"
         },
         {
           "option_id": "hao_shitu_3_evening_01_c",
@@ -464,7 +464,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "技术动作变形，酒从鼻孔喷了出来。现场表演了一个“龙吸水”逆向版。"
         }
       ]
     },
@@ -488,7 +488,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "动作像丧尸出笼，把你妈吓了一跳：“儿啊，中邪了就直说。”"
         },
         {
           "option_id": "hao_shitu_4_morning_01_b",
@@ -502,7 +502,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "错过了早饭，被亲戚们议论：“这孩子在大城市懒散惯了，废了。”"
         },
         {
           "option_id": "hao_shitu_4_morning_01_c",
@@ -516,7 +516,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "以毒攻毒。你觉得自己升仙了，但你的肝脏正在写遗书。"
         }
       ]
     },
@@ -540,7 +540,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大妈们蜂拥而至，你被加了50个微信，手机卡得像中了病毒。"
         },
         {
           "option_id": "hao_shitu_4_noon_01_b",
@@ -554,7 +554,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "成功劝退所有人，连路过的狗都嫌弃地看了你一眼。"
         },
         {
           "option_id": "hao_shitu_4_noon_01_c",
@@ -568,7 +568,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "流言蜚语瞬间传遍全村，你妈差点气晕过去，但再也没人给你介绍对象了。"
         }
       ]
     },
@@ -592,7 +592,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "简单粗暴。但收了500的那家亲戚觉得你小气，收了100的那家觉得你傻多速。"
         },
         {
           "option_id": "hao_shitu_4_evening_01_b",
@@ -606,7 +606,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被小孩嘲笑：“叔叔，你的微信限额了吗？”现在的孩子真不可爱。"
         },
         {
           "option_id": "hao_shitu_4_evening_01_c",
@@ -620,7 +620,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成为了孩子们童年的阴影，被称为“那个送噩梦的胖叔叔”。"
         }
       ]
     },
@@ -644,7 +644,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "熊孩子开始哭闹，表弟阴阳怪气：“哥，你这电脑是金子做的啊？”"
         },
         {
           "option_id": "hao_shitu_5_morning_01_b",
@@ -658,7 +658,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "熊孩子被虐得怀疑人生，哭着把手柄还给了你。教做人成功。"
         },
         {
           "option_id": "hao_shitu_5_morning_01_c",
@@ -672,7 +672,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然破费了，但看到孩子绝望的眼神，你心里乐开了花。"
         }
       ]
     },
@@ -696,7 +696,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你累得像条狗，但收获了“活雷锋”的称号。并没有什么卵用。"
         },
         {
           "option_id": "hao_shitu_5_noon_01_b",
@@ -710,7 +710,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大家觉得你“当官了就忘本”，但你终于能躺下刷会儿抖音了。"
         },
         {
           "option_id": "hao_shitu_5_noon_01_c",
@@ -724,7 +724,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "祸水东引。隔壁大学生看你的眼神充满了杀气。"
         }
       ]
     },
@@ -748,7 +748,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "用魔法打败魔法。她们满意地点头，开始传授生男秘方。"
         },
         {
           "option_id": "hao_shitu_5_evening_01_b",
@@ -762,7 +762,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场沉默。你按下了核按钮，大家都别想好过。这就是互害社会。"
         },
         {
           "option_id": "hao_shitu_5_evening_01_c",
@@ -776,7 +776,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "长辈们心软了，甚至给你塞了点钱。这演技，奥斯卡欠你一个小金人。"
         }
       ]
     },
@@ -800,7 +800,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "终于喝上了白粥。这是你这几天吃得最香的一顿。"
         },
         {
           "option_id": "hao_shitu_6_morning_01_b",
@@ -814,7 +814,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你是真正的战士，也是真正的傻X。肾脏压力值爆表。"
         },
         {
           "option_id": "hao_shitu_6_morning_01_c",
@@ -828,7 +828,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "因祸得福。你在虚拟世界里找回了失去的尊严。"
         }
       ]
     },
@@ -852,7 +852,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "快乐回来了。虽然被小学生队友喷菜，但心里是甜的。"
         },
         {
           "option_id": "hao_shitu_6_noon_01_b",
@@ -866,7 +866,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "周围打游戏的小孩把你当成了异类。社畜的气息即使在网吧也无法掩盖。"
         },
         {
           "option_id": "hao_shitu_6_noon_01_c",
@@ -880,7 +880,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "两人相视一笑，仿佛回到了那个非主流的年代。请他喝了瓶可乐。"
         }
       ]
     },
@@ -904,7 +904,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大家看了一眼，发现是单位配的帕萨特，纷纷露出了“懂的都懂”的微笑。"
         },
         {
           "option_id": "hao_shitu_6_evening_01_b",
@@ -918,7 +918,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被误认为是混得太差不敢说话，班长过来给你推销了一份意外险。"
         },
         {
           "option_id": "hao_shitu_6_evening_01_c",
@@ -932,7 +932,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "瞬间成为全场焦点。虽然你说的全是新闻联播里的内容，但他们觉得你在泄密。"
         }
       ]
     },
@@ -956,7 +956,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然保时捷很香，但你那句“在这个不确定的世界寻找确定性”赢得了精神胜利。"
         },
         {
           "option_id": "hao_shitu_7_morning_01_b",
@@ -970,7 +970,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "土豪同学很受用，答应送你半扇猪肉。尊严-1，猪肉+1。"
         },
         {
           "option_id": "hao_shitu_7_morning_01_c",
@@ -984,7 +984,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "土豪脸色煞白，立刻给你敬酒。权力的傲慢在这一刻尽显无疑。"
         }
       ]
     },
@@ -1008,7 +1008,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "掌声雷动。你保住了面子，但下个月的花呗要分期了。"
         },
         {
           "option_id": "hao_shitu_7_noon_01_b",
@@ -1022,7 +1022,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这是尿遁术的最高境界。等你回来，账已经结了，大家看你的眼神充满了鄙视。"
         },
         {
           "option_id": "hao_shitu_7_noon_01_c",
@@ -1036,7 +1036,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "气氛尴尬，大家不情不愿地掏出手机。从此你退出了同学群。"
         }
       ]
     },
@@ -1060,7 +1060,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "正气凛然，仿佛在开年会。同学们纷纷鼓掌，感觉你在视察工作。"
         },
         {
           "option_id": "hao_shitu_7_evening_01_b",
@@ -1074,7 +1074,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "油腻指数爆表，辣眼睛。有同学录下来发了朋友圈，标题是《那个疯了的处长》。"
         },
         {
           "option_id": "hao_shitu_7_evening_01_c",
@@ -1088,7 +1088,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "保持了高冷的人设，但也成为了背景板。孤独是强者的宿命。"
         }
       ]
     },
@@ -1112,7 +1112,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "为了不被骂败家子，你牺牲了胃粘膜。这是一种悲壮的孝道。"
         },
         {
           "option_id": "hao_shitu_8_morning_01_b",
@@ -1126,7 +1126,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "狗闻了一下，嫌弃地走开了。连狗都知道这玩意儿有毒。"
         },
         {
           "option_id": "hao_shitu_8_morning_01_c",
@@ -1140,7 +1140,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被父母痛骂乱花钱，但最终还是吃上了新鲜的饭菜。值了。"
         }
       ]
     },
@@ -1164,7 +1164,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈心满意足。车子底盘低了5厘米，改装了低趴风格。"
         },
         {
           "option_id": "hao_shitu_8_noon_01_b",
@@ -1178,7 +1178,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈眼圈红了：“嫌弃家里的东西脏是不是？”道德绑架成功，你输了。"
         },
         {
           "option_id": "hao_shitu_8_noon_01_c",
@@ -1192,7 +1192,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "精准扶贫自己的冰箱。很理性，很冷血，很郝仕途。"
         }
       ]
     },
@@ -1216,7 +1216,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你第一次发现父亲老了。酒精让你暂时卸下了伪装，眼角湿润。"
         },
         {
           "option_id": "hao_shitu_8_evening_01_b",
@@ -1230,7 +1230,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "父亲叹了口气，觉得你离这个家越来越远了。可悲的职业病。"
         },
         {
           "option_id": "hao_shitu_8_evening_01_c",
@@ -1244,7 +1244,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "理智的选择。但你错过了与父亲和解的最佳机会。"
         }
       ]
     },
@@ -1268,7 +1268,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "操作猛如虎，一看原地杵。还被后车司机竖了中指。"
         },
         {
           "option_id": "hao_shitu_9_morning_01_b",
@@ -1282,7 +1282,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "在历史的洪流中，这点堵车算什么？你的格局打开了。"
         },
         {
           "option_id": "hao_shitu_9_morning_01_c",
@@ -1296,7 +1296,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "真香。这不仅是碳水，这是母爱的味道。眼泪差点掉下来。"
         }
       ]
     },
@@ -1320,7 +1320,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "菜凉得像你的心，肉硬得像你的命。被割韭菜的感觉真爽。"
         },
         {
           "option_id": "hao_shitu_9_noon_01_b",
@@ -1334,7 +1334,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "健康又省钱，看着旁边吃泡面的人，你产生了一种养生优越感。"
         },
         {
           "option_id": "hao_shitu_9_noon_01_c",
@@ -1348,7 +1348,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "淀粉肠是人类之光。这一刻，你不是郝处长，你是快乐的吃货。"
         }
       ]
     },
@@ -1372,7 +1372,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你是天选打工人。虽然SAN值狂掉，但你的职业素养令人发指。"
         },
         {
           "option_id": "hao_shitu_9_evening_01_b",
@@ -1386,7 +1386,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "节后综合症确诊。你不想动，只想在这个赛博世界里躺平。"
         },
         {
           "option_id": "hao_shitu_9_evening_01_c",
@@ -1400,7 +1400,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "电话那头传来熟悉的声音，你觉得这趟折腾，其实也挺值。"
         }
       ]
     },
@@ -1424,7 +1424,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "现实被屏蔽了，但耳机电量显示10%，你的焦虑感开始指数级上升。"
         },
         {
           "option_id": "hua_beibei_1_morning_01_b",
@@ -1438,7 +1438,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "获得3个点赞，但为了买这杯咖啡你错过了最佳排队位置，现在只能站着。"
         },
         {
           "option_id": "hua_beibei_1_morning_01_c",
@@ -1452,7 +1452,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大叔被你流利的家乡话震惊，默默穿上了鞋。Vivian的人设崩了，但花贝贝爽了。"
         }
       ]
     },
@@ -1476,7 +1476,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "鞋跟断了。这可是A货里的顶配啊！维修费又是一笔巨款。"
         },
         {
           "option_id": "hua_beibei_1_noon_01_b",
@@ -1490,7 +1490,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你坐在满是灰尘的三轮车斗里，像个被查获的落魄名媛，但至少脚保住了。"
         },
         {
           "option_id": "hua_beibei_1_noon_01_c",
@@ -1504,7 +1504,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大黄成了你的舔狗，不仅不叫了，还帮你叼住了一个掉落的化妆包。"
         }
       ]
     },
@@ -1528,7 +1528,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "二婶不懂行情，被你的气势镇住了。你保住了面子，但心里发虚。"
         },
         {
           "option_id": "hua_beibei_1_evening_01_b",
@@ -1542,7 +1542,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "空气突然安静。老爸咳嗽了一声，觉得你给他丢人了。"
         },
         {
           "option_id": "hua_beibei_1_evening_01_c",
@@ -1556,7 +1556,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "二婶脸绿了，但这顿饭没人再敢惹你。毒舌属性大爆发。"
         }
       ]
     },
@@ -1580,7 +1580,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你梦见自己变成了忍者神龟，醒来发现并没有。肾功能受到轻微威胁。"
         },
         {
           "option_id": "hua_beibei_2_morning_01_b",
@@ -1594,7 +1594,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "刚出门就被隔壁发小撞见。你那精致的“沪上名媛”形象瞬间崩塌成“村口二丫”。"
         },
         {
           "option_id": "hua_beibei_2_morning_01_c",
@@ -1608,7 +1608,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看到下个月花呗账单，你瞬间清醒了，甚至出了一身冷汗，不冷了。"
         }
       ]
     },
@@ -1632,7 +1632,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "买了一堆山寨奥利奥，Wi-Fi密码竟然是'12345678'。网速感人，勉强发出去了邮件。"
         },
         {
           "option_id": "hua_beibei_2_noon_01_b",
@@ -1646,7 +1646,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在寒风中举着手机像个避雷针。被路过的村长拍下来发到了“相亲群”，配文：这闺女练功呢。"
         },
         {
           "option_id": "hua_beibei_2_noon_01_c",
@@ -1660,7 +1660,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要我看不到甲方，甲方就不存在。获得了片刻的内心宁静。"
         }
       ]
     },
@@ -1684,7 +1684,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "手套被指甲戳破了，指甲缝里全是蒜味，这下真的是“有味道的女人”了。"
         },
         {
           "option_id": "hua_beibei_2_evening_01_b",
@@ -1698,7 +1698,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "妈妈翻了个白眼：“以前吃蒜泥白肉没见你过敏？”但还是放过了你的指甲。"
         },
         {
           "option_id": "hua_beibei_2_evening_01_c",
@@ -1712,7 +1712,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "资本的力量在农村依然有效。你翘着二郎腿监工，感觉找回了当总监的错觉。"
         }
       ]
     },
@@ -1736,7 +1736,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大姑伸手摸了一把：“呦，这皮怎么有点硬？”你心跳加速到180，差点当场去世。"
         },
         {
           "option_id": "hua_beibei_3_morning_01_b",
@@ -1750,7 +1750,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大姑反而不信了：“这孩子真低调。” 危机解除，这就叫虚则实之。"
         },
         {
           "option_id": "hua_beibei_3_morning_01_c",
@@ -1764,7 +1764,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "破财免灾。大姑的注意力瞬间转移到了红包厚度上。你的心在滴血，那可是半个月的伙食费。"
         }
       ]
     },
@@ -1788,7 +1788,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟哭了，全家都来指责你“跟小孩子计较什么”。你成了恶毒表姐。"
         },
         {
           "option_id": "hua_beibei_3_noon_01_b",
@@ -1802,7 +1802,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟在刚刷的大白墙上创作了巨幅壁画。舅妈回来后脸都绿了，痛打表弟。你内心狂喜。"
         },
         {
           "option_id": "hua_beibei_3_noon_01_c",
@@ -1816,7 +1816,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "舅妈阴阳怪气地给了钱：“不就个唇膏吗，至于吗？” 至于！钱到手才是硬道理。"
         }
       ]
     },
@@ -1840,7 +1840,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你编得太投入，连自己都快信了。但姥姥让你现在视频连线，你慌得一批。"
         },
         {
           "option_id": "hua_beibei_3_evening_01_b",
@@ -1854,7 +1854,7 @@
             "health": -2,
             "money": 0
           },
-          "next_event": null
+          "next_event": "化悲愤为食欲，结果吃撑了，扣子崩开一颗。更尴尬了。"
         },
         {
           "option_id": "hua_beibei_3_evening_01_c",
@@ -1868,7 +1868,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "精准打击。表妹笑容凝固，男朋友面红耳赤。你成功破坏了气氛，Good Job。"
         }
       ]
     },
@@ -1892,7 +1892,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "胶原蛋白补充过量，感觉脸泛油光。妈妈夸你“好养活”。"
         },
         {
           "option_id": "hua_beibei_4_morning_01_b",
@@ -1906,7 +1906,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "跑腿费50块。你在村口像接头特务一样接过了肯德基。真香。"
         },
         {
           "option_id": "hua_beibei_4_morning_01_c",
@@ -1920,7 +1920,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "饿得头昏眼花，听到肚子叫出了交响乐。"
         }
       ]
     },
@@ -1944,7 +1944,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你穿着睡裤，上半身是西装。Jessica问你为什么不开美颜，其实你开了十级。"
         },
         {
           "option_id": "hua_beibei_4_noon_01_b",
@@ -1958,7 +1958,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "撒谎的最高境界是文字。虽然窗外只有泥巴，但你心里的雪下得很大。"
         },
         {
           "option_id": "hua_beibei_4_noon_01_c",
@@ -1972,7 +1972,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "简单粗暴。顺便屏蔽了Jessica的朋友圈，眼不见心不烦。"
         }
       ]
     },
@@ -1996,7 +1996,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "长辈们笑开了花，夸你“懂事”。你看着空荡荡的钱包，觉得这“懂事”太贵了。"
         },
         {
           "option_id": "hua_beibei_4_evening_01_b",
@@ -2010,7 +2010,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你赢了800块。三姑脸黑得像锅底，散场时说你“这孩子心眼多”。"
         },
         {
           "option_id": "hua_beibei_4_evening_01_c",
@@ -2024,7 +2024,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "把麻将打成了消消乐。长辈们嫌你笨，把你赶下了桌。解脱！"
         }
       ]
     },
@@ -2048,7 +2048,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "脸笑僵了。对方以为你有意思，开始在那滔滔不绝讲母猪产后护理。"
         },
         {
           "option_id": "hua_beibei_5_morning_01_b",
@@ -2062,7 +2062,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "试图用认知壁垒劝退对方。结果他说：“哦，那个啊，我给前女友买过真的。” 竟然是个隐形土豪？！"
         },
         {
           "option_id": "hua_beibei_5_morning_01_c",
@@ -2076,7 +2076,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "对方被你的黑眼圈吓退了。媒人出门时还在嘀咕：“这姑娘是不是身体不好？”"
         }
       ]
     },
@@ -2100,7 +2100,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "手续费又是一笔支出。你的金融杂技玩得越来越惊险了。"
         },
         {
           "option_id": "hua_beibei_5_noon_01_b",
@@ -2114,7 +2114,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被骂了半小时“败家女”，但成功搞到2000块。尊严？多少钱一斤？"
         },
         {
           "option_id": "hua_beibei_5_noon_01_c",
@@ -2128,7 +2128,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "含泪把“广州高定”挂了上去。被人砍价到300包邮，心在滴血。"
         }
       ]
     },
@@ -2152,7 +2152,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "“生而为人，我很抱歉，尤其是没钱的时候。” 收获了一堆“哈哈哈哈”的评论。"
         },
         {
           "option_id": "hua_beibei_5_evening_01_b",
@@ -2166,7 +2166,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "月亮：我不信。你自己都不信。"
         },
         {
           "option_id": "hua_beibei_5_evening_01_c",
@@ -2180,7 +2180,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "碳水化合物是唯一的救赎。这一刻，你原谅了世界。"
         }
       ]
     },
@@ -2204,7 +2204,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全家人大气不敢出，以为你在谈几亿的项目。其实你在跟Siri聊天。"
         },
         {
           "option_id": "hua_beibei_6_morning_01_b",
@@ -2218,7 +2218,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "成功获得了一上午的清净时光。你在被窝里刷完了两部综艺。"
         },
         {
           "option_id": "hua_beibei_6_morning_01_c",
@@ -2232,7 +2232,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老爸冷冷地说：“你们公司大年初六还抓手？抓瞎吧。”"
         }
       ]
     },
@@ -2256,7 +2256,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你编排了隔壁二狗子的绯闻。大妈们像闻到血的鲨鱼一样游走了。虽不道德，但有用。"
         },
         {
           "option_id": "hua_beibei_6_noon_01_b",
@@ -2270,7 +2270,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被判定为“在大城市读傻了”。"
         },
         {
           "option_id": "hua_beibei_6_noon_01_c",
@@ -2284,7 +2284,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "魔法打败魔法！大妈脸色一变，匆匆回家救火去了。"
         }
       ]
     },
@@ -2308,7 +2308,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然第二天可能会拉肚子，但此刻灵魂得到了升华。这才是人过的日子！"
         },
         {
           "option_id": "hua_beibei_6_evening_01_b",
@@ -2322,7 +2322,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "配文“Home sweet home”，屏蔽了家里亲戚。获得了5个赞。"
         },
         {
           "option_id": "hua_beibei_6_evening_01_c",
@@ -2336,7 +2336,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "辣条被没收，还被灌了一碗难喝的养生汤。"
         }
       ]
     },
@@ -2360,7 +2360,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "耗时3小时，看起来像刚洗完脸一样清纯，其实粉底比墙灰还厚。完美。"
         },
         {
           "option_id": "hua_beibei_7_morning_01_b",
@@ -2374,7 +2374,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "在村里略显突兀，出门把邻居大爷吓了一跳：“这孩咋跟鬼似的？”"
         },
         {
           "option_id": "hua_beibei_7_morning_01_c",
@@ -2388,7 +2388,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "到了现场发现连当年的班花都打了玻尿酸，你输在了起跑线上。"
         }
       ]
     },
@@ -2412,7 +2412,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "小美笑容僵硬。周围同学发出了憋笑的声音。K.O."
         },
         {
           "option_id": "hua_beibei_7_noon_01_b",
@@ -2426,7 +2426,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大家觉得你深不可测，拆迁户甚至想给你借钱。"
         },
         {
           "option_id": "hua_beibei_7_noon_01_c",
@@ -2440,7 +2440,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "该死！居然没有人拦着！你刷爆了信用卡，心在滴血，脸上在笑。"
         }
       ]
     },
@@ -2464,7 +2464,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场起哄。初恋脸红成了猪肝色。你感觉自己是女王。"
         },
         {
           "option_id": "hua_beibei_7_evening_01_b",
@@ -2478,7 +2478,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "逃出生天！外面的冷风让你清醒，这帮人太油腻了。"
         },
         {
           "option_id": "hua_beibei_7_evening_01_c",
@@ -2492,7 +2492,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你唱破音了八次，还抱着麦克风痛哭流涕。明天你会想移民火星。"
         }
       ]
     },
@@ -2516,7 +2516,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看到账单，San值狂掉。看到给前任发的“在吗”，你想把手剁了。"
         },
         {
           "option_id": "hua_beibei_8_morning_01_b",
@@ -2530,7 +2530,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然被骂了一顿，但身体舒服多了。世上只有妈妈好。"
         },
         {
           "option_id": "hua_beibei_8_morning_01_c",
@@ -2544,7 +2544,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "躲过了做早饭，但没躲过妈妈的念叨攻击。"
         }
       ]
     },
@@ -2568,7 +2568,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "抗议无效。妈妈说：“箱子就是用来装东西的，不然供着？”"
         },
         {
           "option_id": "hua_beibei_8_noon_01_b",
@@ -2582,7 +2582,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你提着红蓝编织袋，彻底放弃了名媛人设。但这些吃的回去能省一个月饭钱！真香。"
         },
         {
           "option_id": "hua_beibei_8_noon_01_c",
@@ -2596,7 +2596,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "经过一番讨价还价，活鸡被留下了，但你多背了十斤红薯。"
         }
       ]
     },
@@ -2620,7 +2620,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "还是爸妈疼你。虽然这点钱不够还卡债，但暖心。你决定下个月少买个包。"
         },
         {
           "option_id": "hua_beibei_8_evening_01_b",
@@ -2634,7 +2634,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "死要面子活受罪。爸妈把钱收回去了，你心里那个悔啊。"
         },
         {
           "option_id": "hua_beibei_8_evening_01_c",
@@ -2648,7 +2648,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "爸妈开心坏了。你给自己挖了个巨大的坑，明年咋办明年再说吧。"
         }
       ]
     },
@@ -2672,7 +2672,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "气氛烘托到位了。司机师傅问：“姑娘，沙眼啊？” 感动瞬间破功。"
         },
         {
           "option_id": "hua_beibei_9_morning_01_b",
@@ -2686,7 +2686,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "定位显示“xx村”。评论区：“原来Vivian是村里的啊”。无所谓了，反正回上海又是好汉一条。"
         },
         {
           "option_id": "hua_beibei_9_morning_01_c",
@@ -2700,7 +2700,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "发现老妈偷偷在包夹层里塞了个平安符。San值回满。"
         }
       ]
     },
@@ -2724,7 +2724,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "仪式感拉满。虽然脚还是很痛，但你是都市丽人了。"
         },
         {
           "option_id": "hua_beibei_9_noon_01_b",
@@ -2738,7 +2738,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看到99+的未读消息，想跳车。这就是社畜的宿命。"
         },
         {
           "option_id": "hua_beibei_9_noon_01_c",
@@ -2752,7 +2752,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "路费+红包+装X成本 > 存款。心态崩了。"
         }
       ]
     },
@@ -2776,7 +2776,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "真香。这味道能支撑你再战半年。明年春节……再说吧。"
         },
         {
           "option_id": "hua_beibei_9_evening_01_b",
@@ -2790,7 +2790,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "写下了宏伟计划。虽然你知道坚持不过三天，但今晚睡得踏实。"
         },
         {
           "option_id": "hua_beibei_9_evening_01_c",
@@ -2804,7 +2804,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "死性不改！精致穷的轮回再次开始。欢迎回到地狱，花贝贝。"
         }
       ]
     },
@@ -2828,7 +2828,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的肺活量得到了锻炼，但由于缺氧，你看到了太奶在向你招手。"
         },
         {
           "option_id": "fan_tong_1_morning_01_b",
@@ -2842,7 +2842,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "整节车厢进入了生化警戒状态，大叔默默穿上了鞋。你赢了，但失去了一切尊严。"
         },
         {
           "option_id": "fan_tong_1_morning_01_c",
@@ -2856,7 +2856,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大叔被你清澈且愚蠢的眼神看得发毛，以为你是便衣，收敛了不少。"
         }
       ]
     },
@@ -2880,7 +2880,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "母亲露出了慈祥的笑容，你的体重管理计划宣告破产。"
         },
         {
           "option_id": "fan_tong_1_noon_01_b",
@@ -2894,7 +2894,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "蜜月期提前结束。母亲的眼神从慈祥转为看废物的嫌弃。"
         },
         {
           "option_id": "fan_tong_1_noon_01_c",
@@ -2908,7 +2908,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你完美诠释了「回家就是换个地方玩手机」。"
         }
       ]
     },
@@ -2932,7 +2932,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要我嚼得够大声，我就听不见催婚的噪音。"
         },
         {
           "option_id": "fan_tong_1_evening_01_b",
@@ -2946,7 +2946,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你爸看你的眼神像在看一个弱智，但他没戳穿你。"
         },
         {
           "option_id": "fan_tong_1_evening_01_c",
@@ -2960,7 +2960,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "父亲脸色大变，塞给你50块封口费。这波是战术互换。"
         }
       ]
     },
@@ -2984,7 +2984,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被子被掀开，此时室内温度5度。你受到了冰冻暴击。"
         },
         {
           "option_id": "fan_tong_2_morning_01_b",
@@ -2998,7 +2998,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然手机屏幕显示的是TikTok，但母亲选择了相信（并没有，她只是懒得理你）。"
         },
         {
           "option_id": "fan_tong_2_morning_01_c",
@@ -3012,7 +3012,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "由于起猛了，眼前一黑。脆皮大学生的体质暴露无遗，但获得「乖宝宝」称号。"
         }
       ]
     },
@@ -3036,7 +3036,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "流量跑得比你的心跳还快，但至少游戏赢了（青铜局）。"
         },
         {
           "option_id": "fan_tong_2_noon_01_b",
@@ -3050,7 +3050,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在楼下的小区健身器材上像个老年人一样转了半小时腰。"
         },
         {
           "option_id": "fan_tong_2_noon_01_c",
@@ -3064,7 +3064,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然手指辣得疼，但家庭地位略微回升。你获得了「剥蒜小妹」皮肤。"
         }
       ]
     },
@@ -3088,7 +3088,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你保住了风度，但失去了膝盖。老寒腿进度条+10%。"
         },
         {
           "option_id": "fan_tong_2_evening_01_b",
@@ -3102,7 +3102,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "真香。虽然看起来像个红火腿肠，但真的很暖和。"
         },
         {
           "option_id": "fan_tong_2_evening_01_c",
@@ -3116,7 +3116,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "腿粗了一圈，现在你看起来像个底盘稳重的米其林轮胎人。"
         }
       ]
     },
@@ -3140,7 +3140,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在厕所蹲到腿麻，外面的人以为你便秘，还要给你推荐开塞露。"
         },
         {
           "option_id": "fan_tong_3_morning_01_b",
@@ -3154,7 +3154,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "空气凝固了。你用魔法打败了魔法，但被表哥拉入了黑名单。"
         },
         {
           "option_id": "fan_tong_3_morning_01_c",
@@ -3168,7 +3168,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你扮演了一个完美的智障吉祥物，二姨觉得你这孩子虽然傻但由于。"
         }
       ]
     },
@@ -3192,7 +3192,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟被吓哭了。二姨过来骂你不懂事，但手办保住了。"
         },
         {
           "option_id": "fan_tong_3_noon_01_b",
@@ -3206,7 +3206,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "心在滴血。表弟拿到后立刻把手办的头拧了下来。"
         },
         {
           "option_id": "fan_tong_3_noon_01_c",
@@ -3220,7 +3220,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你被坑得星耀掉钻石。他还要举报你送人头。"
         }
       ]
     },
@@ -3244,7 +3244,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在寒风中假装业务繁忙。亲戚们评价你“这孩子真不着家”。"
         },
         {
           "option_id": "fan_tong_3_evening_01_b",
@@ -3258,7 +3258,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "腰酸背痛，手被洗洁精泡皱了。获得了“全村好女婿/儿媳储备人选”称号。"
         },
         {
           "option_id": "fan_tong_3_evening_01_c",
@@ -3272,7 +3272,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "岁岁平安！妈妈把你赶出了厨房，你是故意的还是不小心的？"
         }
       ]
     },
@@ -3296,7 +3296,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "哪怕对着村口的狗你也喊了过年好。你是没有感情的拜年机器。"
         },
         {
           "option_id": "fan_tong_4_morning_01_b",
@@ -3310,7 +3310,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "推拉了三个回合，最后“勉为其难”收下。演技堪比奥斯卡。"
         },
         {
           "option_id": "fan_tong_4_morning_01_c",
@@ -3324,7 +3324,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "把“二舅姥爷”叫成了“大表哥”。场面一度十分赛博朋克。"
         }
       ]
     },
@@ -3348,7 +3348,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "热量炸弹。你的脸上冒出了一颗巨大的痘痘，仿佛在嘲笑你。"
         },
         {
           "option_id": "fan_tong_4_noon_01_b",
@@ -3362,7 +3362,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "肚子咕咕叫，你在富得流油的春节里体验饥荒。"
         },
         {
           "option_id": "fan_tong_4_noon_01_c",
@@ -3376,7 +3376,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "狗吃得比你还开心，并誓死效忠于你。"
         }
       ]
     },
@@ -3400,7 +3400,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "含糊其辞。舅舅看出了你的心虚，露出了看学渣的慈悲笑容。"
         },
         {
           "option_id": "fan_tong_4_evening_01_b",
@@ -3414,7 +3414,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "精准爆破。舅舅立刻转移了火力去骂表姐。表姐想杀你的心都有了。"
         },
         {
           "option_id": "fan_tong_4_evening_01_c",
@@ -3428,7 +3428,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然你只背了abandon，但这一刻你就是学术界的伪装者。"
         }
       ]
     },
@@ -3452,7 +3452,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "演技逼真。妈妈给你端来了姜汤，你含泪喝下，获得「病娇」属性。"
         },
         {
           "option_id": "fan_tong_5_morning_01_b",
@@ -3466,7 +3466,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "门开了又关了。只要涉及学习，他们就不敢打扰，这是至高规则。"
         },
         {
           "option_id": "fan_tong_5_morning_01_c",
@@ -3480,7 +3480,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在客厅跳了一段扭秧歌。亲戚们觉得你读书读傻了，纷纷退散。"
         }
       ]
     },
@@ -3504,7 +3504,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这就是你的才艺？除了打嗝声很响亮，没有任何技术含量。"
         },
         {
           "option_id": "fan_tong_5_noon_01_b",
@@ -3518,7 +3518,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你背了一段课文。空气中弥漫着尴尬的气息，只有奶奶在鼓掌。"
         },
         {
           "option_id": "fan_tong_5_noon_01_c",
@@ -3532,7 +3532,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场沸腾！你成为了家族的技术核心，大家都夸你书没白读。"
         }
       ]
     },
@@ -3556,7 +3556,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被妈妈筷子敲头。但你成功摄入了蛋白质。"
         },
         {
           "option_id": "fan_tong_5_evening_01_b",
@@ -3570,7 +3570,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "卖相极差，味道极佳。这就是猪食的美学。"
         },
         {
           "option_id": "fan_tong_5_evening_01_c",
@@ -3584,7 +3584,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在满桌剩菜面前点了炸鸡。妈妈的怒气值蓄力100%。"
         }
       ]
     },
@@ -3608,7 +3608,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "万能理由。只要是关于学习，你就算去火星他们都支持。"
         },
         {
           "option_id": "fan_tong_6_morning_01_b",
@@ -3622,7 +3622,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "潜行成功。你像个逃犯一样在街上狂奔，自由的气息！"
         },
         {
           "option_id": "fan_tong_6_morning_01_c",
@@ -3636,7 +3636,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "越狱失败。你被发配到超市，并在那里遇到了不想见的小学同学。"
         }
       ]
     },
@@ -3660,7 +3660,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "6块钱的快乐，是你此时此刻能掌控的极致奢华。"
         },
         {
           "option_id": "fan_tong_6_noon_01_b",
@@ -3674,7 +3674,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "那个爪子比你的意志力还松。你一无所获，痛失50大洋。"
         },
         {
           "option_id": "fan_tong_6_noon_01_c",
@@ -3688,7 +3688,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "噩梦重现。条件反射想喊“起立”。尴尬聊了两句，你只想土遁。"
         }
       ]
     },
@@ -3712,7 +3712,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这是明智的。但你将错过所有八卦，包括谁整容了。"
         },
         {
           "option_id": "fan_tong_6_evening_01_b",
@@ -3726,7 +3726,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你报名了。AA制预警。你的钱包在哭泣。"
         },
         {
           "option_id": "fan_tong_6_evening_01_c",
@@ -3740,7 +3740,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你破坏了队形，大家都在发接龙，就你发收到。像个呆子。"
         }
       ]
     },
@@ -3764,7 +3764,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "像个偷穿大人衣服的巨婴，或者卖保险的实习生。"
         },
         {
           "option_id": "fan_tong_7_morning_01_b",
@@ -3778,7 +3778,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这就叫松弛感（其实是穷）。只要你不尴尬，尴尬的就是别人。"
         },
         {
           "option_id": "fan_tong_7_morning_01_c",
@@ -3792,7 +3792,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "洗头是对聚会最高的尊重。虽然发际线有点危险。"
         }
       ]
     },
@@ -3816,7 +3816,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你们吹你们的牛，我吃我的肉。在这场战役中，只有你的胃是赢家。"
         },
         {
           "option_id": "fan_tong_7_noon_01_b",
@@ -3830,7 +3830,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "完美的捧哏。班长很受用，决定这顿饭少收你10块钱。"
         },
         {
           "option_id": "fan_tong_7_noon_01_c",
@@ -3844,7 +3844,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "其实就是天天在宿舍睡觉。大家觉得你深不可测。"
         }
       ]
     },
@@ -3868,7 +3868,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的小金库遭到了降维打击。接下来只能吃土了。"
         },
         {
           "option_id": "fan_tong_7_evening_01_b",
@@ -3882,7 +3882,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "拖延战术。但这只能延缓死亡，并让你在群里的信用分归零。"
         },
         {
           "option_id": "fan_tong_7_evening_01_c",
@@ -3896,7 +3896,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在群里抢到了班长发的0.5元红包。杯水车薪，但聊胜于无。"
         }
       ]
     },
@@ -3920,7 +3920,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "与床融为一体。妈妈已经放弃喊你，直接把饭端到了床头（那是给猪的待遇）。"
         },
         {
           "option_id": "fan_tong_8_morning_01_b",
@@ -3934,7 +3934,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "创造奇迹的时刻。你的键盘冒出了火星，内容全靠编。"
         },
         {
           "option_id": "fan_tong_8_morning_01_c",
@@ -3948,7 +3948,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看着空荡荡的箱子，你感到一阵空虚。然后发现袜子少了一只。"
         }
       ]
     },
@@ -3972,7 +3972,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "无效抗议。妈妈利用物理法则强行压缩了空间，行李箱发出了惨叫。"
         },
         {
           "option_id": "fan_tong_8_noon_01_b",
@@ -3986,7 +3986,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你将背负着沉重的爱（物理）踏上旅途。这箱子比你人都重。"
         },
         {
           "option_id": "fan_tong_8_noon_01_c",
@@ -4000,7 +4000,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这是你最后的倔强。返校后的快乐源泉。"
         }
       ]
     },
@@ -4024,7 +4024,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然直接，但有效。你的小金库瞬间充盈。这就是亲情的金钱具象化。"
         },
         {
           "option_id": "fan_tong_8_evening_01_b",
@@ -4038,7 +4038,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "有些话在心里。红烧肉真好吃，下次吃要等半年了。"
         },
         {
           "option_id": "fan_tong_8_evening_01_c",
@@ -4052,7 +4052,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "父母笑得很开心，虽然他们知道你现在连自己都养不活。"
         }
       ]
     },
@@ -4076,7 +4076,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "为了掩饰眼角的湿润。装逼是你最后的防线。"
         },
         {
           "option_id": "fan_tong_9_morning_01_b",
@@ -4090,7 +4090,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "土味但温情。妈妈笑了，并在窗外喊着让你穿秋裤。"
         },
         {
           "option_id": "fan_tong_9_morning_01_c",
@@ -4104,7 +4104,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "逃避可耻但有用。车开了，你才敢回头看那两个变小的黑点。"
         }
       ]
     },
@@ -4128,7 +4128,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "脆皮大学生的手臂断裂（夸张）。你觉得自己像个搬砖的。"
         },
         {
           "option_id": "fan_tong_9_noon_01_b",
@@ -4142,7 +4142,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "遇到好心大哥帮忙。人间自有真情在，除了你的箱子真的很重。"
         },
         {
           "option_id": "fan_tong_9_noon_01_c",
@@ -4156,7 +4156,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "箱子轮子崩飞了一个。现在你是一个只有三个轮子的悲剧。"
         }
       ]
     },
@@ -4180,7 +4180,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "咬一口，满嘴家乡味。春节结束了，生存游戏重新开始。"
         },
         {
           "option_id": "fan_tong_9_evening_01_b",
@@ -4194,7 +4194,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看着那个数字，你发出了杀猪般的惨叫。每逢佳节胖三斤，诚不我欺。"
         },
         {
           "option_id": "fan_tong_9_evening_01_c",
@@ -4208,7 +4208,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "Flag立起来就是为了倒的。洗洗睡吧，明天早八。"
         }
       ]
     },
@@ -4232,7 +4232,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "太后侧身闪避：‘少来这套，想死我了还是想死我的退休金了？’ 闪避率100%。"
         },
         {
           "option_id": "gu_jia_1_morning_01_b",
@@ -4246,7 +4246,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "太后眼神回暖，瞬间转账200元‘启动资金’。你获得了【清洁工】buff。"
         },
         {
           "option_id": "gu_jia_1_morning_01_c",
@@ -4260,7 +4260,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "太后判定你为‘在外面混不下去了’，并在家族群发布了你颓废的背影照。"
         }
       ]
     },
@@ -4284,7 +4284,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你爸叹气声高达80分贝。晚饭里的肉消失了。扣除津贴100元。"
         },
         {
           "option_id": "gu_jia_1_noon_01_b",
@@ -4298,7 +4298,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "玻璃亮到鸟都会撞上去。父母满度+10，你的腰椎间盘突出风险+10%。"
         },
         {
           "option_id": "gu_jia_1_noon_01_c",
@@ -4312,7 +4312,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "利用同情分赚取了50元‘辛苦费’，但被贴上了‘这孩子真不抗压’的标签。"
         }
       ]
     },
@@ -4336,7 +4336,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你像个完美的AI点头称是。父母觉得你‘终于懂事了’，虽然你的灵魂已离线。"
         },
         {
           "option_id": "gu_jia_1_evening_01_b",
@@ -4350,7 +4350,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "遭到‘不懂礼数’的声波攻击，并在洗碗时被剥夺了热水使用权。"
         },
         {
           "option_id": "gu_jia_1_evening_01_c",
@@ -4364,7 +4364,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这是一张空头支票，但暂时稳住了股价。明年？明年再说。"
         }
       ]
     },
@@ -4388,7 +4388,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用瘦弱的身躯杀出重围，抢到了排骨，但被一位大妈踩掉了鞋跟。"
         },
         {
           "option_id": "gu_jia_2_morning_01_b",
@@ -4402,7 +4402,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈嫌你像个木头，连砍价都不会，并把你和隔壁王阿姨的女儿进行了第一次对比。"
         },
         {
           "option_id": "gu_jia_2_morning_01_c",
@@ -4416,7 +4416,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘贵！不新鲜！懒！’ 三连暴击。你花钱买罪受，被痛批四体不勤。"
         }
       ]
     },
@@ -4440,7 +4440,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "效率极高，获得称号【无情的剥蒜机器】，奖励：晚上多吃一只鸡腿。"
         },
         {
           "option_id": "gu_jia_2_noon_01_b",
@@ -4454,7 +4454,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "蒜没剥完，豆角也没择好。被判定为‘心不在焉’，甚至有点‘反骨’。"
         },
         {
           "option_id": "gu_jia_2_noon_01_c",
@@ -4468,7 +4468,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "成功转移仇恨值。家庭氛围变得莫名和谐，你妈觉得你很有管理天赋。"
         }
       ]
     },
@@ -4492,7 +4492,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "求生欲拉满。你用果盘堵住了他们即将开启的说教之口。"
         },
         {
           "option_id": "gu_jia_2_evening_01_b",
@@ -4506,7 +4506,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你听见他们小声议论：‘这孩子是不是在外面受委屈了？’ 居然获得了一丝同情。"
         },
         {
           "option_id": "gu_jia_2_evening_01_c",
@@ -4520,7 +4520,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "引发了关于‘体制内vs体制外’的一小时辩论赛。你完败。"
         }
       ]
     },
@@ -4544,7 +4544,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "祖宗收到了信号。虽然没显灵，但你心里踏实了。毕竟唯物主义者这时候也可以稍微唯心一下。"
         },
         {
           "option_id": "gu_jia_3_morning_01_b",
@@ -4558,7 +4558,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被老爸勒令重贴。你站在梯子上瑟瑟发抖，不仅丢脸，腿还软。"
         },
         {
           "option_id": "gu_jia_3_morning_01_c",
@@ -4572,7 +4572,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈听了很高兴，祖宗听了想必是沉默的。信用积分-100。"
         }
       ]
     },
@@ -4596,7 +4596,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你展现了惊人的家务天赋。太后大悦，当场发放200元红包作为‘年终奖’。"
         },
         {
           "option_id": "gu_jia_3_noon_01_b",
@@ -4610,7 +4610,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被发现并被拍手背。虽然疼，但是真香。这才是过年的味道。"
         },
         {
           "option_id": "gu_jia_3_noon_01_c",
@@ -4624,7 +4624,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘碎碎平安’都救不了你。你妈的眼神仿佛在看一个废品。年夜饭氛围值降至冰点。"
         }
       ]
     },
@@ -4648,7 +4648,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你爸妈觉得你太刻薄，不懂艺术。但你自己爽到了，这是唯一的慰藉。"
         },
         {
           "option_id": "gu_jia_3_evening_01_b",
@@ -4662,7 +4662,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "一顿操作猛如虎，一看抢了五块八。爸妈觉得你掉钱眼里了。"
         },
         {
           "option_id": "gu_jia_3_evening_01_c",
@@ -4676,7 +4676,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这就是‘羊毛出在羊身上’的回流战术。虽然心在滴血，但家庭地位瞬间提升至皇室级别。"
         }
       ]
     },
@@ -4700,7 +4700,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的额头红了，钱包鼓了。长辈们夸你‘实诚’，实则把你当成了马戏团猴子。"
         },
         {
           "option_id": "gu_jia_4_morning_01_b",
@@ -4714,7 +4714,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你守住了懒觉，但失去了红包和家族声望。你在亲戚口中成了‘那个孤僻的孩子’。"
         },
         {
           "option_id": "gu_jia_4_morning_01_c",
@@ -4728,7 +4728,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘恭喜发财’说了八百遍。收益一般，但胜在体面。你是懂性价比的。"
         }
       ]
     },
@@ -4752,7 +4752,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表姐在客厅阴阳怪气：‘这么大人了还这么独。’ 但你的老婆（手办）保住了！值！"
         },
         {
           "option_id": "gu_jia_4_noon_01_b",
@@ -4766,7 +4766,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你变成了人形游乐设施。san值狂掉，但表姐塞给你两百块‘带娃费’。"
         },
         {
           "option_id": "gu_jia_4_noon_01_c",
@@ -4780,7 +4780,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你教会了他们玩手机游戏，并让他们一定要充钱。危机解除，且成功转移了矛盾。"
         }
       ]
     },
@@ -4804,7 +4804,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "肠胃功能紊乱，获得debuff【亚硝酸盐中毒预备役】。爸妈夸你节约。"
         },
         {
           "option_id": "gu_jia_4_evening_01_b",
@@ -4818,7 +4818,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "垃圾桶暴露了你的罪行。遭到全家批斗：‘这都是钱啊！’"
         },
         {
           "option_id": "gu_jia_4_evening_01_c",
@@ -4832,7 +4832,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "做出了黑暗料理。全家沉默，没人再逼你吃剩菜了，但也都不敢吃你做的饭了。"
         }
       ]
     },
@@ -4856,7 +4856,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "二姨儿子怜悯地给了你200块红包，像打发叫花子。你收下了，毕竟骨气不能当饭吃。"
         },
         {
           "option_id": "gu_jia_5_morning_01_b",
@@ -4870,7 +4870,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "精准打击！全场目光聚焦在他后移的发际线上。你赢了战役，但输了风度。"
         },
         {
           "option_id": "gu_jia_5_morning_01_c",
@@ -4884,7 +4884,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你爸妈突然觉得：虽然你穷，但你在身边伺候挺好。精神胜利法大成功！"
         }
       ]
     },
@@ -4908,7 +4908,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "腰断了，手泡白了。亲戚们夸你‘贤惠’（不论男女），你获得了‘免费洗碗机’称号。"
         },
         {
           "option_id": "gu_jia_5_noon_01_b",
@@ -4922,7 +4922,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "逃避可耻但有用。不过回来后发现你妈脸色铁青，暴风雨即将来临。"
         },
         {
           "option_id": "gu_jia_5_noon_01_c",
@@ -4936,7 +4936,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "强行拉壮丁。虽然被表弟表妹记恨，但你解放了双手。这是管理的艺术。"
         }
       ]
     },
@@ -4960,7 +4960,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "加上了，朋友圈全是‘奋斗’语录。你开启了消息免打扰，暂时安全。"
         },
         {
           "option_id": "gu_jia_5_evening_01_b",
@@ -4974,7 +4974,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "七大姑差点心梗，你妈血压飙升。家庭会议瞬间变成批判大会，但你爽翻了。"
         },
         {
           "option_id": "gu_jia_5_evening_01_c",
@@ -4988,7 +4988,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "用魔法打败魔法。七大姑语塞，默默收回了照片。自杀式袭击成功。"
         }
       ]
     },
@@ -5012,7 +5012,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "爸妈虽然抱怨‘怎么过年还加班’，但眼神里多了几分对‘社畜’的尊重。网吧泡面真香。"
         },
         {
           "option_id": "gu_jia_6_morning_01_b",
@@ -5026,7 +5026,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "一群天涯沦落人互相吐槽家里，情绪价值拉满，钱包空虚。"
         },
         {
           "option_id": "gu_jia_6_morning_01_c",
@@ -5040,7 +5040,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "越狱失败。被抓去给二姨姥姥送礼。你的灵魂在尖叫。"
         }
       ]
     },
@@ -5064,7 +5064,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你就像一个隐形人。吃回了份子钱，听了一肚子八卦，稳赚不赔。"
         },
         {
           "option_id": "gu_jia_6_noon_01_b",
@@ -5078,7 +5078,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场寂静。大家纷纷投来羡慕又嫉妒的目光：‘还是你活得通透啊！’ 居然成了全场焦点。"
         },
         {
           "option_id": "gu_jia_6_noon_01_c",
@@ -5092,7 +5092,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "装X成功，但为了圆谎抢着买单。死要面子活受罪的典型。"
         }
       ]
     },
@@ -5116,7 +5116,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "焦虑转化为行动力。虽然大概率石沉大海，但至少你挣扎了一下。"
         },
         {
           "option_id": "gu_jia_6_evening_01_b",
@@ -5130,7 +5130,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "文艺青年附体。只要我不尴尬，尴尬的就是月亮。心情好多了。"
         },
         {
           "option_id": "gu_jia_6_evening_01_c",
@@ -5144,7 +5144,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "奶头乐是最好的麻醉剂。明天的事明天再说吧，摆烂多快乐啊。"
         }
       ]
     },
@@ -5168,7 +5168,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "父母愣了一下，随即翻了个白眼：‘哦，忘了这茬。那你赶紧去拖地！’ 温情瞬间破碎。"
         },
         {
           "option_id": "gu_jia_7_morning_01_b",
@@ -5182,7 +5182,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "骗到了两根腊肠和一罐土蜂蜜。囤积癖大满足。"
         },
         {
           "option_id": "gu_jia_7_morning_01_c",
@@ -5196,7 +5196,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "谈判破裂。不仅没涨，还因为‘表现不佳’被扣了绩效。资本家都没这么狠。"
         }
       ]
     },
@@ -5220,7 +5220,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然累成狗，但看着家里一尘不染，强迫症得到了极大满足。太后对此表示满意。"
         },
         {
           "option_id": "gu_jia_7_noon_01_b",
@@ -5234,7 +5234,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘干活不痛快，不如不干！’ 挨了一顿骂，活还没少干。亏大了。"
         },
         {
           "option_id": "gu_jia_7_noon_01_c",
@@ -5248,7 +5248,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "机器人在瓜子皮阵列中卡死了。你还得去救驾，并被嘲笑‘高科技没屁用’。"
         }
       ]
     },
@@ -5272,7 +5272,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然不知道项目是什么，但这种神秘感震慑住了二老。暂时获得了安宁。"
         },
         {
           "option_id": "gu_jia_7_evening_01_b",
@@ -5286,7 +5286,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要我吃得够快，唠叨就追不上我。体重+1kg。"
         },
         {
           "option_id": "gu_jia_7_evening_01_c",
@@ -5300,7 +5300,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "打感情牌。老妈眼圈红了，给你夹了一块最大的肉。计划通。"
         }
       ]
     },
@@ -5324,7 +5324,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "条件反射已养成。你比上班族起得还早，这何尝不是一种敬业。"
         },
         {
           "option_id": "gu_jia_8_morning_01_b",
@@ -5338,7 +5338,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘家里养了个大懒虫！’ 门外传来太后的咆哮。虽然睡爽了，但午饭危。"
         },
         {
           "option_id": "gu_jia_8_morning_01_c",
@@ -5352,7 +5352,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "演技浮夸。被识破，被强行掀被子。尊严扫地。"
         }
       ]
     },
@@ -5376,7 +5376,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虚报菜价，从中渔利。虽然不多，但这是劳动所得（诈骗所得）。"
         },
         {
           "option_id": "gu_jia_8_noon_01_b",
@@ -5390,7 +5390,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "为家里花了钱，还要挨骂。这就是爱的代价吧（确信）。"
         },
         {
           "option_id": "gu_jia_8_noon_01_c",
@@ -5404,7 +5404,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要不出门，就不会花钱。你决定把自己封印在房间里。"
         }
       ]
     },
@@ -5428,7 +5428,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "没说话，但爸妈接过去吃了。空气里有淡淡的甜味。这一刻，san值回满。"
         },
         {
           "option_id": "gu_jia_8_evening_01_b",
@@ -5442,7 +5442,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "还是虚拟世界好。感动不过三秒，逃避现实才是刚需。"
         },
         {
           "option_id": "gu_jia_8_evening_01_c",
@@ -5456,7 +5456,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "照片里的二老睡着了，你比着耶。这是这个春节最真实的瞬间。"
         }
       ]
     },
@@ -5480,7 +5480,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "续约成功！太后转账2000元生活费。你也算是有编制的人了。"
         },
         {
           "option_id": "gu_jia_9_morning_01_b",
@@ -5494,7 +5494,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "爸妈竟然松了一口气：‘去吧，家里也不缺你那双筷子。’ 有点失落是怎么回事？"
         },
         {
           "option_id": "gu_jia_9_morning_01_c",
@@ -5508,7 +5508,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "惨遭‘降薪留用’。生活费减半，还要被骂。开局不利。"
         }
       ]
     },
@@ -5532,7 +5532,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "未来一个月的伙食有着落了。全职儿女的生存智慧：有的拿就别客气。"
         },
         {
           "option_id": "gu_jia_9_noon_01_b",
@@ -5546,7 +5546,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘这纸质量好！’ 爸妈觉得你不识货。爱意变成了一场关于纸巾质量的辩论。"
         },
         {
           "option_id": "gu_jia_9_noon_01_c",
@@ -5560,7 +5560,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "获得了50个赞。网络孝子人设屹立不倒。"
         }
       ]
     },
@@ -5584,7 +5584,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "立下了Flag。虽然可能性微存，但梦想还是要有的。热血沸腾了三分钟，然后睡着了。"
         },
         {
           "option_id": "gu_jia_9_evening_01_b",
@@ -5598,7 +5598,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "认清了现实。只要脸皮厚，这碗饭还能吃。舒适区虽然窄，但是暖和啊。"
         },
         {
           "option_id": "gu_jia_9_evening_01_c",
@@ -5612,7 +5612,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "连跪五把。生活就是这样，起起落落落落落。但这才是真实的人间。"
         }
       ]
     },
@@ -5636,7 +5636,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你试图用科技屏蔽现实，但物理震动让你的肾上腺素飙升。你的忍耐值-10。"
         },
         {
           "option_id": "ren_xing_1_morning_01_b",
@@ -5650,7 +5650,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要你比他们更癫，尴尬的就是别人。车厢安静了，你获得了‘赛博疯狗’称号。"
         },
         {
           "option_id": "ren_xing_1_morning_01_c",
@@ -5664,7 +5664,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "监护人翻了个白眼骂你神经病，但熊孩子确实停了一会儿。"
         }
       ]
     },
@@ -5688,7 +5688,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大妈们被你的气场镇住，村口情报库更新：这小子在外面发了。"
         },
         {
           "option_id": "ren_xing_1_noon_01_b",
@@ -5702,7 +5702,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这就是【素质消失术】！大妈团溃不成军，你成功突围。"
         },
         {
           "option_id": "ren_xing_1_noon_01_c",
@@ -5716,7 +5716,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成为了她们接下来三天的笑料素材：“看老任家那小子，混得不行。”"
         }
       ]
     },
@@ -5740,7 +5740,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "为了家庭和谐，你献祭了自己的胃。爸妈很满意，你的血糖很伤心。"
         },
         {
           "option_id": "ren_xing_1_evening_01_b",
@@ -5754,7 +5754,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "父母吓坏了，当场转给你200块买营养品。计划通。"
         },
         {
           "option_id": "ren_xing_1_evening_01_c",
@@ -5768,7 +5768,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "空气突然安静，爸妈觉得你在大城市压力太大，脑子坏掉了。"
         }
       ]
     },
@@ -5792,7 +5792,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你违背了生物本能，获得了母亲的赞赏和一整天的萎靡不振。"
         },
         {
           "option_id": "ren_xing_2_morning_01_b",
@@ -5806,7 +5806,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在梦中构建了防御工事。但这会被记入‘不懂事’的小本本。"
         },
         {
           "option_id": "ren_xing_2_morning_01_c",
@@ -5820,7 +5820,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "母亲默默关上了门，并怀疑你中邪了，你成功捍卫了睡眠权。"
         }
       ]
     },
@@ -5844,7 +5844,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成了免费劳动力，但不仅腰酸背痛，还被奖励了一个苹果。"
         },
         {
           "option_id": "ren_xing_2_noon_01_b",
@@ -5858,7 +5858,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成功偷懒，父亲一边骂一边自己爬上去擦了。"
         },
         {
           "option_id": "ren_xing_2_noon_01_c",
@@ -5872,7 +5872,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用职场PUA术反向管理了父亲。他干得很起劲，你在旁边玩手机。"
         }
       ]
     },
@@ -5896,7 +5896,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的智商受到了侮辱，但父母觉得你很孝顺。"
         },
         {
           "option_id": "ren_xing_2_evening_01_b",
@@ -5910,7 +5910,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "逃避可耻但有用。这是属于你的赛博避难所。"
         },
         {
           "option_id": "ren_xing_2_evening_01_c",
@@ -5924,7 +5924,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "父母看着屏幕上的鬼畜画面陷入沉思，随后没收了遥控器。"
         }
       ]
     },
@@ -5948,7 +5948,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你装到了，但代价是接下来几天你要发巨额红包来圆谎。"
         },
         {
           "option_id": "ren_xing_3_morning_01_b",
@@ -5962,7 +5962,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "亲戚们瞬间闭嘴，并以光速离开了你家。世界清静了。"
         },
         {
           "option_id": "ren_xing_3_morning_01_c",
@@ -5976,7 +5976,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "精准打击！二姨捂着脸走了，你被你妈狠狠掐了一下。"
         }
       ]
     },
@@ -6000,7 +6000,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你是个好哥哥，但你心在滴血。表弟五分钟后把它摔断了。"
         },
         {
           "option_id": "ren_xing_3_noon_01_b",
@@ -6014,7 +6014,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟尖叫着跑了，你维护了知识的尊严。"
         },
         {
           "option_id": "ren_xing_3_noon_01_c",
@@ -6028,7 +6028,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟被吓哭了，你被姑姑骂了“没个正经”，但手办保住了。"
         }
       ]
     },
@@ -6052,7 +6052,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你喝吐了，长辈们夸你豪爽。第二天你会后悔出生。"
         },
         {
           "option_id": "ren_xing_3_evening_01_b",
@@ -6066,7 +6066,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场震惊。这理由太硬核，没人敢劝了，只剩下窃窃私语。"
         },
         {
           "option_id": "ren_xing_3_evening_01_c",
@@ -6080,7 +6080,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你反客为主，把长辈们劝怕了。【素质消失术】大成功。"
         }
       ]
     },
@@ -6104,7 +6104,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成了背景板，衬托了红花的鲜艳。由于过于卑微，SAN值狂掉。"
         },
         {
           "option_id": "ren_xing_4_morning_01_b",
@@ -6118,7 +6118,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "哪壶不开提哪壶。对方笑容凝固，王阿姨觉得你嫉妒心重。"
         },
         {
           "option_id": "ren_xing_4_morning_01_c",
@@ -6132,7 +6132,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "成功把对方拉下水。王阿姨拉着儿子赶紧跑了，生怕沾上晦气。"
         }
       ]
     },
@@ -6156,7 +6156,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "平平淡淡，你们加了微信然后互躺尸体列表。"
         },
         {
           "option_id": "ren_xing_4_noon_01_b",
@@ -6170,7 +6170,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "对方眼中有了光，你们愉快地打了一下午王者荣耀。"
         },
         {
           "option_id": "ren_xing_4_noon_01_c",
@@ -6184,7 +6184,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "对方落荒而逃。你妈接到介绍人电话，说你脑子是不是有坑。"
         }
       ]
     },
@@ -6208,7 +6208,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "长辈们赢钱了夸你懂事，你钱包瘪了但家庭地位暂时上升。"
         },
         {
           "option_id": "ren_xing_4_evening_01_b",
@@ -6222,7 +6222,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你赢光了三姑的买菜钱。气氛很尴尬，但钱很香。"
         },
         {
           "option_id": "ren_xing_4_evening_01_c",
@@ -6236,7 +6236,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的精神攻击干扰了他们的牌运。牌局不欢而散。"
         }
       ]
     },
@@ -6260,7 +6260,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "中规中矩，祖宗收到了你的头，没收到你的诚意。"
         },
         {
           "option_id": "ren_xing_5_morning_01_b",
@@ -6274,7 +6274,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你爸觉得你大逆不道，但你觉得这才叫与时俱进。"
         },
         {
           "option_id": "ren_xing_5_morning_01_c",
@@ -6288,7 +6288,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全家族都夸你是个孝子，只有你知道是被PM2.5呛的。"
         }
       ]
     },
@@ -6312,7 +6312,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你吃下了一周份的致癌物，获得了母亲的欣慰笑容。"
         },
         {
           "option_id": "ren_xing_5_noon_01_b",
@@ -6326,7 +6326,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然有点费钱，但保住了狗命。就是藏外卖包装盒有点累。"
         },
         {
           "option_id": "ren_xing_5_noon_01_c",
@@ -6340,7 +6340,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈骂你“书读到狗肚子里了”，然后当你面把菜吃了。"
         }
       ]
     },
@@ -6364,7 +6364,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "冷暴力处理。家里气氛压抑得像即将下雨。"
         },
         {
           "option_id": "ren_xing_5_evening_01_b",
@@ -6378,7 +6378,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "拿出了二次元老婆的照片。父母彻底绝望，决定放弃治疗你。"
         },
         {
           "option_id": "ren_xing_5_evening_01_c",
@@ -6392,7 +6392,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "以经济基础击碎上层建筑。父母沉默了，因为真没钱。"
         }
       ]
     },
@@ -6416,7 +6416,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这理由很正当。你在网吧开了一上午黑，爽翻了。"
         },
         {
           "option_id": "ren_xing_6_morning_01_b",
@@ -6430,7 +6430,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "高糖分摄入让你找回了活着的感觉。"
         },
         {
           "option_id": "ren_xing_6_morning_01_c",
@@ -6444,7 +6444,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "诚实是种美德，但会挨骂。你妈骂你‘家是旅馆吗’。"
         }
       ]
     },
@@ -6468,7 +6468,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要我不尴尬，青春就还在。保留美好回忆（假象）就好。"
         },
         {
           "option_id": "ren_xing_6_noon_01_b",
@@ -6482,7 +6482,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你亲手摧毁了对方的尊严，也摧毁了自己的回忆。这就是发疯的快感。"
         },
         {
           "option_id": "ren_xing_6_noon_01_c",
@@ -6496,7 +6496,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "成年人的虚伪社交。你发现他/她朋友圈全是微商广告。"
         }
       ]
     },
@@ -6520,7 +6520,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你们互相舔舐伤口，感觉SAN值回满。这是真正的春节。"
         },
         {
           "option_id": "ren_xing_6_evening_01_b",
@@ -6534,7 +6534,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然钱包痛，但那一声‘义父’让你迷失了自我。"
         },
         {
           "option_id": "ren_xing_6_evening_01_c",
@@ -6548,7 +6548,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大家像看傻子一样看你，然后继续喝廉价啤酒。"
         }
       ]
     },
@@ -6572,7 +6572,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被骂‘懒猪’，但喝到了温水。退化成巨婴挺舒服的。"
         },
         {
           "option_id": "ren_xing_7_morning_01_b",
@@ -6586,7 +6586,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你像个行尸走肉一样飘荡在家里，差点撞门框上。"
         },
         {
           "option_id": "ren_xing_7_morning_01_c",
@@ -6600,7 +6600,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "获得了3个赞，屏蔽了父母。你觉得很酷。"
         }
       ]
     },
@@ -6624,7 +6624,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你花钱做了头发，准备去见证人类虚荣心的巅峰。"
         },
         {
           "option_id": "ren_xing_7_noon_01_b",
@@ -6638,7 +6638,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要我没有道德，你就绑架不了我。爽！"
         },
         {
           "option_id": "ren_xing_7_noon_01_c",
@@ -6652,7 +6652,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "群里瞬间冷场。你凭一己之力拉低了聚会的格调。你是英雄。"
         }
       ]
     },
@@ -6676,7 +6676,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要我脸皮厚，这顿就是自助餐。这波不亏。"
         },
         {
           "option_id": "ren_xing_7_evening_01_b",
@@ -6690,7 +6690,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你出卖了灵魂，换来了所谓的‘人脉’（其实并没有卵用）。"
         },
         {
           "option_id": "ren_xing_7_evening_01_c",
@@ -6704,7 +6704,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场死寂。【素质消失术】终极奥义。你成为了聚会终结者。"
         }
       ]
     },
@@ -6728,7 +6728,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "花了冤枉钱，买了个心安。同事们估计转手就扔了。"
         },
         {
           "option_id": "ren_xing_8_morning_01_b",
@@ -6742,7 +6742,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "“这是正宗老家笨土豆！”这理由无懈可击，还省钱。"
         },
         {
           "option_id": "ren_xing_8_morning_01_c",
@@ -6756,7 +6756,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这是现代智慧。没人知道你没在当地买，除了快递单。"
         }
       ]
     },
@@ -6780,7 +6780,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "经典的‘敷衍三连’。虽然没听进去，但这是为了世界和平。"
         },
         {
           "option_id": "ren_xing_8_noon_01_b",
@@ -6794,7 +6794,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要饼画得够大，父母就吃不下。他们觉得你在做梦。"
         },
         {
           "option_id": "ren_xing_8_noon_01_c",
@@ -6808,7 +6808,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "父母看着像在演默剧的你，叹了口气，放弃了。"
         }
       ]
     },
@@ -6832,7 +6832,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "箱子拉链发出了惨叫，但你带走了沉甸甸的母爱（负担）。"
         },
         {
           "option_id": "ren_xing_8_evening_01_b",
@@ -6846,7 +6846,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈觉得你不知道柴米油盐贵，偷偷塞你包里两个煮鸡蛋。"
         },
         {
           "option_id": "ren_xing_8_evening_01_c",
@@ -6860,7 +6860,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "用金钱换空间。双赢。"
         }
       ]
     },
@@ -6884,7 +6884,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "短暂的温情。你看到老妈偷偷抹了眼泪。唉，这就是羁绊。"
         },
         {
           "option_id": "ren_xing_9_morning_01_b",
@@ -6898,7 +6898,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "潇洒离去。真男人从不回头看爆炸（泪水）。"
         },
         {
           "option_id": "ren_xing_9_morning_01_c",
@@ -6912,7 +6912,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "实用主义者。你确认了身份证在，就放心了。"
         }
       ]
     },
@@ -6936,7 +6936,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看着99+的消息，你想跳车。社畜模式加载中..."
         },
         {
           "option_id": "ren_xing_9_noon_01_b",
@@ -6950,7 +6950,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "能睡一分钟是一分钟。梦里没有KPI。"
         },
         {
           "option_id": "ren_xing_9_noon_01_c",
@@ -6964,7 +6964,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看着账单，你觉得自己这几天是在‘精准扶贫’。心痛。"
         }
       ]
     },
@@ -6988,7 +6988,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "春节副本通关。游戏结束，生活继续。"
         },
         {
           "option_id": "ren_xing_9_evening_01_b",
@@ -7002,7 +7002,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "隔壁邻居敲墙骂你神经病。这熟悉的感觉，回来了。"
         },
         {
           "option_id": "ren_xing_9_evening_01_c",
@@ -7016,7 +7016,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你是成熟的打工人。晚安，赛博世界。"
         }
       ]
     },
@@ -7040,7 +7040,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "安检员眼神充满了对‘养猪大户’的敬畏与关爱。你顺利过关，深藏功与名。"
         },
         {
           "option_id": "hao_youqian_1_morning_01_b",
@@ -7054,7 +7054,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你不得不买了最贵的补票费，并被三个乘警全程‘护送’上车。高调的代价是失去了低调的自由。"
         },
         {
           "option_id": "hao_youqian_1_morning_01_c",
@@ -7068,7 +7068,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被当成进城务工的困难户，安检小姐姐差点给你众筹车票。你的尊严系统遭受降维打击。"
         }
       ]
     },
@@ -7092,7 +7092,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘哎哟，有乾这孩子还是这么朴实，抽假烟都这么大方。’ 伪装成功，情报等级判定为：无害废物。"
         },
         {
           "option_id": "hao_youqian_1_noon_01_b",
@@ -7106,7 +7106,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "谣言生成中：《郝家那小子可能在外面欠了高利贷》。你的风评被害，但安全系数上升。"
         },
         {
           "option_id": "hao_youqian_1_noon_01_c",
@@ -7120,7 +7120,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大妈们看不懂这是写字楼钥匙，以为你是配钥匙的。职业歧视链启动，你被列为‘技术工种’。"
         }
       ]
     },
@@ -7144,7 +7144,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老妈根本不信，并试图用剃毛球机给你的限量版做‘物理整形’。你的心在滴血。"
         },
         {
           "option_id": "hao_youqian_1_evening_01_b",
@@ -7158,7 +7158,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老妈给你碗里堆成了喜马拉雅山。虽然撑得半死，但亲情防火墙已修复。"
         },
         {
           "option_id": "hao_youqian_1_evening_01_c",
@@ -7172,7 +7172,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全家沉默。老爹默默把你面前的咸菜换成了红烧肉。金钱的物理属性战胜了审美焦虑。"
         }
       ]
     },
@@ -7196,7 +7196,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你挥舞着钞票买下了那只公鸡。世界安静了，但老爹看你的眼神像看个杀人犯。"
         },
         {
           "option_id": "hao_youqian_2_morning_01_b",
@@ -7210,7 +7210,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你错过了早饭，被亲戚们贴上了‘好吃懒做’的标签。富豪的快乐就是这么朴实无华且被误解。"
         },
         {
           "option_id": "hao_youqian_2_morning_01_c",
@@ -7224,7 +7224,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "没想到你虚胖的身体根本扛不住物理劳动，闪了腰。腰上的钥匙串哗啦啦响，像是在嘲笑你。"
         }
       ]
     },
@@ -7248,7 +7248,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "王婶看到那一串零，以为是计算器坏了。二狗眼神呆滞，道心破碎。你爽了，但借钱的风险增加了。"
         },
         {
           "option_id": "hao_youqian_2_noon_01_b",
@@ -7262,7 +7262,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成功守住了‘废物’的人设。王婶满意离去，留下一袋烂苹果作为扶贫慰问。"
         },
         {
           "option_id": "hao_youqian_2_noon_01_c",
@@ -7276,7 +7276,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘哦，那个小区啊，我有三套在租。’ 无形装X，最为致命。王婶的表情像吞了只苍蝇。"
         }
       ]
     },
@@ -7300,7 +7300,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "父母大脑宕机，彻底放弃催婚。老爹拿起了扫帚，你获得了物理伤害，但精神解脱了。"
         },
         {
           "option_id": "hao_youqian_2_evening_01_b",
@@ -7314,7 +7314,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘随便刷，密码是妈生日。’ 钞能力解决了99%的问题，剩下1%是他们不会用POS机。"
         },
         {
           "option_id": "hao_youqian_2_evening_01_c",
@@ -7328,7 +7328,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你对着空气谈了半小时‘收购推特’的业务。父母虽然听不懂，但觉得你可能涉嫌诈骗，不敢多问了。"
         }
       ]
     },
@@ -7352,7 +7352,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用专业的金融术语把他聊懵了。他发现骗不到你，骂骂咧咧地转去忽悠隔壁二傻子了。"
         },
         {
           "option_id": "hao_youqian_3_morning_01_b",
@@ -7366,7 +7366,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘拿去喝奶茶，别折腾了。’ 伤害性不大，侮辱性极强。你成为了他口中的‘土鳖暴发户’。"
         },
         {
           "option_id": "hao_youqian_3_morning_01_c",
@@ -7380,7 +7380,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘实体经济才是王道。’ 你顺便招了个租客。商业鬼才就是你。"
         }
       ]
     },
@@ -7404,7 +7404,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的肝脏在报警，视网膜开始模糊。三舅夸你是‘纯爷们’，你觉得自己是‘纯傻X’。"
         },
         {
           "option_id": "hao_youqian_3_noon_01_b",
@@ -7418,7 +7418,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "发财树肉眼可见地枯萎了。你保住了狗命，但牺牲了家里的风水。"
         },
         {
           "option_id": "hao_youqian_3_noon_01_c",
@@ -7432,7 +7432,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场震惊。三舅尝了一口说：‘这洋酒咋是酸的？坏了吧？’ 你的品味在土味面前一文不值。"
         }
       ]
     },
@@ -7456,7 +7456,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成为了孩子们眼中的上帝。但随后更多孩子从邻村闻讯赶来，服务器即将过载。"
         },
         {
           "option_id": "hao_youqian_3_evening_01_b",
@@ -7470,7 +7470,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "孩子们的笑容凝固了，你是魔鬼。整个村子的平均成绩因此提高，你被家长们奉为圣人。"
         },
         {
           "option_id": "hao_youqian_3_evening_01_c",
@@ -7484,7 +7484,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "最朴素的物理防御。虽然被孩子们踩了几脚，但钱包守住了。"
         }
       ]
     },
@@ -7508,7 +7508,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "场面极度尴尬又极度舒适。小丽当场社死，你不仅不用相亲，还收回了房租。"
         },
         {
           "option_id": "hao_youqian_4_morning_01_b",
@@ -7522,7 +7522,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "她吹嘘自己住在CBD大平层。你在心里默默记账，准备回去涨她房租。"
         },
         {
           "option_id": "hao_youqian_4_morning_01_c",
@@ -7536,7 +7536,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "土豪的恶趣味。你想看看她发现真相时的表情。这比看电视剧精彩多了。"
         }
       ]
     },
@@ -7560,7 +7560,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "在满桌肉食动物面前吃草，你被亲戚们判定为‘身体不行’。男人怎么能不行？"
         },
         {
           "option_id": "hao_youqian_4_noon_01_b",
@@ -7574,7 +7574,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "为了面子牺牲了食道。这就是赛博格时代的罗马贵族生活方式吗？"
         },
         {
           "option_id": "hao_youqian_4_noon_01_c",
@@ -7588,7 +7588,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "没人懂什么是生酮，但听起来很高级。大家纷纷给你夹最肥的肉。"
         }
       ]
     },
@@ -7612,7 +7612,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "输钱买清净。亲戚们笑得合不拢嘴，夸你‘大气’。气氛和谐得诡异。"
         },
         {
           "option_id": "hao_youqian_4_evening_01_b",
@@ -7626,7 +7626,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你赢光了二舅的私房钱。二舅妈当场家暴二舅。聚会不欢而散，但你很爽。"
         },
         {
           "option_id": "hao_youqian_4_evening_01_c",
@@ -7640,7 +7640,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然不赢钱，但展示了绝对的技术统治力。他们开始怀疑你是不是出老千。"
         }
       ]
     },
@@ -7664,7 +7664,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟恼羞成怒，说你‘眼界窄’、‘活该发不了大财’。你看着自己的余额，笑了。"
         },
         {
           "option_id": "hao_youqian_5_morning_01_b",
@@ -7678,7 +7678,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你编造了一个更离谱的项目，差点把表弟忽悠进去。用魔法打败魔法。"
         },
         {
           "option_id": "hao_youqian_5_morning_01_c",
@@ -7692,7 +7692,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟鄙视地看了你一眼，转身走了。安全，高效，就是有点伤自尊。"
         }
       ]
     },
@@ -7716,7 +7716,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "暴击！全场鸦雀无声。宝马瞬间变得黯淡无光。五菱宏光才是永远的神。"
         },
         {
           "option_id": "hao_youqian_5_noon_01_b",
@@ -7730,7 +7730,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "一语道破天机。表哥脸涨成了猪肝色。这波毒舌精准命中。"
         },
         {
           "option_id": "hao_youqian_5_noon_01_c",
@@ -7744,7 +7744,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘这孩子真不容易。’ 大家向你投来同情的目光。你享受着这份宁静的低调。"
         }
       ]
     },
@@ -7768,7 +7768,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "家长以为你在讹人，最后经过网上查价，差点晕过去。你获得了全额赔偿，但亲戚没得做了。"
         },
         {
           "option_id": "hao_youqian_5_evening_01_b",
@@ -7782,7 +7782,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘我也还是个孩子。’ 你用最幼稚的方式完成了复仇。爽感爆棚。"
         },
         {
           "option_id": "hao_youqian_5_evening_01_c",
@@ -7796,7 +7796,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "内伤。你有钱也买不回此刻的心情。这是春节最黑暗的时刻。"
         }
       ]
     },
@@ -7820,7 +7820,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然你没有公司，但听起来很像个奋斗逼。父母放你一马，让你去镇上网吧‘办公’。"
         },
         {
           "option_id": "hao_youqian_6_morning_01_b",
@@ -7834,7 +7834,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你躲在被窝里刷了一上午抖音。除了有点闷，一切都很完美。"
         },
         {
           "option_id": "hao_youqian_6_morning_01_c",
@@ -7848,7 +7848,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "技师的手法治愈了你的身心。这才是春节该有的节奏。"
         }
       ]
     },
@@ -7872,7 +7872,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被小学生骂‘菜逼’。你那满级的操作意识跟不上生锈的手速。自取其辱。"
         },
         {
           "option_id": "hao_youqian_6_noon_01_b",
@@ -7886,7 +7886,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘老板大气！’ 你在镇上封神。这种廉价的虚荣心竟然该死的甜美。"
         },
         {
           "option_id": "hao_youqian_6_noon_01_c",
@@ -7900,7 +7900,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "在满是泡面味的环境里赚了五万块。这就是反差萌。"
         }
       ]
     },
@@ -7924,7 +7924,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "高冷。虽然有点装，但解气。她可能以为你在送外卖。"
         },
         {
           "option_id": "hao_youqian_6_evening_01_b",
@@ -7938,7 +7938,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "舔狗属性暴露？不，你是去复仇的。今晚注定无眠。"
         },
         {
           "option_id": "hao_youqian_6_evening_01_c",
@@ -7952,7 +7952,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "绝杀！对方把你拉黑了。你彻底断了念想，并且觉得很好笑。"
         }
       ]
     },
@@ -7976,7 +7976,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "彻底贯彻‘土味房东’人设。你要看看这帮人势利的嘴脸。"
         },
         {
           "option_id": "hao_youqian_7_morning_01_b",
@@ -7990,7 +7990,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "帅是帅，但在农村泥地里走两步全是泥。这种不协调感很赛博。"
         },
         {
           "option_id": "hao_youqian_7_morning_01_c",
@@ -8004,7 +8004,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "行为艺术。你想测试人性的底线。这绝对是个大新闻。"
         }
       ]
     },
@@ -8028,7 +8028,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大家眼神充满了鄙夷。初恋女友给你推销了一份‘失业险’。你差点笑出声。"
         },
         {
           "option_id": "hao_youqian_7_noon_01_b",
@@ -8042,7 +8042,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘老板，别闹，您卡里余额够买十个我们店。’ 服务员的大声密谋让全场石化。装X成功。"
         },
         {
           "option_id": "hao_youqian_7_noon_01_c",
@@ -8056,7 +8056,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "事了拂衣去。班长想买单时发现单买了，这种神秘感让他抓狂。"
         }
       ]
     },
@@ -8080,7 +8080,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场尴尬，但你爽了。毒舌属性大爆发。"
         },
         {
           "option_id": "hao_youqian_7_evening_01_b",
@@ -8094,7 +8094,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "正如你轻轻地来。留下一屋子的庸脂俗粉，你独自走在寒风中，觉得很cool。"
         },
         {
           "option_id": "hao_youqian_7_evening_01_c",
@@ -8108,7 +8108,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘别唱了，求你。’ 金钱的力量让噪音戛然而止。"
         }
       ]
     },
@@ -8132,7 +8132,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看着数字跳动，你的生命值回满了。资本是你最好的抗抑郁药。"
         },
         {
           "option_id": "hao_youqian_8_morning_01_b",
@@ -8146,7 +8146,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "劳动使人快乐。老妈夸你‘终于像个人了’。"
         },
         {
           "option_id": "hao_youqian_8_morning_01_c",
@@ -8160,7 +8160,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "逃避可耻但有用。梦里没有亲戚，只有会飞的钞票。"
         }
       ]
     },
@@ -8184,7 +8184,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这是沉甸甸的母爱（物理）。你回城的时候像个逃荒的。"
         },
         {
           "option_id": "hao_youqian_8_noon_01_b",
@@ -8198,7 +8198,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被老妈发现了。她开启了‘不孝子’念经模式，你的头开始痛了。"
         },
         {
           "option_id": "hao_youqian_8_noon_01_c",
@@ -8212,7 +8212,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老妈一边骂你乱花钱，一边笑嘻嘻地收下了。这就是双赢。"
         }
       ]
     },
@@ -8236,7 +8236,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表叔愣住了，饭都没吃完就跑了。这一招‘反向哭穷’百试不爽。"
         },
         {
           "option_id": "hao_youqian_8_evening_01_b",
@@ -8250,7 +8250,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你掏出了随身携带的法务合同。表叔看着那厚厚的条款，被赛博法治劝退。"
         },
         {
           "option_id": "hao_youqian_8_evening_01_c",
@@ -8264,7 +8264,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你借了2000，心里知道这钱是肉包子打狗。权当是扶贫了。"
         }
       ]
     },
@@ -8288,7 +8288,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "眼眶湿润。这几千块比你卡里的几千万更重。这才是春节的意义。"
         },
         {
           "option_id": "hao_youqian_9_morning_01_b",
@@ -8302,7 +8302,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老父亲觉得你还在逞强，叹了口气。沟通失败。"
         },
         {
           "option_id": "hao_youqian_9_morning_01_c",
@@ -8316,7 +8316,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老父亲戴上老花镜看了半天，问：‘这是津巴布韦币吗？’ 算了，解释不清。"
         }
       ]
     },
@@ -8340,7 +8340,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你嘶吼着《蓝莲花》。隔壁车的狗都被你吓叫了。解压满分。"
         },
         {
           "option_id": "hao_youqian_9_noon_01_b",
@@ -8354,7 +8354,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "50块一桶的泡面，吃出了米其林的味道。这就是垄断经济学。"
         },
         {
           "option_id": "hao_youqian_9_noon_01_c",
@@ -8368,7 +8368,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "时间就是金钱。堵车不堵财路。你的账户余额在持续上涨。"
         }
       ]
     },
@@ -8392,7 +8392,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "还是外卖香。你终于不用在亲戚面前演戏了。自由万岁。"
         },
         {
           "option_id": "hao_youqian_9_evening_01_b",
@@ -8406,7 +8406,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老妈问你腊肉吃了没。你笑着说吃了。那一刻，你觉得这才是真实的自己。"
         },
         {
           "option_id": "hao_youqian_9_evening_01_c",
@@ -8420,7 +8420,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你是无情的收租机器。春节的温情消散，金钱的齿轮重新转动。"
         }
       ]
     },
@@ -8444,7 +8444,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "车内充满了快活的'abandon'声。儿子哭，老婆笑，你感觉自己像个夹在中间的语音识别系统。"
         },
         {
           "option_id": "bi_chenglong_1_morning_01_b",
@@ -8458,7 +8458,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "儿子的DNA动了，开始咆哮跟唱。老婆给了你一个'你是猪队友吗'的眼神，物理攻击了你的大腿。"
         },
         {
           "option_id": "bi_chenglong_1_morning_01_c",
@@ -8472,7 +8472,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "药物生效，世界变得模糊且美好。你短暂地切断了与'鸡娃'服务器的连接。"
         }
       ]
     },
@@ -8496,7 +8496,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成功插到了奔驰前面，用尾气羞辱了知识。虽然素质低下，但心情极度舒畅。"
         },
         {
           "option_id": "bi_chenglong_1_noon_01_b",
@@ -8510,7 +8510,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你逼儿子摇下车窗背圆周率。全高速的人都以为这车里坐了个精神病。隔壁关窗了，赢！"
         },
         {
           "option_id": "bi_chenglong_1_noon_01_c",
@@ -8524,7 +8524,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要我听不见，牛津音就是噪音。掩耳盗铃是中年男人的顶级防御机制。"
         }
       ]
     },
@@ -8548,7 +8548,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "孩子大喊：'妈妈说爸爸保管就是买烟抽！' 全场爆笑，你当场社死。"
         },
         {
           "option_id": "bi_chenglong_1_evening_01_b",
@@ -8562,7 +8562,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老婆露出了慈禧般的微笑。你的家庭地位虽然没有提升，但至少避免了今晚睡柴房。"
         },
         {
           "option_id": "bi_chenglong_1_evening_01_c",
@@ -8576,7 +8576,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你凭单身三十年的手速抢到了。但因为动作太像抢劫，太爷爷差点吓得拨打110。"
         }
       ]
     },
@@ -8600,7 +8600,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "村民们看着你们父子俩像僵尸一样在田里游荡。你收获了'书香门第'的虚假赞誉，儿子收获了老寒腿。"
         },
         {
           "option_id": "bi_chenglong_2_morning_01_b",
@@ -8614,7 +8614,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你俩躲在草垛后面吃辣条。这是父子间难得的革命友谊，虽然满嘴味精味。"
         },
         {
           "option_id": "bi_chenglong_2_morning_01_c",
@@ -8628,7 +8628,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老婆亲自上阵带孩子去了。你在被窝里刷了半小时抖音，感觉灵魂得到了升华。"
         }
       ]
     },
@@ -8652,7 +8652,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你发起了油腻中年人的降维打击。神童愣住了，你赢在了下三滥。"
         },
         {
           "option_id": "bi_chenglong_2_noon_01_b",
@@ -8666,7 +8666,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然不体面，但至少证明了你儿子四肢发达。神童对此表示 biological confusion。"
         },
         {
           "option_id": "bi_chenglong_2_noon_01_c",
@@ -8680,7 +8680,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "儿子背到3.1415...就卡住了。神童冷冷地接了下去，背到了小数点后50位。你当场裂开。"
         }
       ]
     },
@@ -8704,7 +8704,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "去他妈的体脂率！碳水化合物才是快乐的源泉。老婆的眼神能杀人，但你已经饱了。"
         },
         {
           "option_id": "bi_chenglong_2_evening_01_b",
@@ -8718,7 +8718,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "亲戚们纷纷夸你'城里人就是讲究'。你饿得半夜想啃床脚。"
         },
         {
           "option_id": "bi_chenglong_2_evening_01_c",
@@ -8732,7 +8732,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "完美的犯罪。你假装在吃米饭，实则在享受油脂的欢愉。这就是大人的智慧。"
         }
       ]
     },
@@ -8756,7 +8756,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你预判了所有刁钻问题。儿子像个被训练好的ChatGLM，随时准备输出标准答案。"
         },
         {
           "option_id": "bi_chenglong_3_morning_01_b",
@@ -8770,7 +8770,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然孩子不行，但车行。物质外壳的闪亮能暂时晃瞎亲戚的狗眼。"
         },
         {
           "option_id": "bi_chenglong_3_morning_01_c",
@@ -8784,7 +8784,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你放弃了抵抗。儿子很高兴，并在出发前把牛奶洒了一裤子。"
         }
       ]
     },
@@ -8808,7 +8808,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你暗示对方孩子是个只会读书的书呆子。老王脸色一僵，你获得精神胜利。"
         },
         {
           "option_id": "bi_chenglong_3_noon_01_b",
@@ -8822,7 +8822,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然你在吹牛，但听起来很高科技。老王不懂机器人，被你唬住了。"
         },
         {
           "option_id": "bi_chenglong_3_noon_01_c",
@@ -8836,7 +8836,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "逃避可耻但有用。你在厕所抽了根烟，听着外面的笑声，感觉像个局外人。"
         }
       ]
     },
@@ -8860,7 +8860,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你撕了一页作业本。老婆冷静地罚款你100元，并让你明天早上粘回去。"
         },
         {
           "option_id": "bi_chenglong_3_evening_01_b",
@@ -8874,7 +8874,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你发现儿子连'3+2'都算成了6。你的酒醒了，血压上来了。"
         },
         {
           "option_id": "bi_chenglong_3_evening_01_c",
@@ -8888,7 +8888,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "梦里儿子考上了清华，你笑醒了，然后发现口水流到了枕头上。"
         }
       ]
     },
@@ -8912,7 +8912,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用一堆K线图术语把二姨绕晕了。她虽然没听懂，但觉得你亏得很有水平。"
         },
         {
           "option_id": "bi_chenglong_4_morning_01_b",
@@ -8926,7 +8926,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "二姨心软了，没准还能塞给你俩鸡蛋。低姿态是防守反击的精髓。"
         },
         {
           "option_id": "bi_chenglong_4_morning_01_c",
@@ -8940,7 +8940,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "暴击！二姨瞬间转移了火力去攻击表弟。你安全了。"
         }
       ]
     },
@@ -8964,7 +8964,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你吼了一声。熊孩子哭了，家长来了，你变成了'和小孩计较的小气鬼'。"
         },
         {
           "option_id": "bi_chenglong_4_noon_01_b",
@@ -8978,7 +8978,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你是忍者神龟。座椅擦不干净，你的心也在滴血。"
         },
         {
           "option_id": "bi_chenglong_4_noon_01_c",
@@ -8992,7 +8992,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你儿子教会了熊孩子给主播刷火箭。过几天他爸妈会感谢你的。"
         }
       ]
     },
@@ -9016,7 +9016,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在这个家就是个剩菜粉碎机。你的肠胃正在策划一场起义。"
         },
         {
           "option_id": "bi_chenglong_4_evening_01_b",
@@ -9030,7 +9030,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在寒风中等了一个小时的炸鸡。真他妈好吃，这是自由的味道。"
         },
         {
           "option_id": "bi_chenglong_4_evening_01_c",
@@ -9044,7 +9044,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老婆赞许地点点头，把你那份喂了狗。狗都不吃。"
         }
       ]
     },
@@ -9068,7 +9068,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "吃相太难看。虽然钱到手了，但全族群都觉得这孩子被你教坏了。"
         },
         {
           "option_id": "bi_chenglong_5_morning_01_b",
@@ -9082,7 +9082,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "中规中矩。红包厚度一般，但也挑不出毛病。"
         },
         {
           "option_id": "bi_chenglong_5_morning_01_c",
@@ -9096,7 +9096,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "知识变现！姑奶奶听得老泪纵横，多给了两百。鸡娃策略终于有了回头钱。"
         }
       ]
     },
@@ -9120,7 +9120,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你保住了两百块，但失去了今晚的被子。这是一场皮洛士式的胜利。"
         },
         {
           "option_id": "bi_chenglong_5_noon_01_b",
@@ -9134,7 +9134,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你彻底变成了无产阶级。老婆夸你懂事，你心里在滴血。"
         },
         {
           "option_id": "bi_chenglong_5_noon_01_c",
@@ -9148,7 +9148,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "味道有点重，但钱是安全的。只要别被要求脱鞋。"
         }
       ]
     },
@@ -9172,7 +9172,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你点燃了最大的那个'窜天猴'。那一刻，你觉得自己也是个孩子。老婆叹了口气，没拦你。"
         },
         {
           "option_id": "bi_chenglong_5_evening_01_b",
@@ -9186,7 +9186,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "儿子被你整无语了。这种比喻简直是反人类罪。"
         },
         {
           "option_id": "bi_chenglong_5_evening_01_c",
@@ -9200,7 +9200,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "朋友圈的点赞数让你获得了一丝虚荣的快感。尽管现实是你冻得流鼻涕。"
         }
       ]
     },
@@ -9224,7 +9224,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "成功留守。老婆带着儿子去了。你获得了宝贵的独处时间。"
         },
         {
           "option_id": "bi_chenglong_6_morning_01_b",
@@ -9238,7 +9238,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老婆太了解你了。你像条死狗一样被拖上了车。"
         },
         {
           "option_id": "bi_chenglong_6_morning_01_c",
@@ -9252,7 +9252,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "真的是病了。虽然难受，但终于可以正大光明地躺平了。"
         }
       ]
     },
@@ -9276,7 +9276,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "0-12-0。队友问你是不是用脚在玩。虽然输了，但你很快乐。"
         },
         {
           "option_id": "bi_chenglong_6_noon_01_b",
@@ -9290,7 +9290,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在嘈杂的环境里睡着了。这是几天来睡得最香的一觉。"
         },
         {
           "option_id": "bi_chenglong_6_noon_01_c",
@@ -9304,7 +9304,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "两个中年男人相视一笑，甚至不需要语言。这比什么都治愈。"
         }
       ]
     },
@@ -9328,7 +9328,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你展现了惊人的绘画天赋。只要老师不查实物，这就是完美的科研欺诈。"
         },
         {
           "option_id": "bi_chenglong_6_evening_01_b",
@@ -9342,7 +9342,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你模仿儿子的字迹模仿得惟妙惟肖。这是犯罪，但也是父爱。"
         },
         {
           "option_id": "bi_chenglong_6_evening_01_c",
@@ -9356,7 +9356,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这是下策。儿子觉得你是个天才，老婆觉得你是个废柴。"
         }
       ]
     },
@@ -9380,7 +9380,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "勒得慌，但这该死的线条感回来了。哪怕只能坚持两小时。"
         },
         {
           "option_id": "bi_chenglong_7_morning_01_b",
@@ -9394,7 +9394,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你把表哥的宝马钥匙挂在腰上。虽然车不是你的，但气场是你的。"
         },
         {
           "option_id": "bi_chenglong_7_morning_01_c",
@@ -9408,7 +9408,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "卫衣牛仔裤。只要你不尴尬，尴尬的就是穿西装的傻X。"
         }
       ]
     },
@@ -9432,7 +9432,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "其实就是填Excel表。但'涉密'两个字让你充满了神秘的高级感。"
         },
         {
           "option_id": "bi_chenglong_7_noon_01_b",
@@ -9446,7 +9446,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大家哈哈一笑，觉得你这人真实、幽默、没威胁。气氛融洽。"
         },
         {
           "option_id": "bi_chenglong_7_noon_01_c",
@@ -9460,7 +9460,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "班长立马要给你投资，你吓得赶紧借口去厕所。装X是有风险的。"
         }
       ]
     },
@@ -9484,7 +9484,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老套路。虽然保住了钱包，但你在同学群里的标签变成了'鸡贼'。"
         },
         {
           "option_id": "bi_chenglong_7_evening_01_b",
@@ -9498,7 +9498,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "最稳妥的选择。不装阔，也不占便宜。中庸之道。"
         },
         {
           "option_id": "bi_chenglong_7_evening_01_c",
@@ -9512,7 +9512,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "班长大手一挥全付了。你由衷地鼓掌，这一刻他就是你的神。"
         }
       ]
     },
@@ -9536,7 +9536,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "成交。虽然这是饮鸩止渴，但至少机器又转动了。"
         },
         {
           "option_id": "bi_chenglong_8_morning_01_b",
@@ -9550,7 +9550,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "孩子哭了，你也心累。暴政终究不得人心。"
         },
         {
           "option_id": "bi_chenglong_8_morning_01_c",
@@ -9564,7 +9564,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你躺在了儿子旁边。父子俩一起看着天花板发呆。老婆气笑了。"
         }
       ]
     },
@@ -9588,7 +9588,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你坐上去才把后备箱关上。至于那只鸡会不会闷死，听天由命吧。"
         },
         {
           "option_id": "bi_chenglong_8_noon_01_b",
@@ -9602,7 +9602,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈眼圈红了：'嫌弃家里的东西不好是不是？' 你充满了罪恶感，最后还是塞进去了。"
         },
         {
           "option_id": "bi_chenglong_8_noon_01_c",
@@ -9616,7 +9616,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你把两颗大白菜偷偷留在了墙角。为了车辆的避震系统，这是必要的牺牲。"
         }
       ]
     },
@@ -9640,7 +9640,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "没说什么宏大的话，就是嘱咐他们注意身体。老爸递给你一根烟，这次没骂你抽烟。"
         },
         {
           "option_id": "bi_chenglong_8_evening_01_b",
@@ -9654,7 +9654,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你迅速切换回了'城市生存模式'。感伤是什么？能当油烧吗？"
         },
         {
           "option_id": "bi_chenglong_8_evening_01_c",
@@ -9668,7 +9668,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你真是个魔鬼。连家里的狗都看不下去了，对你狂吠。"
         }
       ]
     },
@@ -9692,7 +9692,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "不敢回头，怕眼泪掉下来被老婆嘲笑。你也曾是这个家的孩子啊。"
         },
         {
           "option_id": "bi_chenglong_9_morning_01_b",
@@ -9706,7 +9706,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你喊破了音。父母笑着挥手，身影越来越小，直到消失在转角。"
         },
         {
           "option_id": "bi_chenglong_9_morning_01_c",
@@ -9720,7 +9720,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这是'父爱回收计划'。你破涕为笑，这趟没白来。"
         }
       ]
     },
@@ -9744,7 +9744,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你战胜了生理本能，虽然此时你的脸已经憋成了猪肝色。"
         },
         {
           "option_id": "bi_chenglong_9_noon_01_b",
@@ -9758,7 +9758,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "并没有什么用，除了费电和遭人白眼。无能狂怒的典型表现。"
         },
         {
           "option_id": "bi_chenglong_9_noon_01_c",
@@ -9772,7 +9772,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "试图用古人的智慧平复路怒。儿子听睡着了，世界清静了。"
         }
       ]
     },
@@ -9796,7 +9796,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "冰箱满了，心也踏实了。这些食物足够你在这个城市苟延残喘一个月。"
         },
         {
           "option_id": "bi_chenglong_9_evening_01_b",
@@ -9810,7 +9810,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你是个受虐狂吗？好吧，你是成年人。看着99+的未读邮件，你想死。"
         },
         {
           "option_id": "bi_chenglong_9_evening_01_c",
@@ -9824,7 +9824,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "儿子绝望的哭声响彻楼道。这才是生活的本来面目。春节大冒险，Game Over，但生活Online，永不下线。"
         }
       ]
     },
@@ -9848,7 +9848,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "二大爷以为你在念咒，把你当成了某种新型萨满，眼神充满了敬畏。"
         },
         {
           "option_id": "zhen_yangqi_1_morning_01_b",
@@ -9862,7 +9862,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的肱二头肌在尖叫，但为了 Maintain 你的贵族人设，你走出了 T 台的感觉。"
         },
         {
           "option_id": "zhen_yangqi_1_morning_01_c",
@@ -9876,7 +9876,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "Social 成功。虽然你的中华烟被嫌弃不够劲，但至少不用自己扛箱子了。"
         }
       ]
     },
@@ -9900,7 +9900,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你美得像个冰雕。鼻涕冻成了冰柱，正好可以用来搅拌你的 Afternoon Tea。"
         },
         {
           "option_id": "zhen_yangqi_1_noon_01_b",
@@ -9914,7 +9914,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "Oh no！你瞬间变成了村口守夜的王大拿，但温暖让你找回了丢失的 Soul。"
         },
         {
           "option_id": "zhen_yangqi_1_noon_01_c",
@@ -9928,7 +9928,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要没人摸你的后背，你就是全村最抗冻的崽。虽然皮肤被烫出了 Water bubbles。"
         }
       ]
     },
@@ -9952,7 +9952,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在瓦片上瑟瑟发抖，终于发出了一条 Story，获得了 3 个 Likes。Worth it？"
         },
         {
           "option_id": "zhen_yangqi_1_evening_01_b",
@@ -9966,7 +9966,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你告诉自己这是‘冥想’，但其实你脑子里已经在播放送外卖超时的 BGM 了。"
         },
         {
           "option_id": "zhen_yangqi_1_evening_01_c",
@@ -9980,7 +9980,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "密码是‘8个8’。你蹲在墙角蹭网的样子，像极了当年你在伦敦街头蹭星巴克厕所。"
         }
       ]
     },
@@ -10004,7 +10004,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你刚刚答应了帮二舅母挑两百斤大粪。Good luck, my friend."
         },
         {
           "option_id": "zhen_yangqi_2_morning_01_b",
@@ -10018,7 +10018,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "Excuse me? 她们以为你中邪了，甚至想去请村里的神婆来看看。"
         },
         {
           "option_id": "zhen_yangqi_2_morning_01_c",
@@ -10032,7 +10032,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "最有效的防御机制。只要你闭上眼，世界就 Reload 失败。"
         }
       ]
     },
@@ -10056,7 +10056,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的括约肌正在进行一场史诗级的防御战。脸色发青被认为是‘忧郁贵族气质’。"
         },
         {
           "option_id": "zhen_yangqi_2_noon_01_b",
@@ -10070,7 +10070,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "Chanel No.5 混合着氨气，创造出了一种让人当场去世的生化武器。"
         },
         {
           "option_id": "zhen_yangqi_2_noon_01_c",
@@ -10084,7 +10084,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "为了拉屎打车去镇上，这是属于你的奢侈。Toilets matter."
         }
       ]
     },
@@ -10108,7 +10108,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "仿佛回到了维多利亚时代的贫民窟。Very retro，very 惨。"
         },
         {
           "option_id": "zhen_yangqi_2_evening_01_b",
@@ -10122,7 +10122,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "Wim Hof 附体！你在发抖中完成了净化，并在半夜成功发烧。"
         },
         {
           "option_id": "zhen_yangqi_2_evening_01_c",
@@ -10136,7 +10136,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要喷足够多的发胶，没人知道你的头皮已经是一个生态系统了。"
         }
       ]
     },
@@ -10160,7 +10160,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你的胡扯能力 Max。大姨信了，觉得这东西肯定比国内的更 Advanced。"
         },
         {
           "option_id": "zhen_yangqi_3_morning_01_b",
@@ -10174,7 +10174,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大姨撇了撇嘴，把礼物扔到了角落的杂物堆。你的‘海归’光环黯淡了。"
         },
         {
           "option_id": "zhen_yangqi_3_morning_01_c",
@@ -10188,7 +10188,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "吹牛税+1。全村都知道你和英国皇室有关系了，接下来会有更多人找你办事。"
         }
       ]
     },
@@ -10212,7 +10212,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "油腻感直冲天灵盖，你感觉自己的血管壁正在此时此刻变厚。"
         },
         {
           "option_id": "zhen_yangqi_3_noon_01_b",
@@ -10226,7 +10226,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "狗嫌弃地走了。连中华田园犬都觉得这块肉太腻。尴尬指数爆表。"
         },
         {
           "option_id": "zhen_yangqi_3_noon_01_c",
@@ -10240,7 +10240,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全桌安静了。大家觉得你在国外可能加入了什么邪教，连肉都不吃。"
         }
       ]
     },
@@ -10264,7 +10264,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "哇声一片。后果是二舅立刻向你借五万块钱盖猪圈。Risk High, Return Negative。"
         },
         {
           "option_id": "zhen_yangqi_3_evening_01_b",
@@ -10278,7 +10278,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大家觉得你混得不行。‘看来还是不如考公务员稳定啊。’你也这么觉得。"
         },
         {
           "option_id": "zhen_yangqi_3_evening_01_c",
@@ -10292,7 +10292,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "神秘感拉满。大家以为你在为 MI6 工作，眼神中多了一丝恐惧。"
         }
       ]
     },
@@ -10316,7 +10316,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "照片很美，配文‘Connecting with nature’。实际上你跑得比兔子还快。"
         },
         {
           "option_id": "zhen_yangqi_4_morning_01_b",
@@ -10330,7 +10330,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你摘了一筐烂菜叶。老妈问你是不是在英国专修‘破坏农业罪’。"
         },
         {
           "option_id": "zhen_yangqi_4_morning_01_c",
@@ -10344,7 +10344,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用《我的世界》的逻辑指导农业生产，被老爸用铁锹赶出了菜地。"
         }
       ]
     },
@@ -10368,7 +10368,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "食道灼烧，系统重启。你在桌子底下看见了去世的太奶在向你招手。"
         },
         {
           "option_id": "zhen_yangqi_4_noon_01_b",
@@ -10382,7 +10382,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "操作犀利，但被发现了。‘这孩子出国学会造假了！’ 信用破产。"
         },
         {
           "option_id": "zhen_yangqi_4_noon_01_c",
@@ -10396,7 +10396,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘男人不喝酒，白在世上走。’你被贴上了‘娘炮’的标签。"
         }
       ]
     },
@@ -10420,7 +10420,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "在绝对的运气面前，数学就是个笑话。你输得只剩底裤。"
         },
         {
           "option_id": "zhen_yangqi_4_evening_01_b",
@@ -10434,7 +10434,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "乱拳打死老师傅！你胡了一把‘屁胡’，赢回了今天的奶茶钱。"
         },
         {
           "option_id": "zhen_yangqi_4_evening_01_c",
@@ -10448,7 +10448,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被赶下桌。‘连麻将都不会，书都读到狗肚子里去了。’"
         }
       ]
     },
@@ -10472,7 +10472,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘Oh sorry, I'm married to my career.’ 媒婆没听懂，以为你有生理缺陷。"
         },
         {
           "option_id": "zhen_yangqi_5_morning_01_b",
@@ -10486,7 +10486,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "对方嫌你太瘦，‘不好生养’。这是你人生中第一次因为太瘦被鄙视。"
         },
         {
           "option_id": "zhen_yangqi_5_morning_01_c",
@@ -10500,7 +10500,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "核弹级选项。整个家族瞬间清净了，没人再敢给你介绍对象。Freedom！"
         }
       ]
     },
@@ -10524,7 +10524,7 @@
             "mood": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "为了明年的财运，你也算是拼了。膝盖在尖叫，但祖宗应该收到了你的诚意。"
         },
         {
           "option_id": "zhen_yangqi_5_noon_01_b",
@@ -10538,7 +10538,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被指责‘忘本’。你在家族里的评级下调至‘垃圾股’。"
         },
         {
           "option_id": "zhen_yangqi_5_noon_01_c",
@@ -10552,7 +10552,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "配文‘Oriental Tradition’。被老爸一脚踹在屁股上，手机差点飞进坟头。"
         }
       ]
     },
@@ -10576,7 +10576,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "腿麻了，痔疮犯了，但灵魂得到了片刻的安息。"
         },
         {
           "option_id": "zhen_yangqi_5_evening_01_b",
@@ -10590,7 +10590,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "其实是打给外卖平台客服投诉。假装在开跨国会议，声音很大，震慑亲戚。"
         },
         {
           "option_id": "zhen_yangqi_5_evening_01_c",
@@ -10604,7 +10604,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "职业病犯了。你在厕所里复盘‘如何高效应付七大姑八大姨’，甚至画了思维导图。"
         }
       ]
     },
@@ -10628,7 +10628,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "奥斯卡级别的演技。亲戚们被你的‘精英忙碌感’吓退了，甚至给你塞了两个煮鸡蛋。"
         },
         {
           "option_id": "zhen_yangqi_6_morning_01_b",
@@ -10642,7 +10642,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "简单粗暴。虽然背后有人指指点点，但你呼吸到了自由的尘土味空气。"
         },
         {
           "option_id": "zhen_yangqi_6_morning_01_c",
@@ -10656,7 +10656,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "表弟是个大嘴巴。你在网吧打游戏的事实可能在两小时后传遍全村。"
         }
       ]
     },
@@ -10680,7 +10680,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "味道像洗锅水。但只要滤镜加得够厚，朋友圈里这就是精致下午茶。"
         },
         {
           "option_id": "zhen_yangqi_6_noon_01_b",
@@ -10694,7 +10694,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老板以为你是来收保护费的，差点报警。Cultural Shock。"
         },
         {
           "option_id": "zhen_yangqi_6_noon_01_c",
@@ -10708,7 +10708,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要你不尴尬，尴尬的就是别人。你成功在这里苟了一个下午。"
         }
       ]
     },
@@ -10732,7 +10732,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你低头猛吃烤冷面，差点噎死。龙总一脚油门扬长而去，溅了你一身泥。"
         },
         {
           "option_id": "zhen_yangqi_6_evening_01_b",
@@ -10746,7 +10746,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "龙总非要请你去洗脚。你被迫进行了一场名为‘叙旧’的炫富听证会。"
         },
         {
           "option_id": "zhen_yangqi_6_evening_01_c",
@@ -10760,7 +10760,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "龙总信了，非要给你投资。你现在骑虎难下，差点就在路边摊签了合同。"
         }
       ]
     },
@@ -10784,7 +10784,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "为了装作有空调，你差点被熏晕在驾驶座。这就是尊严的味道。"
         },
         {
           "option_id": "zhen_yangqi_7_morning_01_b",
@@ -10798,7 +10798,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "发型被吹成了鸡窝。到了聚会地点，你看起来像是个刚遭遇台风的难民。"
         },
         {
           "option_id": "zhen_yangqi_7_morning_01_c",
@@ -10812,7 +10812,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "狐臭加古龙水，混合出了‘尸体腐烂’的前调。车里的微生物都灭绝了。"
         }
       ]
     },
@@ -10836,7 +10836,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然没人听得懂，但大家觉得很厉害。服务员以为你要点西餐，给你端来了一盘拍黄瓜。"
         },
         {
           "option_id": "zhen_yangqi_7_noon_01_b",
@@ -10850,7 +10850,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘其实我也就只是个普通的 Financial Analyst。’ 大家纷纷敬酒，你成了全场焦点。"
         },
         {
           "option_id": "zhen_yangqi_7_noon_01_c",
@@ -10864,7 +10864,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "有人按了一下你的钥匙，结果外面一辆电动车响了。社会性死亡现场。"
         }
       ]
     },
@@ -10888,7 +10888,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你唱了 My Heart Will Go On。全场冷场，大家开始低头玩手机。气氛终结者。"
         },
         {
           "option_id": "zhen_yangqi_7_evening_01_b",
@@ -10902,7 +10902,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你吼了一嗓子《好汉歌》。人设崩塌，但大家嗨了，觉得你‘终于接地气了’。"
         },
         {
           "option_id": "zhen_yangqi_7_evening_01_c",
@@ -10916,7 +10916,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看着曾经暗恋的女神和二狗对唱情歌，你感觉自己是个多余的背景板。"
         }
       ]
     },
@@ -10940,7 +10940,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "含泪配图：‘Friends forever。’ 实际上在查哪个平台贷款利息低。"
         },
         {
           "option_id": "zhen_yangqi_8_morning_01_b",
@@ -10954,7 +10954,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "刚发出去就撤回了，但已经被截图了。你在同学圈的名声彻底臭了。"
         },
         {
           "option_id": "zhen_yangqi_8_morning_01_c",
@@ -10968,7 +10968,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "接下来的日子，老坛酸菜就是你的米其林三星。"
         }
       ]
     },
@@ -10992,7 +10992,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你打算回去就在闲鱼上卖了。‘乡村直供，米其林品质’。不仅回血，还赚了一笔。"
         },
         {
           "option_id": "zhen_yangqi_8_noon_01_b",
@@ -11006,7 +11006,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老妈伤心地抹泪，觉得你嫌弃家。你心里也不是滋味，San值下降。"
         },
         {
           "option_id": "zhen_yangqi_8_noon_01_c",
@@ -11020,7 +11020,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "高铁上鸡叫了一路。你成为了整个车厢最‘引人注目’的仔。"
         }
       ]
     },
@@ -11044,7 +11044,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "箱子拉链爆了。你的 Gucci 衬衫和老妈做的霉豆腐拥抱在了一起，彻底报废。"
         },
         {
           "option_id": "zhen_yangqi_8_evening_01_b",
@@ -11058,7 +11058,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "断舍离。为了带腊肉，你扔掉了几件 Zara。这就是取舍的艺术。"
         },
         {
           "option_id": "zhen_yangqi_8_evening_01_c",
@@ -11072,7 +11072,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "当你提着红白蓝编织袋站在村口，你终于完成了从‘海归’到‘春运民工’的完美蜕变。"
         }
       ]
     },
@@ -11096,7 +11096,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "嘴上说不要，身体很诚实。这笔钱救了你下个月的房租。真香。"
         },
         {
           "option_id": "zhen_yangqi_9_morning_01_b",
@@ -11110,7 +11110,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你觉得自己长大了。虽然口袋空空，但心里暖暖的。这就是成长的代价。"
         },
         {
           "option_id": "zhen_yangqi_9_morning_01_c",
@@ -11124,7 +11124,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "打肿脸充胖子。你赢了面子，回去得吃三个月土。但在老人眼里，你出息了。"
         }
       ]
     },
@@ -11148,7 +11148,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "抢到了一个顺路单。Welcome back to reality, worker。"
         },
         {
           "option_id": "zhen_yangqi_9_noon_01_b",
@@ -11162,7 +11162,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "‘Goodbye my village, see you next year.’ 定位显示：Heathrow Airport（其实是虹桥火车站）。"
         },
         {
           "option_id": "zhen_yangqi_9_noon_01_c",
@@ -11176,7 +11176,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "在梦里，你真的成了 Manchester 的名流，没有外卖，只有红酒和 Church。"
         }
       ]
     },
@@ -11200,7 +11200,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "真香。还是家里的味道好，虽然形状有点别致。你活过来了。"
         },
         {
           "option_id": "zhen_yangqi_9_evening_01_b",
@@ -11214,7 +11214,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "也许明年，真的可以混出个人样来？至少不用再租车装X了。"
         },
         {
           "option_id": "zhen_yangqi_9_evening_01_c",
@@ -11228,7 +11228,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这碗泡面在滤镜下像 Ramen。你依然是那个甄洋气，生活继续，装X不止。"
         }
       ]
     },
@@ -11252,7 +11252,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "物理隔绝成功，但你的颈椎在抗议，像是生锈的机械臂。"
         },
         {
           "option_id": "hu_sanwan_1_morning_01_b",
@@ -11266,7 +11266,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "熊孩子学会了“清一色”，他妈瞪了你一眼，觉得你这人不正经。"
         },
         {
           "option_id": "hu_sanwan_1_morning_01_c",
@@ -11280,7 +11280,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你睡出了哈喇子，梦里杠上开花，醒来发现嘴角湿了一片。"
         }
       ]
     },
@@ -11304,7 +11304,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "糖衣炮弹命中核心，太后嘴角上扬30像素，这一关过了。"
         },
         {
           "option_id": "hu_sanwan_1_noon_01_b",
@@ -11318,7 +11318,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "太后开启了“别人家孩子都帮忙干活”的语音包，循环播放一小时。"
         },
         {
           "option_id": "hu_sanwan_1_noon_01_c",
@@ -11332,7 +11332,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "金钱是通用的情感润滑剂，家庭气氛瞬间进入五星级酒店模式。"
         }
       ]
     },
@@ -11356,7 +11356,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "手起刀落，自摸三家。王姨脸色铁青，你入账五百，此乃大吉之兆。"
         },
         {
           "option_id": "hu_sanwan_1_evening_01_b",
@@ -11370,7 +11370,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "王姨到处说你在大城市混傻了，连麻将都不会打了。"
         },
         {
           "option_id": "hu_sanwan_1_evening_01_c",
@@ -11384,7 +11384,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "俗话说观棋不语，你因为嘴碎差点被王姨用瓜子壳活埋。"
         }
       ]
     },
@@ -11408,7 +11408,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在噪音中做了一个被装修队追杀的噩梦，精神衰弱+1。"
         },
         {
           "option_id": "hu_sanwan_2_morning_01_b",
@@ -11422,7 +11422,7 @@
             "weight": -1,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然身体在抗议，但太后觉得你“懂事了”，尽管你只是在地板上划水。"
         },
         {
           "option_id": "hu_sanwan_2_morning_01_c",
@@ -11436,7 +11436,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "吸尘器声音瞬间消失。人民币真是最好的消音器。"
         }
       ]
     },
@@ -11460,7 +11460,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "收银员看你的眼神像在看一个准备猝死的加班狗，但你觉得浑身充满了力量。"
         },
         {
           "option_id": "hu_sanwan_2_noon_01_b",
@@ -11474,7 +11474,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "预定了一张风水最好的机麻桌，老板娘送了你一盘瓜子，运气值UP。"
         },
         {
           "option_id": "hu_sanwan_2_noon_01_c",
@@ -11488,7 +11488,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "对联贴歪了，但老爸很高兴。你感觉这种传统仪式竟然有点解压。"
         }
       ]
     },
@@ -11512,7 +11512,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大杀四方，赢了800块。虽然肝在隐隐作痛，但灵魂得到了升华。"
         },
         {
           "option_id": "hu_sanwan_2_evening_01_b",
@@ -11526,7 +11526,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "死党群里发了红包你没抢到，感觉错过了一个亿。"
         },
         {
           "option_id": "hu_sanwan_2_evening_01_c",
@@ -11540,7 +11540,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "吃了三斤小龙虾，没打牌，光听八卦了。肚子和耳朵都很满足。"
         }
       ]
     },
@@ -11564,7 +11564,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "门外传来踹门声，但你的领地暂时安全。亲戚在背后说你孤僻。"
         },
         {
           "option_id": "hu_sanwan_3_morning_01_b",
@@ -11578,7 +11578,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "牺牲了一副旧麻将，换来了耳根清净。培养下一代雀神，从娃娃抓起。"
         },
         {
           "option_id": "hu_sanwan_3_morning_01_c",
@@ -11592,7 +11592,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "电视成了救世主，孩子们被光影封印，你获得了片刻安宁。"
         }
       ]
     },
@@ -11616,7 +11616,7 @@
             "weight": 2,
             "money": 0
           },
-          "next_event": null
+          "next_event": "亲戚们没听懂，但大受震撼，纷纷给你夹鸡腿。随后有人找你借钱。"
         },
         {
           "option_id": "hu_sanwan_3_noon_01_b",
@@ -11630,7 +11630,7 @@
             "deposit": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你像个饿死鬼投胎，亲戚摇摇头，觉得你在外面过得很苦。"
         },
         {
           "option_id": "hu_sanwan_3_noon_01_c",
@@ -11644,7 +11644,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场沉默，空气凝固。你获得了MVP级的控场体验，虽然有点社死。"
         }
       ]
     },
@@ -11668,7 +11668,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你赢光了二舅的私房钱，二舅妈脸都绿了。你确立了家族雀神的统治地位。"
         },
         {
           "option_id": "hu_sanwan_3_evening_01_b",
@@ -11682,7 +11682,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "长辈们夸你懂事，并在心里把你标记为“优质提款机”。"
         },
         {
           "option_id": "hu_sanwan_3_evening_01_c",
@@ -11696,7 +11696,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成功挑拨了三姨和表哥的关系，牌局在争吵中草草收场，平局。"
         }
       ]
     },
@@ -11720,7 +11720,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "心脏狂跳，san值回升，但你的胃表示强烈抗议。"
         },
         {
           "option_id": "hu_sanwan_4_morning_01_b",
@@ -11734,7 +11734,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "错过了早饭，被老妈骂“懒猪”，但至少血条回了一点。"
         },
         {
           "option_id": "hu_sanwan_4_morning_01_c",
@@ -11748,7 +11748,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看到工作群里的加班消息，你的幸福感油然而生。幸灾乐祸是最好的良药。"
         }
       ]
     },
@@ -11772,7 +11772,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "侄子把“发财”吞进嘴里差点噎死，你吓出一身冷汗，san值狂掉。"
         },
         {
           "option_id": "hu_sanwan_4_noon_01_b",
@@ -11786,7 +11786,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "“童子身”Buff生效，表姐在你背后赢了好几把，分了你200块带娃费。"
         },
         {
           "option_id": "hu_sanwan_4_noon_01_c",
@@ -11800,7 +11800,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你捂着肚子打滚，表姐骂骂咧咧地抱走了娃。你保住了自由，但失去了尊严。"
         }
       ]
     },
@@ -11824,7 +11824,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "气场拉满，对手被你的烟雾弹迷惑，连续放炮。肺部污染度+10%。"
         },
         {
           "option_id": "hu_sanwan_4_evening_01_b",
@@ -11838,7 +11838,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然赢得不多，但胜在稳健。今晚的夜宵有着落了。"
         },
         {
           "option_id": "hu_sanwan_4_evening_01_c",
@@ -11852,7 +11852,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "包胡！全场欢呼，只有你在滴血。熬夜是大忌啊！"
         }
       ]
     },
@@ -11876,7 +11876,7 @@
             "weight": 1,
             "money": 0
           },
-          "next_event": null
+          "next_event": "胃部受到惊吓，但随即表示感谢。老妈感动的差点哭了。"
         },
         {
           "option_id": "hu_sanwan_5_morning_01_b",
@@ -11890,7 +11890,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在被窝里思考人生，感觉自己正在退化成真菌。"
         },
         {
           "option_id": "hu_sanwan_5_morning_01_c",
@@ -11904,7 +11904,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这哪里是雀圣，简直是僵尸道长。必须敷面膜了。"
         }
       ]
     },
@@ -11928,7 +11928,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "轻伤不下火线！这就是牌桌精神！晚上痛得睡不着。"
         },
         {
           "option_id": "hu_sanwan_5_noon_01_b",
@@ -11942,7 +11942,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "技师说你的腰像五十岁的人。按完之后，感觉又能大战三百回合了。"
         },
         {
           "option_id": "hu_sanwan_5_noon_01_c",
@@ -11956,7 +11956,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老爸一边倒水一边骂，但你好歹休息了一会儿。"
         }
       ]
     },
@@ -11980,7 +11980,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "典型的赌徒谬误。你输得只剩裤衩，心态彻底炸裂，今晚注定无眠。"
         },
         {
           "option_id": "hu_sanwan_5_evening_01_b",
@@ -11994,7 +11994,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然输了钱，但保住了命。留得青山在，不怕没柴烧。"
         },
         {
           "option_id": "hu_sanwan_5_evening_01_c",
@@ -12008,7 +12008,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "玄学改命成功了一半，止住了颓势，但还是小输。"
         }
       ]
     },
@@ -12032,7 +12032,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全家人都出门了，留你独自在家。你点了一份超大外卖，爽到飞起。"
         },
         {
           "option_id": "hu_sanwan_6_morning_01_b",
@@ -12046,7 +12046,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "在车上被数落了一路，还要面对亲戚的假笑，简直是地狱。"
         },
         {
           "option_id": "hu_sanwan_6_morning_01_c",
@@ -12060,7 +12060,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这就是赛博时代的免死金牌。大家对你的“忙碌”表示敬畏。"
         }
       ]
     },
@@ -12084,7 +12084,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "还是熟悉的烟味，还是熟悉的键盘敲击声。这里才是你的精神故乡。"
         },
         {
           "option_id": "hu_sanwan_6_noon_01_b",
@@ -12098,7 +12098,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "光合作用终于启动。虽然大爷钓的鱼比你的人生还小，但你的内心平静了。"
         },
         {
           "option_id": "hu_sanwan_6_noon_01_c",
@@ -12112,7 +12112,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "岁月的杀猪刀太狠了。美好的回忆碎了一地，你只想快点走。"
         }
       ]
     },
@@ -12136,7 +12136,7 @@
             "deposit": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你吃回了份子钱，肚子圆了一圈。大家觉得你混得一般，不再针对你。"
         },
         {
           "option_id": "hu_sanwan_6_evening_01_b",
@@ -12150,7 +12150,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场死寂，班长脸成了猪肝色。你成为了聚会终结者，爽！"
         },
         {
           "option_id": "hu_sanwan_6_evening_01_c",
@@ -12164,7 +12164,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "最后还是回到了麻将桌上。这才是你擅长的领域，虽然又输了钱。"
         }
       ]
     },
@@ -12188,7 +12188,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "发现自己在群里发了60秒的语音独唱《难忘今宵》，社死现场。"
         },
         {
           "option_id": "hu_sanwan_7_morning_01_b",
@@ -12202,7 +12202,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要我不尴尬，尴尬的就是别人。甚至还能理直气壮地吃早饭。"
         },
         {
           "option_id": "hu_sanwan_7_morning_01_c",
@@ -12216,7 +12216,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "兄弟说你昨晚抢着买单。好吧，破财免灾。"
         }
       ]
     },
@@ -12240,7 +12240,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "拖鞋跑掉了一只，狼狈指数满星。这下彻底没戏了。"
         },
         {
           "option_id": "hu_sanwan_7_noon_01_b",
@@ -12254,7 +12254,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "对方竟然觉得你这身“颓废风”很有个性，加了微信。"
         },
         {
           "option_id": "hu_sanwan_7_noon_01_c",
@@ -12268,7 +12268,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "“您的奶茶到了。”演技拙劣，对方一脸懵逼。"
         }
       ]
     },
@@ -12292,7 +12292,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "大脑高速运转，CPU过热，但你赢麻了！把前几天输的都赢回来了！"
         },
         {
           "option_id": "hu_sanwan_7_evening_01_b",
@@ -12306,7 +12306,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "输赢不大，大家都很开心。这才是春节的意义嘛（自我安慰）。"
         },
         {
           "option_id": "hu_sanwan_7_evening_01_c",
@@ -12320,7 +12320,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你被针对得体无完肤，怀疑人生。发誓明年再也不打牌了（假的）。"
         }
       ]
     },
@@ -12344,7 +12344,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "抵抗无效，老妈甚至塞进去了一口锅。你只能背着炸药包上路。"
         },
         {
           "option_id": "hu_sanwan_8_morning_01_b",
@@ -12358,7 +12358,7 @@
             "weight": 2,
             "money": 0
           },
-          "next_event": null
+          "next_event": "老妈很欣慰，你的肩膀在哭泣。这些够你吃半年了。"
         },
         {
           "option_id": "hu_sanwan_8_morning_01_c",
@@ -12372,7 +12372,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "回到出租屋才发现，那是老妈精心准备的土鸡蛋，全碎了。有点心酸。"
         }
       ]
     },
@@ -12396,7 +12396,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "算来算去，大概亏了一个月工资。心痛得无法呼吸。"
         },
         {
           "option_id": "hu_sanwan_8_noon_01_b",
@@ -12410,7 +12410,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "只要不知道亏了多少，就不算亏。精神胜利法万岁！"
         },
         {
           "option_id": "hu_sanwan_8_noon_01_c",
@@ -12424,7 +12424,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "可能是老天爷看你太惨了。决定今晚请爸妈吃顿好的。"
         }
       ]
     },
@@ -12448,7 +12448,7 @@
             "deposit": -300,
             "money": 0
           },
-          "next_event": null
+          "next_event": "嘴巴肿了，菊花紧了，但灵魂满足了。这就是痛并快乐着。"
         },
         {
           "option_id": "hu_sanwan_8_evening_01_b",
@@ -12462,7 +12462,7 @@
             "weight": 2,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被全家人鄙视：“你是不是在外面把胃养娇气了？”"
         },
         {
           "option_id": "hu_sanwan_8_evening_01_c",
@@ -12476,7 +12476,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "纯肉食动物的狂欢。老妈一直给你夹毛肚，甚至有点舍不得你走。"
         }
       ]
     },
@@ -12500,7 +12500,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "居然没有丢三落四，这不科学。一定是昨晚火锅吃对了。"
         },
         {
           "option_id": "hu_sanwan_9_morning_01_b",
@@ -12514,7 +12514,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "到了车站才发现，老爸要骂街了，但你白嫖了一包中华。"
         },
         {
           "option_id": "hu_sanwan_9_morning_01_c",
@@ -12528,7 +12528,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虽然很煽情，但你看到老妈偷偷抹眼泪，心里酸酸的。"
         }
       ]
     },
@@ -12552,7 +12552,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "一路睡到终点站，口水流了一地，但精神好多了。"
         },
         {
           "option_id": "hu_sanwan_9_noon_01_b",
@@ -12566,7 +12566,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "越想越后悔那张牌没打对，恨不得跳车回去重来。"
         },
         {
           "option_id": "hu_sanwan_9_noon_01_c",
@@ -12580,7 +12580,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "看到99+的未读消息，你想当场去世。社畜模式启动。"
         }
       ]
     },
@@ -12604,7 +12604,7 @@
             "deposit": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "真香！吃完这碗面，才有力气明天去搬砖。"
         },
         {
           "option_id": "hu_sanwan_9_evening_01_b",
@@ -12618,7 +12618,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "没救了。你的血液里流淌的不是红细胞，是麻将牌。"
         },
         {
           "option_id": "hu_sanwan_9_evening_01_c",
@@ -12632,7 +12632,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "回归现实。虽然有点残忍，但还要赚钱过下一个年啊。胡三万，加油！"
         }
       ]
     },
@@ -12656,7 +12656,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈信了。直到她发现你指的一箱子男装假肢模特。San值暴跌，但那一刻的虚荣心爽翻了。"
         },
         {
           "option_id": "wu_renai_1_morning_01_b",
@@ -12670,7 +12670,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用蹩脚的英语对着蓝牙耳机咆哮，你妈以为你在外面干的是非法传销。"
         },
         {
           "option_id": "wu_renai_1_morning_01_c",
@@ -12684,7 +12684,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈的叹气声从立体声变成了杜比环绕，你的耳膜逐渐麻木。"
         }
       ]
     },
@@ -12708,7 +12708,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "绝杀！王大妈当场卡壳，你赢得了战役，但也成了小区邻里群的头号黑名单。"
         },
         {
           "option_id": "wu_renai_1_noon_01_b",
@@ -12722,7 +12722,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "成功打消了别人借钱的念头，但这辈子你是摘不掉‘穷鬼’的帽子了。"
         },
         {
           "option_id": "wu_renai_1_noon_01_c",
@@ -12736,7 +12736,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "拿人手短，她们闭嘴了三秒钟，开始研究包装上的过期日期。"
         }
       ]
     },
@@ -12760,7 +12760,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你爸把杯子一摔，提前开启了‘你不孝’的批斗大会。"
         },
         {
           "option_id": "wu_renai_1_evening_01_b",
@@ -12774,7 +12774,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "走父母的路，让他们无路可走。你爸愣住了，以为你在外面欠了高利贷。"
         },
         {
           "option_id": "wu_renai_1_evening_01_c",
@@ -12788,7 +12788,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你不仅没脱单，还喜提一嘴溃疡和黄得发亮的双手。"
         }
       ]
     },
@@ -12812,7 +12812,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈觉得你在挑肥拣瘦，开始翻你20岁时的旧账。"
         },
         {
           "option_id": "wu_renai_2_morning_01_b",
@@ -12826,7 +12826,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈被你的变态要求吓到了，暂时撤回了一个相亲对象。"
         },
         {
           "option_id": "wu_renai_2_morning_01_c",
@@ -12840,7 +12840,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "营造一种你已经回沪的假象，结果被你妈从客厅冲进来一顿爆锤。"
         }
       ]
     },
@@ -12864,7 +12864,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你看起来像个刚从春晚联欢会逃出来的伴舞，但意外地吸引了县城暴发户的目光。"
         },
         {
           "option_id": "wu_renai_2_noon_01_b",
@@ -12878,7 +12878,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你看起来像是去参加前夫葬礼的，相亲对象还没见你就吓跑了。"
         },
         {
           "option_id": "wu_renai_2_noon_01_c",
@@ -12892,7 +12892,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "保暖是保暖了，但你看上去像一头待售的红烧肉。"
         }
       ]
     },
@@ -12916,7 +12916,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "反杀！爽感拉满，但介绍人（你亲小姨）已经在赶来的路上了。"
         },
         {
           "option_id": "wu_renai_2_evening_01_b",
@@ -12930,7 +12930,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "他露出看疯子的眼神，买单都没等你就跑了。恭喜，省了AA的钱。"
         },
         {
           "option_id": "wu_renai_2_evening_01_c",
@@ -12944,7 +12944,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成功进化为‘受虐体质’，他在介绍人面前夸你是个贤妻良母。"
         }
       ]
     },
@@ -12968,7 +12968,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "钱虽然没了，但那一刻你就是家族最壕的单身富婆，全场噤声。"
         },
         {
           "option_id": "wu_renai_3_morning_01_b",
@@ -12982,7 +12982,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "阴阳怪气成功，你妈悄悄在桌下踢了你一脚，差点把你踢骨裂。"
         },
         {
           "option_id": "wu_renai_3_morning_01_c",
@@ -12996,7 +12996,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "厕所是你最后的避风港，虽然味道有点赛博（邻居在烧纸）。"
         }
       ]
     },
@@ -13020,7 +13020,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "亲戚们瞬间四散而去，借口家里煤气没关。这招‘穷鬼战术’极度有效。"
         },
         {
           "option_id": "wu_renai_3_noon_01_b",
@@ -13034,7 +13034,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "她们更酸了：‘女孩子强有什么用？最后还不是要嫁人。’暴击！"
         },
         {
           "option_id": "wu_renai_3_noon_01_c",
@@ -13048,7 +13048,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "她们觉得你魔怔了，纷纷去找表妹看孩子了。"
         }
       ]
     },
@@ -13072,7 +13072,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你表面上点头称是，内心在默念《心经》以防暴力犯罪。"
         },
         {
           "option_id": "wu_renai_3_evening_01_b",
@@ -13086,7 +13086,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "他吓得当场删除了你的微信，你的自由值瞬间拉满。"
         },
         {
           "option_id": "wu_renai_3_evening_01_c",
@@ -13100,7 +13100,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "他觉得你疯了，你觉得他枯燥。大家一起在星巴克虚度了两小时。"
         }
       ]
     },
@@ -13124,7 +13124,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "祖宗可能觉得你比较务实，决定把财运分你一点（五块钱刮刮乐）。"
         },
         {
           "option_id": "wu_renai_4_morning_01_b",
@@ -13138,7 +13138,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈当场表演了一个‘悲从中来’，你成了家族罪人。"
         },
         {
           "option_id": "wu_renai_4_morning_01_c",
@@ -13152,7 +13152,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈彻底放弃了你，觉得你已经通灵了。"
         }
       ]
     },
@@ -13176,7 +13176,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你吃撑了，暂时听不到那些流言蜚语，但你的腰围在抗议。"
         },
         {
           "option_id": "wu_renai_4_noon_01_b",
@@ -13190,7 +13190,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "搅屎棍成功！全桌开始讨论高利贷，没人管你单不单身了。"
         },
         {
           "option_id": "wu_renai_4_noon_01_c",
@@ -13204,7 +13204,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "风很大，心很凉，但至少胃里没有那些难消化的亲情。"
         }
       ]
     },
@@ -13228,7 +13228,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "他真的卖了你一张课包，你们成了纯粹的商业伙伴。"
         },
         {
           "option_id": "wu_renai_4_evening_01_b",
@@ -13242,7 +13242,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "防御性攻击成功，他羞愧地低下了头，并加了你的微信想偷师骂人。"
         },
         {
           "option_id": "wu_renai_4_evening_01_c",
@@ -13256,7 +13256,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你觉得自己不仅老，还胖，且怂。"
         }
       ]
     },
@@ -13280,7 +13280,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "孩子们哭了，亲戚们疯了，你爽了。你成了他们童年的阴影。"
         },
         {
           "option_id": "wu_renai_5_morning_01_b",
@@ -13294,7 +13294,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你获得了短暂的‘财神爷’称号，但今晚只能躲在被窝里吃泡面。"
         },
         {
           "option_id": "wu_renai_5_morning_01_c",
@@ -13308,7 +13308,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "门外传来了‘这孩子越活越自私’的低语。"
         }
       ]
     },
@@ -13332,7 +13332,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "虚张声势！全场震惊，你成了当晚的女王，虽然卡里只剩三位数。"
         },
         {
           "option_id": "wu_renai_5_noon_01_b",
@@ -13346,7 +13346,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "她以为你在开玩笑，结果你真的开始跟她老公聊起劳保待遇。"
         },
         {
           "option_id": "wu_renai_5_noon_01_c",
@@ -13360,7 +13360,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你吐了班花一身。虽然丢人，但真的解气。"
         }
       ]
     },
@@ -13384,7 +13384,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈哭得更大声了，觉得你被高科技洗了脑。"
         },
         {
           "option_id": "wu_renai_5_evening_01_b",
@@ -13398,7 +13398,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "家庭矛盾暂时缓解，但你的心理防线全面崩塌。"
         },
         {
           "option_id": "wu_renai_5_evening_01_c",
@@ -13412,7 +13412,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "她坐了半小时，帮你盖了盖被子，最后长叹一声离去。"
         }
       ]
     },
@@ -13436,7 +13436,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "在那一刻，你不是大龄剩女，你是艾泽拉斯的勇士。"
         },
         {
           "option_id": "wu_renai_6_morning_01_b",
@@ -13450,7 +13450,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "工作不会背叛你，但它会让你在过年期间看起来像个倒霉蛋。"
         },
         {
           "option_id": "wu_renai_6_morning_01_c",
@@ -13464,7 +13464,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这就是天堂！如果洗浴中心没有遇到你二叔的话。"
         }
       ]
     },
@@ -13488,7 +13488,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "保住了心中最后一点滤镜，虽然滤镜里都是他现在的尿布味。"
         },
         {
           "option_id": "wu_renai_6_noon_01_b",
@@ -13502,7 +13502,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "他尴尬地笑了笑。那一刻，你突然觉得不结婚也挺好的。"
         },
         {
           "option_id": "wu_renai_6_noon_01_c",
@@ -13516,7 +13516,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "被共同好友截图发给了他，你被他拉黑了。Nice！"
         }
       ]
     },
@@ -13540,7 +13540,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你意外地在直播间火了，赚了一笔打赏，还把对方整得怀疑人生。"
         },
         {
           "option_id": "wu_renai_6_evening_01_b",
@@ -13554,7 +13554,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "直播间被封了。他对着黑屏破口大骂，你优雅地买单走人。"
         },
         {
           "option_id": "wu_renai_6_evening_01_c",
@@ -13568,7 +13568,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你像个通缉犯，最后还被家人们嘲笑‘长得太丑不敢见人’。"
         }
       ]
     },
@@ -13592,7 +13592,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "她们愣住了，随后开始讨论哪块地最值钱，成功转移火力。"
         },
         {
           "option_id": "wu_renai_7_morning_01_b",
@@ -13606,7 +13606,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你留下一阵烟尘，和一句若有若无的‘tui’。"
         },
         {
           "option_id": "wu_renai_7_morning_01_c",
@@ -13620,7 +13620,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "永远不要试图叫醒装睡的亲戚，她们用‘以后老了没人埋’把你喷化了。"
         }
       ]
     },
@@ -13644,7 +13644,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你举起了沉重的奢侈品包，他落荒而逃。这就是物理玄学。"
         },
         {
           "option_id": "wu_renai_7_noon_01_b",
@@ -13658,7 +13658,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你当场在柜台买了包。他无语了，你穷了，但你确实变漂亮了（Face+50）。"
         },
         {
           "option_id": "wu_renai_7_noon_01_c",
@@ -13672,7 +13672,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "他吓得当场收摊，你成了县城相亲圈的‘鬼故事’女主角。"
         }
       ]
     },
@@ -13696,7 +13696,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈觉得你嫌弃家里的东西，那是她最后的一点存在感，你亲手摧毁了它。"
         },
         {
           "option_id": "wu_renai_7_evening_01_b",
@@ -13710,7 +13710,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "花点钱买个太平，这叫成熟的社交智慧。"
         },
         {
           "option_id": "wu_renai_7_evening_01_c",
@@ -13724,7 +13724,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈被激发了强烈的母爱，又往里塞了两罐咸菜。"
         }
       ]
     },
@@ -13748,7 +13748,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "全场炸裂！你完成了相亲KPI的最终BOSS战，虽然名声彻底臭了。"
         },
         {
           "option_id": "wu_renai_8_morning_01_b",
@@ -13762,7 +13762,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "妈宝男母子瞬间以瞬移的速度撤离现场。"
         },
         {
           "option_id": "wu_renai_8_morning_01_c",
@@ -13776,7 +13776,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "他哭得很惨，他妈以为他感动了，你深藏功与名。"
         }
       ]
     },
@@ -13800,7 +13800,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈开心了，你的穿搭博主梦破碎了。"
         },
         {
           "option_id": "wu_renai_8_noon_01_b",
@@ -13814,7 +13814,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你成功维护了精英人设，但在店员眼里你就是个装X犯。"
         },
         {
           "option_id": "wu_renai_8_noon_01_c",
@@ -13828,7 +13828,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你妈变潮了，她开始忙着自拍，没空催你了。"
         }
       ]
     },
@@ -13852,7 +13852,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你许下了无法实现的诺言，空气中充满了Flag的芬芳。"
         },
         {
           "option_id": "wu_renai_8_evening_01_b",
@@ -13866,7 +13866,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "沉默是今晚的康桥，也是你最后的防御工事。"
         },
         {
           "option_id": "wu_renai_8_evening_01_c",
@@ -13880,7 +13880,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用科技代替了陪伴，虽然昂贵，但至少让你心里好受点。"
         }
       ]
     },
@@ -13904,7 +13904,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "逃出生天！虽然有点鼻酸，但自由的味道是如此甜美。"
         },
         {
           "option_id": "wu_renai_9_morning_01_b",
@@ -13918,7 +13918,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你彻底崩溃了，在高铁上哭了一路，把隔壁的小孩都吓清醒了。"
         },
         {
           "option_id": "wu_renai_9_morning_01_c",
@@ -13932,7 +13932,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你变强了，你学会了在苦难中刷KPI。这个小伙子看起来像是个正常的社畜。"
         }
       ]
     },
@@ -13956,7 +13956,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你用金钱完成了亲情的闭环，内心得到了片刻的安宁。"
         },
         {
           "option_id": "wu_renai_9_noon_01_b",
@@ -13970,7 +13970,7 @@
             "luck": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "这一碗面，让你从‘吴仁爱’变回了‘大厂打工人’。生活还得继续。"
         },
         {
           "option_id": "wu_renai_9_noon_01_c",
@@ -13984,7 +13984,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": null
+          "next_event": "你在社交媒体上继续扮演精致女孩，只有你胃里的腊肉知道真相。"
         }
       ]
     },
@@ -14008,7 +14008,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": "GAME_OVER_SUMMARY"
+          "next_event": "你已经开始在二手平台上浏览‘伴侣租赁’服务了。赛博春节，名不虚传。"
         },
         {
           "option_id": "wu_renai_9_evening_01_b",
@@ -14022,7 +14022,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": "GAME_OVER_SUMMARY"
+          "next_event": "你赢得了自由，但也成了家族史书里的‘那个疯掉的姑姑’。"
         },
         {
           "option_id": "wu_renai_9_evening_01_c",
@@ -14036,7 +14036,7 @@
             "face": 0,
             "money": 0
           },
-          "next_event": "GAME_OVER_SUMMARY"
+          "next_event": "你与世界达成了和解，简称：认命了。"
         }
       ]
     }

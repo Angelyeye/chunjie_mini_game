@@ -1567,7 +1567,7 @@ class Game {
                 id: opt.option_id || `opt_${index}`,
                 text: opt.text || '选择',
                 effects: this.convertEffects(opt.effects),
-                feedback: opt.result_desc || ''
+                feedback: opt.result_desc || opt.next_event || '你的选择带来了变化'
             }))
         }));
     }
@@ -1597,7 +1597,7 @@ class Game {
                 id: opt.option_id || `opt_${index}`,
                 text: opt.text || '选择',
                 effects: this.convertEffects(opt.effects),
-                feedback: opt.result_desc || ''
+                feedback: opt.result_desc || opt.next_event || '你的选择带来了变化'
             }))
         }));
     }
@@ -3008,14 +3008,21 @@ class Game {
             return;
         }
 
+        const btn = document.getElementById('feedback-continue');
+        if (btn) btn.textContent = '继续 >>';
+
         text.textContent = message;
+        modal.classList.remove('hidden');
         modal.classList.add('active');
         this.pendingFeedbackAction = typeof onClose === 'function' ? onClose : null;
     }
 
     closeFeedback() {
         const modal = document.getElementById('feedback-modal');
-        if (modal) modal.classList.remove('active');
+        if (modal) {
+            modal.classList.remove('active');
+            modal.classList.add('hidden');
+        }
         const action = this.pendingFeedbackAction;
         this.pendingFeedbackAction = null;
         if (action) action();
