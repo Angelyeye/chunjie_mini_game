@@ -7,7 +7,7 @@
       "ending_type": "success",
       "description": "除夕夜的年夜饭上，你坐在主位，茅台原箱一开，满座皆惊。二舅端着酒杯的手微微颤抖：\"仕途啊，你真是咱老郝家的骄傲！\"表妹的工作你一句话就摆平了，大侄的学区房你也帮忙搞定了。表嫂穿着睡衣\"不小心\"走错了包厢，被你礼貌地请了出去。年后，你顺利晋升副处，办公室从18平换成了28平，窗外的风景都变好了。你终于明白，什么叫\"你开着奥迪衣锦还乡，老叔让你坐在饭局中央\"。",
       "unlockConditions": {
-        "min_deposit": 10000,
+        "min_deposit": 100000,
         "min_face": 80,
         "min_mood": 60,
         "min_health": 70
@@ -20,48 +20,23 @@
       "ending_type": "success",
       "description": "春节回家，你没有开奥迪，但开来的大众也让村里人侧目。饭局上，你不再是主角，但也没人敢忽视你。你帮村里解决了几个实际问题：谁家孩子上学、谁家老人看病，你都尽心尽力。年后回到单位，虽然没有大晋升，但领导对你更加信任。你学会了在体制内生存的智慧：不争第一，不做最后，稳稳当当才是长久之计。老婆孩子热炕头，你觉得这样挺好。",
       "unlockConditions": {
-        "min_deposit": 5000,
+        "min_deposit": 50000,
         "min_face": 60,
         "min_mood": 0,
         "min_health": 60
       }
     },
-    {
-      "ending_id": "hao_shitu_ending_fail",
-      "ending_name": "一着不慎·满盘皆输",
-      "character_id": "hao_shitu",
-      "ending_type": "failure",
-      "description": "春节前的那个晚上，你因为收了一个不该收的红包，被人举报了。纪委的电话打来时，你正在吃年夜饭。茅台变成了二锅头，主位变成了角落。二舅看你的眼神从崇拜变成了怜悯，表妹的工作黄了，大侄的学区房也泡汤了。年后，你被降职调岗，办公室从18平变成了8平，连窗户都没有。你终于明白，什么叫\"一着不慎，满盘皆输\"。",
-      "unlockConditions": {
-        "min_deposit": 0,
-        "max_deposit": 1000,
-        "min_face": 0,
-        "max_face": 30,
-        "min_health": 0,
-        "max_health": 30
-      }
-    },
-    {
-      "ending_id": "hao_shitu_ending_special",
-      "ending_name": "归去来兮·田园牧歌",
-      "character_id": "hao_shitu",
-      "ending_type": "special",
-      "description": "你在除夕夜宣布了一个震惊全家的决定：辞职回老家种地。爸妈以为你疯了，二舅以为你被人整了。但你心里有数，这些年攒下的钱够你在老家舒舒服服过一辈子。你承包了村里的百亩果园，种上了有机蔬菜。春天赏花，夏天摘果，秋天收获，冬天围炉。三年后，你的果园成了网红打卡地，\"郝书记的有机农场\"年入百万。你终于明白，什么叫\"归去来兮，田园将芜胡不归\"。",
-      "unlockConditions": {
-        "event_trigger": "辞职创业",
-        "min_deposit": 8000,
-        "min_mood": 70
-      }
-    },
+
+
     {
       "ending_id": "hao_shitu_ending_hidden",
       "ending_name": "深藏功与名",
       "character_id": "hao_shitu",
       "ending_type": "hidden",
-      "description": "你开着五菱宏光回到村里，穿着解放鞋去拜年。亲戚们都以为你混得不好，纷纷安慰你。你笑而不语，默默给村里捐了五十万修路灯。年后，你依然是那个低调的科员，但你的账户里躺着八位数的存款。你学会了真正的智慧：不张扬，不显摆，闷声发大财。十年后，你成了单位里最神秘的传说：那个开着五菱宏光、穿着解放鞋、却能在北京全款买房的男人。",
+      "description": "你开着五菱宏光回到村里，穿着解放鞋去拜年。亲戚们都以为你混得不好，纷纷安慰你。你笑而不语，默默给村里捐了路灯。年后，你依然是那个低调的科员，你学会了真正的智慧：不张扬，不显摆，闷声发大财。十年后，你成了单位里最神秘的传说：那个开着五菱宏光、穿着解放鞋、却能在北京全款买房的男人。",
       "unlockConditions": {
         "option_condition": "完成所有低调选项",
-        "min_deposit": 15000,
+        "min_deposit": 1,
         "max_face": 40
       }
     },
@@ -72,7 +47,7 @@
       "ending_type": "success",
       "description": "你穿着从ZARA买的打折大衣，踩着高跟鞋回到村里。村口的大妈们窃窃私语：\"这是谁家闺女？\"你微笑着打招呼，一口标准的普通话让乡亲们更加好奇。年夜饭上，你展示了在城里学的才艺：弹吉他、唱流行歌，瞬间成为全村的焦点。年后，你决定留在老家创业，开了一间\"Vivian的咖啡书屋\"，把城里的文艺范儿带到了村里。一年后，你的小店成了网红打卡地，你也从\"回村的Vivian\"变成了\"村里的Vivian姐\"。",
       "unlockConditions": {
-        "min_deposit": 8000,
+        "min_deposit": 5000,
         "min_face": 75,
         "min_mood": 70
       }
@@ -84,7 +59,7 @@
       "ending_type": "success",
       "description": "春节回家，你没有刻意打扮，穿着舒适的运动服，背着双肩包。村口的大妈们认出了你：\"这不是老谁家的小谁吗？\"你笑着点头，帮大妈们提东西、抱孩子。年夜饭上，你听着爸妈的唠叨，虽然有点烦，但心里暖暖的。年后回到城里，你依然是那个普通的打工人，但你学会了珍惜生活中的小确幸：一杯奶茶、一场电影、一个周末的懒觉。你终于明白，平凡也是一种幸福。",
       "unlockConditions": {
-        "min_deposit": 4000,
+        "min_deposit": 0,
         "min_face": 50,
         "min_mood": 50
       }
@@ -96,34 +71,12 @@
       "ending_type": "failure",
       "description": "你精心打造的都市丽人形象，在除夕夜的饭桌上彻底崩塌。你妈当着全家人的面，拿出了你小学时的照片：\"看看咱家Vivian小时候多可爱！\"照片里的你穿着花棉袄，流着鼻涕，傻笑着。你的表弟们把照片发到了家族群，瞬间收到了99+的点赞和评论。你的闺蜜发来消息：\"原来你是这样的Vivian！\"你恨不得找个地缝钻进去。年后回到城里，你换了微信头像，改了昵称，决定重新做人。",
       "unlockConditions": {
-        "max_face": 30,
+        "max_face": 40,
         "max_mood": 30
       }
     },
-    {
-      "ending_id": "hua_beibei_ending_special",
-      "ending_name": "直播带货·乡村振兴",
-      "character_id": "hua_beibei",
-      "ending_type": "special",
-      "description": "除夕夜，你突发奇想，在抖音上直播村里的年夜饭。没想到一夜之间涨粉十万，评论区全是\"好有年味！\"\"想回家过年！\"你看到了商机，决定留在老家做直播带货。你帮乡亲们卖土特产：土鸡蛋、腊肉、手工粉条，供不应求。一年后，你的直播间成了村里的支柱产业，你也成了\"乡村振兴带头人\"。你终于明白，什么叫\"知识改变命运，直播改变乡村\"。",
-      "unlockConditions": {
-        "event_trigger": "直播带货",
-        "min_face": 60,
-        "min_deposit": 3000
-      }
-    },
-    {
-      "ending_id": "hua_beibei_ending_hidden",
-      "ending_name": "从嫌弃到真香·农村包围城市",
-      "character_id": "hua_beibei",
-      "ending_type": "hidden",
-      "description": "你一开始各种嫌弃农村：没有WiFi、没有外卖、没有星巴克。但慢慢地，你发现农村也有农村的好：空气清新、人情味浓、生活节奏慢。你开始享受这种慢生活：早起看日出、傍晚看夕阳、晚上数星星。年后，你做出了一个惊人的决定：把城里的房子卖了，回老家盖了一栋小别墅。你的朋友们都以为你疯了，但你笑着说：\"你们不懂，这叫'真香定律'。\"三年后，你的别墅成了村里的地标，你也成了\"从城市回归农村\"的典范。",
-      "unlockConditions": {
-        "option_condition": "完成所有嫌弃农村选项后选择留下",
-        "min_mood": 60,
-        "min_face": 50
-      }
-    },
+
+
     {
       "ending_id": "fan_tong_ending_success_a",
       "ending_name": "学霸归来·光宗耀祖",
@@ -131,8 +84,8 @@
       "ending_type": "success",
       "description": "你拿着奖学金证书和保研通知书回到村里，全村人都来围观。你爸激动得热泪盈眶：\"咱老范家终于出了个大学生！\"年夜饭上，你成了全村的焦点，七大姑八大姨纷纷来请教\"育儿经验\"。你谦虚地说：\"都是爸妈教育得好。\"年后，你顺利保研到985高校，研究方向是人工智能。你终于明白，什么叫\"知识改变命运\"。",
       "unlockConditions": {
-        "min_deposit": 5000,
-        "min_face": 80,
+        "min_deposit": 2000,
+        "min_face": 70,
         "min_health": 70
       }
     },
@@ -143,8 +96,8 @@
       "ending_type": "success",
       "description": "作为一个\"脆皮大学生\"，你深知健康的重要性。这个春节，你没有熬夜打游戏，没有暴饮暴食，而是每天坚持锻炼、早睡早起。你的脸色红润了，精神也好了。爸妈看着你的变化，欣慰地说：\"孩子长大了，知道照顾自己了。\"年后回到学校，你加入了健身社团，成了\"脆皮修复大使\"。你终于明白，什么叫\"身体是革命的本钱\"。",
       "unlockConditions": {
-        "min_health": 70,
-        "min_mood": 60
+        "min_health": 50,
+        "min_mood": 50
       }
     },
     {
@@ -158,40 +111,19 @@
         "max_deposit": 500
       }
     },
+
+
+
     {
-      "ending_id": "fan_tong_ending_special",
-      "ending_name": "大学生创业·从零到一",
-      "character_id": "fan_tong",
-      "ending_type": "special",
-      "description": "你在大学里发现了一个商机：帮同学代取快递、代买外卖、代写论文（不，这个不行）。你把这个模式复制到村里，开了一个\"大学生服务站\"，帮乡亲们网购、代办各种事务。没想到生意火爆，一个月后你就回本了。年后，你决定休学创业，把\"大学生服务站\"开到了全国。三年后，你的公司估值过亿，你也成了\"大学生创业典范\"。你终于明白，什么叫\"机会是留给有准备的人的\"。",
-      "unlockConditions": {
-        "event_trigger": "创业",
-        "min_deposit": 3000,
-        "min_face": 60
-      }
-    },
-    {
-      "ending_id": "fan_tong_ending_hidden",
-      "ending_name": "从脆皮到硬核·真·特种兵",
-      "character_id": "fan_tong",
-      "ending_type": "hidden",
-      "description": "你曾经是\"脆皮大学生\"的代表：体测不及格、爬三楼喘气、冬天必感冒。但这个春节，你决定改变。你每天早起跑步、做俯卧撑、练瑜伽。一个月后，你的体能测试成绩从不及格变成了优秀。年后回到学校，你报名参军，经过层层选拔，终于成为了一名真正的特种兵。三年后，你穿着军装回到家乡，全村人都来迎接。你终于明白，什么叫\"从脆皮到硬核，只差一个决心\"。",
-      "unlockConditions": {
-        "option_condition": "完成所有锻炼选项",
-        "min_health": 90,
-        "min_face": 70
-      }
-    },
-    {
-      "ending_id": "gu_jia_ending_success_a",
-      "ending_name": "家务雇佣兵·金牌保姆",
+      "ending_id": "gu_jia_ending_hidden",
+      "ending_name": "全职儿女的逆袭·从保姆到总裁",
       "character_id": "gu_jia",
-      "ending_type": "success",
-      "description": "你是家里的\"全职儿女\"，每天的工作就是做饭、洗衣、打扫卫生。但你把家务做到了极致：饭菜色香味俱全，衣服叠得像商场陈列，地板擦得能照镜子。爸妈逢人就夸：\"我们家顾嘉，比保姆还专业！\"年夜饭上，你一个人承包了二十道菜，让全家人赞不绝口。年后，你开了一家\"家务培训班\"，专门教年轻人做家务。一年后，你的培训班成了网红课程，你也成了\"家务界的爱马仕\"。",
+      "ending_type": "hidden",
+      "description": "你表面上是个\"全职儿女\"，实际上你在偷偷学习：考证书、学技能、做副业。你利用做家务的间隙，考了注册会计师、学了编程、做了电商。三年后，你凭借自己的实力，进入了一家上市公司做财务总监。你的同事们都不知道，这个西装革履的精英，曾经是个\"全职儿女\"。你终于明白，什么叫\"厚积薄发，一鸣惊人\"。",
       "unlockConditions": {
-        "min_face": 80,
-        "min_mood": 70,
-        "min_health": 70
+        "option_condition": "完成所有学习选项",
+        "min_deposit": 200,
+        "min_face": 80
       }
     },
     {
@@ -202,7 +134,8 @@
       "description": "作为一个\"全职儿女\"，你没有远大的理想，只想把家里照顾好。每天早起给爸妈做早餐，晚上陪他们看电视聊天。虽然偶尔也会被催婚、被唠叨，但你学会了左耳进右耳出。年夜饭上，一家人其乐融融，你觉得这就是幸福。年后，你依然做着全职儿女，但你也开始尝试做一些兼职：写写文章、拍拍照、做做手工。你终于明白，什么叫\"岁月静好，现世安稳\"。",
       "unlockConditions": {
         "min_mood": 60,
-        "min_face": 50
+        "min_face": 50,
+        "min_deposit": 100
       }
     },
     {
@@ -216,30 +149,7 @@
         "max_face": 30
       }
     },
-    {
-      "ending_id": "gu_jia_ending_special",
-      "ending_name": "从全职儿女到家政女王",
-      "character_id": "gu_jia",
-      "ending_type": "special",
-      "description": "你把做家务的经验总结成了一套方法论：\"顾嘉家务三十六计\"。你拍成视频发到网上，没想到一夜爆红，粉丝破百万。你看到了商机，决定创业做高端家政服务。你的服务理念是：\"把家务做到极致，让生活更有品质。\"一年后，你的家政公司成了行业标杆，客户都是明星富豪。你终于明白，什么叫\"三百六十行，行行出状元\"。",
-      "unlockConditions": {
-        "event_trigger": "家政创业",
-        "min_face": 70,
-        "min_deposit": 3000
-      }
-    },
-    {
-      "ending_id": "gu_jia_ending_hidden",
-      "ending_name": "全职儿女的逆袭·从保姆到总裁",
-      "character_id": "gu_jia",
-      "ending_type": "hidden",
-      "description": "你表面上是个\"全职儿女\"，实际上你在偷偷学习：考证书、学技能、做副业。你利用做家务的间隙，考了注册会计师、学了编程、做了电商。三年后，你凭借自己的实力，进入了一家上市公司做财务总监。你的同事们都不知道，这个西装革履的精英，曾经是个\"全职儿女\"。你终于明白，什么叫\"厚积薄发，一鸣惊人\"。",
-      "unlockConditions": {
-        "option_condition": "完成所有学习选项",
-        "min_deposit": 10000,
-        "min_face": 80
-      }
-    },
+
     {
       "ending_id": "ren_xing_ending_success_a",
       "ending_name": "职场整顿者·00后之光",
@@ -247,7 +157,7 @@
       "ending_type": "success",
       "description": "你是00后职场整顿者的代表：拒绝996、反对PUA、敢于说不。这个春节，你把整顿职场的经验分享给了村里的年轻人，他们纷纷表示\"学到了\"。年夜饭上，你慷慨激昂地讲述自己的\"战绩\"：如何让老板准时下班、如何让同事不再内卷。长辈们虽然听不懂，但看你意气风发的样子，也竖起了大拇指。年后回到公司，你被提拔为部门主管，负责改善公司文化。你终于明白，什么叫\"整顿职场，从我做起\"。",
       "unlockConditions": {
-        "min_face": 80,
+        "min_face": 50,
         "min_mood": 70,
         "min_deposit": 6000
       }
@@ -274,30 +184,8 @@
         "max_mood": 30
       }
     },
-    {
-      "ending_id": "ren_xing_ending_special",
-      "ending_name": "发疯文学·流量密码",
-      "character_id": "ren_xing",
-      "ending_type": "special",
-      "description": "你把\"发疯文学\"拍成了短视频，没想到一夜爆红，粉丝破百万。你的经典语录被广泛传播：\"我精神状态很好啊！\"\"谁不发疯？硬撑罢了！\"你看到了商机，决定专职做网红。你的内容定位是\"发疯学者的日常\"，专门教年轻人如何用\"发疯\"的方式应对生活中的各种困境。一年后，你的年收入破百万，成了\"发疯界\"的顶流。你终于明白，什么叫\"发疯也能变现\"。",
-      "unlockConditions": {
-        "event_trigger": "短视频",
-        "min_face": 70,
-        "min_deposit": 3000
-      }
-    },
-    {
-      "ending_id": "ren_xing_ending_hidden",
-      "ending_name": "从发疯学者到真学者",
-      "character_id": "ren_xing",
-      "ending_type": "hidden",
-      "description": "你表面上是个\"发疯学者\"，实际上你在偷偷做学术研究。你利用\"发疯\"的方式收集了大量社会心理学数据，写成了一篇论文：《论\"发疯文学\"在当代青年中的传播机制》。这篇论文发表在了顶级期刊上，你一夜之间成了学术界的\"新星\"。年后，你被邀请去各大高校做讲座，主题就是\"发疯文学的社会学分析\"。你终于明白，什么叫\"真人不露相，露相非真人\"。",
-      "unlockConditions": {
-        "option_condition": "完成所有学习选项",
-        "min_face": 90,
-        "min_deposit": 8000
-      }
-    },
+
+
     {
       "ending_id": "hao_youqianQ_ending_success_a",
       "ending_name": "隐形富豪·真·人生赢家",
@@ -305,9 +193,9 @@
       "ending_type": "success",
       "description": "你穿着解放鞋、骑着电动车回到村里，乡亲们以为你混得不好，纷纷安慰你。你笑而不语，默默给村里捐了一百万修路。年后，你的租客们发现房东竟然是个\"隐形富豪\"，纷纷感叹\"人不可貌相\"。你依然过着朴素的生活，但你心里清楚：账户里的八位数存款，就是你的底气。你终于明白，什么叫\"低调是最牛的炫耀\"。",
       "unlockConditions": {
-        "min_deposit": 15000,
-        "min_face": 80,
-        "min_mood": 70
+        "min_deposit": 12799500,
+        "min_face": 90,
+        "min_mood": 90
       }
     },
     {
@@ -317,8 +205,8 @@
       "ending_type": "success",
       "description": "你是城里最\"土\"的房东：穿着老头衫、趿拉着拖鞋、骑着破电动车。但你的租客们都很喜欢你，因为你从不涨房租、从不催租、还经常在朋友圈发土味情话。这个春节，你给每个租客发了一个大红包，让他们感动得热泪盈眶。年后，你的\"土味房东\"形象在网上走红，成了\"最暖房东\"的代表。你终于明白，什么叫\"土到极致就是潮\"。",
       "unlockConditions": {
-        "min_deposit": 8000,
-        "min_face": 60
+        "min_deposit": 10000000,
+        "min_face": 80
       }
     },
     {
@@ -326,35 +214,14 @@
       "ending_name": "富豪变负豪·一夜回到解放前",
       "character_id": "hao_youqianQ",
       "ending_type": "failure",
-      "description": "你把所有积蓄投入了一个\"稳赚不赔\"的P2P项目，结果平台跑路，你一夜之间从\"富豪\"变成了\"负豪\"。除夕夜的饭桌上，你强颜欢笑，但心里五味杂陈。年后，你不得不卖掉一套房子还债，从一个\"房东\"变成了\"租客\"。你终于明白，什么叫\"投资有风险，入市需谨慎\"。",
+      "description": "因运气过差，心态不好，你把所有积蓄投入了一个\"稳赚不赔\"的P2P项目，结果平台跑路，你一夜之间从\"富豪\"变成了\"负豪\"。除夕夜的饭桌上，你强颜欢笑，但心里五味杂陈。年后，你不得不卖掉一套房子还债，从一个\"房东\"变成了\"租客\"。你终于明白，什么叫\"投资有风险，入市需谨慎\"。",
       "unlockConditions": {
-        "max_deposit": 2000
+        "max_mood": 70,
+        "max_luck": 40
       }
     },
-    {
-      "ending_id": "hao_youqianQ_ending_special",
-      "ending_name": "隐形富豪·慈善之路",
-      "character_id": "hao_youqianQ",
-      "ending_type": "special",
-      "description": "你决定把大部分财产捐出去，成立了一个\"有乾慈善基金会\"，专门资助贫困学生和孤寡老人。你的善举被媒体曝光，一夜之间成了\"慈善家\"。但你依然过着朴素的生活，只是偶尔会去基金会看看那些被帮助的人。你终于明白，什么叫\"赠人玫瑰，手有余香\"。",
-      "unlockConditions": {
-        "event_trigger": "慈善",
-        "min_deposit": 12000,
-        "min_mood": 70
-      }
-    },
-    {
-      "ending_id": "hao_youqianQ_ending_hidden",
-      "ending_name": "从隐形富豪到家族传承",
-      "character_id": "hao_youqianQ",
-      "ending_type": "hidden",
-      "description": "你决定把自己的财富和经验传承给下一代。你成立了一个\"郝氏家族基金会\"，专门培养年轻人的财商和创业能力。你的子女在你的培养下，都成了优秀的企业家。百年后，\"郝氏家族\"成了商界传奇，而你被尊称为\"家族奠基人\"。你终于明白，什么叫\"富不过三代\"是个伪命题，真正的富豪可以富十代。",
-      "unlockConditions": {
-        "option_condition": "完成所有家族选项",
-        "min_deposit": 20000,
-        "min_face": 90
-      }
-    },
+
+
     {
       "ending_id": "bi_chenglongL_ending_success_a",
       "ending_name": "鸡娃战神·望子成龙",
@@ -363,8 +230,8 @@
       "description": "你的\"鸡娃\"成果显著：儿子考上了清华，女儿拿到了常春藤的offer。除夕夜的饭桌上，你成了全家的焦点，亲戚们纷纷来请教\"育儿经验\"。你慷慨激昂地分享自己的\"鸡娃秘籍\"：从胎教到奥数，从钢琴到马术，无所不包。年后，你出了一本书《鸡娃战神的育儿经》，成了畅销书作家。你终于明白，什么叫\"功夫不负有心人\"。",
       "unlockConditions": {
         "min_face": 85,
-        "min_deposit": 8000,
-        "min_mood": 70
+        "min_deposit": 180000,
+        "min_mood": 60
       }
     },
     {
@@ -375,7 +242,7 @@
       "description": "这个春节，你看到儿子因为压力太大而失眠，女儿因为焦虑而脱发，你突然醒悟了。你决定不再\"鸡娃\"，而是让孩子自由发展。年夜饭上，你宣布了一个惊人的决定：取消所有补习班，让孩子做自己喜欢的事。亲戚们纷纷表示不解，但你坚持自己的选择。年后，儿子迷上了编程，女儿爱上了画画，虽然成绩不是最好的，但他们眼里有了光。你终于明白，什么叫\"儿孙自有儿孙福\"。",
       "unlockConditions": {
         "min_mood": 60,
-        "min_face": 50
+        "min_face": 60
       }
     },
     {
@@ -389,30 +256,8 @@
         "max_face": 30
       }
     },
-    {
-      "ending_id": "bi_chenglongL_ending_special",
-      "ending_name": "鸡娃战神·教育博主",
-      "character_id": "bi_chenglongL",
-      "ending_type": "special",
-      "description": "你把\"鸡娃\"的日常拍成了视频发到网上，没想到一夜爆红，粉丝破百万。你的\"鸡娃\"方式引发了广泛讨论，有人支持，有人反对，但无论如何，你成了\"教育界\"的顶流。年后，你专职做教育博主，分享自己的育儿经验，同时也反思\"鸡娃\"的利弊。你终于明白，什么叫\"流量就是金钱\"。",
-      "unlockConditions": {
-        "event_trigger": "自媒体",
-        "min_face": 70,
-        "min_deposit": 5000
-      }
-    },
-    {
-      "ending_id": "bi_chenglongL_ending_hidden",
-      "ending_name": "从鸡娃战神到和解大师",
-      "character_id": "bi_chenglongL",
-      "ending_type": "hidden",
-      "description": "你决定和孩子们好好谈谈，听听他们的想法。你惊讶地发现，儿子其实想当厨师，女儿其实想当画家。你虽然心里有些失落，但还是决定支持他们的选择。年夜饭上，你第一次没有谈成绩，而是问孩子们：\"你们快乐吗？\"孩子们愣了一下，然后笑着说：\"快乐。\"你终于明白，什么叫\"孩子的快乐，比什么都重要\"。",
-      "unlockConditions": {
-        "option_condition": "完成所有沟通选项",
-        "min_mood": 80,
-        "min_face": 60
-      }
-    },
+
+
     {
       "ending_id": "zhen_yangqi_ending_success_a",
       "ending_name": "真·名流·海归之光",
@@ -421,7 +266,7 @@
       "description": "你穿着高定西装、戴着名表回到村里，乡亲们纷纷侧目。你优雅地用中英混杂的语言和亲戚们聊天，时不时蹦出几个法语单词。年夜饭上，你讲述自己在国外的\"精彩生活\"：滑雪、潜水、品红酒，让全家人都羡慕不已。年后，你被一家跨国公司高薪聘请，年薪百万。你终于明白，什么叫\"海归就是不一样\"。",
       "unlockConditions": {
         "min_face": 90,
-        "min_deposit": 10000,
+        "min_deposit": 2000,
         "min_mood": 70
       }
     },
@@ -441,36 +286,14 @@
       "ending_name": "假装名流·人设崩塌",
       "character_id": "zhen_yangqi",
       "ending_type": "failure",
-      "description": "除夕夜的饭桌上，你正在滔滔不绝地讲述自己在国外的\"精彩生活\"，突然表弟问了一句：\"哥，你在国外到底是干什么的？\"你一时语塞，支支吾吾说不出话来。原来，你在国外其实只是一个普通的服务员，所谓的\"名流生活\"都是P图和编造的。你的\"凡尔赛\"人设彻底崩塌，亲戚们看你的眼神从羡慕变成了怜悯。你终于明白，什么叫\"假的就是假的\"。",
+      "description": "除夕夜的饭桌上，你正在滔滔不绝地讲述自己在国外的\"精彩生活\"，突然表弟问了一句：\"哥，你在国外到底是干什么的？\"你一时语塞，支支吾吾说不出话来。原来，你所谓的\"名流生活\"都是P图和编造的。你的\"凡尔赛\"人设彻底崩塌，亲戚们看你的眼神从羡慕变成了怜悯。你终于明白，什么叫\"假的就是假的\"。",
       "unlockConditions": {
         "max_face": 30,
-        "max_deposit": 1000
+        "max_deposit": 0
       }
     },
-    {
-      "ending_id": "zhen_yangqi_ending_special",
-      "ending_name": "海归文化使者·中西合璧",
-      "character_id": "zhen_yangqi",
-      "ending_type": "special",
-      "description": "你决定利用自己的海归背景，做一个中西文化交流的使者。你在村里办了一个\"洋气文化沙龙\"，教乡亲们品红酒、喝咖啡、学外语。没想到大受欢迎，成了村里的\"文化地标\"。年后，你被政府聘为\"文化交流大使\"，专门负责推广中西文化交流。你终于明白，什么叫\"文化无国界\"。",
-      "unlockConditions": {
-        "event_trigger": "文化交流",
-        "min_face": 70,
-        "min_deposit": 5000
-      }
-    },
-    {
-      "ending_id": "zhen_yangqi_ending_hidden",
-      "ending_name": "从假装名流到回归本真",
-      "character_id": "zhen_yangqi",
-      "ending_type": "hidden",
-      "description": "你决定不再\"假装名流\"，而是做一个真实的自己。你脱下了高定西装，换上了普通的衣服；摘下了名表，戴上了电子表。你发现，当你不再伪装时，生活反而更加轻松。年夜饭上，你坦诚地和亲戚们分享了自己的真实经历：国外的艰辛、回国的迷茫、创业的压力。亲戚们不但没有嘲笑你，反而更加尊重你。你终于明白，什么叫\"做真实的自己，才是最酷的\"。",
-      "unlockConditions": {
-        "option_condition": "完成所有真实选项",
-        "min_mood": 80,
-        "min_face": 50
-      }
-    },
+
+
     {
       "ending_id": "hu_sanwanW_ending_success_a",
       "ending_name": "川渝雀圣·麻将之神",
@@ -479,7 +302,7 @@
       "description": "你是川渝地区的\"雀圣\"，麻将桌上的常胜将军。这个春节，你在村里的麻将桌上大杀四方，赢了个盆满钵满。年夜饭上，你成了全村的焦点，乡亲们纷纷来请教\"麻将秘籍\"。你神秘一笑：\"这是天赋，教不会的。\"年后，你被邀请参加省级麻将比赛，一举夺冠，成了\"川渝雀圣\"。你终于明白，什么叫\"天赋异禀\"。",
       "unlockConditions": {
         "min_face": 85,
-        "min_deposit": 8000,
+        "min_deposit": 20000,
         "min_mood": 70
       }
     },
@@ -491,7 +314,7 @@
       "description": "这个春节，你决定不再熬夜打麻将，而是早睡早起、锻炼身体。你发现，不打麻将的生活也很精彩：可以看书、可以旅游、可以陪家人。年夜饭上，你第一次没有上牌桌，而是陪爸妈聊天。年后，你成了\"养生达人\"，每天早睡早起、跑步健身。你的脸色红润了，精神也好了。你终于明白，什么叫\"健康才是最大的财富\"。",
       "unlockConditions": {
         "min_health": 70,
-        "min_mood": 60
+        "min_mood": 70
       }
     },
     {
@@ -501,44 +324,22 @@
       "ending_type": "failure",
       "description": "除夕夜的麻将桌上，你遇到了一个\"高手\"，连输十把，把一年的积蓄都输光了。你不甘心，继续赌，结果越输越多。最后，你不得不把房子抵押出去还债。你从一个\"雀圣\"变成了\"赌鬼\"，乡亲们看你的眼神从崇拜变成了鄙视。你终于明白，什么叫\"十赌九输\"。",
       "unlockConditions": {
-        "max_deposit": 500,
-        "max_health": 30
+        "max_deposit": 10000,
+        "max_health": 35
       }
     },
-    {
-      "ending_id": "hu_sanwanW_ending_special",
-      "ending_name": "雀圣主播·麻将带货",
-      "character_id": "hu_sanwanW",
-      "ending_type": "special",
-      "description": "你把打麻将的过程直播到网上，没想到一夜爆红，粉丝破百万。你的\"雀圣\"名号响彻网络，成了\"麻将界\"的顶流。你开始带货：麻将机、麻将牌、麻将教程，供不应求。一年后，你的年收入破千万，成了\"麻将带货第一人\"。你终于明白，什么叫\"流量就是金钱\"。",
-      "unlockConditions": {
-        "event_trigger": "直播",
-        "min_face": 70,
-        "min_deposit": 3000
-      }
-    },
-    {
-      "ending_id": "hu_sanwanW_ending_hidden",
-      "ending_name": "从雀圣到戒赌大使",
-      "character_id": "hu_sanwanW",
-      "ending_type": "hidden",
-      "description": "你亲眼目睹了一个牌友因为赌博而家破人亡，深受触动，决定戒赌。你成立了\"胡三万戒赌基金会\"，专门帮助赌博成瘾的人戒赌。你用自己的亲身经历告诉大家：赌博的危害有多大。年后，你被政府聘为\"戒赌大使\"，在全国各地做演讲。你终于明白，什么叫\"浪子回头金不换\"。",
-      "unlockConditions": {
-        "option_condition": "完成所有戒赌选项",
-        "min_health": 80,
-        "min_mood": 70
-      }
-    },
+
+
     {
       "ending_id": "wu_renai_ending_success_a",
-      "ending_name": "大龄剩斗士·终于脱单",
+      "ending_name": "缘分天定·真爱万岁",
       "character_id": "wu_renai",
       "ending_type": "success",
-      "description": "这个春节，你经历了二十场相亲，终于遇到了\"对的人\"。TA不嫌弃你的年龄，不计较你的存款，只是单纯地喜欢你这个人。除夕夜的饭桌上，你带着TA回家见父母，爸妈激动得热泪盈眶：\"终于等到这一天了！\"年后，你们订婚、结婚、度蜜月，一气呵成。你终于明白，什么叫\"缘分天注定\"。",
+      "description": "这个春节后，在一次偶然情况你终于遇到了\"对的人\"。TA不是通过维度评价你，只是单纯地喜欢你这个人。第二年除夕夜的饭桌上，你带着TA回家见父母，爸妈激动得热泪盈眶：\"终于等到这一天了！\"年后，你终于明白，什么叫\"缘分天注定\"。",
       "unlockConditions": {
         "min_face": 80,
         "min_mood": 70,
-        "min_deposit": 6000
+        "min_deposit": 70000
       }
     },
     {
@@ -549,7 +350,7 @@
       "description": "这个春节，你经历了十五场相亲，但没有一场成功。但你并没有沮丧，反而更加享受单身生活。你可以随心所欲地旅行、购物、追剧，不用考虑任何人的感受。年夜饭上，你坦然地和亲戚们说：\"我一个人挺好的，不用为我操心。\"年后，你升职、加薪、买房，一个人活成了千军万马。你终于明白，什么叫\"单身也是一种生活方式\"。",
       "unlockConditions": {
         "min_mood": 60,
-        "min_deposit": 4000
+        "min_deposit": 60000
       }
     },
     {
@@ -562,30 +363,8 @@
         "max_face": 30,
         "max_mood": 30
       }
-    },
-    {
-      "ending_id": "wu_renai_ending_special",
-      "ending_name": "相亲遇难·流量密码",
-      "character_id": "wu_renai",
-      "ending_type": "special",
-      "description": "你把相亲的经历写成文章发到网上，没想到一夜爆红，粉丝破百万。你的\"相亲遇难\"故事引发了广泛共鸣，成了\"大龄单身\"群体的代言人。你开始专职做相亲博主，分享自己的相亲经验，同时也帮粉丝们牵线搭桥。一年后，你的年收入破百万，成了\"相亲界\"的顶流。你终于明白，什么叫\"塞翁失马，焉知非福\"。",
-      "unlockConditions": {
-        "event_trigger": "自媒体",
-        "min_face": 70,
-        "min_deposit": 3000
-      }
-    },
-    {
-      "ending_id": "wu_renai_ending_hidden",
-      "ending_name": "从剩斗士到真爱无敌",
-      "character_id": "wu_renai",
-      "ending_type": "hidden",
-      "description": "你拒绝了所有的相亲，决定等待真爱。你相信，真正的爱情不需要相亲，只需要缘分。这个春节，你在一次偶然的聚会上遇到了TA，一见钟情。TA正是你梦寐以求的那个人：懂你、爱你、支持你。除夕夜的饭桌上，你带着TA回家，爸妈虽然惊讶，但看到你们幸福的样子，也欣然接受。你终于明白，什么叫\"真爱无敌\"。",
-      "unlockConditions": {
-        "option_condition": "完成所有坚持选项",
-        "min_mood": 80,
-        "min_face": 60
-      }
     }
+
+   
   ]
 }
