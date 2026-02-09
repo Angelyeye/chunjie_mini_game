@@ -345,6 +345,43 @@ html, body {
     color: var(--color-primary-deep);
 }
 
+.radar-card {
+    background: white;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.radar-chart {
+    width: 200px;
+    height: 200px;
+}
+
+.radar-grid {
+    fill: none;
+    stroke: #e5e7eb;
+    stroke-width: 1;
+}
+
+.radar-axis {
+    stroke: #d1d5db;
+    stroke-width: 1;
+}
+
+.radar-area {
+    fill: rgba(220, 38, 38, 0.35);
+    stroke: #dc2626;
+    stroke-width: 2;
+}
+
+.radar-label {
+    font-size: 10px;
+    font-weight: 700;
+    fill: #b91c1c;
+}
+
 /* ============================================
    选项按钮样式
    ============================================ */

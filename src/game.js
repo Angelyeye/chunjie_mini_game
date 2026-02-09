@@ -26,7 +26,7 @@ const GAME_CONFIG = {
     PERIODS_PER_DAY: 3,
     PERIOD_NAMES: ['早晨', '中午', '晚上'],
     DAY_NAMES: [
-        '腊月二十九', '除夕', '大年初一', '大年初二', '大年初三',
+        '腊月二十八', '除夕', '大年初一', '大年初二', '大年初三',
         '大年初四', '大年初五', '大年初六', '大年初七'
     ],
     SAVE_SLOTS: 5,
@@ -2535,9 +2535,12 @@ class Game {
                 Object.entries(character.initial_attributes)
                     .map(([key, value]) => `<span class="stat-tag">${ATTRIBUTE_NAMES[key] || key}: ${value}</span>`)
                     .join('') : '';
+            const radarHtml = this.buildRadarChart(character.initial_attributes || {});
             
             const detailAvatarHtml = character.avatar && character.avatar.endsWith('.png')
-                ? `<img src="${character.avatar}" alt="${character.name}" class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-black shadow-[8px_8px_0px_#fbbf24]">`
+                ? `<div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-black shadow-[8px_8px_0px_#fbbf24]">
+                        <img src="${character.avatar}" alt="${character.name}" class="w-full h-full object-cover">
+                    </div>`
                 : `<div class="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gray-200 flex items-center justify-center text-6xl border-4 border-black shadow-[8px_8px_0px_#fbbf24]">${character.avatar || '👤'}</div>`;
             
             detailPanel.innerHTML = `
@@ -2556,6 +2559,7 @@ class Game {
                             <span class="bg-black text-white px-2">STATS</span>
                             <span class="text-festive-red">初始属性</span>
                         </h3>
+                        ${radarHtml}
                         <div class="flex flex-wrap gap-2">
                             ${statsHtml}
                         </div>
@@ -2730,6 +2734,77 @@ class Game {
                 return `${attrName}${sign}${e.value}`;
             })
             .join(' ');
+    }
+
+    getRadarPercentage(attribute, value) {
+        const bounds = ATTRIBUTE_BOUNDS[attribute];
+        if (!bounds) return 0.5;
+
+        if (attribute === 'deposit') {
+            const minLog = Math.log10(Math.max(1, Math.abs(bounds.min)));
+            const maxLog = Math.log10(Math.max(1, bounds.max));
+            const valueLog = Math.log10(Math.max(1, Math.abs(value || 0)));
+            const percentage = (valueLog - minLog) / (maxLog - minLog);
+            return Math.max(0, Math.min(1, percentage));
+        }
+
+        const percentage = ((value || 0) - bounds.min) / (bounds.max - bounds.min);
+        return Math.max(0, Math.min(1, percentage));
+    }
+
+    buildRadarChart(attributes) {
+        const order = ['deposit', 'weight', 'face', 'mood', 'health', 'luck'];
+        const size = 220;
+        const center = size / 2;
+        const radius = 70;
+        const levels = 4;
+        const angles = order.map((_, i) => (Math.PI * 2 * i) / order.length - Math.PI / 2);
+
+        const axisPoints = angles.map(angle => ({
+            x: center + radius * Math.cos(angle),
+            y: center + radius * Math.sin(angle)
+        }));
+
+        const valuePoints = angles.map((angle, i) => {
+            const attr = order[i];
+            const percent = this.getRadarPercentage(attr, attributes[attr]);
+            const r = radius * percent;
+            return `${center + r * Math.cos(angle)},${center + r * Math.sin(angle)}`;
+        }).join(' ');
+
+        const gridPolygons = Array.from({ length: levels }, (_, levelIndex) => {
+            const level = (levelIndex + 1) / levels;
+            const points = angles.map(angle => {
+                const r = radius * level;
+                return `${center + r * Math.cos(angle)},${center + r * Math.sin(angle)}`;
+            }).join(' ');
+            return `<polygon class="radar-grid" points="${points}"></polygon>`;
+        }).join('');
+
+        const axes = axisPoints.map(point => {
+            return `<line class="radar-axis" x1="${center}" y1="${center}" x2="${point.x}" y2="${point.y}"></line>`;
+        }).join('');
+
+        const labels = axisPoints.map((point, i) => {
+            const attr = order[i];
+            const name = ATTRIBUTE_NAMES[attr] || attr;
+            const offset = 14;
+            const dx = point.x > center + 2 ? offset : point.x < center - 2 ? -offset : 0;
+            const dy = point.y > center + 2 ? offset : point.y < center - 2 ? -offset : 0;
+            const anchor = point.x > center + 2 ? 'start' : point.x < center - 2 ? 'end' : 'middle';
+            return `<text class="radar-label" x="${point.x + dx}" y="${point.y + dy}" text-anchor="${anchor}" dominant-baseline="middle">${name}</text>`;
+        }).join('');
+
+        return `
+            <div class="radar-card">
+                <svg class="radar-chart" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                    ${gridPolygons}
+                    ${axes}
+                    <polygon class="radar-area" points="${valuePoints}"></polygon>
+                    ${labels}
+                </svg>
+            </div>
+        `;
     }
 
     /**
