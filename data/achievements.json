@@ -1,0 +1,33 @@
+{
+  "achievements": [
+    {
+      "id": "no_face",
+      "name": "毫无颜面",
+      "desc": "面子小于0",
+      "hidden": false,
+      "condition": { "type": "attribute", "attribute": "face", "operator": "<", "value": 0 }
+    },
+    {
+      "id": "hao_shitu_wealth",
+      "name": "仕途之财",
+      "desc": "郝仕途存款≥100000",
+      "hidden": false,
+      "characterId": "hao_shitu",
+      "condition": { "type": "attribute", "attribute": "deposit", "operator": ">=", "value": 100000 }
+    },
+    {
+      "id": "template_1",
+      "name": "成就模板一",
+      "desc": "请填写描述",
+      "hidden": false,
+      "condition": { "type": "attribute", "attribute": "mood", "operator": ">=", "value": 999 }
+    },
+    {
+      "id": "template_2",
+      "name": "成就模板二",
+      "desc": "请填写描述",
+      "hidden": false,
+      "condition": { "type": "attribute", "attribute": "deposit", "operator": "<=", "value": -9999999 }
+    }
+  ]
+}

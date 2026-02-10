@@ -145,6 +145,7 @@ class GameState {
         this.flags = {};
         this.pendingEvents = [];
         this.triggeredOnceEvents = [];
+        this.achievementsUnlocked = [];
         this.statistics = {
             totalEvents: 0,
             totalChoices: 0,
@@ -333,6 +334,7 @@ class GameState {
             flags: { ...this.flags },
             pendingEvents: [...this.pendingEvents],
             triggeredOnceEvents: [...this.triggeredOnceEvents],
+            achievementsUnlocked: [...this.achievementsUnlocked],
             statistics: { ...this.statistics }
         };
     }
@@ -351,6 +353,7 @@ class GameState {
         this.flags = data.flags || {};
         this.pendingEvents = data.pendingEvents || [];
         this.triggeredOnceEvents = data.triggeredOnceEvents || [];
+        this.achievementsUnlocked = data.achievementsUnlocked || [];
         this.statistics = data.statistics || {};
     }
 }
@@ -1471,10 +1474,110 @@ class EndingManager {
     }
 }
 
-
-
 // ============================================
-// Game - 游戏主控制器
+// AchievementsManager - 成就管理器
+// ============================================
+
+class AchievementsManager {
+    constructor(gameState, attributeManager) {
+        this.gameState = gameState;
+        this.attributeManager = attributeManager;
+        this.achievements = [];
+        this.achievementMap = new Map();
+        this.onUnlock = null;
+    }
+
+    loadAchievements(achievements) {
+        this.achievements = Array.isArray(achievements) ? achievements : [];
+        this.achievementMap.clear();
+        for (const a of this.achievements) {
+            this.achievementMap.set(a.id, a);
+        }
+    }
+
+    getAll() {
+        return this.achievements;
+    }
+
+    getUnlocked() {
+        return [...this.gameState.achievementsUnlocked];
+    }
+
+    getStats() {
+        return {
+            total: this.achievements.length,
+            unlocked: this.gameState.achievementsUnlocked.length
+        };
+    }
+
+    getByCharacter(characterId) {
+        return this.achievements.filter(a => {
+            const achCharId = a.characterId || a.character_id || null;
+            return !achCharId || achCharId === characterId;
+        });
+    }
+
+    setOnUnlock(handler) {
+        this.onUnlock = handler;
+    }
+
+    isUnlocked(id) {
+        return this.gameState.achievementsUnlocked.some(x => x.id === id);
+    }
+
+    unlock(id) {
+        if (this.isUnlocked(id)) return false;
+        const now = Date.now();
+        this.gameState.achievementsUnlocked.push({ id, timestamp: now });
+        const achievement = this.achievementMap.get(id);
+        if (this.onUnlock) {
+            this.onUnlock(achievement, now);
+        }
+        return true;
+    }
+
+    checkCondition(condition, attributeValue) {
+        if (!condition || condition.type !== 'attribute') return false;
+        const { operator, value } = condition;
+        switch (operator) {
+            case '>': return attributeValue > value;
+            case '<': return attributeValue < value;
+            case '>=': return attributeValue >= value;
+            case '<=': return attributeValue <= value;
+            case '==': return attributeValue === value;
+            case '!=': return attributeValue !== value;
+            default: return false;
+        }
+    }
+
+    checkByAttribute(attribute, value) {
+        const newlyUnlocked = [];
+        for (const a of this.achievements) {
+            const cond = a.condition;
+            if (!cond || cond.type !== 'attribute') continue;
+            if (cond.attribute !== attribute) continue;
+            const achCharId = a.characterId || a.character_id || null;
+            if (achCharId && this.gameState.character?.id !== achCharId) continue;
+            if (this.isUnlocked(a.id)) continue;
+            if (this.checkCondition(cond, value)) {
+                if (this.unlock(a.id)) {
+                    newlyUnlocked.push(a);
+                }
+            }
+        }
+        return newlyUnlocked;
+    }
+
+    silentScanAllAttributes() {
+        const attrs = this.attributeManager.getAll();
+        for (const [attr, val] of Object.entries(attrs)) {
+            this.checkByAttribute(attr, val);
+        }
+    }
+}
+
+
+
 // ============================================
 
 /**
@@ -1493,6 +1596,8 @@ class Game {
         this.events = new EventManager(this.state, this.attributes);
         this.saves = new SaveManager(this.state);
         this.endings = new EndingManager(this.state, this.attributes);
+        this.achievements = new AchievementsManager(this.state, this.attributes);
+        this.achievementHistoryKey = 'springFestivalAchievementHistory_v1';
 
         // 游戏数据
         this.characters = [];
@@ -1516,6 +1621,96 @@ class Game {
         this.makeChoice = this.makeChoice.bind(this);
         this.saveGame = this.saveGame.bind(this);
         this.loadGame = this.loadGame.bind(this);
+        this.toAchievements = this.toAchievements.bind(this);
+        this.renderAchievements = this.renderAchievements.bind(this);
+        this.showAchievementToast = this.showAchievementToast.bind(this);
+    }
+
+    getAchievementHistory() {
+        try {
+            const data = localStorage.getItem(this.achievementHistoryKey);
+            return data ? JSON.parse(data) : {};
+        } catch (e) {
+            console.error('加载成就记录失败:', e);
+            return {};
+        }
+    }
+
+    saveAchievementHistory(data) {
+        try {
+            localStorage.setItem(this.achievementHistoryKey, JSON.stringify(data));
+        } catch (e) {
+            console.error('保存成就记录失败:', e);
+        }
+    }
+
+    recordAchievementUnlock(achievement, timestamp) {
+        const characterId = this.state.character?.id;
+        if (!characterId || !achievement?.id) return;
+        const history = this.getAchievementHistory();
+        const list = Array.isArray(history[characterId]) ? history[characterId] : [];
+        if (!list.some(x => x && x.id === achievement.id)) {
+            list.push({ id: achievement.id, timestamp: timestamp || Date.now() });
+            history[characterId] = list;
+            this.saveAchievementHistory(history);
+        }
+    }
+
+    // 聚合：指定角色历史已达成成就ID集合（来自所有存档）
+    getRoleUnlockedAchievementIds(characterId) {
+        const saves = this.saves.getAllSaves();
+        const ids = new Set();
+        for (const s of saves) {
+            if (!s || !s.gameState) continue;
+            const gid = s.gameState?.character?.id;
+            if (gid !== characterId) continue;
+            const unlocked = s.gameState?.achievementsUnlocked || [];
+            for (const u of unlocked) {
+                if (u && u.id) ids.add(u.id);
+            }
+        }
+        const history = this.getAchievementHistory();
+        const historyList = Array.isArray(history[characterId]) ? history[characterId] : [];
+        for (const u of historyList) {
+            if (u && u.id) ids.add(u.id);
+        }
+        if (this.state.character?.id === characterId) {
+            const currentUnlocked = this.state.achievementsUnlocked || [];
+            for (const u of currentUnlocked) {
+                if (u && u.id) ids.add(u.id);
+            }
+        }
+        return ids;
+    }
+
+    // 渲染：角色选择详情中的“通用成就（该角色已达成）”
+    renderCharacterAchievements(characterId) {
+        const all = this.achievements.getByCharacter(characterId);
+        const unlockedIds = this.getRoleUnlockedAchievementIds(characterId);
+        const unlocked = all.filter(a => unlockedIds.has(a.id));
+
+        if (unlocked.length === 0) {
+            return '';
+        }
+
+        const cards = unlocked.map(a => `
+            <div class="achievement-card">
+                <div class="achievement-name font-black">${a.name}</div>
+                <div class="achievement-desc text-sm">${a.desc || ''}</div>
+            </div>
+        `).join('');
+
+        return `
+            <div class="bg-white p-4 border-2 border-black">
+                <h3 class="text-lg font-black mb-2 flex items-center gap-2">
+                    <span class="bg-black text-white px-2">ACHIEVEMENTS</span>
+                    <span class="text-festive-red">已达成成就</span>
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    ${cards}
+                </div>
+            </div>
+        `;
     }
 
     /**
@@ -1532,6 +1727,10 @@ class Game {
 
         // 初始化存档管理器
         this.saves.init();
+
+        this.achievements.setOnUnlock((achievement, timestamp) => {
+            this.recordAchievementUnlock(achievement, timestamp);
+        });
 
         // 渲染角色列表
         this.renderCharacters();
@@ -1582,12 +1781,28 @@ class Game {
                 const endingsData = await endingsResponse.json();
                 this.endingData = this.convertEndings(endingsData.endings || []);
             }
+
+            // 加载成就数据（无默认，无回退）
+            try {
+                const achievementsResponse = await fetch('../data/achievements.json');
+                if (achievementsResponse.ok) {
+                    const achievementsData = await achievementsResponse.json();
+                    this.achievements.loadAchievements(achievementsData.achievements || []);
+                } else {
+                    this.achievements.loadAchievements([]);
+                }
+            } catch (e) {
+                console.warn('加载成就数据失败:', e);
+                this.achievements.loadAchievements([]);
+            }
             
             console.log(`加载了 ${this.eventData.length} 个事件, ${this.endingData.length} 个结局`);
         } catch (e) {
             console.warn('加载外部事件数据失败，使用默认数据:', e);
             this.loadDefaultEvents();
             this.loadDefaultEndings();
+            // 成就保持为空
+            this.achievements.loadAchievements([]);
         }
 
         // 设置到管理器
@@ -2590,6 +2805,7 @@ class Game {
                         <img src="${character.avatar}" alt="${character.name}" class="w-full h-full object-cover">
                     </div>`
                 : `<div class="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gray-200 flex items-center justify-center text-6xl border-4 border-black shadow-[8px_8px_0px_#fbbf24]">${character.avatar || '👤'}</div>`;
+            const achievementsHtml = this.renderCharacterAchievements(character.id);
             
             detailPanel.innerHTML = `
                 <div class="w-full md:w-1/2 space-y-4">
@@ -2612,6 +2828,7 @@ class Game {
                             ${statsHtml}
                         </div>
                     </div>
+                    ${achievementsHtml}
                     <div class="grid grid-cols-2 gap-4 mt-4">
                         <button onclick="game.toStartScreen()" class="py-3 bg-gray-200 border-4 border-black font-bold hover:bg-gray-300 transition-colors">
                             取消
@@ -2649,6 +2866,11 @@ class Game {
         this.updateStatsDisplay();
         this.generateEvent();
         this.switchScreen('game-screen');
+
+        // 开局静默扫描一次（不弹窗）
+        if (this.achievements && this.achievements.getAll().length > 0) {
+            this.achievements.silentScanAllAttributes();
+        }
 
         this.showNotification(`选择了${character.name}，游戏开始！`);
     }
@@ -2885,12 +3107,29 @@ class Game {
         // 更新UI
         this.updateStatsDisplay();
 
+        // 触发成就判断（方案A：在选择后、应用效果后）
+        if (this.achievements && result.effectResults && result.effectResults.length > 0) {
+            for (const r of result.effectResults) {
+                const newly = this.achievements.checkByAttribute(r.attribute, r.newValue);
+                if (newly && newly.length > 0) {
+                    for (const a of newly) {
+                        this.showAchievementToast(`成就达成：${a.name}`);
+                    }
+                }
+            }
+        }
+
         // 显示效果提示
         if (result.effectResults && result.effectResults.length > 0) {
-            const effectText = result.effectResults
-                .map(r => `${ATTRIBUTE_NAMES[r.attribute]}${r.change >= 0 ? '+' : ''}${Math.round(r.change)}`)
+            const effectHtml = result.effectResults
+                .map(r => {
+                    const sign = r.change >= 0 ? '+' : '';
+                    const valueText = `${sign}${Math.round(r.change)}`;
+                    const className = r.change === 0 ? 'effect-neutral' : (r.change > 0 ? 'effect-positive' : 'effect-negative');
+                    return `${ATTRIBUTE_NAMES[r.attribute]}<span class="${className}">${valueText}</span>`;
+                })
                 .join('，');
-            this.showNotification(effectText);
+            this.showNotificationHtml(effectHtml);
         }
 
         const finishChoice = () => {
@@ -2970,6 +3209,19 @@ class Game {
                 storyHtml = '<p>这是一个平静的春节...</p>';
             }
             endingStory.innerHTML = storyHtml;
+        }
+
+        // 成就数量展示（仅当大于0时）
+        const achievementBox = document.getElementById('ending-achievements-box');
+        const achievementCount = document.getElementById('ending-achievements-count');
+        if (achievementBox && achievementCount) {
+            const count = this.state.achievementsUnlocked ? this.state.achievementsUnlocked.length : 0;
+            if (count > 0) {
+                achievementCount.textContent = `本局达成成就：${count}`;
+                achievementBox.classList.remove('hidden');
+            } else {
+                achievementBox.classList.add('hidden');
+            }
         }
 
         // 显示分数
@@ -3166,6 +3418,61 @@ class Game {
         if (action) action();
     }
 
+    toAchievements() {
+        this.renderAchievements();
+        this.switchScreen('achievements-screen');
+    }
+
+    renderAchievements() {
+        const grid = document.getElementById('achievements-grid');
+        const stats = document.getElementById('achievements-stats');
+        if (!grid || !stats) return;
+
+        const all = this.achievements.getAll();
+        const unlockedIds = new Set(this.state.achievementsUnlocked.map(x => x.id));
+        const { total, unlocked } = this.achievements.getStats();
+
+        stats.textContent = `已达成 ${unlocked} / 总数 ${total}`;
+
+        grid.innerHTML = all.map(a => {
+            const isUnlocked = unlockedIds.has(a.id);
+            const lockedClass = isUnlocked ? '' : 'opacity-50 text-gray-400';
+            const achCharId = a.characterId || a.character_id;
+            let roleBadge = '';
+            if (achCharId) {
+                const role = this.characters.find(c => c.id === achCharId);
+                if (role) {
+                    const avatarHtml = role.avatar && (role.avatar.endsWith('.png') || role.avatar.endsWith('.webp'))
+                        ? `<img src="${role.avatar}" alt="${role.name}" class="w-6 h-6 rounded-full object-cover border-2 border-black">`
+                        : `<div class="w-6 h-6 rounded-full bg-gray-200 flex items-center justify-center text-base border-2 border-black">${role.avatar || '👤'}</div>`;
+                    roleBadge = `
+                        <div class="achievement-role-badge">
+                            ${avatarHtml}
+                            <span class="ml-2 font-black text-xs">${role.name}</span>
+                        </div>
+                    `;
+                }
+            }
+            return `
+                <div class="achievement-card comic-border ${lockedClass}">
+                    ${roleBadge}
+                    <div class="achievement-name font-black">${a.name}</div>
+                    <div class="achievement-desc text-sm">${a.desc || ''}</div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    showAchievementToast(message) {
+        const toast = document.getElementById('achievement-toast');
+        if (!toast) return;
+        toast.textContent = message;
+        toast.classList.add('show');
+        setTimeout(() => {
+            toast.classList.remove('show');
+        }, 2500);
+    }
+
     // ============================================
     // 工具方法
     // ============================================
@@ -3179,6 +3486,18 @@ class Game {
         if (!notification) return;
 
         notification.textContent = message;
+        notification.classList.add('show');
+
+        setTimeout(() => {
+            notification.classList.remove('show');
+        }, 3000);
+    }
+
+    showNotificationHtml(messageHtml) {
+        const notification = document.getElementById('notification');
+        if (!notification) return;
+
+        notification.innerHTML = messageHtml;
         notification.classList.add('show');
 
         setTimeout(() => {

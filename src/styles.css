@@ -590,6 +590,42 @@ html, body {
     opacity: 1;
 }
 
+.effect-positive {
+    color: #dc2626;
+    font-weight: 900;
+}
+
+.effect-negative {
+    color: #16a34a;
+    font-weight: 900;
+}
+
+.effect-neutral {
+    color: #111827;
+    font-weight: 900;
+}
+
+/* 成就临时弹窗 */
+.achievement-toast {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    background: white;
+    border: 4px solid black;
+    padding: 12px 24px;
+    font-weight: 700;
+    box-shadow: var(--shadow-comic-small);
+    z-index: 100;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.achievement-toast.show {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+}
+
 /* ============================================
    倾斜标签样式
    ============================================ */
@@ -664,6 +700,29 @@ html, body {
     color: var(--color-primary);
 }
 
+/* 成就卡片 */
+.achievement-card {
+    background: white;
+    border: 4px solid black;
+    padding: 12px;
+    box-shadow: var(--shadow-comic-small);
+}
+
+ .achievement-card .achievement-name {
+    font-size: 1rem;
+ }
+
+ .achievement-card .achievement-desc {
+    font-size: 0.875rem;
+ }
+
+/* 成就角色徽标 */
+.achievement-role-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
 /* ============================================
    事件场景样式
    ============================================ */
