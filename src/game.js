@@ -2487,7 +2487,7 @@ class Game {
         if (!grid) return;
 
         grid.innerHTML = this.characters.map(char => {
-            const avatarHtml = char.avatar && char.avatar.endsWith('.png') 
+            const avatarHtml = char.avatar && char.avatar.endsWith('.webp') 
                 ? `<img src="${char.avatar}" alt="${char.name}" class="w-12 h-12 rounded-full object-cover border-2 border-black">`
                 : `<div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-2xl border-2 border-black">${char.avatar || '👤'}</div>`;
             
@@ -2537,7 +2537,7 @@ class Game {
                     .join('') : '';
             const radarHtml = this.buildRadarChart(character.initial_attributes || {});
             
-            const detailAvatarHtml = character.avatar && character.avatar.endsWith('.png')
+            const detailAvatarHtml = character.avatar && (character.avatar.endsWith('.png') || character.avatar.endsWith('.webp'))
                 ? `<div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-black shadow-[8px_8px_0px_#fbbf24]">
                         <img src="${character.avatar}" alt="${character.name}" class="w-full h-full object-cover">
                     </div>`
