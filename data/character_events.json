@@ -8256,7 +8256,7 @@
           "option_id": "hao_youqian_8_evening_01_c",
           "text": "借给他，但是算高利贷（误）",
           "effects": {
-            "deposit": -2000,
+            "deposit": -1000,
             "face": 10,
             "mood": -5,
             "weight": 0,
@@ -12960,7 +12960,7 @@
           "option_id": "wu_renai_3_morning_01_a",
           "text": "疯狂塞红包，用钱封住她们的嘴。",
           "effects": {
-            "deposit": -2000,
+            "deposit": -1000,
             "face": 30,
             "mood": -5,
             "weight": 0,
