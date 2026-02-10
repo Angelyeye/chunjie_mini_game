@@ -2814,6 +2814,7 @@ class Game {
                     <div class="character-detail-quote bg-gray-50 p-4 border-2 border-black italic text-sm">
                         "${character.monologue || character.description || '这个春节，我要过得不一样！'}"
                     </div>
+                    ${achievementsHtml}
                 </div>
                 <div class="w-full md:w-1/2 flex flex-col justify-between space-y-4">
                     <div>
@@ -2826,7 +2827,6 @@ class Game {
                             ${statsHtml}
                         </div>
                     </div>
-                    ${achievementsHtml}
                     <div class="grid grid-cols-2 gap-4 mt-4">
                         <button onclick="game.toStartScreen()" class="py-3 bg-gray-200 border-4 border-black font-bold hover:bg-gray-300 transition-colors">
                             取消
