@@ -1536,115 +1536,33 @@ class AchievementsManager {
         return true;
     }
 
-    compareOperator(operator, leftValue, rightValue) {
-        switch (operator) {
-            case '>': return leftValue > rightValue;
-            case '<': return leftValue < rightValue;
-            case '>=': return leftValue >= rightValue;
-            case '<=': return leftValue <= rightValue;
-            case '==': return leftValue === rightValue;
-            case '!=': return leftValue !== rightValue;
-            default: return false;
-        }
-    }
-
     checkCondition(condition, attributeValue) {
         if (!condition || condition.type !== 'attribute') return false;
         const { operator, value } = condition;
-        return this.compareOperator(operator, attributeValue, value);
-    }
-
-    checkDeltaPercentCondition(condition, attributeValue) {
-        if (!condition || condition.type !== 'attribute_delta_percent') return false;
-        const initialValue = this.gameState.character?.initial_attributes?.[condition.attribute];
-        if (initialValue === undefined || initialValue === 0) return false;
-        const deltaPercent = ((attributeValue - initialValue) / initialValue) * 100;
-        return this.compareOperator(condition.operator, deltaPercent, condition.value);
-    }
-
-    checkInitialCurrentCondition(condition, attributeValue) {
-        if (!condition || condition.type !== 'attribute_initial_current') return false;
-        const initialValue = this.gameState.character?.initial_attributes?.[condition.attribute];
-        if (initialValue === undefined) return false;
-        const initialCond = condition.initial;
-        const currentCond = condition.current;
-        if (!initialCond || !currentCond) return false;
-        if (!this.compareOperator(initialCond.operator, initialValue, initialCond.value)) return false;
-        return this.compareOperator(currentCond.operator, attributeValue, currentCond.value);
+        switch (operator) {
+            case '>': return attributeValue > value;
+            case '<': return attributeValue < value;
+            case '>=': return attributeValue >= value;
+            case '<=': return attributeValue <= value;
+            case '==': return attributeValue === value;
+            case '!=': return attributeValue !== value;
+            default: return false;
+        }
     }
 
     checkByAttribute(attribute, value) {
         const newlyUnlocked = [];
         for (const a of this.achievements) {
             const cond = a.condition;
-            if (!cond || (cond.type !== 'attribute' && cond.type !== 'attribute_delta_percent' && cond.type !== 'attribute_initial_current')) continue;
+            if (!cond || cond.type !== 'attribute') continue;
             if (cond.attribute !== attribute) continue;
             const achCharId = a.characterId || a.character_id || null;
             if (achCharId && this.gameState.character?.id !== achCharId) continue;
             if (this.isUnlocked(a.id)) continue;
-            const matched = cond.type === 'attribute'
-                ? this.checkCondition(cond, value)
-                : (cond.type === 'attribute_delta_percent'
-                    ? this.checkDeltaPercentCondition(cond, value)
-                    : this.checkInitialCurrentCondition(cond, value));
-            if (matched) {
+            if (this.checkCondition(cond, value)) {
                 if (this.unlock(a.id)) {
                     newlyUnlocked.push(a);
                 }
-            }
-        }
-        return newlyUnlocked;
-    }
-
-    matchesEventCondition(condition, eventId, choiceIndex, choiceId) {
-        if (!condition || !condition.eventId) return false;
-        const eventIds = Array.isArray(condition.eventId) ? condition.eventId : [condition.eventId];
-        if (!eventIds.includes(eventId)) return false;
-        if (condition.choiceIndex !== undefined) {
-            const choiceIndexes = Array.isArray(condition.choiceIndex) ? condition.choiceIndex : [condition.choiceIndex];
-            if (!choiceIndexes.includes(choiceIndex)) return false;
-        }
-        if (condition.choiceId !== undefined) {
-            const choiceIds = Array.isArray(condition.choiceId) ? condition.choiceId : [condition.choiceId];
-            if (!choiceIds.includes(choiceId)) return false;
-        }
-        return true;
-    }
-
-    checkByEvent(eventId, choiceIndex, choiceId) {
-        const newlyUnlocked = [];
-        for (const a of this.achievements) {
-            const cond = a.condition;
-            if (!cond || (cond.type !== 'event_triggered' && cond.type !== 'event_triggered_any')) continue;
-            const achCharId = a.characterId || a.character_id || null;
-            if (achCharId && this.gameState.character?.id !== achCharId) continue;
-            if (this.isUnlocked(a.id)) continue;
-            let matched = false;
-            if (cond.type === 'event_triggered') {
-                matched = this.matchesEventCondition(cond, eventId, choiceIndex, choiceId);
-            } else {
-                const events = Array.isArray(cond.events) ? cond.events : [];
-                matched = events.some(e => this.matchesEventCondition(e, eventId, choiceIndex, choiceId));
-            }
-            if (matched) {
-                if (this.unlock(a.id)) {
-                    newlyUnlocked.push(a);
-                }
-            }
-        }
-        return newlyUnlocked;
-    }
-
-    checkByGameEnd() {
-        const newlyUnlocked = [];
-        for (const a of this.achievements) {
-            const cond = a.condition;
-            if (!cond || cond.type !== 'game_end') continue;
-            const achCharId = a.characterId || a.character_id || null;
-            if (achCharId && this.gameState.character?.id !== achCharId) continue;
-            if (this.isUnlocked(a.id)) continue;
-            if (this.unlock(a.id)) {
-                newlyUnlocked.push(a);
             }
         }
         return newlyUnlocked;
@@ -1807,6 +1725,9 @@ class Game {
 
         this.achievements.setOnUnlock((achievement, timestamp) => {
             this.recordAchievementUnlock(achievement, timestamp);
+            if (this.state.currentScreen === 'achievements') {
+                this.renderAchievements();
+            }
         });
 
         // 渲染角色列表
@@ -3199,14 +3120,6 @@ class Game {
                 }
             }
         }
-        if (this.achievements) {
-            const eventNewly = this.achievements.checkByEvent(event.id, choiceIndex, result.choice?.id);
-            if (eventNewly && eventNewly.length > 0) {
-                for (const a of eventNewly) {
-                    this.showAchievementToast(`成就达成：${a.name}`);
-                }
-            }
-        }
 
         // 显示效果提示
         if (result.effectResults && result.effectResults.length > 0) {
@@ -3262,14 +3175,6 @@ class Game {
     showEnding() {
         // 根据当前属性与历史记录计算结局，并更新结局界面
         const ending = this.endings.determineEnding(this.state.attributes, this.state.character?.initial_attributes);
-        if (this.achievements) {
-            const newly = this.achievements.checkByGameEnd();
-            if (newly && newly.length > 0) {
-                for (const a of newly) {
-                    this.showAchievementToast(`成就达成：${a.name}`);
-                }
-            }
-        }
 
         // 更新结局界面
         const endingTitle = document.getElementById('ending-title');
@@ -3527,9 +3432,23 @@ class Game {
 
         const all = this.achievements.getAll();
         const unlockedIds = new Set(this.state.achievementsUnlocked.map(x => x.id));
+        const history = this.getAchievementHistory();
+        for (const list of Object.values(history)) {
+            if (!Array.isArray(list)) continue;
+            for (const u of list) {
+                if (u && u.id) unlockedIds.add(u.id);
+            }
+        }
+        const saves = this.saves.getAllSaves();
+        for (const s of saves) {
+            const list = s?.gameState?.achievementsUnlocked || [];
+            for (const u of list) {
+                if (u && u.id) unlockedIds.add(u.id);
+            }
+        }
         const { total, unlocked } = this.achievements.getStats();
 
-        stats.textContent = `已达成 ${unlocked} / 总数 ${total}`;
+        stats.textContent = `已达成 ${unlockedIds.size} / 总数 ${total}`;
 
         grid.innerHTML = all.map(a => {
             const isUnlocked = unlockedIds.has(a.id);
