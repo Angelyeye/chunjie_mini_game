@@ -33,6 +33,54 @@ const GAME_CONFIG = {
     AUTO_SAVE_INTERVAL: 60000 // 60秒自动存档
 };
 
+const CALENDAR_DISPLAY = {
+    '腊月二十八': {
+        image: '../images/calendar/腊月二十八.webp',
+        yi: '求医 治病 破屋 坏垣 馀事勿取',
+        ji: '开市 嫁娶'
+    },
+    '除夕': {
+        image: '../images/calendar/除夕.webp',
+        yi: '祭祀 斋醮 沐浴 开生坟 除服 成服 移柩 入殓 破土 安葬 合寿木',
+        ji: '开市 嫁娶 安床 会亲友 入宅 作灶 上梁'
+    },
+    '大年初一': {
+        image: '../images/calendar/大年初一.webp',
+        yi: '祭祀 塞穴 结网 破土 谢土 安葬 移柩 除服 成服 馀事勿取',
+        ji: '嫁娶 入宅'
+    },
+    '大年初二': {
+        image: '../images/calendar/大年初二.webp',
+        yi: '祭祀 沐浴 理发 作灶 结网 栽种',
+        ji: '嫁娶 词讼 行丧 安葬 牧养 伐木 作梁 开市 纳畜 造畜稠'
+    },
+    '大年初三': {
+        image: '../images/calendar/大年初三.webp',
+        yi: '嫁娶 祭祀 开光 祈福 求嗣 出行 开市 交易 立券 动土 纳财 掘井 会亲友',
+        ji: '入宅 安葬 伐木 作梁 纳畜 造畜稠 作灶'
+    },
+    '大年初四': {
+        image: '../images/calendar/大年初四.webp',
+        yi: '祭祀 祈福 求嗣 纳畜 入殓 启钻 谢土 除服 成服',
+        ji: '栽种 开光 出行 针灸 嫁娶 入宅 动土 破土'
+    },
+    '大年初五': {
+        image: '../images/calendar/大年初五.webp',
+        yi: '开光 解除 伐木 竖柱 上梁 交易 立券 纳畜 入殓 移柩 安葬',
+        ji: '入宅 出行 移徙 祭祀 嫁娶 动土 破土 作灶'
+    },
+    '大年初六': {
+        image: '../images/calendar/大年初六.webp',
+        yi: '祭祀 祈福 求嗣 开光 嫁娶 出行 解除 伐木 拆卸 进人口 安床 动土 起基 上梁 栽种 纳畜 破土 谢土 启钻 安葬',
+        ji: '移徙 入宅 出火 作灶 掘井'
+    },
+    '大年初七': {
+        image: '../images/calendar/大年初七.webp',
+        yi: '会亲友 冠笄 安床 会亲友 安机械 祭祀 祈福 求嗣 经络',
+        ji: '嫁娶 开市 动土 作灶 安葬'
+    }
+};
+
 const ATTRIBUTE_BOUNDS = {
     deposit: { min: -50000, max: 10000000, default: 0 },
     weight: { min: 30, max: 200, default: 65 },
@@ -2679,16 +2727,31 @@ class Game {
         // 更新事件显示
         const sceneImage = document.getElementById('scene-image');
         const sceneLocation = document.getElementById('scene-location');
-        const npcAvatar = document.getElementById('npc-avatar');
         const npcName = document.getElementById('npc-name');
         const eventTitle = document.getElementById('event-title');
         const eventDescription = document.getElementById('event-description');
         const choicesPanel = document.getElementById('choices-panel');
 
-        if (sceneImage) sceneImage.textContent = event.scene || '🏠';
-        if (sceneLocation) sceneLocation.textContent = event.location || '未知地点';
-        if (npcAvatar) npcAvatar.textContent = event.npc || '👤';
-        if (npcName) npcName.textContent = event.npcName || '未知';
+        const dayName = GAME_CONFIG.DAY_NAMES[this.state.progress.currentDay - 1];
+        const calendarData = dayName ? CALENDAR_DISPLAY[dayName] : null;
+
+        if (sceneImage) {
+            if (calendarData && calendarData.image) {
+                sceneImage.innerHTML = `<img src="${calendarData.image}" alt="${dayName}" class="w-full h-full object-cover">`;
+            } else {
+                sceneImage.textContent = event.scene || '🏠';
+            }
+        }
+        if (sceneLocation) {
+            sceneLocation.textContent = calendarData && calendarData.yi
+                ? `宜 ${calendarData.yi}`
+                : (event.location || '未知地点');
+        }
+        if (npcName) {
+            npcName.textContent = calendarData && calendarData.ji
+                ? `忌 ${calendarData.ji}`
+                : (event.npcName || '未知');
+        }
         if (eventTitle) eventTitle.textContent = event.title || '新的事件';
         if (eventDescription) eventDescription.textContent = event.description || '无事发生...';
 
