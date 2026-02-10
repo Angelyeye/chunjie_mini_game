@@ -120,7 +120,7 @@
       "monologue": "Oh my god，家里的红酒没醒过？这白酒太spicy了。我在Manchester的时候都去Church的。",
       "avatar": "../images/char-8.webp",
       "initial_attributes": {
-        "deposit": -1800,
+        "deposit": 1800,
         "weight": 65,
         "face": 85,
         "mood": 50,

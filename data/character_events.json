@@ -5630,13 +5630,13 @@
           "effects": {
             "mood": -10,
             "health": -2,
-            "face": 0,
+            "face": 5,
             "deposit": 0,
             "weight": 0,
             "luck": 0,
             "money": 0
           },
-          "next_event": "你试图用科技屏蔽现实，但物理震动让你的肾上腺素飙升。你的忍耐值-10。"
+          "next_event": "你试图用科技屏蔽现实，虽然维持了体面，但物理震动让你的肾上腺素飙升。你的忍耐值逐渐降低。"
         },
         {
           "option_id": "ren_xing_1_morning_01_b",
@@ -5680,7 +5680,7 @@
           "option_id": "ren_xing_1_noon_01_a",
           "text": "假装打电话：“喂？几千万的项目别找我，我在休假！”",
           "effects": {
-            "face": 10,
+            "face": 15,
             "mood": 5,
             "luck": -5,
             "deposit": 0,
@@ -5695,7 +5695,7 @@
           "text": "主动出击：“哟，王婶，您孙子期末考几分？二胎怀上了吗？退休金涨了吗？”",
           "effects": {
             "mood": 15,
-            "face": -20,
+            "face": 0,
             "luck": 5,
             "deposit": 0,
             "weight": 0,
@@ -5813,7 +5813,7 @@
           "text": "在床上阴暗爬行并发出怪叫",
           "effects": {
             "mood": 20,
-            "face": -15,
+            "face": -10,
             "health": 2,
             "deposit": 0,
             "weight": 0,
@@ -5837,7 +5837,7 @@
           "text": "老实干活，不仅擦窗还把厕所刷了",
           "effects": {
             "health": -3,
-            "face": 5,
+            "face": 10,
             "deposit": 100,
             "weight": 0,
             "mood": 0,
@@ -5865,7 +5865,7 @@
           "text": "把抹布扔给父亲：“您是总指挥，这种核心技术还得您亲自展示！”",
           "effects": {
             "mood": 10,
-            "face": -10,
+            "face": 0,
             "luck": 5,
             "deposit": 0,
             "weight": 0,
@@ -5903,7 +5903,7 @@
           "text": "回房间玩手机，断绝物理交流",
           "effects": {
             "mood": 5,
-            "face": -2,
+            "face": -5,
             "health": -1,
             "deposit": 0,
             "weight": 0,
@@ -5955,7 +5955,7 @@
           "text": "哭穷：“阿姨借点钱吧，我在外面欠了高利贷，正愁没钱还呢。”",
           "effects": {
             "deposit": 0,
-            "face": -20,
+            "face": -15,
             "mood": 20,
             "weight": 0,
             "health": 0,
@@ -5968,7 +5968,7 @@
           "option_id": "ren_xing_3_morning_01_c",
           "text": "顾左右而言他：“二姨，您这双眼皮割得有点不对称啊。”",
           "effects": {
-            "face": -10,
+            "face": -5,
             "mood": 10,
             "luck": 2,
             "deposit": 0,
@@ -6058,7 +6058,7 @@
           "option_id": "ren_xing_3_evening_01_b",
           "text": "“我备孕呢。”（无论男女）",
           "effects": {
-            "face": -10,
+            "face": -5,
             "mood": 10,
             "luck": 5,
             "deposit": 0,
@@ -6073,7 +6073,7 @@
           "text": "发酒疯先手：“来！我干了！谁不喝谁孙子！大舅你养鱼呢？”",
           "effects": {
             "mood": 20,
-            "face": -15,
+            "face": -10,
             "health": -5,
             "deposit": 0,
             "weight": 0,
@@ -6097,7 +6097,7 @@
           "text": "全程陪笑，点头哈腰",
           "effects": {
             "mood": -10,
-            "face": -5,
+            "face": 0,
             "deposit": 0,
             "weight": 0,
             "health": 0,
@@ -6110,7 +6110,7 @@
           "option_id": "ren_xing_4_morning_01_b",
           "text": "爆料：“听说这岗位天天加班还没加班费，真的吗？”",
           "effects": {
-            "face": -10,
+            "face": -5,
             "mood": 5,
             "luck": 2,
             "deposit": 0,
@@ -6125,7 +6125,7 @@
           "text": "深情握手：“以后犯了事就靠兄弟你捞我了！”",
           "effects": {
             "mood": 15,
-            "face": -20,
+            "face": -10,
             "luck": -5,
             "deposit": 0,
             "weight": 0,
@@ -6215,7 +6215,7 @@
           "text": "六亲不认，算牌狂魔",
           "effects": {
             "deposit": 300,
-            "face": -10,
+            "face": -5,
             "health": -2,
             "weight": 0,
             "mood": 0,
@@ -6229,7 +6229,7 @@
           "text": "边打边做法：“天灵灵地灵灵，把你们的钱都吸过来！”",
           "effects": {
             "mood": 10,
-            "face": -15,
+            "face": -10,
             "luck": 0,
             "deposit": 0,
             "weight": 0,
@@ -6305,7 +6305,7 @@
           "text": "闭眼吞咽，铁胃无敌",
           "effects": {
             "health": -10,
-            "face": 2,
+            "face": 5,
             "deposit": 0,
             "weight": 0,
             "mood": 0,
@@ -6371,7 +6371,7 @@
           "text": "“爸，妈，其实我喜欢...纸片人。”",
           "effects": {
             "mood": 15,
-            "face": -20,
+            "face": -10,
             "luck": 0,
             "deposit": 0,
             "weight": 0,
@@ -6384,7 +6384,7 @@
           "option_id": "ren_xing_5_evening_01_c",
           "text": "“给我五百万买房，我明天就结婚。”",
           "effects": {
-            "face": -10,
+            "face": 2,
             "deposit": 0,
             "mood": 10,
             "weight": 0,
@@ -6436,7 +6436,7 @@
           "option_id": "ren_xing_6_morning_01_c",
           "text": "直说：“这地儿我待不下去了，我要出去透气。”",
           "effects": {
-            "face": -10,
+            "face": -5,
             "mood": 5,
             "deposit": 0,
             "weight": 0,
@@ -6631,7 +6631,7 @@
           "text": "不去，直接退群",
           "effects": {
             "mood": 20,
-            "face": -20,
+            "face": -10,
             "luck": 5,
             "deposit": 0,
             "weight": 0,
@@ -6644,7 +6644,7 @@
           "option_id": "ren_xing_7_noon_01_c",
           "text": "群里回复：“AA吗？人均超过50我不去啊。”",
           "effects": {
-            "face": -30,
+            "face": -5,
             "mood": 15,
             "deposit": 0,
             "weight": 0,
@@ -6668,8 +6668,8 @@
           "option_id": "ren_xing_7_evening_01_a",
           "text": "默默干饭，打包剩菜",
           "effects": {
-            "face": -10,
-            "deposit": 10,
+            "face": -5,
+            "deposit": 500,
             "health": 5,
             "weight": 0,
             "mood": 0,
@@ -6682,7 +6682,7 @@
           "option_id": "ren_xing_7_evening_01_b",
           "text": "配合演出：“哇！王总真厉害！李总带带我！”",
           "effects": {
-            "mood": -15,
+            "mood": -10,
             "face": 5,
             "luck": 5,
             "deposit": 0,
@@ -6697,7 +6697,7 @@
           "text": "当众拆穿：“张总，听说你那大奔是租的？一天多少钱？”",
           "effects": {
             "mood": 30,
-            "face": -50,
+            "face": -10,
             "luck": -10,
             "deposit": 0,
             "weight": 0,
@@ -6749,7 +6749,7 @@
           "text": "网购下单直接寄到公司",
           "effects": {
             "deposit": -100,
-            "face": 0,
+            "face": 5,
             "luck": 5,
             "weight": 0,
             "mood": 0,
@@ -6787,7 +6787,7 @@
           "text": "反向画饼：“明年一定带个亿万富翁回来！”",
           "effects": {
             "mood": 10,
-            "face": -5,
+            "face": 5,
             "luck": 2,
             "deposit": 0,
             "weight": 0,
@@ -6827,7 +6827,7 @@
             "health": -2,
             "face": 5,
             "weight": 5,
-            "deposit": 0,
+            "deposit": 1000,
             "mood": 0,
             "luck": 0,
             "money": 0
@@ -6840,7 +6840,7 @@
           "effects": {
             "face": -5,
             "mood": 5,
-            "deposit": 0,
+            "deposit": 200,
             "weight": 0,
             "health": 0,
             "luck": 0,
@@ -6852,7 +6852,7 @@
           "option_id": "ren_xing_8_evening_01_c",
           "text": "提议快递寄过去",
           "effects": {
-            "deposit": -50,
+            "deposit": 950,
             "face": 5,
             "luck": 5,
             "weight": 0,
@@ -6891,7 +6891,7 @@
           "text": "挥手不回头：“我去为GDP做贡献了！”",
           "effects": {
             "mood": 10,
-            "face": 0,
+            "face": 5,
             "luck": 5,
             "deposit": 0,
             "weight": 0,
@@ -6928,7 +6928,7 @@
           "option_id": "ren_xing_9_noon_01_a",
           "text": "打开工作群，提前进入状态",
           "effects": {
-            "mood": -20,
+            "mood": -10,
             "face": 5,
             "deposit": 0,
             "weight": 0,
