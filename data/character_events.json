@@ -3081,7 +3081,7 @@
           "text": "誓死不从，坚持时尚",
           "effects": {
             "health": -10,
-            "face": 5,
+            "face": 10,
             "mood": -2,
             "deposit": 0,
             "weight": 0,
@@ -3160,7 +3160,7 @@
           "option_id": "fan_tong_3_morning_01_c",
           "text": "全程傻笑：“啊对对对”",
           "effects": {
-            "face": 2,
+            "face": 5,
             "mood": -5,
             "luck": 2,
             "deposit": 0,
@@ -3199,7 +3199,7 @@
           "text": "忍痛割爱，给个最便宜的",
           "effects": {
             "deposit": -50,
-            "face": 5,
+            "face": 10,
             "mood": -10,
             "weight": 0,
             "health": 0,
@@ -3288,7 +3288,7 @@
           "option_id": "fan_tong_4_morning_01_a",
           "text": "见人就喊过年好",
           "effects": {
-            "face": 5,
+            "face": 10,
             "mood": -2,
             "luck": 2,
             "deposit": 0,
@@ -3314,9 +3314,9 @@
         },
         {
           "option_id": "fan_tong_4_morning_01_c",
-          "text": "叫错长辈称呼",
+          "text": "见到长辈积极叫人",
           "effects": {
-            "face": -20,
+            "face": -10,
             "mood": -5,
             "luck": -10,
             "deposit": 0,
@@ -3392,7 +3392,7 @@
           "option_id": "fan_tong_4_evening_01_a",
           "text": "“过了过了，都挺好”",
           "effects": {
-            "face": 2,
+            "face": 5,
             "mood": -5,
             "luck": -2,
             "deposit": 0,
@@ -3510,7 +3510,7 @@
           "option_id": "fan_tong_5_noon_01_b",
           "text": "朗诵《我的区长父亲》（误）",
           "effects": {
-            "face": -10,
+            "face": 10,
             "mood": 5,
             "luck": -5,
             "deposit": 0,
@@ -3600,7 +3600,7 @@
           "option_id": "fan_tong_6_morning_01_a",
           "text": "借口“找同学借资料”",
           "effects": {
-            "face": 5,
+            "face": 10,
             "mood": 5,
             "luck": 2,
             "deposit": 0,
@@ -3614,7 +3614,7 @@
           "option_id": "fan_tong_6_morning_01_b",
           "text": "趁乱溜走",
           "effects": {
-            "face": -5,
+            "face": 0,
             "mood": 10,
             "luck": -2,
             "deposit": 0,

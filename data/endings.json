@@ -20,7 +20,6 @@
       "ending_type": "success",
       "description": "春节回家，你没有开奥迪，但开来的大众也让村里人侧目。饭局上，你不再是主角，但也没人敢忽视你。你帮村里解决了几个实际问题：谁家孩子上学、谁家老人看病，你都尽心尽力。年后回到单位，虽然没有大晋升，但领导对你更加信任。你学会了在体制内生存的智慧：不争第一，不做最后，稳稳当当才是长久之计。老婆孩子热炕头，你觉得这样挺好。",
       "unlockConditions": {
-        "min_deposit": 120000,
         "min_face": 60,
         "min_mood": 0,
         "min_health": 40
@@ -35,9 +34,7 @@
       "ending_type": "failure",
       "description": "你为了面子租了辆二手奥迪回到村里，穿着高仿西装去拜年。亲戚们都以为你混得风生水起，纷纷来巴结你。你口若悬河地吹嘘自己的'政绩'，还说能帮村里人解决各种问题。年夜饭上，你抢着买单却发现信用卡刷爆了，最后还是老父亲偷偷付了钱。年后，你回到单位依然是个普通科员，同事们都知道了你春节装逼翻车的事，背后对你指指点点。你终于明白，打肿脸充胖子的后果有多惨。",
       "unlockConditions": {
-        "option_condition": "完成所有高调选项",
-        "max_deposit": 128000,
-        "max_face": 50
+        "max_face": 59
       }
     },
     {
@@ -71,7 +68,6 @@
       "ending_type": "failure",
       "description": "你精心打造的都市丽人形象，在除夕夜的饭桌上彻底崩塌。你妈当着全家人的面，拿出了你小学时的照片：\"看看咱家Vivian小时候多可爱！\"照片里的你穿着花棉袄，流着鼻涕，傻笑着。你的表弟们把照片发到了家族群，瞬间收到了99+的点赞和评论。你的闺蜜发来消息：\"原来你是这样的Vivian！\"你恨不得找个地缝钻进去。年后回到城里，你换了微信头像，改了昵称，决定重新做人。",
       "unlockConditions": {
-        "max_deposit": 0,
         "max_face": 49,
         "max_mood": 49
       }
@@ -110,8 +106,7 @@
       "description": "除夕夜的饭桌上，你因为连续熬夜打游戏，突然晕倒了。全家人吓得手忙脚乱，赶紧把你送到医院。医生诊断：过度疲劳+营养不良。你躺在病床上，看着点滴一滴一滴地落下，心里五味杂陈。你的\"脆皮大学生\"人设彻底坐实了，家族群里全是\"范统晕倒了\"的消息。年后回到学校，你成了班里的\"传奇人物\"，但这不是你想要的那种传奇。",
       "unlockConditions": {
         "max_face": 50,
-        "max_health": 39,
-        "max_deposit": 700
+        "max_health": 39
       }
     },
 
@@ -185,27 +180,27 @@
       "description": "除夕夜的饭桌上，你妈催你找对象，你突然\"发疯\"：\"我不结婚！我要孤独终老！我要当一辈子的单身狗！\"全场寂静，亲戚们面面相觑。你妈气得当场落泪，你爸拍桌子要赶你出去。你的\"发疯\"视频被表弟发到了网上，一夜之间成了\"春节发疯第一人\"。年后回到公司，同事们看你的眼神都变了，领导也找你谈话：\"小任啊，注意一下情绪管理。\"你终于明白，什么叫\"发疯有风险，使用需谨慎\"。",
       "unlockConditions": {
         "max_face": 0,
-        "max_mood": 30
+        "max_mood": 60
       }
     },
 
 
     {
-      "ending_id": "hao_youqianQ_ending_success_a",
+      "ending_id": "hao_youqian_ending_success_a",
       "ending_name": "隐形富豪·真·人生赢家",
-      "character_id": "hao_youqianQ",
+      "character_id": "hao_youqian",
       "ending_type": "success",
       "description": "你穿着解放鞋、骑着电动车回到村里，乡亲们以为你混得不好，纷纷安慰你。你笑而不语，默默给村里捐了一百万修路。年后，你的租客们发现房东竟然是个\"隐形富豪\"，纷纷感叹\"人不可貌相\"。你依然过着朴素的生活，但你心里清楚：账户里的八位数存款，就是你的底气。你终于明白，什么叫\"低调是最牛的炫耀\"。",
       "unlockConditions": {
-        "min_deposit": 12000000,
-        "min_face": 85,
+        "min_deposit": 10000000,
+        "min_face": 90,
         "min_mood": 90
       }
     },
     {
-      "ending_id": "hao_youqianQ_ending_success_b",
+      "ending_id": "hao_youqian_ending_success_b",
       "ending_name": "土味房东·快乐源泉",
-      "character_id": "hao_youqianQ",
+      "character_id": "hao_youqian",
       "ending_type": "success",
       "description": "你是城里最\"土\"的房东：穿着老头衫、趿拉着拖鞋、骑着破电动车。但你的租客们都很喜欢你，因为你从不涨房租、从不催租、还经常在朋友圈发土味情话。这个春节，你给每个租客发了一个大红包，让他们感动得热泪盈眶。年后，你的\"土味房东\"形象在网上走红，成了\"最暖房东\"的代表。你终于明白，什么叫\"土到极致就是潮\"。",
       "unlockConditions": {
@@ -214,9 +209,9 @@
       }
     },
     {
-      "ending_id": "hao_youqianQ_ending_fail",
+      "ending_id": "hao_youqian_ending_fail",
       "ending_name": "富豪变负豪·一夜回到解放前",
-      "character_id": "hao_youqianQ",
+      "character_id": "hao_youqian",
       "ending_type": "failure",
       "description": "因心态不好，你把所有积蓄投入了一个\"稳赚不赔\"的P2P项目，结果平台跑路，你一夜之间从\"富豪\"变成了\"负豪\"。除夕夜的饭桌上，你强颜欢笑，但心里五味杂陈。年后，你不得不卖掉一套房子还债，从一个\"房东\"变成了\"租客\"。你终于明白，什么叫\"投资有风险，入市需谨慎\"。",
       "unlockConditions": {
@@ -226,9 +221,9 @@
 
 
     {
-      "ending_id": "bi_chenglongL_ending_success_a",
+      "ending_id": "bi_chenglong_ending_success_a",
       "ending_name": "鸡娃战神·望子成龙",
-      "character_id": "bi_chenglongL",
+      "character_id": "bi_chenglong",
       "ending_type": "success",
       "description": "你的\"鸡娃\"成果显著：儿子考上了清华，女儿拿到了常春藤的offer。除夕夜的饭桌上，你成了全家的焦点，亲戚们纷纷来请教\"育儿经验\"。你慷慨激昂地分享自己的\"鸡娃秘籍\"：从胎教到奥数，从钢琴到马术，无所不包。年后，你出了一本书《鸡娃战神的育儿经》，成了畅销书作家。你终于明白，什么叫\"功夫不负有心人\"。",
       "unlockConditions": {
@@ -238,9 +233,9 @@
       }
     },
     {
-      "ending_id": "bi_chenglongL_ending_success_b",
+      "ending_id": "bi_chenglong_ending_success_b",
       "ending_name": "从鸡娃到放养·顺其自然",
-      "character_id": "bi_chenglongL",
+      "character_id": "bi_chenglong",
       "ending_type": "success",
       "description": "这个春节，你看到儿子因为压力太大而失眠，女儿因为焦虑而脱发，你突然醒悟了。你决定不再\"鸡娃\"，而是让孩子自由发展。年夜饭上，你宣布了一个惊人的决定：取消所有补习班，让孩子做自己喜欢的事。亲戚们纷纷表示不解，但你坚持自己的选择。年后，儿子迷上了编程，女儿爱上了画画，虽然成绩不是最好的，但他们眼里有了光。你终于明白，什么叫\"儿孙自有儿孙福\"。",
       "unlockConditions": {
@@ -249,9 +244,9 @@
       }
     },
     {
-      "ending_id": "bi_chenglongL_ending_fail",
+      "ending_id": "bi_chenglong_ending_fail",
       "ending_name": "鸡娃过度·悲剧收场",
-      "character_id": "bi_chenglongL",
+      "character_id": "bi_chenglong",
       "ending_type": "failure",
       "description": "除夕夜的饭桌上，儿子突然崩溃大哭：\"我不想学习了！我想死！\"你愣住了，不知道该怎么办。女儿冷冷地说：\"你从来只关心我们的成绩，从来不关心我们快不快乐。\"你这才意识到，自己的\"鸡娃\"已经把孩子逼到了崩溃的边缘。年后，儿子被诊断出抑郁症，女儿离家出走。你终于明白，什么叫\"物极必反\"。",
       "unlockConditions": {
@@ -291,16 +286,16 @@
       "ending_type": "failure",
       "description": "除夕夜的饭桌上，你正在滔滔不绝地讲述自己在国外的\"精彩生活\"，突然表弟问了一句：\"哥，你在国外到底是干什么的？\"你一时语塞，支支吾吾说不出话来。原来，你所谓的\"名流生活\"都是P图和编造的。你的\"凡尔赛\"人设彻底崩塌，亲戚们看你的眼神从羡慕变成了怜悯。你终于明白，什么叫\"假的就是假的\"。",
       "unlockConditions": {
-        "max_face": 49,
+        "max_face": 59,
         "max_deposit": 1000
       }
     },
 
 
     {
-      "ending_id": "hu_sanwanW_ending_success_a",
+      "ending_id": "hu_sanwan_ending_success_a",
       "ending_name": "川渝雀圣·麻将之神",
-      "character_id": "hu_sanwanW",
+      "character_id": "hu_sanwan",
       "ending_type": "success",
       "description": "你是川渝地区的\"雀圣\"，麻将桌上的常胜将军。这个春节，你在村里的麻将桌上大杀四方，赢了个盆满钵满。年夜饭上，你成了全村的焦点，乡亲们纷纷来请教\"麻将秘籍\"。你神秘一笑：\"这是天赋，教不会的。\"年后，你被邀请参加省级麻将比赛，一举夺冠，成了\"川渝雀圣\"。你终于明白，什么叫\"天赋异禀\"。",
       "unlockConditions": {
@@ -310,9 +305,9 @@
       }
     },
     {
-      "ending_id": "hu_sanwanW_ending_success_b",
+      "ending_id": "hu_sanwan_ending_success_b",
       "ending_name": "从雀圣到养生达人",
-      "character_id": "hu_sanwanW",
+      "character_id": "hu_sanwan",
       "ending_type": "success",
       "description": "这个春节，你决定不再熬夜打麻将，而是早睡早起、锻炼身体。你发现，不打麻将的生活也很精彩：可以看书、可以旅游、可以陪家人。年夜饭上，你第一次没有上牌桌，而是陪爸妈聊天。年后，你成了\"养生达人\"，每天早睡早起、跑步健身。你的脸色红润了，精神也好了。你终于明白，什么叫\"健康才是最大的财富\"。",
       "unlockConditions": {
@@ -321,14 +316,14 @@
       }
     },
     {
-      "ending_id": "hu_sanwanW_ending_fail",
+      "ending_id": "hu_sanwan_ending_fail",
       "ending_name": "雀圣陨落·一夜输光",
-      "character_id": "hu_sanwanW",
+      "character_id": "hu_sanwan",
       "ending_type": "failure",
       "description": "除夕夜的麻将桌上，你遇到了一个\"高手\"，连输十把，把一年的积蓄都输光了。你不甘心，继续赌，结果越输越多。最后，你不得不把房子抵押出去还债。你从一个\"雀圣\"变成了\"赌鬼\"，乡亲们看你的眼神从崇拜变成了鄙视。你终于明白，什么叫\"十赌九输\"。",
       "unlockConditions": {
         "max_deposit": 10000,
-        "max_health": 35
+        "max_health": 40
       }
     },
 
