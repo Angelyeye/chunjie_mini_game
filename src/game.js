@@ -1701,14 +1701,8 @@ class Game {
         `).join('');
 
         return `
-            <div class="bg-white p-4 border-2 border-black">
-                <h3 class="text-lg font-black mb-2 flex items-center gap-2">
-                    <span class="bg-black text-white px-2">ACHIEVEMENTS</span>
-                    <span class="text-festive-red">已达成成就</span>
-                </h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    ${cards}
-                </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                ${cards}
             </div>
         `;
     }
