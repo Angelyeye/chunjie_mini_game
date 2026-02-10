@@ -11272,8 +11272,8 @@
           "option_id": "hu_sanwan_1_morning_01_c",
           "text": "直接昏睡，进入低功耗模式",
           "effects": {
-            "health": 5,
-            "mood": 2,
+            "health": 10,
+            "mood": 5,
             "face": 2,
             "luck": 0,
             "deposit": 0,
@@ -11300,7 +11300,7 @@
             "deposit": 0,
             "weight": 2,
             "mood": 5,
-            "health": 0,
+            "health": 5,
             "luck": 0,
             "money": 0
           },
@@ -11312,7 +11312,7 @@
           "effects": {
             "face": -10,
             "mood": -5,
-            "health": 5,
+            "health": 15,
             "luck": 0,
             "deposit": 0,
             "weight": 0,
@@ -11349,7 +11349,7 @@
           "text": "应战！川渝雀圣从不畏惧",
           "effects": {
             "mood": 10,
-            "deposit": 500,
+            "deposit": 800,
             "luck": 5,
             "health": -5,
             "face": 5,
@@ -11363,7 +11363,7 @@
           "text": "装作时差没倒过来（虽然没有时差）",
           "effects": {
             "face": -5,
-            "health": 5,
+            "health": 15,
             "mood": -2,
             "luck": -5,
             "deposit": 0,
@@ -11401,7 +11401,7 @@
           "text": "裹紧被子，进行听觉屏蔽",
           "effects": {
             "mood": -5,
-            "health": 2,
+            "health": 15,
             "face": -2,
             "luck": 0,
             "deposit": 0,
@@ -11480,9 +11480,9 @@
           "option_id": "hu_sanwan_2_noon_01_c",
           "text": "在家帮老爸贴对联",
           "effects": {
-            "health": -2,
+            "health": 0,
             "face": 5,
-            "mood": 2,
+            "mood": 5,
             "luck": 5,
             "deposit": 0,
             "weight": 0,
@@ -11506,7 +11506,7 @@
           "effects": {
             "health": -10,
             "mood": 10,
-            "deposit": 800,
+            "deposit": 1200,
             "luck": 5,
             "face": 2,
             "weight": 0,
@@ -11519,7 +11519,7 @@
           "text": "推辞不去，养精蓄锐",
           "effects": {
             "mood": -5,
-            "health": 5,
+            "health": 12,
             "face": -2,
             "luck": -2,
             "deposit": 0,
@@ -11534,7 +11534,7 @@
           "effects": {
             "deposit": -200,
             "weight": 2,
-            "health": -2,
+            "health": 0,
             "face": 2,
             "mood": 5,
             "luck": 0,
@@ -11558,7 +11558,7 @@
           "effects": {
             "face": -5,
             "mood": 5,
-            "health": 0,
+            "health": 5,
             "luck": 0,
             "deposit": 0,
             "weight": 0,
@@ -11624,8 +11624,8 @@
           "effects": {
             "weight": 3,
             "health": -2,
-            "face": -2,
-            "mood": -2,
+            "face": -5,
+            "mood": -5,
             "luck": 0,
             "deposit": 0,
             "money": 0
@@ -11660,7 +11660,7 @@
           "option_id": "hu_sanwan_3_evening_01_a",
           "text": "拿出全部实力，六亲不认！",
           "effects": {
-            "deposit": 2000,
+            "deposit": 2500,
             "face": -5,
             "mood": 10,
             "health": -5,
@@ -11677,7 +11677,7 @@
             "deposit": -1000,
             "face": 10,
             "mood": -5,
-            "health": -2,
+            "health": -5,
             "luck": 10,
             "weight": 0,
             "money": 0
@@ -11726,7 +11726,7 @@
           "option_id": "hu_sanwan_4_morning_01_b",
           "text": "继续昏睡，直到午饭",
           "effects": {
-            "health": 5,
+            "health": 8,
             "mood": 2,
             "face": -5,
             "luck": 0,
@@ -11782,7 +11782,7 @@
             "mood": 5,
             "luck": 2,
             "health": -2,
-            "deposit": 0,
+            "deposit": 200,
             "weight": 0,
             "money": 0
           },
@@ -11830,7 +11830,7 @@
           "option_id": "hu_sanwan_4_evening_01_b",
           "text": "稳扎稳打，不贪大牌",
           "effects": {
-            "deposit": 300,
+            "deposit": 600,
             "mood": 2,
             "luck": 0,
             "health": -2,
@@ -11842,9 +11842,9 @@
         },
         {
           "option_id": "hu_sanwan_4_evening_01_c",
-          "text": "由于太困，打错一张牌",
+          "text": "休闲怡情，轻松局",
           "effects": {
-            "deposit": -500,
+            "deposit": -8000,
             "mood": -10,
             "luck": -10,
             "health": -5,
@@ -11852,7 +11852,7 @@
             "weight": 0,
             "money": 0
           },
-          "next_event": "包胡！全场欢呼，只有你在滴血。熬夜是大忌啊！"
+          "next_event": "包胡！全场欢呼，只有你在滴血。放松是大忌啊！"
         }
       ]
     },
@@ -11868,7 +11868,7 @@
           "option_id": "hu_sanwan_5_morning_01_a",
           "text": "在这个点吃一顿正经早饭",
           "effects": {
-            "health": 5,
+            "health": 8,
             "mood": 5,
             "face": 5,
             "luck": 2,
@@ -11935,7 +11935,7 @@
           "text": "拒绝牌局，去盲人按摩",
           "effects": {
             "deposit": -200,
-            "health": 10,
+            "health": 15,
             "mood": 5,
             "luck": 5,
             "face": 0,
@@ -11972,7 +11972,7 @@
           "option_id": "hu_sanwan_5_evening_01_a",
           "text": "上头了！借钱也要翻本！",
           "effects": {
-            "deposit": -5000,
+            "deposit": -8000,
             "mood": -20,
             "health": -10,
             "luck": -20,
@@ -11986,7 +11986,7 @@
           "option_id": "hu_sanwan_5_evening_01_b",
           "text": "及时止损，掀桌走人",
           "effects": {
-            "deposit": -1000,
+            "deposit": -800,
             "mood": 5,
             "health": 2,
             "luck": 0,
@@ -12001,7 +12001,7 @@
           "text": "换个座位，申请换牌",
           "effects": {
             "luck": 10,
-            "deposit": -500,
+            "deposit": -600,
             "mood": 0,
             "health": -2,
             "face": 0,
@@ -12091,7 +12091,7 @@
           "text": "去河边发呆，看大爷钓鱼",
           "effects": {
             "mood": 15,
-            "health": 5,
+            "health": 15,
             "luck": 5,
             "face": 0,
             "deposit": 0,
@@ -12156,7 +12156,7 @@
           "option_id": "hu_sanwan_6_evening_01_c",
           "text": "喝高了，拉着大家去打麻将",
           "effects": {
-            "deposit": -1000,
+            "deposit": -1200,
             "face": 5,
             "mood": 5,
             "health": -5,
@@ -12197,7 +12197,7 @@
             "mood": 5,
             "face": 2,
             "luck": 2,
-            "health": 2,
+            "health": 5,
             "deposit": 0,
             "weight": 0,
             "money": 0
@@ -12284,7 +12284,7 @@
           "option_id": "hu_sanwan_7_evening_01_a",
           "text": "开启“计算姬”模式，记牌算牌",
           "effects": {
-            "deposit": 3000,
+            "deposit": 4000,
             "mood": -10,
             "health": -10,
             "luck": 5,
@@ -12298,7 +12298,7 @@
           "option_id": "hu_sanwan_7_evening_01_b",
           "text": "随缘打法，快乐麻将",
           "effects": {
-            "deposit": -500,
+            "deposit": -800,
             "mood": 10,
             "health": -2,
             "luck": 2,
@@ -12312,7 +12312,7 @@
           "option_id": "hu_sanwan_7_evening_01_c",
           "text": "被三家围攻，惨遭针对",
           "effects": {
-            "deposit": -2000,
+            "deposit": -3000,
             "mood": -15,
             "health": -5,
             "luck": -10,
