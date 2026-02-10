@@ -2728,6 +2728,10 @@ class Game {
      * 返回上一页
      */
     goBack() {
+        if (this.state.currentScreen === 'achievements') {
+            this.switchScreen('start-screen');
+            return;
+        }
         if (this.state.character) {
             this.switchScreen('game-screen');
         } else {
