@@ -1614,6 +1614,7 @@ class Game {
         };
 
         this.pendingFeedbackAction = null;
+        this.notificationHideTimer = null;
 
         // 绑定方法
         this.init = this.init.bind(this);
@@ -3486,7 +3487,12 @@ class Game {
         notification.textContent = message;
         notification.classList.add('show');
 
-        setTimeout(() => {
+        if (this.notificationHideTimer) {
+            clearTimeout(this.notificationHideTimer);
+            this.notificationHideTimer = null;
+        }
+
+        this.notificationHideTimer = setTimeout(() => {
             notification.classList.remove('show');
         }, 3000);
     }
@@ -3498,9 +3504,14 @@ class Game {
         notification.innerHTML = messageHtml;
         notification.classList.add('show');
 
-        setTimeout(() => {
+        if (this.notificationHideTimer) {
+            clearTimeout(this.notificationHideTimer);
+            this.notificationHideTimer = null;
+        }
+
+        this.notificationHideTimer = setTimeout(() => {
             notification.classList.remove('show');
-        }, 3000);
+        }, 4000);
     }
 }
 
