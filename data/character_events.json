@@ -9869,7 +9869,7 @@
           "text": "给村口摩的师傅递烟",
           "effects": {
             "deposit": -50,
-            "face": -5,
+            "face": 5,
             "luck": 5,
             "weight": 0,
             "mood": 0,
@@ -9906,7 +9906,7 @@
           "option_id": "zhen_yangqi_1_noon_01_b",
           "text": "妥协，穿上军大衣",
           "effects": {
-            "face": -20,
+            "face": -10,
             "health": 10,
             "mood": 5,
             "deposit": 0,
@@ -9973,7 +9973,7 @@
           "text": "蹭隔壁小卖部WiFi",
           "effects": {
             "face": -10,
-            "deposit": -20,
+            "deposit": 0,
             "mood": 5,
             "weight": 0,
             "health": 0,
@@ -10048,7 +10048,7 @@
           "option_id": "zhen_yangqi_2_noon_01_a",
           "text": "憋着，憋回伦敦",
           "effects": {
-            "health": -20,
+            "health": -10,
             "mood": -10,
             "face": 5,
             "deposit": 0,
@@ -10114,7 +10114,7 @@
           "option_id": "zhen_yangqi_2_evening_01_b",
           "text": "坚持洗冷水澡",
           "effects": {
-            "health": -15,
+            "health": -10,
             "face": 10,
             "mood": 5,
             "deposit": 0,
@@ -10336,7 +10336,7 @@
           "option_id": "zhen_yangqi_4_morning_01_c",
           "text": "指导老爸科学种植",
           "effects": {
-            "face": -15,
+            "face": -5,
             "mood": -10,
             "health": -2,
             "deposit": 0,
@@ -10360,9 +10360,9 @@
           "option_id": "zhen_yangqi_4_noon_01_a",
           "text": "一口闷",
           "effects": {
-            "health": -30,
+            "health": -10,
             "face": 20,
-            "mood": -20,
+            "mood": -10,
             "deposit": 0,
             "weight": 0,
             "luck": 0,
@@ -10388,7 +10388,7 @@
           "option_id": "zhen_yangqi_4_noon_01_c",
           "text": "声称酒精过敏",
           "effects": {
-            "face": -10,
+            "face": -5,
             "health": 5,
             "mood": 5,
             "deposit": 0,
@@ -10426,7 +10426,7 @@
           "option_id": "zhen_yangqi_4_evening_01_b",
           "text": "瞎打乱出",
           "effects": {
-            "deposit": 200,
+            "deposit": 2000,
             "luck": 10,
             "face": 5,
             "weight": 0,
@@ -10434,7 +10434,7 @@
             "health": 0,
             "money": 0
           },
-          "next_event": "乱拳打死老师傅！你胡了一把‘屁胡’，赢回了今天的奶茶钱。"
+          "next_event": "乱拳打死老师傅！你胡了一把‘屁胡’，赢回了今天的饭钱。"
         },
         {
           "option_id": "zhen_yangqi_4_evening_01_c",
@@ -10478,7 +10478,7 @@
           "option_id": "zhen_yangqi_5_morning_01_b",
           "text": "去见一面",
           "effects": {
-            "mood": -15,
+            "mood": -10,
             "face": -5,
             "luck": 5,
             "deposit": 0,
@@ -10492,7 +10492,7 @@
           "option_id": "zhen_yangqi_5_morning_01_c",
           "text": "谎称喜欢男人",
           "effects": {
-            "face": -50,
+            "face": -10,
             "mood": 20,
             "luck": 10,
             "deposit": 0,
@@ -10530,7 +10530,7 @@
           "option_id": "zhen_yangqi_5_noon_01_b",
           "text": "躲得远远的",
           "effects": {
-            "face": -15,
+            "face": -10,
             "mood": 5,
             "luck": -5,
             "deposit": 0,
@@ -10596,7 +10596,7 @@
           "option_id": "zhen_yangqi_5_evening_01_c",
           "text": "写回国总结PPT",
           "effects": {
-            "mood": -20,
+            "mood": -10,
             "face": 0,
             "luck": 0,
             "deposit": 0,
@@ -10946,7 +10946,7 @@
           "option_id": "zhen_yangqi_8_morning_01_b",
           "text": "群里试探能不能AA",
           "effects": {
-            "face": -30,
+            "face": -15,
             "deposit": 500,
             "luck": -5,
             "weight": 0,
@@ -11064,15 +11064,15 @@
           "option_id": "zhen_yangqi_8_evening_01_c",
           "text": "再买个编织袋",
           "effects": {
-            "face": -20,
-            "deposit": -10,
+            "face": -10,
+            "deposit": 200,
             "luck": 5,
             "weight": 0,
             "mood": 0,
             "health": 0,
             "money": 0
           },
-          "next_event": "当你提着红白蓝编织袋站在村口，你终于完成了从‘海归’到‘春运民工’的完美蜕变。"
+          "next_event": "当你提着红白蓝编织袋站在村口，你终于完成了从‘海归’到‘春运民工’的完美蜕变，但至少东西都带好了。"
         }
       ]
     },
@@ -11116,9 +11116,9 @@
           "option_id": "zhen_yangqi_9_morning_01_c",
           "text": "回赠一个更大的红包",
           "effects": {
-            "deposit": -3000,
-            "face": 20,
-            "mood": -5,
+            "deposit": -2000,
+            "face": 30,
+            "mood": 5,
             "weight": 0,
             "health": 0,
             "luck": 0,
